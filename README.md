@@ -1,21 +1,21 @@
-# Nabil
+# Daychounieh Tools
 
-Nabil is a responsive product catalog with Arabic and English product names, SKU search, category filters, product photos, product details, a shopping bag, and WhatsApp order requests. The public storefront is hosted on GitHub Pages. Catalog imports are prepared locally on your computer.
+Daychounieh Tools is a responsive product catalog with Arabic and English product names, SKU search, category filters, product photos, product details, a shopping bag, and WhatsApp order requests. The public storefront is hosted on GitHub Pages. Catalog imports are prepared locally on your computer.
 
 ## Website
 
-The live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. Open `index.html` to view the bundled catalog locally. The prepared catalog has 2,127 items and 1,899 product photos in `images/`. Search matches names, item codes, categories, descriptions, and tags. Customers can click a product photo to see a larger image and its details.
+The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. Open `index.html` to view the bundled catalog locally. The prepared catalog has 2,127 items and 1,899 product photos in `images/`. Search matches names, item codes, categories, descriptions, and tags. Customers can click a product photo to see a larger image and its details.
 
-`nabil-website-qr.png` is a printable QR code that opens the live shop. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
+Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 
 ## Import products locally
 
 The importer does not use Supabase, Google sign-in, or a remote database. It reads the workbook in your browser and writes the updated catalog and matching photos to a local project folder you choose. Do not publish `admin-import.html`.
 
-1. Open `admin-import.html` from the Nabil project folder in a recent version of Chrome or Edge.
+1. Open `admin-import.html` from the Daychounieh Tools project folder in a recent version of Chrome or Edge.
 2. Click **Choose Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file.
 3. Optionally click **Choose photos folder** and select the folder with product photos. Photo filenames should match the item code, for example `290.jpg` or `290_Def.jpg`. The importer automatically removes a trailing `_Def` (case-insensitive), so `1_Def.jpg` matches item 1 and is saved as `1.jpg`.
-4. Click **Import Excel and photos**. When your browser asks, select the Nabil project folder containing `index.html`, `catalog.js`, and `images`. Matching products are updated by item code, products omitted from the workbook remain in the catalog, and matched photos are copied into `images/`.
+4. Click **Import Excel and photos**. When your browser asks, select the Daychounieh Tools project folder containing `index.html`, `catalog.js`, and `images`. Matching products are updated by item code, products omitted from the workbook remain in the catalog, and matched photos are copied into `images/`.
 5. Check the updated local storefront. To publish the changes online, publish the updated `catalog.js` and `images/` through GitHub Desktop.
 
 To remove every catalog item that has no usable local or web picture, click **Remove items without pictures** next to the import button. The tool checks all catalog items against existing files in the project's `images/` folder and valid web image URLs, shows a confirmation with the number to remove, and leaves all image files untouched. Back up the project before confirming; removing catalog items cannot be undone by the importer.
