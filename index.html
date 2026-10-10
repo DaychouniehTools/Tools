@@ -358,6 +358,14 @@
         return new Intl.NumberFormat(undefined, { style: "currency", currency: CURRENCY }).format(value);
       }
 
+      function cleanDescription(value) {
+        return String(value ?? "")
+          .replace(/_x000D_\r*\n?/gi, "\n")
+          .replace(/\r{2,}\n/g, "\n")
+          .replace(/\r\n?/g, "\n")
+          .trim();
+      }
+
       function showNotice(message) {
         notice.textContent = message;
         notice.classList.add("visible");
@@ -419,7 +427,7 @@
           const imageMarkup = image
             ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
             : `<span class="image-placeholder" aria-hidden="true">${escapeHtml((product.name || "N").slice(0, 1).toUpperCase())}</span>`;
-          const description = product.description || product.tags || "Product details available on request.";
+          const description = cleanDescription(product.description) || product.tags || "Product details available on request.";
           const sizeDetails = [
             product.dimensions ? `Dimensions: ${product.dimensions}` : "",
             `Size: ${product.sizes || "Not specified"}`
@@ -459,7 +467,7 @@
         const detailAttribute = document.getElementById("detail-attribute");
         detailAttribute.textContent = product.attribute ? `Attribute: ${product.attribute}` : "";
         detailAttribute.hidden = !product.attribute;
-        document.getElementById("detail-description").textContent = product.description || product.tags || "Product details available on request.";
+        document.getElementById("detail-description").textContent = cleanDescription(product.description) || product.tags || "Product details available on request.";
         document.getElementById("detail-price").textContent = money(product.price);
         document.getElementById("detail-add-button").dataset.add = product.sku;
         openOverlay("product-overlay");
