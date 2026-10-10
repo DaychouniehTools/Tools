@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="./catalog.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <style>
     :root {
       color-scheme: light;
@@ -75,15 +74,23 @@
     .catalog-tools { display: flex; align-items: center; gap: 10px; }
     .search-box { width: 205px; height: 42px; padding: 0 13px; border: 1px solid var(--line); border-radius: 4px; outline: 0; background: transparent; color: var(--ink); font-size: 12px; }
     .search-box:focus { border-color: var(--green); }
+    .category-filters { margin: -7px 0 24px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .category-filter { min-height: 34px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: #5c625a; font-size: 11px; }
+    .category-filter:hover, .category-filter.active { border-color: var(--green); background: var(--green); color: white; }
+    .category-filter span { margin-left: 5px; opacity: .75; }
     .product-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 22px; }
     .product-card { min-width: 0; }
     .product-image { position: relative; overflow: hidden; width: 100%; aspect-ratio: 4/4.5; display: grid; place-items: center; border-radius: 5px; background: var(--sage); }
-    .product-image img { width: 100%; height: 100%; object-fit: cover; }
+    .product-image-button { position: absolute; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; background: transparent; }
+    .product-image-button img { width: 100%; height: 100%; object-fit: cover; transition: transform .25s; }
+    .product-image-button:hover img { transform: scale(1.04); }
+    .product-image-button:focus-visible { outline: 3px solid var(--green); outline-offset: -3px; }
     .image-placeholder { display: grid; width: 68px; height: 68px; place-items: center; border: 1px solid rgba(40,75,60,.2); border-radius: 50%; color: var(--green); font-family: Manrope, sans-serif; font-size: 24px; }
     .product-image .sku { position: absolute; left: 12px; bottom: 12px; max-width: calc(100% - 24px); overflow: hidden; padding: 6px 9px; border-radius: 3px; background: rgba(255,255,255,.88); color: #51574f; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
     .product-info { padding: 14px 1px 0; }
     .product-category { margin-bottom: 6px; color: var(--muted); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
     .product-title { margin-bottom: 8px; font-family: Manrope, sans-serif; font-size: 14px; font-weight: 600; }
+    .product-description { min-height: 2.8em; margin: 0 0 10px; overflow: hidden; color: #666d64; font-size: 11px; line-height: 1.5; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
     .catalog-count { margin: 9px 0 0; color: var(--muted); font-size: 12px; }
     .product-bottom { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .product-price { font-size: 13px; font-weight: 700; }
@@ -99,6 +106,15 @@
     .overlay.open { display: grid; }
     .dialog { position: relative; width: min(530px,100%); max-height: min(750px,calc(100vh - 36px)); overflow: auto; padding: 30px; border-radius: 8px; background: var(--paper); box-shadow: var(--shadow); }
     .dialog.wide { width: min(650px,100%); }
+    .dialog.product-detail { width: min(980px,100%); padding: 22px; }
+    .product-detail-layout { display: grid; grid-template-columns: minmax(0,1.3fr) minmax(220px,.7fr); align-items: center; gap: 25px; }
+    .detail-image-wrap { min-height: 260px; display: grid; place-items: center; border-radius: 6px; background: var(--sage); }
+    .detail-image { display: block; max-width: 100%; max-height: min(72vh,760px); object-fit: contain; }
+    .detail-placeholder { color: var(--muted); font-size: 13px; }
+    .detail-copy { padding: 16px 10px 16px 0; }
+    .detail-sku { margin-bottom: 10px; color: var(--muted); font-size: 11px; }
+    .detail-description { color: #5d625a; font-size: 13px; line-height: 1.7; white-space: pre-wrap; }
+    .detail-price { margin: 18px 0; font-size: 18px; font-weight: 700; }
     .dialog h2 { margin: 0 35px 8px 0; font-size: 26px; }
     .dialog-subtitle { margin-bottom: 23px; color: var(--muted); font-size: 13px; line-height: 1.6; }
     .close-button { position: absolute; top: 18px; right: 18px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; background: white; color: var(--ink); font-size: 18px; }
@@ -165,6 +181,10 @@
       .catalog-tools { width: 100%; }
       .search-box { flex: 1; width: auto; }
       .catalog-tools .button { padding: 0 12px; }
+      .product-detail-layout { grid-template-columns: 1fr; gap: 10px; }
+      .detail-image-wrap { min-height: 220px; }
+      .detail-image { max-height: 55vh; }
+      .detail-copy { padding: 10px 3px; }
       .product-grid { gap: 23px 12px; }
       .product-image { aspect-ratio: 1/1.15; }
       .product-title { font-size: 12px; }
@@ -186,7 +206,6 @@
         <a href="#about">Our approach</a>
       </nav>
       <div class="header-actions">
-        <button class="icon-button" id="manage-button" type="button">Manage products</button>
         <button class="icon-button" id="cart-button" type="button" aria-label="Open shopping bag">Bag <span class="cart-count" id="cart-count">0</span></button>
       </div>
     </div>
@@ -215,39 +234,27 @@
         </div>
         <div class="catalog-tools">
           <input class="search-box" id="search-input" type="search" placeholder="Search the collection" aria-label="Search products">
-          <button class="button secondary" id="catalog-import-button" type="button">Import Excel</button>
         </div>
       </div>
+      <div class="category-filters" id="category-filters" role="group" aria-label="Filter products by category"></div>
       <div class="product-grid" id="product-grid" aria-live="polite"></div>
     </section>
   </main>
   <footer class="site-footer"><strong>nabil.</strong> Good things, thoughtfully found. <span id="footer-year"></span></footer>
 
-  <div class="overlay" id="import-overlay" role="dialog" aria-modal="true" aria-labelledby="import-title">
-    <div class="dialog wide">
-      <button class="close-button" type="button" data-close="import-overlay" aria-label="Close">×</button>
-      <h2 id="import-title">Bring in your collection.</h2>
-      <p class="dialog-subtitle">Choose an Excel or CSV file. Nabil matches familiar column names such as Item Code, Description, Price and Image URL.</p>
-      <div class="upload-area">
-        <label for="file-input">Select your inventory spreadsheet</label>
-        <input id="file-input" type="file" accept=".xls,.xlsx,.csv">
-      </div>
-      <div class="upload-area" style="margin-top:12px">
-        <label for="photos-input">Optional: select the folder containing your product photos</label>
-        <input id="photos-input" type="file" accept="image/*" webkitdirectory multiple>
-      </div>
-      <div class="field" style="margin-top:14px">
-        <label for="photo-base-url">Public photo URL prefix (for Shopify CSV)</label>
-        <input id="photo-base-url" type="url" placeholder="https://images.example.com/products">
-      </div>
-      <p class="form-note">Shopify needs public image URLs; local file paths cannot be imported as product photos. If your photos are hosted at a public HTTPS folder and keep their filenames, enter that folder URL above.</p>
-      <label class="form-note" style="display:flex;align-items:center;gap:8px"><input id="shopify-publish" type="checkbox"> Mark exported products active and publish them to the online store</label>
-      <p class="form-note">Nabil matches each photo's filename to the item code (for example, <strong>290.jpg</strong> matches SKU <strong>290</strong>). Required spreadsheet columns: item code/SKU, product name, and price. Matched photos and imported products are stored in this browser only; they are not uploaded or published online.</p>
-      <p class="status" id="import-status" role="status"></p>
-      <div class="dialog-actions">
-        <button class="button secondary" type="button" data-close="import-overlay">Cancel</button>
-        <button class="button secondary" id="shopify-export" type="button" disabled>Download Shopify CSV</button>
-        <button class="button" id="import-submit" type="button" disabled>Import products</button>
+  <div class="overlay" id="product-overlay" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <div class="dialog product-detail">
+      <button class="close-button" type="button" data-close="product-overlay" aria-label="Close product details">×</button>
+      <div class="product-detail-layout">
+        <div class="detail-image-wrap" id="detail-image-wrap"></div>
+        <div class="detail-copy">
+          <p class="product-category" id="detail-category"></p>
+          <h2 id="detail-title" dir="auto"></h2>
+          <p class="detail-sku" id="detail-sku"></p>
+          <p class="detail-description" id="detail-description"></p>
+          <p class="detail-price" id="detail-price"></p>
+          <button class="button" id="detail-add-button" type="button">Add to bag</button>
+        </div>
       </div>
     </div>
   </div>
@@ -286,36 +293,15 @@
     (() => {
       "use strict";
 
-      const CATALOG_KEY = "nabil.catalog.v1";
       const CART_KEY = "nabil.cart.v1";
       const CURRENCY = "USD";
       const WHATSAPP_NUMBER = "9613032791";
       const grid = document.getElementById("product-grid");
       const searchInput = document.getElementById("search-input");
-      const fileInput = document.getElementById("file-input");
-      const photosInput = document.getElementById("photos-input");
-      const importSubmit = document.getElementById("import-submit");
-      const shopifyExport = document.getElementById("shopify-export");
-      const importStatus = document.getElementById("import-status");
+      const categoryFilters = document.getElementById("category-filters");
       const notice = document.getElementById("notice");
-      let pendingProducts = [];
-      let selectedPhotos = [];
-      let pendingRowErrors = [];
-      const imageUrls = new Map();
+      let selectedCategory = "All";
       let noticeTimer;
-
-      const imageDatabase = new Promise((resolve, reject) => {
-        if (!window.indexedDB) {
-          reject(new Error("This browser does not support local image storage."));
-          return;
-        }
-        const request = indexedDB.open("nabil.product-images", 1);
-        request.onupgradeneeded = () => {
-          if (!request.result.objectStoreNames.contains("images")) request.result.createObjectStore("images", { keyPath: "sku" });
-        };
-        request.onsuccess = () => resolve(request.result);
-        request.onerror = () => reject(request.error || new Error("Could not open local image storage."));
-      });
 
       function readStorage(key, fallback) {
         try {
@@ -328,21 +314,7 @@
       }
 
       const starterProducts = Array.isArray(window.NABIL_PRODUCTS) ? window.NABIL_PRODUCTS : [];
-      const savedProducts = readStorage(CATALOG_KEY, []);
-      const productsBySku = new Map(starterProducts.map((product) => [product.sku.toLowerCase(), product]));
-      savedProducts.forEach((saved) => {
-        const key = String(saved.sku || "").toLowerCase();
-        const bundled = productsBySku.get(key);
-        productsBySku.set(key, bundled
-          ? {
-              ...saved,
-              ...bundled,
-              imageUrl: saved.imageUrl || bundled.imageUrl || "",
-              imageKey: saved.imageKey || bundled.imageKey || ""
-            }
-          : saved);
-      });
-      let products = Array.from(productsBySku.values());
+      const products = starterProducts;
       let cart = readStorage(CART_KEY, {});
 
       function saveStorage(key, value) {
@@ -376,49 +348,6 @@
           || (typeof product.imagePath === "string" && /^\.\/*images\/[A-Za-z0-9_.-]+$/i.test(product.imagePath) ? product.imagePath : "");
       }
 
-      function storedImageKey(sku) {
-        return String(sku).trim().toLocaleLowerCase();
-      }
-
-      async function getImageUrl(product) {
-        const externalUrl = safeImageUrl(product.imageUrl);
-        if (externalUrl) return externalUrl;
-        if (!product.imageKey) return "";
-        const cacheKey = storedImageKey(product.sku);
-        if (imageUrls.has(cacheKey)) return imageUrls.get(cacheKey);
-        const database = await imageDatabase;
-        const record = await new Promise((resolve, reject) => {
-          const request = database.transaction("images", "readonly").objectStore("images").get(cacheKey);
-          request.onsuccess = () => resolve(request.result);
-          request.onerror = () => reject(request.error || new Error("Could not read a product photo."));
-        });
-        if (!record || !(record.image instanceof Blob)) return "";
-        const url = URL.createObjectURL(record.image);
-        imageUrls.set(cacheKey, url);
-        return url;
-      }
-
-      async function saveProductImages(imageFiles) {
-        if (!imageFiles.length) return;
-        const database = await imageDatabase;
-        await new Promise((resolve, reject) => {
-          const transaction = database.transaction("images", "readwrite");
-          const store = transaction.objectStore("images");
-          imageFiles.forEach(({ product, file }) => {
-            store.put({ sku: storedImageKey(product.sku), image: file, fileName: file.name });
-          });
-          transaction.oncomplete = () => resolve();
-          transaction.onerror = () => reject(transaction.error || new Error("Could not save product photos in this browser."));
-          transaction.onabort = () => reject(transaction.error || new Error("Saving product photos was cancelled."));
-        });
-        imageFiles.forEach(({ product, file }) => {
-          const key = storedImageKey(product.sku);
-          const oldUrl = imageUrls.get(key);
-          if (oldUrl) URL.revokeObjectURL(oldUrl);
-          imageUrls.set(key, URL.createObjectURL(file));
-        });
-      }
-
       function money(value) {
         return new Intl.NumberFormat(undefined, { style: "currency", currency: CURRENCY }).format(value);
       }
@@ -445,16 +374,34 @@
         document.getElementById(id).classList.remove("open");
       }
 
+      function renderCategoryFilters() {
+        const counts = new Map();
+        products.forEach((product) => {
+          const category = String(product.category || "Other").trim() || "Other";
+          counts.set(category, (counts.get(category) || 0) + 1);
+        });
+        const categories = ["All", ...Array.from(counts.keys()).sort((first, second) => first.localeCompare(second))];
+        categoryFilters.innerHTML = categories.map((category) => {
+          const count = category === "All" ? products.length : counts.get(category);
+          const active = category === selectedCategory ? " active" : "";
+          return `<button class="category-filter${active}" type="button" data-category="${escapeHtml(category)}" aria-pressed="${category === selectedCategory}">${escapeHtml(category)}<span>${count.toLocaleString()}</span></button>`;
+        }).join("");
+      }
+
       function renderProducts() {
         const query = searchInput.value.trim().toLowerCase();
-        const visible = products.filter((product) => [product.name, product.sku, product.category, product.description]
-          .some((value) => String(value || "").toLowerCase().includes(query)));
+        const visible = products.filter((product) => {
+          const category = String(product.category || "Other").trim() || "Other";
+          const matchesCategory = selectedCategory === "All" || category === selectedCategory;
+          const searchValues = [product.name, product.sku, category, product.description, product.tags];
+          return matchesCategory && searchValues.some((value) => String(value || "").toLowerCase().includes(query));
+        });
         const catalogCount = document.getElementById("catalog-count");
-        catalogCount.textContent = query
+        catalogCount.textContent = query || selectedCategory !== "All"
           ? `Showing ${visible.length.toLocaleString()} of ${products.length.toLocaleString()} items`
           : `${products.length.toLocaleString()} items`;
         if (!products.length) {
-          grid.innerHTML = `<div class="empty-state"><div><div class="empty-icon" aria-hidden="true">＋</div><h3>Your collection starts here.</h3><p>Import your inventory spreadsheet to create product listings with item codes, prices and photos.</p><button class="button" type="button" data-open-import>Import your products</button></div></div>`;
+          grid.innerHTML = `<div class="empty-state"><div><div class="empty-icon" aria-hidden="true">⌕</div><h3>The collection is not available.</h3><p>Please try again later.</p></div></div>`;
           return;
         }
         if (!visible.length) {
@@ -462,39 +409,38 @@
           return;
         }
         grid.innerHTML = visible.map((product) => {
-          const image = productImageSource(product) || (product.imageKey ? imageUrls.get(storedImageKey(product.sku)) : "");
+          const image = productImageSource(product);
           const imageMarkup = image
-            ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" loading="lazy" onerror="this.remove()">`
+            ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
             : `<span class="image-placeholder" aria-hidden="true">${escapeHtml((product.name || "N").slice(0, 1).toUpperCase())}</span>`;
+          const description = product.description || product.tags || "Product details available on request.";
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
-            <div class="product-image">${imageMarkup}<span class="sku">${escapeHtml(product.sku)}</span></div>
+            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button><span class="sku">${escapeHtml(product.sku)}</span></div>
             <div class="product-info">
-              <p class="product-category">${escapeHtml(product.category || "Nabil collection")}</p>
+              <p class="product-category">${escapeHtml(product.category || "Other")}</p>
               <h3 class="product-title" dir="auto">${escapeHtml(product.name)}</h3>
+              <p class="product-description" dir="auto">${escapeHtml(description)}</p>
               <div class="product-bottom"><span class="product-price">${money(product.price)}</span><button class="add-button" type="button" data-add="${escapeHtml(product.sku)}">Add to bag +</button></div>
             </div>
           </article>`;
         }).join("");
-        loadVisibleProductImages(visible);
       }
 
-      async function loadVisibleProductImages(visible) {
-        for (const product of visible) {
-          if (!product.imageKey || productImageSource(product) || imageUrls.has(storedImageKey(product.sku))) continue;
-          try {
-            const imageUrl = await getImageUrl(product);
-            const card = Array.from(grid.querySelectorAll("[data-product-card]")).find((element) => element.dataset.productCard === product.sku);
-            if (card && imageUrl) {
-              const image = document.createElement("img");
-              image.src = imageUrl;
-              image.alt = product.name;
-              image.loading = "lazy";
-              card.querySelector(".product-image").prepend(image);
-            }
-          } catch (error) {
-            console.error(`Could not load the photo for item ${product.sku}.`, error);
-          }
-        }
+      function openProductDetails(sku) {
+        const product = productBySku(sku);
+        if (!product) return;
+        const image = productImageSource(product);
+        const imageWrap = document.getElementById("detail-image-wrap");
+        imageWrap.innerHTML = image
+          ? `<img class="detail-image" src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}">`
+          : `<span class="detail-placeholder">No photo is available for this item.</span>`;
+        document.getElementById("detail-category").textContent = product.category || "Other";
+        document.getElementById("detail-title").textContent = product.name;
+        document.getElementById("detail-sku").textContent = `Item code: ${product.sku}`;
+        document.getElementById("detail-description").textContent = product.description || product.tags || "Product details available on request.";
+        document.getElementById("detail-price").textContent = money(product.price);
+        document.getElementById("detail-add-button").dataset.add = product.sku;
+        openOverlay("product-overlay");
       }
 
       function productBySku(sku) {
@@ -522,27 +468,13 @@
         document.getElementById("checkout-button").disabled = items.length === 0;
         const list = document.getElementById("cart-list");
         list.innerHTML = items.length ? items.map(({ product, quantity }) => {
-          const image = productImageSource(product) || (product.imageKey ? imageUrls.get(storedImageKey(product.sku)) : "");
+          const image = productImageSource(product);
           return `<div class="cart-row">
             <div class="cart-thumb" data-cart-image="${escapeHtml(product.sku)}">${image ? `<img src="${escapeHtml(image)}" alt="">` : escapeHtml(product.name.slice(0, 1).toUpperCase())}</div>
             <div><p class="cart-name">${escapeHtml(product.name)}</p><span class="cart-unit">${money(product.price)} each</span></div>
             <div class="quantity"><button type="button" aria-label="Remove one ${escapeHtml(product.name)}" data-quantity="${escapeHtml(product.sku)}" data-delta="-1">−</button><span>${quantity}</span><button type="button" aria-label="Add one ${escapeHtml(product.name)}" data-quantity="${escapeHtml(product.sku)}" data-delta="1">+</button></div>
           </div>`;
         }).join("") : `<p class="dialog-subtitle">Your bag is waiting for something good.</p>`;
-        loadCartImages(items);
-      }
-
-      async function loadCartImages(items) {
-        for (const { product } of items) {
-          if (!product.imageKey || productImageSource(product) || imageUrls.has(storedImageKey(product.sku))) continue;
-          try {
-            const imageUrl = await getImageUrl(product);
-            const thumb = Array.from(document.querySelectorAll("[data-cart-image]")).find((element) => element.dataset.cartImage === product.sku);
-            if (thumb && imageUrl) thumb.innerHTML = `<img src="${escapeHtml(imageUrl)}" alt="">`;
-          } catch (error) {
-            console.error(`Could not load the photo for item ${product.sku}.`, error);
-          }
-        }
       }
 
       function updateQuantity(sku, delta) {
@@ -553,275 +485,22 @@
         renderCart();
       }
 
-      function normalizeHeader(value) {
-        return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-      }
-
-      function repairQuickBooksText(value) {
-        const text = String(value ?? "");
-        if (!/[\u00c0-\u00ff]/.test(text)) return text;
-        const bytes = Uint8Array.from(text, (character) => character.codePointAt(0));
-        try {
-          const decoded = new TextDecoder("windows-1256", { fatal: true }).decode(bytes);
-          return /[\u0600-\u06ff]/.test(decoded) ? decoded : text;
-        } catch {
-          return text;
-        }
-      }
-
-      const headerAliases = {
-        sku: ["sku", "itemcode", "productcode", "code", "itemnumber", "productid", "itemid"],
-        name: ["name", "product", "productname", "item", "itemname", "title", "description"],
-        price: ["webprice", "price", "saleprice", "salesprice", "sellingprice", "unitprice", "retailprice", "regularprice", "amount"],
-        imageUrl: ["imageurl", "image", "photourl", "photo", "pictureurl", "picture", "imagecode", "imagepath"],
-        barcode: ["barcode", "upc", "ean", "gtin"],
-        category: ["category", "department", "type", "collection"],
-        details: ["details", "longdescription", "itemdescription", "productdescription"],
-        tags: ["tags", "keywords", "webkeywords"]
-      };
-
-      function parsePrice(value) {
-        const cleaned = String(value ?? "").trim().replace(/[,$\s]/g, "");
-        const number = Number(cleaned);
-        return cleaned !== "" && Number.isFinite(number) && number >= 0 ? number : null;
-      }
-
-      function matchedProductPhotos(sourceProducts = pendingProducts) {
-        const byName = new Map();
-        const duplicates = new Set();
-        selectedPhotos.forEach((file) => {
-          const baseName = file.name.replace(/\.[^.]+$/, "").trim().replace(/_def$/i, "").toLocaleLowerCase();
-          if (!baseName) return;
-          if (byName.has(baseName)) {
-            byName.delete(baseName);
-            duplicates.add(baseName);
-          } else if (!duplicates.has(baseName)) {
-            byName.set(baseName, file);
-          }
-        });
-        const matches = [];
-        const matchedNames = new Set();
-        sourceProducts.forEach((product) => {
-          const key = storedImageKey(product.sku);
-          const file = byName.get(key);
-          if (file) {
-            matches.push({ product, file });
-            matchedNames.add(key);
-          }
-        });
-        return {
-          matches,
-          unmatchedPhotos: Math.max(0, selectedPhotos.length - matches.length),
-          duplicateNames: duplicates.size
-        };
-      }
-
-      function updateImportPreview() {
-        if (!pendingProducts.length) return;
-        const { matches, unmatchedPhotos, duplicateNames } = matchedProductPhotos();
-        const skipped = pendingRowErrors.length
-          ? ` ${pendingRowErrors.length} invalid spreadsheet row${pendingRowErrors.length === 1 ? "" : "s"} will be skipped.`
-          : "";
-        const photoSummary = selectedPhotos.length
-          ? ` Matched ${matches.length} of ${pendingProducts.length} product photos by filename.${unmatchedPhotos ? ` ${unmatchedPhotos} photo file(s) did not match.` : ""}${duplicateNames ? ` ${duplicateNames} duplicate photo filename(s) were skipped.` : ""}`
-          : " Choose the product photo folder to match images by item number.";
-        setStatus(importStatus, `Ready to import ${pendingProducts.length} product${pendingProducts.length === 1 ? "" : "s"}.${skipped}${photoSummary}`, pendingRowErrors.length || (selectedPhotos.length && !matches.length) ? "" : "success");
-        importSubmit.disabled = false;
-        shopifyExport.disabled = false;
-      }
-
-      function shopifyCsvValue(value) {
-        return `"${String(value ?? "").replace(/"/g, '""')}"`;
-      }
-
-      function shopifyHandle(product) {
-        if (product.shopifyHandle) return product.shopifyHandle;
-        return `${product.name}-${product.sku}`.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-      }
-
-      function shopifyImageUrl(product, photoFiles, baseUrl) {
-        const spreadsheetUrl = safeImageUrl(product.imageUrl);
-        if (spreadsheetUrl) return spreadsheetUrl;
-        const photo = photoFiles.get(product.sku.toLowerCase());
-        return photo && baseUrl ? `${baseUrl}/${encodeURIComponent(photo.name)}` : "";
-      }
-
-      function downloadShopifyCsv() {
-        const baseInput = document.getElementById("photo-base-url").value.trim();
-        let baseUrl = "";
-        if (baseInput) {
-          try {
-            const parsed = new URL(baseInput);
-            if (parsed.protocol !== "https:" && parsed.protocol !== "http:") throw new Error("Use an HTTP or HTTPS URL.");
-            baseUrl = parsed.href.replace(/\/+$/, "");
-          } catch (error) {
-            setStatus(importStatus, `Enter a valid public photo URL prefix, or leave it blank. ${error.message}`, "error");
-            return;
-          }
-        }
-        const { matches } = matchedProductPhotos();
-        const photosBySku = new Map(matches.map(({ product, file }) => [product.sku.toLowerCase(), file]));
-        const publishProducts = document.getElementById("shopify-publish").checked;
-        const headings = [
-          "Title", "URL handle", "Description", "Vendor", "Product category", "Type", "Tags",
-          "Published on online store", "Status", "SKU", "Barcode", "Option1 name", "Option1 value",
-          "Option1 Linked To", "Option2 name", "Option2 value", "Option2 Linked To", "Option3 name",
-          "Option3 value", "Option3 Linked To", "Price", "Compare-at price", "Cost per item",
-          "Charge tax", "Tax code", "Unit price total measure", "Unit price total measure unit",
-          "Unit price base measure", "Unit price base measure unit", "Inventory tracker",
-          "Inventory quantity", "Continue selling when out of stock", "Weight value (grams)",
-          "Weight unit for display", "Requires shipping", "Fulfillment service", "Product image URL",
-          "Image position", "Image alt text", "Variant image URL", "Gift card", "SEO title",
-          "SEO description", "Color (product.metafields.shopify.color-pattern)",
-          "Google Shopping / Google product category", "Google Shopping / Gender",
-          "Google Shopping / Age group", "Google Shopping / Manufacturer part number (MPN)",
-          "Google Shopping / Ad group name", "Google Shopping / Ads labels",
-          "Google Shopping / Condition", "Google Shopping / Custom product",
-          "Google Shopping / Custom label 0", "Google Shopping / Custom label 1",
-          "Google Shopping / Custom label 2", "Google Shopping / Custom label 3",
-          "Google Shopping / Custom label 4"
-        ];
-        const rows = pendingProducts.map((product) => {
-          const imageUrl = shopifyImageUrl(product, photosBySku, baseUrl);
-          const fields = {
-            "Title": product.name,
-            "URL handle": shopifyHandle(product),
-            "Description": product.description,
-            "Vendor": "Nabil",
-            "Type": product.category,
-            "Tags": product.tags || "",
-            "Published on online store": publishProducts ? "TRUE" : "FALSE",
-            "Status": publishProducts ? "Active" : "Draft",
-            "SKU": product.sku,
-            "Barcode": product.barcode || "",
-            "Option1 name": "Title",
-            "Option1 value": "Default Title",
-            "Price": product.price,
-            "Inventory tracker": "shopify",
-            "Inventory quantity": "0",
-            "Continue selling when out of stock": "DENY",
-            "Requires shipping": "TRUE",
-            "Fulfillment service": "manual",
-            "Product image URL": imageUrl,
-            "Image position": imageUrl ? "1" : "",
-            "Image alt text": imageUrl ? product.name : ""
-          };
-          return headings.map((heading) => fields[heading] ?? "");
-        });
-        const csv = [headings, ...rows].map((row) => row.map(shopifyCsvValue).join(",")).join("\r\n");
-        const blob = new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8" });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = "nabil-shopify-products.csv";
-        link.click();
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
-        const imagesIncluded = rows.filter((row) => row[13]).length;
-        const publishingMessage = publishProducts
-          ? "Products are marked active; verify stock, shipping, and payment settings in Shopify."
-          : "Products are drafts; review stock, photos, and prices before publishing them in Shopify.";
-        setStatus(importStatus, `Downloaded Shopify CSV with ${rows.length} product(s) and ${imagesIncluded} image URL(s). Upload it in Shopify Products → Import. ${publishingMessage}`, "success");
-      }
-
-      function mapRows(rows) {
-        if (!rows.length) throw new Error("The selected sheet has no product rows.");
-        const headers = rows[0].map(normalizeHeader);
-        const indexes = {};
-        for (const [field, aliases] of Object.entries(headerAliases)) {
-          indexes[field] = aliases.map((alias) => headers.indexOf(alias)).find((index) => index >= 0) ?? -1;
-        }
-        const missing = ["sku", "name", "price"].filter((field) => indexes[field] === -1);
-        if (missing.length) {
-          throw new Error(`Could not find required column${missing.length > 1 ? "s" : ""}: ${missing.join(", ")}. Add a SKU/Item Code, Name, and Price column (such as Web Price, Price, or Regular Price).`);
-        }
-        const imported = [];
-        const errors = [];
-        rows.slice(1).forEach((row, index) => {
-          if (!row.some((cell) => String(cell ?? "").trim())) return;
-          const value = (field) => indexes[field] >= 0 ? repairQuickBooksText(row[indexes[field]]).trim() : "";
-          const sku = value("sku");
-          const name = value("name");
-          const originalName = String(row[indexes.name] ?? "").trim();
-          const price = parsePrice(row[indexes.price]);
-          if (!sku || !name || price === null) {
-            errors.push(index + 2);
-            return;
-          }
-          imported.push({
-            sku,
-            name,
-            shopifyHandle: shopifyHandle({ name: originalName, sku }),
-            price,
-            imageUrl: value("imageUrl"),
-            barcode: value("barcode"),
-            category: value("category"),
-            description: value("details"),
-            tags: value("tags")
-          });
-        });
-        return { imported, errors };
-      }
-
-      function parseCsv(text) {
-        const firstLine = text.split(/\r?\n/, 1)[0] || "";
-        const delimiter = ["\t", ";", ","].sort((a, b) => firstLine.split(b).length - firstLine.split(a).length)[0];
-        const rows = [];
-        let row = [];
-        let value = "";
-        let quoted = false;
-        for (let i = 0; i < text.length; i += 1) {
-          const char = text[i];
-          if (char === '"' && quoted && text[i + 1] === '"') {
-            value += '"';
-            i += 1;
-          } else if (char === '"') {
-            quoted = !quoted;
-          } else if (char === delimiter && !quoted) {
-            row.push(value);
-            value = "";
-          } else if ((char === "\n" || char === "\r") && !quoted) {
-            if (char === "\r" && text[i + 1] === "\n") i += 1;
-            row.push(value);
-            if (row.some((cell) => cell.trim())) rows.push(row);
-            row = [];
-            value = "";
-          } else {
-            value += char;
-          }
-        }
-        row.push(value);
-        if (row.some((cell) => cell.trim())) rows.push(row);
-        return rows;
-      }
-
-      async function readSpreadsheet(file) {
-        const extension = file.name.split(".").pop().toLowerCase();
-        if (extension === "csv") return parseCsv(await file.text());
-        if (!window.XLSX) throw new Error("The Excel reader did not load. Check your internet connection and reload the page, or export the sheet as CSV.");
-        const bytes = await file.arrayBuffer();
-        const workbook = window.XLSX.read(bytes, { type: "array", cellDates: false });
-        const sheet = workbook.Sheets[workbook.SheetNames[0]];
-        if (!sheet) throw new Error("The workbook does not contain a readable worksheet.");
-        return window.XLSX.utils.sheet_to_json(sheet, { header: 1, raw: false, defval: "" });
-      }
-
-      document.getElementById("manage-button").addEventListener("click", () => {
-        setStatus(importStatus, "", "");
-        openOverlay("import-overlay");
-      });
-      document.getElementById("catalog-import-button").addEventListener("click", () => {
-        setStatus(importStatus, "", "");
-        openOverlay("import-overlay");
-      });
       grid.addEventListener("click", (event) => {
-        const button = event.target.closest("[data-add], [data-open-import]");
+        const button = event.target.closest("[data-add], [data-view]");
         if (!button) return;
-        if (button.hasAttribute("data-open-import")) {
-          setStatus(importStatus, "", "");
-          openOverlay("import-overlay");
-        } else {
-          addToCart(button.dataset.add);
-        }
+        if (button.dataset.view) openProductDetails(button.dataset.view);
+        if (button.dataset.add) addToCart(button.dataset.add);
+      });
+      categoryFilters.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-category]");
+        if (!button) return;
+        selectedCategory = button.dataset.category;
+        renderCategoryFilters();
+        renderProducts();
+      });
+      document.getElementById("detail-add-button").addEventListener("click", (event) => {
+        addToCart(event.currentTarget.dataset.add);
+        closeOverlay("product-overlay");
       });
       searchInput.addEventListener("input", renderProducts);
       document.getElementById("cart-button").addEventListener("click", () => {
@@ -843,86 +522,6 @@
       });
       document.addEventListener("keydown", (event) => {
         if (event.key === "Escape") document.querySelectorAll(".overlay.open").forEach((overlay) => closeOverlay(overlay.id));
-      });
-
-      fileInput.addEventListener("change", async () => {
-        pendingProducts = [];
-        pendingRowErrors = [];
-        importSubmit.disabled = true;
-        setStatus(importStatus, "", "");
-        const file = fileInput.files[0];
-        if (!file) return;
-        try {
-          const rows = await readSpreadsheet(file);
-          const result = mapRows(rows);
-          pendingProducts = result.imported;
-          pendingRowErrors = result.errors;
-          if (!pendingProducts.length) throw new Error("No valid product rows found. Check the required columns and prices.");
-          updateImportPreview();
-        } catch (error) {
-          setStatus(importStatus, error.message || "Could not read this inventory file.", "error");
-        }
-      });
-
-      photosInput.addEventListener("change", () => {
-        selectedPhotos = Array.from(photosInput.files).filter((file) => file.type.startsWith("image/") || /\.(jpe?g|png|webp|gif|avif)$/i.test(file.name));
-        if (!selectedPhotos.length) {
-          setStatus(importStatus, "No image files were found in that folder. Select a folder containing JPG, PNG, or WebP photos.", "error");
-          return;
-        }
-        updateImportPreview();
-      });
-
-      shopifyExport.addEventListener("click", downloadShopifyCsv);
-
-      importSubmit.addEventListener("click", async () => {
-        importSubmit.disabled = true;
-        setStatus(importStatus, "Saving products and matched photos in this browser…", "");
-        try {
-          const { matches } = matchedProductPhotos();
-          await saveProductImages(matches);
-          const merged = new Map(products.map((product) => [product.sku.toLowerCase(), product]));
-          const imageProducts = new Map(matches.map(({ product }) => [product.sku.toLowerCase(), product]));
-          pendingProducts.forEach((product) => {
-            const key = product.sku.toLowerCase();
-            const previous = merged.get(key);
-            const matchedImage = imageProducts.get(key);
-            merged.set(key, {
-              ...product,
-              imageUrl: product.imageUrl || previous?.imageUrl || "",
-              imageKey: matchedImage
-                ? storedImageKey(matchedImage.sku)
-                : product.imageUrl
-                  ? ""
-                  : previous?.imageKey || ""
-            });
-          });
-          const nextProducts = Array.from(merged.values());
-          if (!saveStorage(CATALOG_KEY, nextProducts)) {
-            importSubmit.disabled = false;
-            return;
-          }
-          products = nextProducts;
-          cart = Object.fromEntries(Object.entries(cart).filter(([sku]) => products.some((product) => product.sku === sku)));
-          if (!saveStorage(CART_KEY, cart)) {
-            importSubmit.disabled = false;
-            return;
-          }
-          renderProducts();
-          renderCart();
-          const count = pendingProducts.length;
-          pendingProducts = [];
-          pendingRowErrors = [];
-          selectedPhotos = [];
-          fileInput.value = "";
-          photosInput.value = "";
-          closeOverlay("import-overlay");
-          showNotice(`${count} product${count === 1 ? "" : "s"} imported into this browser. Products are not published online yet.`);
-        } catch (error) {
-          console.error("Could not complete the inventory import.", error);
-          setStatus(importStatus, error.message || "Could not save the imported products and photos.", "error");
-          importSubmit.disabled = false;
-        }
       });
 
       document.getElementById("checkout-button").addEventListener("click", () => {
@@ -979,6 +578,7 @@
       });
 
       document.getElementById("footer-year").textContent = new Date().getFullYear();
+      renderCategoryFilters();
       renderProducts();
       renderCart();
     })();
