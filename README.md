@@ -18,7 +18,7 @@ The importer does not use Supabase, Google sign-in, or a remote database. It rea
 
 The workbook's `Size` column is imported and shown on product cards and in product details. You can also add optional `Dimensions` and `Sizes` (or `Variants`) columns to show physical measurements separately from choices such as S/M/L. For example, `Dimensions` can contain `20 x 15 x 8 cm`, and `Sizes` can contain `Small, Medium, Large`. Search also matches these fields.
 
-For the QuickBooks inventory export, the importer uses only the website fields: `Item Number` (item code), `Item Name`, `Web Price`, `Size`, `Department Name` (category), `Attribute`, `Item Description` (or `Brief Description` if the item description is empty), `UPC` (barcode), and `Web keywords`. Product images are matched from the selected photo folder by item code. Accounting, cost, reorder, and other back-office columns are ignored.
+For the QuickBooks inventory export, the importer uses only the website fields: `Item Number` (item code), `Item Name`, `Web Price`, `Size`, `Department Name` (category), `Attribute`, `Item Description` (or `Brief Description` if the item description is empty), `UPC` (barcode), and `Web keywords`. Attributes appear in the storefront product details. Product images are matched from the selected photo folder by item code. Accounting, cost, reorder, and other back-office columns are ignored.
 
 The browser fetches the Excel-reading library from jsDelivr when opening the importer for `.xls`/`.xlsx` workbooks; the spreadsheet and photos stay on your computer and are not sent to that service. CSV import uses the browser directly. Keep a backup of the project folder before importing.
 
