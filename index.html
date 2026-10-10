@@ -51,6 +51,9 @@
     h1, h2, h3, p { margin-top: 0; }
     h1, h2, h3 { font-family: Manrope, sans-serif; }
     h1 { max-width: 520px; margin-bottom: 18px; font-size: clamp(40px, 5vw, 64px); font-weight: 600; letter-spacing: -.065em; line-height: 1.04; }
+    .hero-phone { color: var(--green); font-size: clamp(32px, 4.5vw, 56px); font-weight: 700; letter-spacing: -.055em; direction: ltr; white-space: nowrap; }
+    .hero-phone:hover { color: var(--green-dark); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
     .hero-copy > p:not(.eyebrow) { max-width: 420px; margin-bottom: 28px; color: #63685f; font-size: 15px; line-height: 1.75; }
     .button { min-height: 46px; padding: 0 19px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid var(--green); border-radius: 5px; background: var(--green); color: white; font-size: 12px; font-weight: 700; transition: background .15s, transform .15s; }
     .button:hover { transform: translateY(-1px); background: var(--green-dark); }
@@ -171,7 +174,9 @@
       #manage-button::before { content: "+"; font-size: 19px; }
       .hero { min-height: 450px; margin-top: 16px; padding: 42px 25px; align-items: start; }
       .hero-copy { padding-top: 8px; }
+      .hero-phone { font-size: clamp(27px, 7.5vw, 38px); }
       .hero-copy > p:not(.eyebrow) { max-width: 300px; font-size: 13px; }
+      .hero-actions .button { padding: 0 12px; }
       .hero-art { inset: 170px 0 0 5%; opacity: .5; }
       .hero-art::before { width: 245px; height: 245px; top: 30px; right: 15px; }
       .hero-art::after { width: 190px; height: 190px; top: 58px; right: 42px; }
@@ -218,9 +223,12 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Good things, thoughtfully found</p>
-        <h1>Make room for things you love.</h1>
-        <p>A considered collection of everyday finds. Explore the Nabil shop and discover something worth keeping.</p>
-        <a class="button" href="#shop">Explore the shop <span aria-hidden="true">↗</span></a>
+        <h1><a class="hero-phone" href="tel:+9613032791" aria-label="Call Nabil at plus 961 3 032 791">+961 3 032 791</a></h1>
+        <p>Call or WhatsApp us, or explore the Nabil collection and find something worth keeping.</p>
+        <div class="hero-actions">
+          <a class="button" href="https://wa.me/9613032791" target="_blank" rel="noopener noreferrer">Chat on WhatsApp <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#shop">Explore the shop</a>
+        </div>
       </div>
       <div class="hero-art" aria-hidden="true"><div class="hero-sun"></div><div class="hero-leaf"></div><div class="hero-orbit"></div></div>
     </section>
