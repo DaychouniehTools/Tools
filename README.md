@@ -17,6 +17,8 @@ The importer does not use Supabase, Google sign-in, or a remote database. It rea
 5. Click **Import into this computer**. Matching products are updated by item code, and products omitted from the workbook remain in the catalog. The importer saves `catalog.js` and copies matched photos into `images/`.
 6. Check the updated local storefront. To publish the changes online, publish the updated `catalog.js` and `images/` through GitHub Desktop.
 
+The workbook's `Size` column is imported and shown on product cards and in product details. You can also add optional `Dimensions` and `Sizes` (or `Variants`) columns to show physical measurements separately from choices such as S/M/L. For example, `Dimensions` can contain `20 x 15 x 8 cm`, and `Sizes` can contain `Small, Medium, Large`. Search also matches these fields.
+
 The browser fetches the Excel-reading library from jsDelivr when opening the importer for `.xls`/`.xlsx` workbooks; the spreadsheet and photos stay on your computer and are not sent to that service. CSV import uses the browser directly. Keep a backup of the project folder before importing.
 
 The local importer is excluded from the public GitHub repository by `.gitignore`. If you move the project to another computer, copy `admin-import.html` there separately if you need the import tool.

@@ -91,6 +91,7 @@
     .product-category { margin-bottom: 6px; color: var(--muted); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
     .product-title { margin-bottom: 8px; font-family: Manrope, sans-serif; font-size: 14px; font-weight: 600; }
     .product-description { min-height: 2.8em; margin: 0 0 10px; overflow: hidden; color: #666d64; font-size: 11px; line-height: 1.5; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+    .product-size { margin: 0 0 8px; color: #51574f; font-size: 11px; line-height: 1.5; }
     .catalog-count { margin: 9px 0 0; color: var(--muted); font-size: 12px; }
     .product-bottom { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .product-price { font-size: 13px; font-weight: 700; }
@@ -113,6 +114,7 @@
     .detail-placeholder { color: var(--muted); font-size: 13px; }
     .detail-copy { padding: 16px 10px 16px 0; }
     .detail-sku { margin-bottom: 10px; color: var(--muted); font-size: 11px; }
+    .detail-size { margin: 0 0 12px; color: #51574f; font-size: 12px; line-height: 1.6; white-space: pre-wrap; }
     .detail-description { color: #5d625a; font-size: 13px; line-height: 1.7; white-space: pre-wrap; }
     .detail-price { margin: 18px 0; font-size: 18px; font-weight: 700; }
     .dialog h2 { margin: 0 35px 8px 0; font-size: 26px; }
@@ -251,6 +253,7 @@
           <p class="product-category" id="detail-category"></p>
           <h2 id="detail-title" dir="auto"></h2>
           <p class="detail-sku" id="detail-sku"></p>
+          <p class="detail-size" id="detail-size" hidden></p>
           <p class="detail-description" id="detail-description"></p>
           <p class="detail-price" id="detail-price"></p>
           <button class="button" id="detail-add-button" type="button">Add to bag</button>
@@ -393,7 +396,7 @@
         const visible = products.filter((product) => {
           const category = String(product.category || "Other").trim() || "Other";
           const matchesCategory = selectedCategory === "All" || category === selectedCategory;
-          const searchValues = [product.name, product.sku, category, product.description, product.tags];
+          const searchValues = [product.name, product.sku, category, product.description, product.tags, product.dimensions, product.sizes];
           return matchesCategory && searchValues.some((value) => String(value || "").toLowerCase().includes(query));
         });
         const catalogCount = document.getElementById("catalog-count");
@@ -414,11 +417,16 @@
             ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
             : `<span class="image-placeholder" aria-hidden="true">${escapeHtml((product.name || "N").slice(0, 1).toUpperCase())}</span>`;
           const description = product.description || product.tags || "Product details available on request.";
+          const sizeDetails = [
+            product.dimensions ? `Dimensions: ${product.dimensions}` : "",
+            product.sizes ? `Size / options: ${product.sizes}` : ""
+          ].filter(Boolean).join(" · ");
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
             <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button><span class="sku">${escapeHtml(product.sku)}</span></div>
             <div class="product-info">
               <p class="product-category">${escapeHtml(product.category || "Other")}</p>
               <h3 class="product-title" dir="auto">${escapeHtml(product.name)}</h3>
+              ${sizeDetails ? `<p class="product-size" dir="auto">${escapeHtml(sizeDetails)}</p>` : ""}
               <p class="product-description" dir="auto">${escapeHtml(description)}</p>
               <div class="product-bottom"><span class="product-price">${money(product.price)}</span><button class="add-button" type="button" data-add="${escapeHtml(product.sku)}">Add to bag +</button></div>
             </div>
@@ -437,6 +445,13 @@
         document.getElementById("detail-category").textContent = product.category || "Other";
         document.getElementById("detail-title").textContent = product.name;
         document.getElementById("detail-sku").textContent = `Item code: ${product.sku}`;
+        const detailSize = document.getElementById("detail-size");
+        const sizeDetails = [
+          product.dimensions ? `Dimensions: ${product.dimensions}` : "",
+          product.sizes ? `Size / options: ${product.sizes}` : ""
+        ].filter(Boolean);
+        detailSize.textContent = sizeDetails.join("\n");
+        detailSize.hidden = sizeDetails.length === 0;
         document.getElementById("detail-description").textContent = product.description || product.tags || "Product details available on request.";
         document.getElementById("detail-price").textContent = money(product.price);
         document.getElementById("detail-add-button").dataset.add = product.sku;
