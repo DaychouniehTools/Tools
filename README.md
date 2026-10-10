@@ -11,13 +11,14 @@ Open `index.html` to view the bundled catalog. The prepared catalog has 2,127 it
 The importer does not use Supabase, Google sign-in, or a remote database. It reads the workbook in your browser and writes the updated catalog and matching photos to a local project folder you choose. Do not publish `admin-import.html`.
 
 1. Open `admin-import.html` from the Nabil project folder in a recent version of Chrome or Edge.
-2. Click **Choose Nabil project folder** and select the folder that contains `index.html`, `catalog.js`, and `images`.
-3. Select your Excel workbook (`.xlsx`/`.xls`) or CSV file.
-4. Optionally select a folder of product photos. Photo filenames should match the item code, for example `290.jpg` or `290_Def.jpg`.
-5. Click **Import into this computer**. Matching products are updated by item code, and products omitted from the workbook remain in the catalog. The importer saves `catalog.js` and copies matched photos into `images/`.
-6. Check the updated local storefront. To publish the changes online, publish the updated `catalog.js` and `images/` through GitHub Desktop.
+2. Click **Choose Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file.
+3. Optionally click **Choose photos folder** and select the folder with product photos. Photo filenames should match the item code, for example `290.jpg` or `290_Def.jpg`.
+4. Click **Import Excel and photos**. When your browser asks, select the Nabil project folder containing `index.html`, `catalog.js`, and `images`. Matching products are updated by item code, products omitted from the workbook remain in the catalog, and matched photos are copied into `images/`.
+5. Check the updated local storefront. To publish the changes online, publish the updated `catalog.js` and `images/` through GitHub Desktop.
 
 The workbook's `Size` column is imported and shown on product cards and in product details. You can also add optional `Dimensions` and `Sizes` (or `Variants`) columns to show physical measurements separately from choices such as S/M/L. For example, `Dimensions` can contain `20 x 15 x 8 cm`, and `Sizes` can contain `Small, Medium, Large`. Search also matches these fields.
+
+For the QuickBooks inventory export, the importer uses only the website fields: `Item Number` (item code), `Item Name`, `Web Price`, `Size`, `Department Name` (category), `Attribute`, `Item Description` (or `Brief Description` if the item description is empty), `UPC` (barcode), and `Web keywords`. Product images are matched from the selected photo folder by item code. Accounting, cost, reorder, and other back-office columns are ignored.
 
 The browser fetches the Excel-reading library from jsDelivr when opening the importer for `.xls`/`.xlsx` workbooks; the spreadsheet and photos stay on your computer and are not sent to that service. CSV import uses the browser directly. Keep a backup of the project folder before importing.
 
