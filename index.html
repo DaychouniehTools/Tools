@@ -419,7 +419,7 @@
           const description = product.description || product.tags || "Product details available on request.";
           const sizeDetails = [
             product.dimensions ? `Dimensions: ${product.dimensions}` : "",
-            product.sizes ? `Size / options: ${product.sizes}` : ""
+            `Size: ${product.sizes || "Not specified"}`
           ].filter(Boolean).join(" · ");
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
             <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button><span class="sku">${escapeHtml(product.sku)}</span></div>
@@ -448,7 +448,7 @@
         const detailSize = document.getElementById("detail-size");
         const sizeDetails = [
           product.dimensions ? `Dimensions: ${product.dimensions}` : "",
-          product.sizes ? `Size / options: ${product.sizes}` : ""
+          `Size: ${product.sizes || "Not specified"}`
         ].filter(Boolean);
         detailSize.textContent = sizeDetails.join("\n");
         detailSize.hidden = sizeDetails.length === 0;
