@@ -711,7 +711,11 @@
         addToCart(event.currentTarget.dataset.add);
         closeOverlay("product-overlay");
       });
-      searchInput.addEventListener("input", renderProducts);
+      searchInput.addEventListener("input", () => {
+        selectedCategory = "All";
+        renderCategoryFilters();
+        renderProducts();
+      });
       document.getElementById("cart-button").addEventListener("click", () => {
         renderCart();
         setStatus(document.getElementById("cart-status"), "", "");
