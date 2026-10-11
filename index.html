@@ -115,8 +115,14 @@
     .dialog.wide { width: min(650px,100%); }
     .dialog.product-detail { width: min(980px,100%); padding: 22px; }
     .product-detail-layout { display: grid; grid-template-columns: minmax(0,1.3fr) minmax(220px,.7fr); align-items: center; gap: 25px; }
-    .detail-image-wrap { min-height: 260px; display: grid; place-items: center; border-radius: 6px; background: var(--sage); }
+    .detail-image-wrap { position: relative; min-height: 260px; display: grid; place-items: center; border-radius: 6px; background: var(--sage); }
     .detail-image { display: block; max-width: 100%; max-height: min(72vh,760px); object-fit: contain; }
+    .detail-photo-control { position: absolute; z-index: 1; top: 50%; width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid rgba(24,35,44,.15); border-radius: 50%; background: rgba(255,255,255,.94); color: var(--green); font-size: 22px; transform: translateY(-50%); }
+    .detail-photo-control:hover { background: white; }
+    .detail-photo-previous { left: 12px; }
+    .detail-photo-next { right: 12px; }
+    .detail-photo-count { position: absolute; right: 50%; bottom: 12px; padding: 5px 9px; border-radius: 999px; background: rgba(24,35,44,.75); color: white; font-size: 11px; transform: translateX(50%); }
+    .photo-count-badge { position: absolute; top: 12px; right: 12px; padding: 5px 8px; border-radius: 999px; background: rgba(24,35,44,.78); color: white; font-size: 10px; }
     .detail-placeholder { color: var(--muted); font-size: 13px; }
     .detail-copy { padding: 16px 10px 16px 0; }
     .detail-sku { margin-bottom: 10px; color: var(--muted); font-size: 11px; }
@@ -444,8 +450,12 @@
       const searchInput = document.getElementById("search-input");
       const categoryFilters = document.getElementById("category-filters");
       const notice = document.getElementById("notice");
+      const detailImageWrap = document.getElementById("detail-image-wrap");
       let selectedCategory = "All";
       let noticeTimer;
+      let detailImages = [];
+      let detailImageIndex = 0;
+      let detailImageName = "";
 
       function readStorage(key, fallback) {
         try {
@@ -490,6 +500,18 @@
       function productImageSource(product) {
         return safeImageUrl(product.imageUrl)
           || (typeof product.imagePath === "string" && /^\.\/*images\/[A-Za-z0-9_.-]+$/i.test(product.imagePath) ? product.imagePath : "");
+      }
+
+      function productImageSources(product) {
+        const sources = [productImageSource(product)];
+        if (Array.isArray(product.additionalImagePaths)) {
+          product.additionalImagePaths.forEach((path) => {
+            const source = safeImageUrl(path)
+              || (typeof path === "string" && /^\.\/*images\/[A-Za-z0-9_.-]+$/i.test(path) ? path : "");
+            if (source) sources.push(source);
+          });
+        }
+        return Array.from(new Set(sources.filter(Boolean))).slice(0, 2);
       }
 
       function money(value) {
@@ -562,6 +584,7 @@
         }
         grid.innerHTML = visible.map((product) => {
           const image = productImageSource(product);
+          const photoCount = productImageSources(product).length;
           const imageMarkup = image
             ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
             : `<span class="image-placeholder" aria-hidden="true">${escapeHtml((product.name || "N").slice(0, 1).toUpperCase())}</span>`;
@@ -571,7 +594,7 @@
             `Size: ${product.sizes || "Not specified"}`
           ].filter(Boolean).join(" · ");
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
-            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button><span class="sku">${escapeHtml(product.sku)}</span></div>
+            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}<span class="sku">${escapeHtml(product.sku)}</span></div>
             <div class="product-info">
               <p class="product-category">${escapeHtml(product.category || "Other")}</p>
               <h3 class="product-title" dir="auto">${escapeHtml(product.name)}</h3>
@@ -587,11 +610,10 @@
       function openProductDetails(sku) {
         const product = productBySku(sku);
         if (!product) return;
-        const image = productImageSource(product);
-        const imageWrap = document.getElementById("detail-image-wrap");
-        imageWrap.innerHTML = image
-          ? `<img class="detail-image" src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}">`
-          : `<span class="detail-placeholder">No photo is available for this item.</span>`;
+        detailImages = productImageSources(product);
+        detailImageIndex = 0;
+        detailImageName = product.name;
+        renderDetailImage();
         document.getElementById("detail-category").textContent = product.category || "Other";
         document.getElementById("detail-title").textContent = product.name;
         document.getElementById("detail-sku").textContent = `Item code: ${product.sku}`;
@@ -610,6 +632,24 @@
         document.getElementById("detail-add-button").dataset.add = product.sku;
         openOverlay("product-overlay");
       }
+
+      function renderDetailImage() {
+        if (!detailImages.length) {
+          detailImageWrap.innerHTML = `<span class="detail-placeholder">No photo is available for this item.</span>`;
+          return;
+        }
+        const controls = detailImages.length > 1
+          ? `<button class="detail-photo-control detail-photo-previous" type="button" data-photo-step="-1" aria-label="Show previous photo">‹</button><span class="detail-photo-count" aria-live="polite">Photo ${detailImageIndex + 1} of ${detailImages.length}</span><button class="detail-photo-control detail-photo-next" type="button" data-photo-step="1" aria-label="Show next photo">›</button>`
+          : "";
+        detailImageWrap.innerHTML = `<img class="detail-image" src="${escapeHtml(detailImages[detailImageIndex])}" alt="${escapeHtml(detailImageName)} photo ${detailImageIndex + 1}">${controls}`;
+      }
+
+      detailImageWrap.addEventListener("click", (event) => {
+        const control = event.target.closest("[data-photo-step]");
+        if (!control || detailImages.length < 2) return;
+        detailImageIndex = (detailImageIndex + Number(control.dataset.photoStep) + detailImages.length) % detailImages.length;
+        renderDetailImage();
+      });
 
       function productBySku(sku) {
         return products.find((product) => product.sku === sku);
@@ -663,6 +703,7 @@
         const button = event.target.closest("[data-category]");
         if (!button) return;
         selectedCategory = button.dataset.category;
+        searchInput.value = "";
         renderCategoryFilters();
         renderProducts();
       });
