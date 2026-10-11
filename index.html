@@ -217,7 +217,9 @@
     .main-nav { align-items: center; gap: 25px; color: #41515d; font-weight: 600; }
     .main-nav a:hover { color: var(--orange-dark); }
     .header-actions { flex: 0 0 auto; gap: 8px; }
-    .header-phone { padding: 11px 13px; border: 1px solid var(--line); border-radius: 5px; color: var(--green); font-size: 13px; font-weight: 700; white-space: nowrap; }
+    .header-whatsapp { min-height: 42px; padding: 0 13px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid #b9e8c8; border-radius: 5px; background: #effaf2; color: #176b38; font-size: 12px; font-weight: 700; white-space: nowrap; }
+    .header-whatsapp:hover { border-color: #25d366; background: #e5f8eb; }
+    .whatsapp-icon { width: 21px; height: 21px; flex: 0 0 auto; }
     .icon-button { border-color: var(--line); border-radius: 5px; background: white; color: var(--green); font-weight: 700; }
     .icon-button:hover { border-color: var(--orange); }
     .cart-count { background: var(--orange); }
@@ -264,7 +266,7 @@
     .product-bottom { align-items: center; }
     .product-price { color: var(--green); font-size: 14px; }
     .add-button { color: var(--orange-dark); font-weight: 800; }
-    .category-filter:focus-visible, .button:focus-visible, .icon-button:focus-visible, .header-phone:focus-visible { outline: 3px solid rgba(239,123,37,.45); outline-offset: 2px; }
+    .category-filter:focus-visible, .button:focus-visible, .icon-button:focus-visible, .header-whatsapp:focus-visible { outline: 3px solid rgba(239,123,37,.45); outline-offset: 2px; }
     .site-footer { border-color: var(--line); background: white; color: var(--muted); }
     .site-footer strong { color: var(--green); }
     .dialog { background: var(--paper); }
@@ -293,7 +295,8 @@
       .brand-icon { width: 36px; height: 36px; font-size: 20px; }
       .brand-name span { font-size: 13px; }
       .header-actions { gap: 5px; }
-      .header-phone { padding: 8px 7px; font-size: 10px; }
+      .header-whatsapp { min-height: 36px; padding: 0 7px; gap: 5px; font-size: 10px; }
+      .whatsapp-icon { width: 17px; height: 17px; }
       .icon-button { min-height: 36px; padding: 0 8px; font-size: 10px; }
       .cart-count { min-width: 17px; height: 17px; padding: 0 4px; }
       .hero { margin-top: 0; padding: 0; }
@@ -322,7 +325,7 @@
   </style>
 </head>
 <body>
-  <div class="announcement">Hardware, tools &amp; everyday essentials &nbsp;·&nbsp; <a href="tel:+9613032791">Call us: 03 032 791</a></div>
+  <div class="announcement">Hardware, tools &amp; everyday essentials &nbsp;·&nbsp; <a href="tel:+9613032791">Call us: 03/032791</a></div>
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="#" aria-label="Daychounieh Tools home">
@@ -334,7 +337,14 @@
         <a href="#about">Our approach</a>
       </nav>
       <div class="header-actions">
-        <a class="header-phone" href="tel:+9613032791">03 032 791</a>
+        <a class="header-whatsapp" href="https://wa.me/9613032791" target="_blank" rel="noopener noreferrer" aria-label="Message Daychounieh Tools on WhatsApp at 03/032791">
+          <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <circle cx="16" cy="16" r="15" fill="#25d366"/>
+            <path d="M16.02 4.2c-6.47 0-11.74 5.26-11.74 11.73 0 2.07.54 4.1 1.57 5.88L4.18 28l6.34-1.66a11.7 11.7 0 0 0 5.5 1.37h.01c6.47 0 11.73-5.26 11.74-11.73a11.65 11.65 0 0 0-3.44-8.3 11.65 11.65 0 0 0-8.31-3.48zm0 21.52h-.01c-1.72 0-3.4-.46-4.87-1.33l-.35-.21-3.76.99 1-3.66-.23-.38a9.74 9.74 0 0 1-1.5-5.2c0-5.37 4.36-9.73 9.73-9.73a9.66 9.66 0 0 1 6.89 2.85 9.66 9.66 0 0 1 2.84 6.9c0 5.37-4.37 9.73-9.74 9.73z" fill="none" stroke="#fff" stroke-width="1.2"/>
+            <path fill="#fff" d="M22.1 18.9c-.34-.17-2.02-1-2.34-1.11-.31-.11-.54-.17-.77.17-.23.34-.88 1.11-1.08 1.34-.2.23-.4.26-.74.09-.34-.17-1.44-.53-2.75-1.69-1.02-.91-1.71-2.03-1.91-2.37-.2-.34-.02-.52.15-.69.15-.15.34-.4.51-.6.17-.2.23-.34.34-.57.11-.23.06-.43-.03-.6-.08-.17-.77-1.86-1.06-2.55-.28-.67-.56-.58-.77-.59l-.66-.01c-.23 0-.6.09-.91.43-.31.34-1.2 1.17-1.2 2.86s1.23 3.32 1.4 3.55c.17.23 2.42 3.69 5.86 5.17.82.35 1.46.56 1.96.72.82.26 1.57.22 2.16.13.66-.1 2.02-.83 2.31-1.63.29-.8.29-1.49.2-1.63-.08-.14-.31-.23-.66-.4z"/>
+          </svg>
+          <span>WhatsApp 03/032791</span>
+        </a>
         <button class="icon-button" id="cart-button" type="button" aria-label="Open shopping bag">Bag <span class="cart-count" id="cart-count">0</span></button>
       </div>
     </div>
@@ -372,7 +382,7 @@
       <div class="product-grid" id="product-grid" aria-live="polite"></div>
     </section>
   </main>
-  <footer class="site-footer"><strong>DAYCHOUNIEH TOOLS · خردوات الديشونية</strong> · Call or WhatsApp: <a href="tel:+9613032791">03 032 791</a> <span id="footer-year"></span></footer>
+  <footer class="site-footer"><strong>DAYCHOUNIEH TOOLS · خردوات الديشونية</strong> · Call or WhatsApp: <a href="tel:+9613032791">03/032791</a> <span id="footer-year"></span></footer>
 
   <div class="overlay" id="product-overlay" role="dialog" aria-modal="true" aria-labelledby="detail-title">
     <div class="dialog product-detail">
