@@ -569,6 +569,10 @@
           const matchesCategory = selectedCategory === "All" || category === selectedCategory;
           const searchValues = [product.name, product.sku, category, product.description, product.tags, product.attribute, product.dimensions, product.sizes];
           return matchesCategory && searchValues.some((value) => String(value || "").toLowerCase().includes(query));
+        }).sort((first, second) => {
+          const firstExactSku = String(first.sku).trim().toLowerCase() === query;
+          const secondExactSku = String(second.sku).trim().toLowerCase() === query;
+          return Number(secondExactSku) - Number(firstExactSku);
         });
         const catalogCount = document.getElementById("catalog-count");
         catalogCount.textContent = query || selectedCategory !== "All"
