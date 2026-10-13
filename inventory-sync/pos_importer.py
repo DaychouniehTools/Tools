@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HOST = "127.0.0.1"
 PORT = 8765
 APP_NAME = "Daychounieh Tools Local Inventory Importer"
+APP_ID = "{C18A21C1-6F93-4A86-9294-7B98A1FB8FC0}"
 COM_PROGID = "QBPOSXMLRPLib.RequestProcessor"
 ITEM_CODE_FIELD = os.environ.get("QBPOS_ITEM_CODE_FIELD", "ALU")
 QBPOSXML_VERSION = "3.0"
@@ -35,7 +36,7 @@ def query_pos_inventory():
     pythoncom.CoInitialize()
     try:
         processor = win32com.client.Dispatch(COM_PROGID)
-        processor.OpenConnection("", APP_NAME)
+        processor.OpenConnection(APP_ID, APP_NAME)
         ticket = None
         try:
             ticket = processor.BeginSession("")
