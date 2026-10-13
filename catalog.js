@@ -10,11 +10,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "GLUE, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "500 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "293",
@@ -27,11 +28,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "90, CONNECTOR, DEGREE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1/2\"",
     "attribute": "CHROME",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "296",
@@ -44,11 +46,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "DOUBLE, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.8 X 1.6 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "298",
@@ -61,11 +64,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "29 CM",
     "tags": "2, 76, Brush, mm",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "299",
@@ -78,11 +82,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "9\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "300",
@@ -95,13 +100,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "QUICKER \nFATE7 MAJERE\nTURBO",
     "tags": "DRAIN, OPENER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 14,
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/300_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "304",
@@ -114,11 +120,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "BRUSH, WIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "27 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "305",
@@ -131,11 +138,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "",
     "tags": "SEAVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "28 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "308",
@@ -148,13 +156,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "",
     "tags": "DOOR, SLUMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/308_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "309",
@@ -167,11 +176,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "SCRAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "6\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "311",
@@ -184,13 +194,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "TOUL 190 MM",
     "tags": "CYLINDER, DOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "7 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/311_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "312",
@@ -203,11 +214,12 @@ window.NABIL_PRODUCTS = [
     "category": "WATER TANKS",
     "description": "3ARED 100 CM , TOUL 130 CM , OUTPUT TABA3O 1\" N7AS\n8 MM THIKNESS",
     "tags": "TANK, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1000 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "313",
@@ -220,11 +232,12 @@ window.NABIL_PRODUCTS = [
     "category": "WATER TANKS",
     "description": "3ARED 125 CM , TOUL 170 CM , OUTPUT TABA3O 1 1/2\" N7AS\n8 MM THIKNESS",
     "tags": "TANK, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2000 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "314",
@@ -237,11 +250,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1500,
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "315",
@@ -254,11 +268,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 293,
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "316",
@@ -271,11 +286,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 621,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "317",
@@ -288,11 +304,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "برغي باطون",
     "tags": "SCREW, YELLOW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 545,
     "sizes": "3 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "318",
@@ -305,11 +322,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "برغي باطون",
     "tags": "SCREW, YELLOW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 364,
     "sizes": "3.5 X 16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "324",
@@ -322,11 +340,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "برغي خشب",
     "tags": "BLACK, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 390,
     "sizes": "3.9 X 30 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "331",
@@ -339,11 +358,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ROUND, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 60,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "333",
@@ -356,11 +376,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "335",
@@ -373,13 +394,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "HANDLE, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "9 X 20 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/335_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "338",
@@ -392,11 +414,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "BRUSH, WIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "24 CM",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "339",
@@ -409,13 +432,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "N7AS",
     "tags": "HOSE, SPRINKLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/339_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "340",
@@ -428,11 +452,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BRUSH, WIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "347",
@@ -445,11 +470,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "HAND, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "349",
@@ -462,11 +488,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "BROOM, STREET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "29 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "350",
@@ -479,11 +506,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "SET OF 2\n7CM SIZE MEN MASKE LAL EFEL",
     "tags": "2, DOOR, HANDLE, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "7 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "351",
@@ -496,13 +524,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "PAD, TROWEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "35 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/351_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "354",
@@ -515,11 +544,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "SHLIC SHLAC 115MM",
     "tags": "PAD, POLISHING, SHLAC, SHLIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "4.5\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "356",
@@ -532,13 +562,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "INCLUDING CYLINDER + 5 KEYS\nBYEJE 3ARDO 7 CM",
     "tags": "CYLINDER, DOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "23 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/356_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "357",
@@ -551,11 +582,12 @@ window.NABIL_PRODUCTS = [
     "category": "WATER TANKS",
     "description": "3ARED 75 CM , TOUL 130 CM , OUTPUT TABA3O 1\" N7AS\n8 MM THIKNESS",
     "tags": "TANK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "500 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "361",
@@ -568,11 +600,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "مجوز",
     "tags": "DOOR, LOCK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 X 55 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "362",
@@ -585,11 +618,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "مجوز",
     "tags": "DOOR, LOCK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 X 50 MM",
     "attribute": "GREY",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "363",
@@ -602,11 +636,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "مجوز",
     "tags": "DOOR, LOCK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 X 55 MM",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "365",
@@ -619,11 +654,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ROLLBOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 17,
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "371",
@@ -636,11 +672,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "FLEXIBLE",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1/2\" 100 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "372",
@@ -653,11 +690,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "100 PCS PER PACK",
     "tags": "CABLE, TIES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "30 CM 7.6",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "376",
@@ -670,11 +708,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "WITH CABLE",
     "tags": "CABLE, FLOAT, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "2 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "377",
@@ -687,11 +726,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "BRASS",
     "tags": "FILTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "378",
@@ -704,11 +744,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "FILTER, MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 22,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "382",
@@ -721,11 +762,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "BET2OS JANZIR 7ADID",
     "tags": "ADAPTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "24\" X 60 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "384",
@@ -738,13 +780,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "HANDLE, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "25 X 13 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/384_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "387",
@@ -757,11 +800,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "5 MICRON COTTON",
     "tags": "CARTRIDGE, FILTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "25 X 6 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "388",
@@ -774,11 +818,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "BUMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "47 X 15 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1939",
@@ -791,11 +836,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "100 PCS PER BOX",
     "tags": "TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "5 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1940",
@@ -808,11 +854,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "TORX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1941",
@@ -825,11 +872,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "TORX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "11 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1942",
@@ -842,11 +890,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "TORX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1944",
@@ -859,11 +908,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "TORX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1947",
@@ -876,11 +926,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "TORX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1948",
@@ -893,11 +944,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "TORX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1951",
@@ -910,11 +962,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOTS, SAFETY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "41",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1954",
@@ -927,11 +980,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOTS, SAFETY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "44",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1955",
@@ -944,11 +998,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOTS, SAFETY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1956",
@@ -961,11 +1016,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "4\"",
     "tags": "\"4\"\"\", LOCK, PENDANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1958",
@@ -978,11 +1034,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "SAPPHIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1959",
@@ -995,11 +1052,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CORNER, FEM, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "25 X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1960",
@@ -1012,11 +1070,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CORNER, FEM, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "25 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1962",
@@ -1029,11 +1088,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "PPR, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1963",
@@ -1046,11 +1106,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CONN, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "25 MM X 30CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1967",
@@ -1063,11 +1124,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1968",
@@ -1080,11 +1142,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني 45DEGREE",
     "tags": "45DEGREE, ELBOW, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1969",
@@ -1097,11 +1160,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1970",
@@ -1114,11 +1178,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CAP, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1971",
@@ -1131,11 +1196,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1972",
@@ -1148,11 +1214,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CORNER, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "5 X 4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1973",
@@ -1165,11 +1232,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني\nREGARD",
     "tags": "CAP, PVC, REGARD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "6\" X 110 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1974",
@@ -1182,11 +1250,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "4 X 5\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1975",
@@ -1199,11 +1268,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CORNER, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1979",
@@ -1216,11 +1286,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "WASLIT KAHRABA BALA CHRIT\nRALLONGE",
     "tags": "6, BALA, CHRIT, EXT, KAHRABA, SOCKET, WASLIT, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1980",
@@ -1233,11 +1304,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1981",
@@ -1250,11 +1322,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "مع اسم",
     "tags": "GRAND, LE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1983",
@@ -1267,11 +1340,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "22W",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "120 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1985",
@@ -1284,11 +1358,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "ELBOW, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1986",
@@ -1301,11 +1376,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "SAPPHIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1987",
@@ -1318,11 +1394,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "PALLET, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "120 X 100 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "528",
@@ -1335,11 +1412,12 @@ window.NABIL_PRODUCTS = [
     "category": "CURTAIN ACC",
     "description": "",
     "tags": "CURTAIN, ROPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 40,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "573",
@@ -1352,11 +1430,12 @@ window.NABIL_PRODUCTS = [
     "category": "CURTAIN ACC",
     "description": "كبسون شوادر",
     "tags": "CURTAIN, RING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 700,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "580",
@@ -1369,11 +1448,12 @@ window.NABIL_PRODUCTS = [
     "category": "CURTAIN ACC",
     "description": "",
     "tags": "CONN, CURTAIN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 450,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "614",
@@ -1386,11 +1466,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2 X 1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "672",
@@ -1403,11 +1484,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "36 SILVER\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "400 ML",
     "attribute": "SILVER",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "676",
@@ -1420,11 +1502,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "131 SUZUKI RED\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "400 ML",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "692",
@@ -1437,11 +1520,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "100 PCS PER BAG\nTILE LEVELING SYSTEM",
     "tags": "100, BAG, CERAMIC, EQUIPMENT, PCS, PER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "2 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "722",
@@ -1454,11 +1538,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY, SEPARATE HOSE\nMADE IN ITALY",
     "tags": "EASY, HOSE, IN, ITALIAN, ITALY, KITCHEN, MADE, SEPARATE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "728",
@@ -1471,11 +1556,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY SEPARATE HOSE \nMADE IN ITALY",
     "tags": "EASY, HOSE, IN, ITALY, MADE, SEPARATE, SINK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "815",
@@ -1488,11 +1574,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY \nSEPARATE HOSE",
     "tags": "CHROME, EASY, HOSE, SEPARATE, SINK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "816",
@@ -1505,11 +1592,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "ELA 3ASAYE KHSOUSE",
     "tags": "BROOM, STREET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1049",
@@ -1522,11 +1610,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "BROOM, STICK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "120 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1050",
@@ -1539,11 +1628,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MA3 SOBAB",
     "tags": "EASY, KITCHEN, MA3, P, SOBAB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1904",
@@ -1556,11 +1646,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "MINI, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1988",
@@ -1573,13 +1664,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "HIGH PRESSURE WASHING WATER GUN\nMA3 RACCORD",
     "tags": "GUN, HIGH, HOSE, MA3, PRESSURE, RACCORD, SET, SPRINKLE, WASHING, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1988_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1990",
@@ -1592,11 +1684,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "FOR WELDING MACHINE",
     "tags": "WELDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1991",
@@ -1609,11 +1702,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "PER SQUARE METER YA3NE BODROUB QTY X 1.5$ Not 1$",
     "tags": "FIBERGLASS, METER, NET, PER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 22.5,
     "sizes": "150 CM",
     "attribute": "GREY",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1992",
@@ -1626,13 +1720,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "BRICKLAYING KNIFE",
     "tags": "BRICKLAYING, CONCRETE, FLOAT, KNIFE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "7\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1992_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1995",
@@ -1645,11 +1740,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "FARMING, HEAD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2001",
@@ -1662,13 +1758,14 @@ window.NABIL_PRODUCTS = [
     "category": "WATER PUMPS",
     "description": "MKP80-1",
     "tags": "AQUA, MKP60-1, PUMP, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 HP",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2001_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1996",
@@ -1681,11 +1778,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "GARDENING, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 84.9,
     "sizes": "1/2\"",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1997",
@@ -1698,11 +1796,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "GARDENING, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 0.15,
     "sizes": "3/4\"",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "551",
@@ -1715,11 +1814,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "PARKSIDE PFDS120A2 , CABLE 4 M , MIG",
     "tags": "4, CABLE, M, PARKSIDE, PFDS120A2, WELDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 - 120 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "556",
@@ -1732,11 +1832,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "PARKSIDE PSHL2D1 , 9.2 X 4.2 CM",
     "tags": "2, 4, 9, AUTO, CM, HERLMET, PARKSIDE, PSHL2D1, WELDING, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "559",
@@ -1749,11 +1850,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "LA TROMBIT MAY N7AS BRASS",
     "tags": "BRASS, LA, MAY, N7AS, SAPPHIRE, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "560",
@@ -1766,11 +1868,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "LA TROMBIT MAY N7AS BRASS",
     "tags": "BRASS, LA, MAY, N7AS, SAPPHIRE, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2''",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "561",
@@ -1783,11 +1886,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "RUBBER, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "5.3 X 11 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "565",
@@ -1800,11 +1904,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAINER, FLOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "15 X 15 CM",
     "attribute": "BEIGE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "566",
@@ -1817,11 +1922,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAINER, FLOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 X 20 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "567",
@@ -1834,11 +1940,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAINER, FLOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 X 20 CM",
     "attribute": "BEIGE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "3",
@@ -1851,11 +1958,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP MIRAL SPIRAL",
     "tags": "18W, 50mA, 960LM, E27, LAMP, MIRAL, SPIRAL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 78,
     "sizes": "18 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "4",
@@ -1868,13 +1976,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "50W, 90%, BULB, Energy, LAMP, LED, Light, Saving",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "50 W E27",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/4_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "5",
@@ -1887,11 +1996,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP ORCHID ECONONIC LIGHT 8000HRS",
     "tags": "13W, 2U, 8000hrs, Economic, Energy, Heat, LAMP, Light, ORCHID, Resistant, Saving",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 30,
     "sizes": "13 W E14",
     "attribute": "LIGHT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "8",
@@ -1904,11 +2014,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP TCL 3 BAND PHOSPHOR",
     "tags": "11W, 3, BAND, PHOSPHOR, TCL, WARM, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "11 W E14",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "9",
@@ -1921,11 +2032,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP TCL 340 LUMENS 2700K",
     "tags": "4W, 80%, E14, ENERGY, SAVING, TCL, WARM, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 W E14",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "14",
@@ -1938,11 +2050,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "14 MT LENGTH",
     "tags": "PAPER, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "4.5 CM LARGE",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "15",
@@ -1955,11 +2068,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "14 MT LENGTH",
     "tags": "PAPER, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "2.5 CM SMALL",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "16",
@@ -1972,11 +2086,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "SCOTCH, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 16,
     "sizes": "5 CM LARGE",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "21",
@@ -1989,11 +2104,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "STRETCH, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1200",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "22",
@@ -2006,13 +2122,14 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "1 METER WIDTH",
     "tags": "BUBBLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 60,
     "sizes": "1 M",
     "attribute": "TRANSPARENT",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/22_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "23",
@@ -2025,13 +2142,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "TAPE, TEFLON",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 43,
     "sizes": "2 CM X 20 M",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/23_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "25",
@@ -2044,13 +2162,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "MAX RPM 12000 SO-BETTER ATB FOR WOOD",
     "tags": "12000, BLADE, MAX, RPM, SAW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 1/2\" 30T",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/25_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "28",
@@ -2063,11 +2182,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "DRIVE, SCREW, TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 CM SMALL",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "29",
@@ -2080,11 +2200,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "TOP SECURITY",
     "tags": "PADLOCK, SECURITY, TOP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "90 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "31",
@@ -2097,13 +2218,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "STAINLESS STEEL مع مصفاية",
     "tags": "DRAINER, FLOOR, STAINLESS, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "15 X 15 CM",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/31_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "32",
@@ -2116,13 +2238,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "STAINLESS STEEL مع مصفاية",
     "tags": "DRAINER, FLOOR, STAINLESS, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "20 X 20 CM",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/32_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "35",
@@ -2135,11 +2258,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "SCRAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "36",
@@ -2152,13 +2276,14 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "SCRAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/36_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "37",
@@ -2171,13 +2296,14 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "SCRAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/37_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "39",
@@ -2190,11 +2316,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "CONCRETE, FLOAT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "40",
@@ -2207,13 +2334,14 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "TACKS, THUMB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 600,
     "sizes": "1X1 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/40_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "41",
@@ -2226,13 +2354,14 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "WEATHER PROOF SETS IN 15 MINUTES STICK TO WET SURFACE",
     "tags": "15, HICH, IN, MINUTES, PROOF, SETS, STICK, SURFACE, TACK, WEATHER, WET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 14,
     "sizes": "290 ML",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/41_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "43",
@@ -2245,13 +2374,14 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "GENERAL PURPOSE",
     "tags": "EU800, FOAM, POLYRETHANE, TURKISH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "750 ML",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/43_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "47",
@@ -2264,11 +2394,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "76.2 mm\nPAINT BRUSH",
     "tags": "2, 76, Brush, mm",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "62",
@@ -2281,11 +2412,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "FOR METAL WATERPROOF",
     "tags": "ABRASIVE, PAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 34,
     "sizes": "P 150",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "64",
@@ -2298,11 +2430,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "SIERRA 8500 MAX RPM",
     "tags": "dep, name, test",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "7\" = 18 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "69",
@@ -2315,11 +2448,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "RALONGE 10 - 16 A 220V",
     "tags": "10, 16, 220V, AMP, CORD, CR2, EXT, POWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "5 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "73",
@@ -2332,11 +2466,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "GRILE, IRON, PINCER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "53",
@@ -2349,13 +2484,14 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "50 MM\nPAINT BRUSH",
     "tags": "2, 76, Brush, mm",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/53_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "67",
@@ -2368,11 +2504,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "33 CM",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/4\" / 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "68",
@@ -2385,11 +2522,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "WITH CUP",
     "tags": "CUP, HOLDER, TOOTHBRUSH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "74",
@@ -2402,11 +2540,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "PLASTIC MATERIAL WITH COVER",
     "tags": "COVER, HOLDER, MATERIAL, PAPER, PLASTIC, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "79",
@@ -2419,13 +2558,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "WITHOUT HANDLE",
     "tags": "BROOM, FLOOR, HANDLE, WITHOUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "TOUGH",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/79_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "81",
@@ -2438,13 +2578,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "DRIVE, SCREW, TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "19 CM SMALL",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/81_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "84",
@@ -2457,11 +2598,12 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "",
     "tags": "HALEK, INSECT, POWDER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 26,
     "sizes": "5 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "85",
@@ -2474,11 +2616,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "ALTECO, GLUE, SUPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "3 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "87",
@@ -2491,11 +2634,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATTERIES",
     "description": "4 PCS PER PACK",
     "tags": "4, BATTERY, OSEL, PACK, PCS, PER, SUPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "AA",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "88",
@@ -2508,11 +2652,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATTERIES",
     "description": "4 PCS PER PACK",
     "tags": "4, BATTERY, OSEL, PACK, PCS, PER, SUPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "AAA",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "89",
@@ -2525,13 +2670,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "STANDARD ORIGINAL",
     "tags": "PADLOCK, SECURITY, TOP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "38 MM",
     "attribute": "GOLD",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/89_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "90",
@@ -2544,11 +2690,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "STANDARD ORIGINAL",
     "tags": "PADLOCK, SECURITY, TOP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "50 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "92",
@@ -2561,11 +2708,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "ORIGINAL",
     "tags": "PADLOCK, SECURITY, TOP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "38 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "94",
@@ -2578,13 +2726,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "10, 16, ELECTRICAL, PLUG, X3",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 - 16 A",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/94_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "626",
@@ -2597,11 +2746,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 387,
     "sizes": "8 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "627",
@@ -2614,11 +2764,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "00 - GALVANIZED",
     "tags": "CLIP, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "13 - 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "630",
@@ -2631,11 +2782,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "2A - GALVANIZED",
     "tags": "CLIP, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "35 - 50 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "631",
@@ -2648,11 +2800,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "2 - GALVANIZED",
     "tags": "CLIP, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "40 - 55 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "632",
@@ -2665,11 +2818,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "1 - GALVANIZED",
     "tags": "CLIP, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "25 - 35 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "633",
@@ -2682,11 +2836,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "634",
@@ -2699,11 +2854,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1117",
@@ -2716,11 +2872,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1119",
@@ -2733,11 +2890,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1120",
@@ -2750,11 +2908,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 1/4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1121",
@@ -2767,11 +2926,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1123",
@@ -2784,11 +2944,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "3 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1139",
@@ -2801,11 +2962,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "ريكار بكوع بجوان (سيفون صليب 2\"",
     "tags": "\"2\"\"\", DRAIN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "2 X 5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1140",
@@ -2818,11 +2980,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "ريكار 5انش \nفرع واحد 3 انش و ثلاث فروع 2 انش\nسيفون صليب 3 \"",
     "tags": "\"2\"\"\", DRAIN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2 X 3 X 5 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1141",
@@ -2835,11 +2998,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "\"2\"\"\", DRAIN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "8 X 4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1142",
@@ -2852,11 +3016,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "HEATER HOOK WDS12",
     "tags": "HEATER, HOOK, SCREW, SETبرغي, WDS12",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1143",
@@ -2869,11 +3034,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "HEATER, VENT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1144",
@@ -2886,11 +3052,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "4\"",
     "tags": "ALUM, HOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "4\" X 1.2M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1148",
@@ -2903,11 +3070,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHROME",
     "tags": "CHROME, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1/2 X 3/4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1149",
@@ -2920,11 +3088,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "WARE, WC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1150",
@@ -2937,11 +3106,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "SAPPHIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1156",
@@ -2954,11 +3124,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "SAPPHIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1159",
@@ -2971,11 +3142,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "100 PCS PER PACK",
     "tags": "CABLE, TIES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "10 CM 2.5 MM",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1160",
@@ -2988,11 +3160,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CLAMP, PEX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 25,
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1161",
@@ -3005,11 +3178,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "SEKREN  W MASKTEN",
     "tags": "MASKTEN, SEKREN, VALVE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1162",
@@ -3022,11 +3196,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "صباب كلابيه\nLA TROMBIT MAY",
     "tags": "LA, MAY, SAPPHIRE, TRMOBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1164",
@@ -3039,11 +3214,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "صباب كلابيه\nLA TROMBIT MAY",
     "tags": "LA, MAY, SAPPHIRE, TRMOBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1165",
@@ -3056,11 +3232,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1166",
@@ -3073,11 +3250,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "بيزبط لخلاط المجلى القديم",
     "tags": "CONN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1168",
@@ -3090,11 +3268,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "BRASS",
     "tags": "BRASS, MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1169",
@@ -3107,11 +3286,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "HOSE, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 1/4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1170",
@@ -3124,11 +3304,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "HOSE, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1171",
@@ -3141,11 +3322,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "BYERKAB LAL 1 1/4\" AW 1 1/2\"",
     "tags": "1, \"1/2\"\"\", \"1/4\"\"\", AW, BYERKAB, HOSE, LAL, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1173",
@@ -3158,13 +3340,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "50W, 90%, BULB, Energy, LAMP, LED, Light, Saving",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "12 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1173_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1174",
@@ -3177,11 +3360,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "ANTIQUE EDISON BULB A60\nE27",
     "tags": "A60, ANTIQUE, BULB, E27, EDISON, LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "4 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1175",
@@ -3194,13 +3378,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "MELODY SOUNDER PIANO\nDING-DONG DOOR BELL",
     "tags": "BELL, DING-DONG, DOOR, MELODY, SOUNDER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1175_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1177",
@@ -3213,11 +3398,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "SLIM LED CEILING - WALL LAMP\n22 CM DIAMETER\nWATERPROOF",
     "tags": "22, CEILING, CM, DIAMETER, LAMP, LED, SLIM, WALL, WATERPROOF",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1179",
@@ -3230,11 +3416,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "1000V DC\nSIZE 10 X 38",
     "tags": "10, 1000V, 38, DC, FUSE, PORCELAIN, SIZE, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "20 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1180",
@@ -3247,11 +3434,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "1000V DC\nSIZE 10 X 38",
     "tags": "10, 1000V, 38, DC, FUSE, PORCELAIN, SIZE, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "32 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1182",
@@ -3264,11 +3452,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "CABINET, COVER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1184",
@@ -3281,13 +3470,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "ALBA N7AS \nITANI MRATTABE\n1/2\" FAT7IT 3/4\"",
     "tags": "\"1/2\"\"\", \"3/4\"\"\", ALBA, BALL, FAT7IT, FLOAT, ITANI, MRATTABE, N7AS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1184_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1186",
@@ -3300,11 +3490,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "ورق ستانلس مدرج SIZE 115 X 22 MM\nMETAL STEEL , STAINLESS STEEL",
     "tags": "115, 22, DISC, METAL, MM, SIZE, STEEL, STEINLESS, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 21,
     "sizes": "P 40",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1188",
@@ -3317,11 +3508,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "زاوية نجارين المنيوم",
     "tags": "90, RULER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1189",
@@ -3334,11 +3526,12 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "DISPOSABLE SYRINGE",
     "tags": "DISPOSABLE, GEL, KILLROACH, SYRINGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "15 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1194",
@@ -3351,11 +3544,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "PER PIECE",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 X 150 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1196",
@@ -3368,11 +3562,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "",
     "tags": "BARROW, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "130 KG",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1201",
@@ -3385,11 +3580,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "FOR PR12A, M12V, C10RA2, CC12Y, G18SE2, G23SC2\n12 VOLTS",
     "tags": "12, BRUSH, C10RA2, CARBON, CC12Y, G18SE2, G23SC2, HITACHI, M12V, PR12A, VOLTS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "999044",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1203",
@@ -3402,11 +3598,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "SIZE 6.3 X 12.5 X 21 MM\nFOR BOSCH",
     "tags": "16, 22, 3, 6, BOSCH, BRUSH, CARBON, MM, SIZE, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "38",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1204",
@@ -3419,11 +3616,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "50 CM ELLA CHWEY",
     "tags": "SEAVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1205",
@@ -3436,11 +3634,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "50 CM ELLA CHWEY",
     "tags": "SEAVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "917",
@@ -3453,13 +3652,14 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "WITH 2 LAYERS INSIDE",
     "tags": "2, 33, BOX, INSIDE, LAYERS, TOOL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45 X 25 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/917_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "918",
@@ -3472,11 +3672,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "WITH METAL HANDLES AND 2 LAYERS INSIDE AND 1 LAYER OUTSIDE",
     "tags": "450E, BOX, HANDLES, INSIDE, LAYERS, METAL, TOOL, TWO",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45 X 25 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "920",
@@ -3489,13 +3690,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "INCLUDING 2 BATTERIES 21V AND 3 SOCKETS\nشد وحل",
     "tags": "2, 21V, 3, BATTERIES, INCLUDING, SOCKETS, SWITCH, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "700 N",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/920_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "923",
@@ -3508,11 +3710,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "RACCORD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "E 27",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "926",
@@ -3525,11 +3728,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MA3 MESFEYE, EASY",
     "tags": "HOSE, MA3, MESFEYE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "927",
@@ -3542,11 +3746,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "SHELLO BRAND",
     "tags": "T, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "848",
@@ -3559,11 +3764,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "1 GROSS = 100 PCS",
     "tags": "1, GROSS, ROOFING, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/4 X 5/8",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "849",
@@ -3576,11 +3782,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "",
     "tags": "LOCK, SPARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "9.50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "850",
@@ -3593,11 +3800,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SHELF, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 38,
     "sizes": "2 X 2 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "851",
@@ -3610,13 +3818,14 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SHELF, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 105,
     "sizes": "4 X 4 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/851_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "852",
@@ -3629,11 +3838,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "PATEX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "50 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "853",
@@ -3646,11 +3856,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "HOLE, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "854",
@@ -3663,11 +3874,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "HOLE, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "855",
@@ -3680,11 +3892,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "HOLE, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "28 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "862",
@@ -3697,11 +3910,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "",
     "tags": "HINGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "863",
@@ -3714,11 +3928,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "",
     "tags": "HINGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 21,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "864",
@@ -3731,11 +3946,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "",
     "tags": "HINGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "865",
@@ -3748,11 +3964,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "ايطالي",
     "tags": "GARDEN, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12.78,
     "sizes": "1 M",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "866",
@@ -3765,13 +3982,14 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "TO SELL PER LINEAR METER",
     "tags": "LINEAR, METER, NYLON, PER, ROPE, SELL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 166,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/866_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "867",
@@ -3784,11 +4002,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ROLLBOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 207,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "868",
@@ -3801,11 +4020,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ROLLBOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 29,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "870",
@@ -3818,11 +4038,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "يستعمل حبل للغسيل",
     "tags": "METAL, TIE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 KG",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "872",
@@ -3835,11 +4056,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "MA3 JAWZE AND 3 KEYS 3ADE MADE IN ITALY",
     "tags": "3, 3ADE, CYLINDER, DOOR, IN, ITALY, JAWZE, KEYS, MA3, MADE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "873",
@@ -3852,11 +4074,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "WEATHER PROOF SETS IN 15 MINUTES STICK TO WET SURFACE",
     "tags": "15, HICH, IN, MINUTES, PROOF, SETS, STICK, SURFACE, TACK, WEATHER, WET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "290 /310 ML",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "874",
@@ -3869,13 +4092,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "10, 16, FT, MEASURING, MM, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "7.5 M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/874_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "875",
@@ -3888,11 +4112,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "TOYO 88 MM",
     "tags": "10, 16, FT, MEASURING, MM, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "10 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "880",
@@ -3905,13 +4130,14 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "DOUBLE, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/880_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "881",
@@ -3924,11 +4150,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "3 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "882",
@@ -3941,13 +4168,14 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "COVER, SHADE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 49,
     "sizes": "4 X 10 M",
     "attribute": "TRANSPARENT",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/882_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "883",
@@ -3960,11 +4188,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "MOLITAL 5100 MAX RPM HOLE 22.23 MM",
     "tags": "dep, name, test",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "12\"30 CM 4MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "884",
@@ -3977,13 +4206,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "dep, name, test",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12\"30CM 3MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/884_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "876",
@@ -3996,11 +4226,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR USE 4.5\" DIAMETER ANGLE GRINDER \nCARVE CUT AND SHAPE",
     "tags": "4, \"5\"\"\", ANGLE, CARVE, CUT, DIAMETER, DISC, GRINDER, SHAPE, USE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "115 X 22 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "885",
@@ -4013,13 +4244,14 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "HANDLE, PAINTROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "23  X 30 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/885_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "879",
@@ -4032,11 +4264,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR 4,5,6,7,9\" ANGLE GRINDER",
     "tags": "4, 5, 6, 7, \"9\"\"\", ANGLE, GRINDER, PIN, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "19 X 3.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "887",
@@ -4049,11 +4282,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "PLUG, SPARK, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "16\" 33 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "889",
@@ -4066,11 +4300,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "CORDLESS FOR CIRCUIT BREAKER WITH 12 HEADS INCLUDING CHARGER",
     "tags": "12, BREAKER, CHARGER, CIRCUIT, CORDLESS, HEADS, INCLUDING, SCREWDRIVER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4.8 V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "892",
@@ -4083,11 +4318,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "893",
@@ -4100,11 +4336,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "BATHTUB, CAP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "894",
@@ -4117,13 +4354,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "STAINLESS STEEL",
     "tags": "HAND, HOSE, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.50 M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/894_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "897",
@@ -4136,13 +4374,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "VITESSE",
     "tags": "LEVER, MIXERخلاط, SINK, VITESSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/897_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "898",
@@ -4155,13 +4394,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "VITESSE",
     "tags": "LEVER, MIXERخلاط, SHOWER, VITESSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/898_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "899",
@@ -4174,11 +4414,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "ELECTRIC, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 19,
     "sizes": "20 M X 19 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "901",
@@ -4191,11 +4432,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "CABLE, CUT, PLIER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "8\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "905",
@@ -4208,11 +4450,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "CLAMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "12 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "906",
@@ -4225,11 +4468,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "1 PC",
     "tags": "1, DOOR, PC, STOP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 88,
     "sizes": "2.5 X 2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "907",
@@ -4242,11 +4486,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "GLASS DOOR MAGNETIC CATCH PUSH BUTTON 2 PCS PER SET",
     "tags": "2, BUTTON, CATCH, DOOR, DOUBLE, GLASS, MAGNETIC, PCS, PER, PUSH, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "908",
@@ -4259,11 +4504,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "5000 PCS PER PACK \n1008F\nكبيس",
     "tags": "1008F, 5000, PACK, PCS, PER, STAPLES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "8  X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "910",
@@ -4276,11 +4522,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "5000 PCS PER PACK\nمسمار",
     "tags": "1008F, 5000, PACK, PCS, PER, STAPLES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 X 120 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "911",
@@ -4293,11 +4540,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "5000 PCS PER PACK\nمسمار",
     "tags": "1008F, 5000, PACK, PCS, PER, STAPLES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "30 X 125 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "912",
@@ -4310,11 +4558,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "5000 PCS PER PACK\nمسمار",
     "tags": "1008F, 5000, PACK, PCS, PER, STAPLES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 x 125 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "913",
@@ -4327,11 +4576,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "5000 PCS PER PACK\nمسمار",
     "tags": "1008F, 5000, PACK, PCS, PER, STAPLES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 X 125 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "914",
@@ -4344,13 +4594,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "10 PCS PER SET (6-7 MM, 8-9 MM, 10-11 MM, 12-13 MM, 14-15 MM, 16-17 MM, 18-19 MM, 20-22 MM)",
     "tags": "(6-7, 10, 10-11, 12-13, 14-15, 16-17, 18-19, 20-22, 8-9, MM, MM), PCS, PER, PLUG, SET, SPARK, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/914_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "916",
@@ -4363,11 +4614,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "للخزانة\nPER METER",
     "tags": "BAR, STAINLESS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "485",
@@ -4380,13 +4632,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "FOR SOLAR SYSTEM 2 POLE",
     "tags": "BREAKER, CIRCUIT, DC, SOLAR, SYSTEM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "500 V , 25 A",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/485_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "487",
@@ -4399,13 +4652,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DC 12 V POWER 24W",
     "tags": "12, 24W, DC, LED, LIGHT, METER, PER, POWER, STRIP, V",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "5 M",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/487_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "488",
@@ -4418,13 +4672,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DC 12 V POWER 24W",
     "tags": "12, 24W, DC, LED, LIGHT, METER, PER, POWER, STRIP, V",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "5 M",
     "attribute": "YELLOW",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/488_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "492",
@@ -4437,11 +4692,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "14 W 6500 K 165 - 265 VOLT\nBYONWASLO BIBA3ED BYENZED 3ALAYA KAZA LAMBA",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "90 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "495",
@@ -4454,11 +4710,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "NOT ADHESIVE 12 MM 180 D",
     "tags": "12, 180, ADHESIVE, D, LIGHT, MM, NOT, STRIP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 90,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "499",
@@ -4471,11 +4728,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "FLAT 45 CABON STEEL PLASTIC HANDLE",
     "tags": "45, CABON, FILES, FLAT, HANDLE, PLASTIC, STEEL, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "500",
@@ -4488,11 +4746,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "DESOLDERING, PUMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "19 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "501",
@@ -4505,13 +4764,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "PLIER, RING, SNAP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/501_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "503",
@@ -4524,11 +4784,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "TOUL 50 MM\n100 PCS PER BOX",
     "tags": "TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "504",
@@ -4541,11 +4802,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "TOUL 65 MM\n50 PCS PER BOX",
     "tags": "TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "507",
@@ -4558,11 +4820,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "BAL, LINEN, ROPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "WHITE",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "508",
@@ -4575,11 +4838,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "BISCUIT, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 950,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "511",
@@ -4592,11 +4856,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "5 PCS PER PACK\n5 - 50 MM FOR CUTTING",
     "tags": "5, 50, BLADE, CUTTING, MM, PACK, PCS, PER, SAW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "96",
@@ -4609,11 +4874,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "COBRA BRAND",
     "tags": "ELECTRIC, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "5.5 M",
     "attribute": "BLACK /WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "97",
@@ -4626,11 +4892,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "ALTECO BRAND",
     "tags": "ELECTRIC, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "9 M",
     "attribute": "BLACK /WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "98",
@@ -4643,11 +4910,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "10, 16, ELECTRICAL, PLUG, X3",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "99",
@@ -4660,13 +4928,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "BLACK OR WHITE",
     "tags": "HOLDER, LAMP, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 16,
     "sizes": "4 A",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/99_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "100",
@@ -4679,11 +4948,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CORD, EXTENSION, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "101",
@@ -4696,13 +4966,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CORD, EXTENSION, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/101_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "103",
@@ -4715,11 +4986,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CORD, EXTENSION, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "107",
@@ -4732,11 +5004,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "",
     "tags": "CONSTRUCTION, THREAD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "50 M",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "111",
@@ -4749,11 +5022,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "ALUMINUM, FOIL, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "10 M / 48 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "116",
@@ -4766,11 +5040,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "",
     "tags": "HAMMER, TILES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "27 X 7.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "117",
@@ -4783,13 +5058,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "shello",
     "tags": "ANGLE, BAVARYA, STAINLESS, STEEL, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/117_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "118",
@@ -4802,11 +5078,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "LOCK, VALVE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "123",
@@ -4819,13 +5096,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "MOVABLE WITH SUPPORT AND HOSE متحرك مع نبريج وقاعدة",
     "tags": "HOSE, MOVABLE, PHONE, SHOWER, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/123_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "127",
@@ -4838,11 +5116,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "USE UNDER THE LIMIT LINE 6 MM",
     "tags": "6, BRUSH, CARBON, LIMIT, LINE, MM, UNDER, USE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "02 - 090",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "128",
@@ -4855,11 +5134,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "ELECTRIC, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 16,
     "sizes": "20 M X 19 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "133",
@@ -4872,13 +5152,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "GLUE, HANDLE, TOWEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 CM",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/133_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "134",
@@ -4891,13 +5172,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "WITH 2 HOSES HOT AND COLD",
     "tags": "2, COLD, HOSES, HOT, MIXER, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "27 CM",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/134_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "137",
@@ -4910,11 +5192,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "CYLINDER 8 CM WITH 3 KEYS\nbyemshe chmel w yamin",
     "tags": "3, 8, CM, CYLINDER, KEYS, LOCK, STICKY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "8.5 X 12 CM",
     "attribute": "RIGHT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "138",
@@ -4927,13 +5210,14 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "TITAN PASTA 10 PACKS",
     "tags": "10, MICE, PACKS, PASTA, RAT, TITEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "200 GR",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/138_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "142",
@@ -4946,13 +5230,14 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "100 PCS PER PACK",
     "tags": "CABLE, TIES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "30 CM 4.8 MM",
     "attribute": "BLACK WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/142_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "143",
@@ -4965,13 +5250,14 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "100 PCS PER PACK",
     "tags": "CABLE, TIES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 CM 4.8 MM",
     "attribute": "BLACK WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/143_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "147",
@@ -4984,11 +5270,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "240V AELIFV",
     "tags": "BREAKER, CIRCUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "149",
@@ -5001,11 +5288,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "240V AELIFV",
     "tags": "BREAKER, CIRCUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "150",
@@ -5018,11 +5306,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "240V AELIFV",
     "tags": "BREAKER, CIRCUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "YELLOW",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "151",
@@ -5035,13 +5324,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "100% COPPER 220V - 230 V",
     "tags": "100%, 220V, 230, AC, CONTACTOR, COPPER, V",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "40 A",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/151_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "152",
@@ -5054,11 +5344,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "50 X 16 CM ITANI",
     "tags": "BALL, FLOAT, TANK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "155",
@@ -5071,13 +5362,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "SAPPHIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/155_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "156",
@@ -5090,11 +5382,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "220V",
     "tags": "220V, RESISTANCE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "800 W",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "157",
@@ -5107,11 +5400,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "250V - 400V",
     "tags": "250V, 400V, THERMOSTAT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "15 - 15 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "168",
@@ -5124,11 +5418,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "SINGLE 240V CHINT",
     "tags": "BREAKER, CIRCUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "25 A",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "179",
@@ -5141,11 +5436,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "220V",
     "tags": "220V, RESISTANCE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1200 W",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "180",
@@ -5158,11 +5454,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "",
     "tags": "GAS, TIE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "181",
@@ -5175,11 +5472,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY , SEPARATE HOSE , 30 CM",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "182",
@@ -5192,11 +5490,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY , SEPARATE HOSE",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "183",
@@ -5209,13 +5508,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY, 30 CM",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/183_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "186",
@@ -5228,13 +5528,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CONNECTOR VALVE, BRASS",
     "tags": "LOCK, VALVE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/186_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "187",
@@ -5247,13 +5548,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "نحاس",
     "tags": "LOCK, VALVE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/2\" 3/4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/187_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "188",
@@ -5266,11 +5568,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "LOCK, VALVE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "190",
@@ -5283,11 +5586,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "سحب",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.5 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "191",
@@ -5300,11 +5604,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "كب",
     "tags": "HBBH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2.5 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "192",
@@ -5317,11 +5622,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "نحاس",
     "tags": "2, CONNECTOR, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "193",
@@ -5334,11 +5640,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "نحاس",
     "tags": "2, CONNECTOR, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "194",
@@ -5351,11 +5658,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "نحاس",
     "tags": "2, CONNECTOR, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 14,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "401",
@@ -5368,13 +5676,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "4 , 6 , 8 POLES RJ 45 RJ 11 RJ 12\nNETWORK CABLE PLIER",
     "tags": "11, 12, 4, 45, 6, 8, CRIMPER, POLES, RJ",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3 POLES",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/401_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "410",
@@ -5387,11 +5696,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "WASPS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 57,
     "sizes": "4 X 60 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "412",
@@ -5404,11 +5714,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "3 IN 1",
     "tags": "1, 3, AC, DC, IN, TESTER, VOLTAGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "413",
@@ -5421,11 +5732,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "INCLUDING 4 BLADES",
     "tags": "4, BLADES, CLEANER, CUTTER, INCLUDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "17 X 6.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "415",
@@ -5438,13 +5750,14 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "10 PCS PER BOX",
     "tags": "10, BLADES, BOX, PCS, PER, SPARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/415_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "416",
@@ -5457,11 +5770,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "MISTER",
     "tags": "DISPENSER, MISTER, OIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "500 ML",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "418",
@@ -5474,11 +5788,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "QUICK EPOXY ADHESIVE FOR PLASTIC , RUBBER , CERAMIC , WOOD , GLASS , METAL , CONCRETE",
     "tags": "AB, ALTECO",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "56.7 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "420",
@@ -5491,11 +5806,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "TENSIONER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 65,
     "sizes": "3/16\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "421",
@@ -5508,13 +5824,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "BETON",
     "tags": "CHISEL, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "15 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/421_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "423",
@@ -5527,13 +5844,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "WITH BLADE FOR HARD MATERIAL AND SOFT MATERIAL 24 TEETH PER 25 MM",
     "tags": "24, 25, BLADE, FRAME, HACKSAW, HARD, MATERIAL, MM, PER, SOFT, TEETH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "20 X 7 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/423_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "424",
@@ -5546,13 +5864,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "CUTTING, PLIER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "16.5",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/424_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "425",
@@ -5565,11 +5884,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR IRON 115 MM",
     "tags": "115, ABRASIVE, DISK, IRON, MM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 47,
     "sizes": "P 80",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "426",
@@ -5582,11 +5902,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR IRON 115 MM",
     "tags": "115, ABRASIVE, DISK, IRON, MM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 89,
     "sizes": "P 100",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "428",
@@ -5599,11 +5920,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR WOOD AND OTHERS 115 MM",
     "tags": "115, ABRASIVE, DISK, IRON, MM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "P 80",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "429",
@@ -5616,13 +5938,14 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "WEDGE\n100 PCS PER BAG",
     "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "6 MM",
     "attribute": "BLACK",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/429_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "432",
@@ -5635,11 +5958,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "",
     "tags": "TAPE, WARNING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "450 M X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "434",
@@ -5652,13 +5976,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "SWEDEN",
     "tags": "BLADE, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "53 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/434_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "438",
@@ -5671,13 +5996,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "6 X 160 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/438_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "439",
@@ -5690,13 +6016,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 X 110 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/439_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "440",
@@ -5709,13 +6036,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "14 X 160 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/440_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "443",
@@ -5728,11 +6056,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "8 X 115 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "444",
@@ -5745,11 +6074,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "ELBOW, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "445",
@@ -5762,11 +6092,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "ELBOW, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "446",
@@ -5779,11 +6110,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "12 PCS\nطقم مفتاح شق - شق",
     "tags": "12, PCS, SET, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6 TO 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "447",
@@ -5796,13 +6128,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "3000K 16W",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "90 CM",
     "attribute": "YELLOW",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/447_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "448",
@@ -5815,11 +6148,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DAYLIGHT 6500 K 13 W SIZE 29 X 900 MM",
     "tags": "13, 29, 6500, 900, DAYLIGHT, K, LED, MM, SIZE, T8, W, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "90 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "450",
@@ -5832,11 +6166,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 X 18 X 18 MM",
     "tags": "CLAMP, MM, PEX, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "18 x 18 x 18",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "451",
@@ -5849,11 +6184,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 MM X 1/2\" X 18 MM",
     "tags": "\"1/2\"\"\", 18, CLAMP, MM, PEX, T, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "18 x 1/2 x18",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "452",
@@ -5866,11 +6202,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "18 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "453",
@@ -5883,11 +6220,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "18 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "454",
@@ -5900,11 +6238,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 X 16 X 16 MM",
     "tags": "16, CLAMP, MM, PEX, T, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "16 X 16 X 16",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "455",
@@ -5917,11 +6256,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 16, CORNER, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "456",
@@ -5934,11 +6274,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, CORNER, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "18 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "457",
@@ -5951,11 +6292,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 MM X 1/2\" X 16 MM",
     "tags": "\"1/2\"\"\", 16, CLAMP, MM, PEX, T, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "16 X 1/2 X16",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "458",
@@ -5968,11 +6310,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 MM X 1/2\" X 18 MM",
     "tags": "\"1/2\"\"\", 18, CLAMP, MM, PEX, T, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "18 X 1/2 X18",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "459",
@@ -5985,11 +6328,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 16, CORNER, FIX, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 17,
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "460",
@@ -6002,11 +6346,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 16, CORNER, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "461",
@@ -6019,11 +6364,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 X 16 MM",
     "tags": "16, CORNER, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "16 X 16",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "462",
@@ -6036,11 +6382,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 X 18 MM",
     "tags": "18, CORNER, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "18 X 18",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "463",
@@ -6053,11 +6400,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 X 16 MM",
     "tags": "16, CONNECTOR, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "16 X 16",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "464",
@@ -6070,11 +6418,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "18 X 18 MM",
     "tags": "18, CONNECTOR, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "18 X 18",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "465",
@@ -6087,11 +6436,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "466",
@@ -6104,11 +6454,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "16 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "467",
@@ -6121,11 +6472,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "RONDELLE",
     "tags": "Washer",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1469,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "468",
@@ -6138,11 +6490,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "HEATING UP TO 95 DEGREE \nDIAMETER 2 MM",
     "tags": "PEX, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 91.75,
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "469",
@@ -6155,11 +6508,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "HEATING UP TO 95 DEGREE \nDIAMETER 2 MM",
     "tags": "PEX, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 26,
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "470",
@@ -6172,11 +6526,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "3/4 , 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "471",
@@ -6189,11 +6544,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 , 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "472",
@@ -6206,11 +6562,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 , 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "473",
@@ -6223,13 +6580,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "100, 125, 3, 5, 50, 6, 75, CHA2, DRIVER, MM, SALIB, SCREW, SET, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/473_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "474",
@@ -6242,11 +6600,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "SHOVEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "29 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "475",
@@ -6259,11 +6618,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "MA3 MEFTE7 CHAD",
     "tags": "CHAD, DRILLING, HEAD, MA3, MEFTE7",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1.5 , 10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "478",
@@ -6276,11 +6636,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "Aluminium\nSIZE MISH 12 X 10 CM SIZE MAZBOUT 25 X 20 CM",
     "tags": "SHELF, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 23,
     "sizes": "12 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "479",
@@ -6293,11 +6654,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DIESEL, MANUAL, PUMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "60 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "481",
@@ -6310,11 +6672,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "2 LAYERS",
     "tags": "NYLON, TRANSPARENT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 91.5,
     "sizes": "",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1329",
@@ -6327,13 +6690,14 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, DOUBLE, HARD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 90,
     "sizes": "2 X 1.5 MM",
     "attribute": "BLACK/RED",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1329_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1330",
@@ -6346,11 +6710,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 18.5,
     "sizes": "2 X 2.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1331",
@@ -6363,11 +6728,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 60.6,
     "sizes": "4 X 2 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1332",
@@ -6380,13 +6746,14 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "128 WIRES",
     "tags": "128, CABLE, COAXIAL, RG6, WIRES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 142,
     "sizes": "100 Y",
     "attribute": "BLACK",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1332_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1333",
@@ -6399,11 +6766,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "RG59+POWER",
     "tags": "CABLE, CCTV, RG59",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 90,
     "sizes": "100 Y",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1334",
@@ -6416,11 +6784,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "FOR RG6",
     "tags": "NUT, RG6, SAT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 56,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1335",
@@ -6433,11 +6802,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SINGLE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1336",
@@ -6450,11 +6820,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "16 A",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1337",
@@ -6467,11 +6838,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "BOX, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "7 X 7 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1338",
@@ -6484,11 +6856,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "VIMAR BRAND",
     "tags": "BOXعلبة, BRAND, SWITCH, VIMAR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 18,
     "sizes": "8 X 9 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1339",
@@ -6501,11 +6874,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CHASSIS, GRAND, LE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "3 MODULES",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1340",
@@ -6518,11 +6892,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "FRAME, GRAND, LE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1341",
@@ -6535,11 +6910,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "FRAME, GRAND, LE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "197",
@@ -6552,11 +6928,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "GASKET, TIGHT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 1/2 , 2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "198",
@@ -6569,11 +6946,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "GASKET, TIGHT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "1 1/4 , 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "201",
@@ -6586,13 +6964,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "فيتاس TURKEY",
     "tags": "2, COLD, HOSES, HOT, MIXER, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/201_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "202",
@@ -6605,13 +6984,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "STAINLESS STEEL",
     "tags": "SCISSORS, STAINLESS, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "17 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/202_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "206",
@@ -6624,11 +7004,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "BUBBLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 X 10 M",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "212",
@@ -6641,11 +7022,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "WEDGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2138,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "213",
@@ -6658,11 +7040,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "WEDGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2150,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "214",
@@ -6675,11 +7058,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "BROOM, FLOOR, HANDLE, WITHOUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.20 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "216",
@@ -6692,11 +7076,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "WHITE SPIRIT",
     "tags": "PAINT, THINNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "220",
@@ -6709,11 +7094,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "HOOK, LARGE, NAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 192,
     "sizes": "4.5 X 2 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "221",
@@ -6726,11 +7112,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "HOOK, LARGE, NAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 170,
     "sizes": "2.5 X 1.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "224",
@@ -6743,11 +7130,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "BATHROOM, FAN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4\"",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "226",
@@ -6760,13 +7148,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "BATHROOM, FAN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6\"",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/226_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "228",
@@ -6779,11 +7168,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "PRESSURE, SPRAYER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2 L",
     "attribute": "WHITE ORANGE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "231",
@@ -6796,13 +7186,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "ADJUSTABLE, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/231_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "233",
@@ -6815,11 +7206,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "PIPE, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "12\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "236",
@@ -6832,11 +7224,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "COVER, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "237",
@@ -6849,11 +7242,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "COVER, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "13",
@@ -6866,11 +7260,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "system",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "4.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "17",
@@ -6883,13 +7278,14 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "SMOKELESS",
     "tags": "system",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "10 PCS",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/17_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "238",
@@ -6902,11 +7298,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "رباط بجوان",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "239",
@@ -6919,11 +7316,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "رباط بجوان",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "240",
@@ -6936,11 +7334,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "رباط بجوان",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "241",
@@ -6953,11 +7352,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "رباط بجوان",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "242",
@@ -6970,11 +7370,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "رباط بجوان",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 72,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "243",
@@ -6987,11 +7388,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "رباط بجوان",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 19,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "244",
@@ -7004,11 +7406,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "6\"",
     "tags": "HEAD, LONG, PLIER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "246",
@@ -7021,11 +7424,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CARTRIDGE, SILICONE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "0.8 X 30 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "247",
@@ -7038,11 +7442,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CARTRIDGE, SILICONE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 53,
     "sizes": "1 X 30 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "248",
@@ -7055,13 +7460,14 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "",
     "tags": "CABLE, CAT6, NETWORK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 289.5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/248_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "253",
@@ -7074,11 +7480,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, DOUBLE, HARD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 30.5,
     "sizes": "2 X 1.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "258",
@@ -7091,11 +7498,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "10 X 20 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1 X 2 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "259",
@@ -7108,11 +7516,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "16 X 16 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1.6 X 1.6 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "261",
@@ -7125,11 +7534,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "25 X 25 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "2.5 X 2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "262",
@@ -7142,11 +7552,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "DC 9V",
     "tags": "MEASURE, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "120 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "264",
@@ -7159,13 +7570,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "WITH BAG",
     "tags": "600, CLAMP, DIGITAL, METER, V",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/264_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "267",
@@ -7178,11 +7590,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "BOX, FUSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "8 PCS",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "270",
@@ -7195,11 +7608,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "BOX, FUSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "24 PCS",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "272",
@@ -7212,11 +7626,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "SUPPORT, TIMER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "275",
@@ -7229,13 +7644,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "COIL, RELAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "12 V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/275_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "276",
@@ -7248,13 +7664,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "COIL, RELAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "220 V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/276_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "277",
@@ -7267,11 +7684,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "RELAY, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "12 A 300 V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "278",
@@ -7284,11 +7702,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "BAR, NEUTRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "22 PCS",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "280",
@@ -7301,11 +7720,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "OMEGA",
     "tags": "CIRCUIT, RAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "281",
@@ -7318,11 +7738,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "DIMMER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "SMALL",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "283",
@@ -7335,13 +7756,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "KEYBOX, VISIBLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "3 KEYS",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/283_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "284",
@@ -7354,11 +7776,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "ELECTRIC, SINGLE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "285",
@@ -7371,11 +7794,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "ELECTRICAL, SOCKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 50,
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "286",
@@ -7388,11 +7812,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CAP, ELECTRICAL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 18,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "287",
@@ -7405,11 +7830,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "BREAKER, CIRCUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "SINGLE 63 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1206",
@@ -7422,13 +7848,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "METAL AND INOX\nMAX 13300/MIN 80M/S",
     "tags": "DISC, INOX, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "115 X1.2X 22",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1206_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1208",
@@ -7441,11 +7868,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "HOSE, SHOWER, SUPPORTقاعدة",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1209",
@@ -7458,11 +7886,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "LAL CERAMIC BLAT",
     "tags": "BLAT, CERAMIC, HOLE, LAL, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1210",
@@ -7475,11 +7904,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "LAL CERAMIC BLAT",
     "tags": "BLAT, CERAMIC, HOLE, LAL, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "28 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "570",
@@ -7492,11 +7922,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "SEKER HANAFIYE TAWIL سكر حنفية طويل",
     "tags": "HANAFIYE, MIXER, SEKER, TAWIL, WALL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "15.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "572",
@@ -7509,11 +7940,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BRUSH, WIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "575",
@@ -7526,11 +7958,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "CHAIR, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 440,
     "sizes": "3/4\"",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "576",
@@ -7543,11 +7976,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "CHAIR, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 310,
     "sizes": "7/8\"",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "577",
@@ -7560,11 +7994,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "CHAIR, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 100,
     "sizes": "1 1/8\"",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "579",
@@ -7577,11 +8012,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "84 PCS / BOX",
     "tags": "NAIL, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "4 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "587",
@@ -7594,11 +8030,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "POT, RECT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 X 40 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "595",
@@ -7611,11 +8048,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "POT, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "70 X 53 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "596",
@@ -7628,11 +8066,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "BOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 55,
     "sizes": "8 X 100 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "599",
@@ -7645,13 +8084,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "مسكة كوتشوك",
     "tags": "HAMMER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "0.5 KG",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/599_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "602",
@@ -7664,11 +8104,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "PUNCH HOLE SIZE 2 MM , 2.5 MM , 3 MM , 3.5 MM , 4 MM\n4.5 MM",
     "tags": "2, 3, 4, 5, HOLE, JUNCH, MM, PLIER, PUNCH, SIZE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "606",
@@ -7681,11 +8122,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 260,
     "sizes": "10 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "608",
@@ -7698,11 +8140,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "10 PCS PER BAG",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 X 35 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "609",
@@ -7715,11 +8158,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3 X 65 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "610",
@@ -7732,11 +8176,12 @@ window.NABIL_PRODUCTS = [
     "category": "WATER TANKS",
     "description": "3ARED 62 CM , TOUL 100 CM , OUTPUT TABA3O 1\" N7AS\n8 MM THIKNESS",
     "tags": "TANK, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "300 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "611",
@@ -7749,11 +8194,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CONNECTOR VALVE, BRASS",
     "tags": "BRASS, CONNECTOR, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "612",
@@ -7766,13 +8212,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "خلاط دوش مسكات",
     "tags": "MIXER, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/612_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "613",
@@ -7785,13 +8232,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "HAND, HOSE, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "2 M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/613_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "615",
@@ -7804,11 +8252,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATTERIES",
     "description": "2 PCS PER PACK 1.5 V TESTA3MAL LA AZAN GAS بطارية سخان قازان",
     "tags": "4, BATTERY, OSEL, PACK, PCS, PER, SUPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "R20P",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "616",
@@ -7821,11 +8270,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "FOR WALL",
     "tags": "ABRASIVE, PAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "P 220",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "617",
@@ -7838,11 +8288,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "FOR WALL",
     "tags": "ABRASIVE, PAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "P 320",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "618",
@@ -7855,11 +8306,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "FOR METAL WATERPROOF",
     "tags": "ABRASIVE, PAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "P 400",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "619",
@@ -7872,11 +8324,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "FOR METAL WATERPROOF",
     "tags": "ABRASIVE, PAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 36,
     "sizes": "P 1200",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "621",
@@ -7889,11 +8342,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "PDSS16A1 , INCLUDING 10 GRINDING TOOL ,\nCOMPATIBLE FROM 3 TO 6 MM MAX PRESSURE 6.3 BAR",
     "tags": "10, 3, 6, BAR, COMPATIBLE, GRINDER, GRINDING, INCLUDING, MAX, MM, PDSS16A1, PRESSURE, TOOL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "624",
@@ -7906,13 +8360,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "SAFIR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/624_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "625",
@@ -7925,11 +8380,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "FLEXIBLE\nTOUL 50 CM",
     "tags": "50, CM, FLEXIBLE, HOSE, SANITARY, TOUL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1046",
@@ -7942,13 +8398,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "2  IN 1 BATTERY AND MANUAL\nSUITABLE FOR 200 - 500 M2",
     "tags": "1, 2, 2in1, battery, in, manual, SPRAYER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 L",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1046_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1056",
@@ -7961,11 +8418,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "EXT, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "16 A",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1057",
@@ -7978,11 +8436,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "3500 W",
     "tags": "3500, EXT, FEMALE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "16 A",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1058",
@@ -7995,13 +8454,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "WITH ONE BATTERY\nUP TO 150 METERS \n35 TUNES",
     "tags": "150, 35, BATTERY, DOORBELL, METERS, TUNES, UP, WIRELESS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1058_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1061",
@@ -8014,11 +8474,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "ضوي تحويل من كبس ل قلاووز E27",
     "tags": "B22, CONVERTER, E27, LAMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1065",
@@ -8031,11 +8492,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "مع فتحات\nJUNCTION BOX",
     "tags": "BOX, PVC, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "24X19X9 CM",
     "attribute": "GREY",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1067",
@@ -8048,11 +8510,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "10 METERS 10 PLUGS \nFOR OUTDOOR USE\nWITHOUT LAMPS",
     "tags": "10, LAMP, LAMPS, METERS, OUTDOOR, PLUGS, SERIES, USE, WITHOUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1068",
@@ -8065,11 +8528,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "15 METERS 15 PLUGS \nFOR OUTDOOR USE\nWITHOUT LAMPS",
     "tags": "10, LAMP, LAMPS, METERS, OUTDOOR, PLUGS, SERIES, USE, WITHOUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "15 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1072",
@@ -8082,13 +8546,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "50W, 90%, BULB, Energy, LAMP, LED, Light, Saving",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "30 W E27",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1072_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1073",
@@ -8101,13 +8566,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "50W, 90%, BULB, Energy, LAMP, LED, Light, Saving",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 W E27",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1073_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1074",
@@ -8120,11 +8586,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "50W, 90%, BULB, Energy, LAMP, LED, Light, Saving",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "5 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "389",
@@ -8137,11 +8604,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CLAMP, PEX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 23,
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "390",
@@ -8154,11 +8622,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CLAMP, PEX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12.75,
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "391",
@@ -8171,13 +8640,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "FRIDGE, LAMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "15 W E17",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/391_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "396",
@@ -8190,11 +8660,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "12 PCS PER SET",
     "tags": "12, JONCTION, PCS, PER, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "60 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "397",
@@ -8207,13 +8678,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "FILTER, WASHER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "12 X 6 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/397_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "398",
@@ -8226,11 +8698,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "DISTILLED, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "732",
@@ -8243,11 +8716,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATTERIES",
     "description": "SELLING PER ONE PIECE\nRED OR BLACK",
     "tags": "BLACK, BOOSTER, CLAMPS, RED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "733",
@@ -8260,11 +8734,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "734",
@@ -8277,11 +8752,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "737",
@@ -8294,11 +8770,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "F, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "740",
@@ -8311,11 +8788,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, M",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "20 MM X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "741",
@@ -8328,13 +8806,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, M",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/741_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "742",
@@ -8347,11 +8826,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, M",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "32 MM X 1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "744",
@@ -8364,11 +8844,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, F",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "20 MM X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "745",
@@ -8381,11 +8862,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, F",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "746",
@@ -8398,11 +8880,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, F",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "32 MM X 1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "747",
@@ -8415,11 +8898,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, F",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "50 X 1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "748",
@@ -8432,11 +8916,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "F, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "20 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "750",
@@ -8449,11 +8934,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "F, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "40 X 40 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "751",
@@ -8466,11 +8952,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "F, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "50 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "752",
@@ -8483,11 +8970,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "20 X 20 X 20",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "753",
@@ -8500,11 +8988,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "25 X 25 X 25",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "754",
@@ -8517,11 +9006,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "40 X 40 X 40",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "755",
@@ -8534,11 +9024,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "50 X 50 X 50",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "756",
@@ -8551,11 +9042,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "90, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "20 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "757",
@@ -8568,11 +9060,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "90, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 33,
     "sizes": "25 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "758",
@@ -8585,11 +9078,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "90, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "40 X 40 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "760",
@@ -8602,11 +9096,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CAP, END",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "762",
@@ -8619,11 +9114,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CAP, END",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "763",
@@ -8636,11 +9132,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CAP, END",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "765",
@@ -8653,11 +9150,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "REDUCED, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "20 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "766",
@@ -8670,11 +9168,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "REDUCED, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "32 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "767",
@@ -8687,11 +9186,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "REDUCED, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "32 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "768",
@@ -8704,11 +9204,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "REDUCED, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "40 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "771",
@@ -8721,11 +9222,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FEMALE, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "20 X 1/2 X20",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "772",
@@ -8738,11 +9240,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FEMALE, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "25 X 3/4 X25",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "773",
@@ -8755,11 +9258,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FEMALE, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "32 X 1 X 32",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "774",
@@ -8772,11 +9276,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FEMALE, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 X1 1/2X50",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "778",
@@ -8789,11 +9294,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "GARDENING, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 41,
     "sizes": "1\" X 50 M",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "779",
@@ -8806,13 +9312,14 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "SILICONE, W/ACID",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "280 ML",
     "attribute": "CLEAR",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/779_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "783",
@@ -8825,13 +9332,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR CONCRETE GRANITE AND CERAMIC",
     "tags": "ABRASIVE, DISC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "115 MM",
     "attribute": "YELLOW",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/783_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "786",
@@ -8844,11 +9352,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ROUND, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 20,
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "788",
@@ -8861,11 +9370,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "4 PCS PER BAG",
     "tags": "SCREW, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "789",
@@ -8878,11 +9388,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "4 PCS PER BAG",
     "tags": "SCREW, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "791",
@@ -8895,11 +9406,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "GRINDER, PLATE, UPPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "792",
@@ -8912,11 +9424,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "GRINDER, LOWER, PLATE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "45 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "793",
@@ -8929,11 +9442,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "9 PCS PER SET INCLUDING BALL END HEX SET FROM\n1.5 TO 10 MM\nHEX SET FROM T10 TO T50",
     "tags": "1, 10, 5, 9, BALL, END, HEX, INCLUDING, KEY, MM, PCS, PER, SET, T10, T50",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "794",
@@ -8946,11 +9460,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "50 PCS PER BAG",
     "tags": "50, BAG, CERAMIC, PCS, PER, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "795",
@@ -8963,11 +9478,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "TENSIONER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 30,
     "sizes": "1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "796",
@@ -8980,11 +9496,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "17 MM , 19 MM , 21 MM , 24 MM",
     "tags": "KEY, RIM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "35.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "797",
@@ -8997,11 +9514,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "798",
@@ -9014,11 +9532,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "11 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "800",
@@ -9031,11 +9550,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "801",
@@ -9048,11 +9568,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "802",
@@ -9065,11 +9586,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "15 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "803",
@@ -9082,11 +9604,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "804",
@@ -9099,11 +9622,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "805",
@@ -9116,11 +9640,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "19 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "807",
@@ -9133,11 +9658,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "LOCKING, LUNG, NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "808",
@@ -9150,11 +9676,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "LOCKING, LUNG, NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "809",
@@ -9167,11 +9694,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "METAL, SCREW, SHEET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 200,
     "sizes": "10 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "810",
@@ -9184,11 +9712,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "8 X 310 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "811",
@@ -9201,13 +9730,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 X 210 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/811_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "814",
@@ -9220,11 +9750,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FENCE, GARDEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 50.4,
     "sizes": "1 M",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "635",
@@ -9237,11 +9768,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "636",
@@ -9254,11 +9786,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "637",
@@ -9271,11 +9804,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "BYESTA3MLOUWA LA YSAKKRO ANINET MAY SOKHNE",
     "tags": "CAP, END, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "638",
@@ -9288,11 +9822,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, FEMALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "639",
@@ -9305,11 +9840,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, FEMALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "640",
@@ -9322,11 +9858,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, FEMALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "641",
@@ -9339,11 +9876,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CAP, END, FEMALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "642",
@@ -9356,11 +9894,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CON",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "643",
@@ -9373,11 +9912,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CON",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "644",
@@ -9390,11 +9930,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CON",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "645",
@@ -9407,11 +9948,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "646",
@@ -9424,11 +9966,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "648",
@@ -9441,11 +9984,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "649",
@@ -9458,11 +10002,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "650",
@@ -9475,11 +10020,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "651",
@@ -9492,11 +10038,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "652",
@@ -9509,11 +10056,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "654",
@@ -9526,11 +10074,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "655",
@@ -9543,11 +10092,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "659",
@@ -9560,11 +10110,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "660",
@@ -9577,11 +10128,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "661",
@@ -9594,11 +10146,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "662",
@@ -9611,11 +10164,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "664",
@@ -9628,11 +10182,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "665",
@@ -9645,11 +10200,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "666",
@@ -9662,11 +10218,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "667",
@@ -9679,11 +10236,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "668",
@@ -9696,11 +10254,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "669",
@@ -9713,11 +10272,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "670",
@@ -9730,11 +10290,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHROME",
     "tags": "BRASS, CONNECTION, MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "671",
@@ -9747,13 +10308,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "N7AS SET OF 2 PCS",
     "tags": "2, FIX, PCS, PLASTIC, SCREW, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/671_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "674",
@@ -9766,11 +10328,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "COVER, SHADE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.8 X 2.75 M",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "678",
@@ -9783,11 +10346,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "1 1/2\" X 10 CM",
     "tags": "CONNECTOR, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1 1/2\" X 10",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "681",
@@ -9800,11 +10364,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3/4 X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "683",
@@ -9817,11 +10382,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "684",
@@ -9834,11 +10400,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1 1/2 X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "685",
@@ -9851,11 +10418,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "1 1/2 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "686",
@@ -9868,11 +10436,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 1/2 X 1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "689",
@@ -9885,13 +10454,14 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "PER PIECE",
     "tags": "12, PACK, PCS, PENCIL, PER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "18 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/689_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "691",
@@ -9904,11 +10474,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "HOSE, PU",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "696",
@@ -9921,11 +10492,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "ITANI",
     "tags": "ACCES, FLUSH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "698",
@@ -9938,11 +10510,12 @@ window.NABIL_PRODUCTS = [
     "category": "WATER TANKS",
     "description": "3ARED 50 CM , TOUL 57 CM , OUTPUT TABA3O 1\" N7AS\n8 MM THIKNESS",
     "tags": "TANK, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "100 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "699",
@@ -9955,11 +10528,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CHLORE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "18 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "702",
@@ -9972,11 +10546,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "JELDIT GAS",
     "tags": "LEATHER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1627,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "704",
@@ -9989,11 +10564,12 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "راكيت برغش",
     "tags": "DUAL, ELECTRIC, MOSQUITO, USE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "715",
@@ -10006,13 +10582,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CONNECTOR VALVE, BRASS",
     "tags": "BRASS, CONNECTOR, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/715_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "718",
@@ -10025,11 +10602,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "نحاس",
     "tags": "2, CONNECTOR, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "721",
@@ -10042,13 +10620,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "WITH CABLE 2 M , 10 A\nITALIAN",
     "tags": "10, 2, CABLE, FLOAT, ITALY, M, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "2 M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/721_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "724",
@@ -10061,13 +10640,14 @@ window.NABIL_PRODUCTS = [
     "category": "WATER PUMPS",
     "description": "APm60 \n50 L / MIN , HEIGHT MAX 60 M , 0.6 KW , 2900 R / MIN , 220V\n4.5 A , THERMALLY PROTECTED , CONTINOUS DUTY",
     "tags": "LEO, PUMP, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "0.75 HP",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/724_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "726",
@@ -10080,13 +10660,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "ACCES, FLUSH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "28 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/726_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1647",
@@ -10099,11 +10680,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "ADHESIVE, PRIME",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1649",
@@ -10116,11 +10698,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIR, COVER, LEG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 40,
     "sizes": "1.5 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1650",
@@ -10133,11 +10716,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIR, COVER, LEG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 24,
     "sizes": "2 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1651",
@@ -10150,11 +10734,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIR, COVER, LEG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "2.2 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1652",
@@ -10167,11 +10752,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIR, COVER, LEG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2.5 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1653",
@@ -10184,11 +10770,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIR, COVER, LEG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "3 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1655",
@@ -10201,11 +10788,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "STEP 2",
     "tags": "2, PUTTY, SOFT, STEP, WALL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 KG",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "517",
@@ -10218,11 +10806,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "16.5 CM",
     "tags": "AIR, COMPR, HEAD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "519",
@@ -10235,11 +10824,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "WITH COBALT FOR METAL WOOD AND PLASTIC",
     "tags": "COBALT, HOLE, METAL, PLASTIC, SAW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "35 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "520",
@@ -10252,11 +10842,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "WITH COBALT FOR METAL WOOD AND PLASTIC",
     "tags": "COBALT, HOLE, METAL, PLASTIC, SAW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "48 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "522",
@@ -10269,11 +10860,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "WITH COBALT FOR METAL WOOD AND PLASTIC",
     "tags": "COBALT, HOLE, METAL, PLASTIC, SAW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "95 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "523",
@@ -10286,11 +10878,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "WITH COBALT FOR METAL WOOD AND PLASTIC",
     "tags": "COBALT, HOLE, METAL, PLASTIC, SAW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "100 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "525",
@@ -10303,11 +10896,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "4 X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "526",
@@ -10320,11 +10914,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "6 X 95 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "527",
@@ -10337,11 +10932,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "BOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 30,
     "sizes": "8 X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "529",
@@ -10354,13 +10950,14 @@ window.NABIL_PRODUCTS = [
     "category": "LADDER",
     "description": "ESCABOT",
     "tags": "LADDER, STOOL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3 STEPS",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/529_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "530",
@@ -10373,13 +10970,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "BALA RI7A 2.5 KG PER PACK بدون ريحة",
     "tags": "TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "2.5 x 300 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/530_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "531",
@@ -10392,11 +10990,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "HEXAGON, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 440,
     "sizes": "8 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "532",
@@ -10409,11 +11008,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "HEXAGON, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "10 X 30 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "533",
@@ -10426,11 +11026,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIN, METAL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 50,
     "sizes": "5 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "535",
@@ -10443,11 +11044,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "شريط تربيط",
     "tags": "METAL, TIE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "5 KG",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "537",
@@ -10460,11 +11062,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "2.5 MPA",
     "tags": "2, 5, GAS, MPA, TORCHE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "100 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "538",
@@ -10477,13 +11080,14 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CHAIN, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 26,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/538_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "539",
@@ -10496,11 +11100,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "Female",
     "tags": "COVER, TANK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "40.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "541",
@@ -10513,13 +11118,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "SHOWER SET INCLUDE: HOSE , TOP SHOWER , WATER SEPERATOR , BAR , WALL BRACKET , HAND SHOWER , WASHER FOR HOSE 1/2\" , SLIDER , ROUND SOAP DISH",
     "tags": "\"1/2\"\"\", BAR, BRACKET, DISH, HAND, HOSE, INCLUDE:, ROUND, SEPERATOR, SET, SHOWER, SLIDER, SOAP, TOP, WALL, WASHER, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/541_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "984",
@@ -10532,11 +11138,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "220V MADE IN ITALY",
     "tags": "220V, RESISTANCE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1500 W",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "986",
@@ -10549,11 +11156,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAINER, FLOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "987",
@@ -10566,11 +11174,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAINER, FLOOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "989",
@@ -10583,11 +11192,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "BAL, TANK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "990",
@@ -10600,11 +11210,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "RIVETS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 800,
     "sizes": "4 X 10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "991",
@@ -10617,11 +11228,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "RIVETS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 500,
     "sizes": "5 X 10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "992",
@@ -10634,11 +11246,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 270,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "993",
@@ -10651,11 +11264,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 161,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "997",
@@ -10668,11 +11282,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "PLATINUM, TAPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "998",
@@ -10685,11 +11300,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "TESA",
     "tags": "DUCT, TAPE, TESA, VINYL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "5  CM X 25 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "999",
@@ -10702,13 +11318,14 @@ window.NABIL_PRODUCTS = [
     "category": "WATER PUMPS",
     "description": "APm37\n220V\nTHERMALLY PROTECTED , CONTINOUS DUTY",
     "tags": "LEO, PUMP, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "0.50 HP",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/999_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1000",
@@ -10721,13 +11338,14 @@ window.NABIL_PRODUCTS = [
     "category": "WATER PUMPS",
     "description": "APm75\n220V\nTHERMALLY PROTECTED , CONTINOUS DUTY",
     "tags": "LEO, PUMP, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 HP",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1000_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1003",
@@ -10740,13 +11358,14 @@ window.NABIL_PRODUCTS = [
     "category": "WATER PUMPS",
     "description": "XKS-750PW Garden Submersible Pump للمياه الحلوة\nMAX IMMERSIOJN DEPTH 7 METERS / OUTLET 1 1/2\"\nMAX TEMPERATURE 35 DEG\n-Garden Submersible Pump can be used to transfer clean or slightly dirty water or other liquids with similar physical and chemical properties towards water.\n-Garden Submersible Pump is suitable to be immersed in water for lifting water from the well or the pool, and draining water from the basement.",
     "tags": "Application:, basement, can, chemical, clean, dirty, draining, Garden, immersed, in, LEO, lifting, liquids, physical, pool, properties, Pump, PUMPطلمبة, similar, slightly, SUBMERSIBLE, suitable, towards, transfer, used, water, well, XKS-PW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "750 W",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1003_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1004",
@@ -10759,11 +11378,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "SET OF 2 PCS FOR TUBES 20 MM DIAMETER\nPLASTIC",
     "tags": "2, 20, DIAMETER, MM, PCS, SET, SUPPORT, TUBE, TUBES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 40,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1005",
@@ -10776,11 +11396,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "RPM MAX 6600 V MAX 80 M/S SAW BLADE BASE 65MN\n9\"",
     "tags": "DIAMOND, DISK, GRANITE, ITALIAN, TURBO",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "230 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1006",
@@ -10793,11 +11414,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "GARDEN, PICK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "44 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1008",
@@ -10810,11 +11432,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "IRON, RUG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 38,
     "sizes": "14 X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1009",
@@ -10827,11 +11450,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "IRON, RUG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 77,
     "sizes": "20 X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1010",
@@ -10844,11 +11468,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "MADE IN ITALY",
     "tags": "IN, ITALY, LOCK, MADE, SECURITY, YALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "40 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1011",
@@ -10861,13 +11486,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "4 MODES 7 LED USB CHARGING",
     "tags": "4, 7, CHARGING, HEADLIGHT, LED, MODES, USB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1011_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1015",
@@ -10880,11 +11506,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "5 KEYS",
     "tags": "5, CYLINDER, KEY, KEYS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "9 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1019",
@@ -10897,11 +11524,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "BIDET, SCREW, SETطقم",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1021",
@@ -10914,11 +11542,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "APPROX 166 GR PER BAG",
     "tags": "NAIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7505,
     "sizes": "2 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1022",
@@ -10931,11 +11560,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "1/2\" LA 3 AM7AT",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "1/2, 3/8\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1024",
@@ -10948,11 +11578,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "NABRIJ DAGHET LAL KHOLLAT, PLASTIC \n20 BAR, HOT AND COLD WATER",
     "tags": "20, BAR, COLD, DAGHET, HOSE, HOT, KHOLLAT, LAL, NABRIJ, PLASTIC, SANIT, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1026",
@@ -10965,11 +11596,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "تكة رف",
     "tags": "SCREW, SHELF",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 600,
     "sizes": "",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1030",
@@ -10982,13 +11614,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "INCLUDING 6 PCS SPARE BLADE\nCUTTER",
     "tags": "6, BLADE, FOLDING, INCLUDING, KNIFE, PCS, SPARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "61 X 19 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1030_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1035",
@@ -11001,11 +11634,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "HEATING UP TO 95 DEGREE \nDIAMETER 2 MM",
     "tags": "PEX, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 113,
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1036",
@@ -11018,11 +11652,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1037",
@@ -11035,11 +11670,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 23,
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1038",
@@ -11052,11 +11688,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 X 20 MM",
     "tags": "18, CONNECTOR, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "20 X 20",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1039",
@@ -11069,11 +11706,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 X 20 X 20 MM",
     "tags": "CLAMP, MM, PEX, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "20 X 20 X 20",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1040",
@@ -11086,11 +11724,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 1/2\" X 20 MM",
     "tags": "\"1/2\"\"\", 16, CLAMP, MM, PEX, T, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "20 X 1/2 X20",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1042",
@@ -11103,11 +11742,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 16, CORNER, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1043",
@@ -11120,11 +11760,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 16, CORNER, FIX, MM, PEX, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1044",
@@ -11137,11 +11778,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 3/4\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "20 X 3/4",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1045",
@@ -11154,11 +11796,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "20 MM X 3/4\"",
     "tags": "\"1/2\"\"\", 18, MM, PEX, RACCORD, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "20 X 3/4",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1738",
@@ -11171,11 +11814,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "1, KITCHEN, SINK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "195",
@@ -11188,11 +11832,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "EXTENSION, MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "15 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "196",
@@ -11205,11 +11850,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "INCH",
     "tags": "GASKET, TIGHT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 1/2  1 1/4",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1257",
@@ -11222,11 +11868,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "6 PCS SET",
     "tags": "6, CHAMFERING, PCS, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1258",
@@ -11239,11 +11886,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "5 PCS SET",
     "tags": "5, FILE, METAL, PCS, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1259",
@@ -11256,11 +11904,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "MAGNETIC, SOCKET, TOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1260",
@@ -11273,11 +11922,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "MAGNETIC, SOCKET, TOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1261",
@@ -11290,11 +11940,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "MAGNETIC, SOCKET, TOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1263",
@@ -11307,11 +11958,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "",
     "tags": "CLEAR, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "8 MM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1264",
@@ -11324,11 +11976,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10  X 120 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1265",
@@ -11341,13 +11994,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "6 X 100 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1265_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1266",
@@ -11360,11 +12014,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "8 X 120 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1267",
@@ -11377,11 +12032,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "TIGE WIDYH 80",
     "tags": "VISE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "30 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1268",
@@ -11394,11 +12050,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "R 6.35 MM",
     "tags": "35, 6, 7, BIT, BOT, COVE, D12, MM, R, ROUTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D12.7 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1269",
@@ -11411,11 +12068,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "90 DEGREE \"V\"",
     "tags": "7, 90, BIT, D12, DEGREE, GROOVING, MM, ROUTER, V",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D12.7 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1270",
@@ -11428,11 +12086,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "7, BIT, D12, DOVETAIL, MM, ROUTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D12.7 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1271",
@@ -11445,11 +12104,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "R 6.35 MM",
     "tags": "35, 6, BIT, COVE, D22MM, MM, R, ROUTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D22 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1272",
@@ -11462,11 +12122,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, D12MM, ROUTER, STRAIGHT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1273",
@@ -11479,11 +12140,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "45DEGREE",
     "tags": "45, 45DEGREE, BIT, CHAMFER, D32MM, ROUTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1276",
@@ -11496,11 +12158,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "R4 MM",
     "tags": "4, BIT, D25, MM, OGEE, R4, ROMAN, ROUTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D25.4 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1277",
@@ -11513,11 +12176,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "R6.35MM",
     "tags": "35MM, R6, ROUNDING, ROUTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D22MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1279",
@@ -11530,11 +12194,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, FLUSH, ROUTER, TRIM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "D12.7MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1280",
@@ -11547,11 +12212,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "100 PCS PER PACK",
     "tags": "CABLE, TIES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "20 CM 7.6",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1281",
@@ -11564,11 +12230,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "400G",
     "tags": "NAIL, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "3.45 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1283",
@@ -11581,11 +12248,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "8MM X 1 1/4\"",
     "tags": "ADAPTER, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 50,
     "sizes": "4.2 X 30 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1284",
@@ -11598,11 +12266,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "FROM R-01 --> R-32\nMABROUM",
     "tags": "ASSORTED, MABROUM, O, R-01, R-32, RING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 344,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1288",
@@ -11615,11 +12284,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "WATERMETER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1289",
@@ -11632,11 +12302,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CONNECTOR VALVE, BRASS",
     "tags": "BRASS, CONNECTOR, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1290",
@@ -11649,11 +12320,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 20,
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1291",
@@ -11666,13 +12338,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR SAW CHAIN FUEL\n3/8 050",
     "tags": "CHAIN, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "12\" 3/8",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1291_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1292",
@@ -11685,11 +12358,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR SAW CHAIN",
     "tags": "CHAIN, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "8\" 18.50",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1293",
@@ -11702,13 +12376,14 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1293_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1296",
@@ -11721,11 +12396,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "HEXAGON, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 987,
     "sizes": "6 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1297",
@@ -11738,11 +12414,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "HEXAGON, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 222,
     "sizes": "6 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1298",
@@ -11755,11 +12432,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "BYESTA3MLOU LA S7OUN DICH",
     "tags": "BYESTA3MLOU, DICH, LA, S7OUN, SCREW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 40,
     "sizes": "6 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1299",
@@ -11772,11 +12450,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "BYESTA3MLOU LA S7OUN DICH",
     "tags": "BYESTA3MLOU, DICH, LA, S7OUN, SCREW, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 40,
     "sizes": "8 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1300",
@@ -11789,11 +12468,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "F, UNION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1302",
@@ -11806,11 +12486,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "90, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1304",
@@ -11823,11 +12504,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "12 PCS PER SET",
     "tags": "12, JONCTION, PCS, PER, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "100 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1305",
@@ -11840,11 +12522,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SINGLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1308",
@@ -11857,11 +12540,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "SCHNEIDER, SINGLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1310",
@@ -11874,13 +12558,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "MAX LOAD 900W",
     "tags": "1800W, FAMATEL, LOAD, MAX, PLUG, TRIPLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 18,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1310_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1311",
@@ -11893,11 +12578,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "BOXعلبة",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1312",
@@ -11910,13 +12596,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DAYLIGHT 20CM CUT OUT",
     "tags": "20CM, CUT, DAYLIGHT, LED, OUT, PANEL, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "22 W",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1312_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1313",
@@ -11929,11 +12616,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "11CM",
     "tags": "20CM, CUT, DAYLIGHT, LED, OUT, PANEL, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "8 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1314",
@@ -11946,11 +12634,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "DC 9V\n2 METERS\nINCLUDING THE MACHINE WITHOUT BATTERY",
     "tags": "MEASURE, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "200 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1315",
@@ -11963,11 +12652,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "60 X 80 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "6 X 8 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1316",
@@ -11980,11 +12670,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "7W E14",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1317",
@@ -11997,13 +12688,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATTERIES",
     "description": "",
     "tags": "6F22, BATTERY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "9 V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1317_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1318",
@@ -12016,11 +12708,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "CEILING, COVER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1319",
@@ -12033,11 +12726,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "45 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1320",
@@ -12050,13 +12744,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LA TROMBIT MAY",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "16 UF 450V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1320_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1321",
@@ -12069,13 +12764,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LA TROMBIT MAY",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "18 UF 450V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1321_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1322",
@@ -12088,13 +12784,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LA TROMBIT MAY",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "30 UF 450V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1322_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1323",
@@ -12107,11 +12804,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "WHITE OR BLACK\nTHICKNESS 0.13 MM",
     "tags": "0, 13, BLACK, ELECTRIC, MM, TAPE, THICKNESS, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "5 CM X 20 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1325",
@@ -12124,11 +12822,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "220 TO 12 V",
     "tags": "12, 220, POWER, SUPPLY, V",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12V 5A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1326",
@@ -12141,11 +12840,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "",
     "tags": "CABLE, CACHE, RESSORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "19 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1859",
@@ -12158,13 +12858,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "POWER DRILL WITH 2 BATTERIES AND A CHARGER INCLUDING SET OF DRILL BITS 21V 3.0 AH IMPACT DRILL 10MM 18-45 N.M MA3 SER3AT",
     "tags": "0, 10MM, 18-45, 2, 3, 36V, AH, BATTERIES, BATTERY, BITS, CHARGER, DRILL, IMPACT, INCLUDING, M, MA3, N, POWER, SER3AT, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "21 V",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1859_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1860",
@@ -12177,11 +12878,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "فراعة\nMASKE KHACHAB",
     "tags": "AW, AX, CAOUTCHOUC, CHOP, KHACHAB, MASKE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 X 17 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1861",
@@ -12194,11 +12896,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "فراعة\nMASKE CAOUTCHOUC",
     "tags": "AW, AX, CAOUTCHOUC, CHOP, KHACHAB, MASKE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "8 X 14 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1863",
@@ -12211,13 +12914,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "MAINLY FOR ALUMINIUM DOORS\nBM51",
     "tags": "ALUMINIUM, CLOSER, DOOR, DOORS, MAINLY, UPPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "110-145 KGS",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1863_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1484",
@@ -12230,11 +12934,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "PER PAIR",
     "tags": "GLOVES, PAIR, PER, PROTECTIVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1511",
@@ -12247,11 +12952,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "دولاب لعرباية PEPSI",
     "tags": "CARRIAGE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1748",
@@ -12264,11 +12970,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "6 X 200 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1769",
@@ -12281,11 +12988,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 X 200 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1838",
@@ -12298,11 +13006,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "",
     "tags": "PALM, WOODEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "48 X 40 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1866",
@@ -12315,11 +13024,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "TOT",
     "tags": "HEAT, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 225,
     "sizes": "6 MM X 6 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1868",
@@ -12332,13 +13042,14 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "VITESSE",
     "tags": "COPY, GROHE, LEVER, MIXER, VITESSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1868_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1869",
@@ -12351,11 +13062,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1/2 , 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1870",
@@ -12368,11 +13080,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CLAPPE\nكلابيه",
     "tags": "CLAPPE, SAPPHIRE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1871",
@@ -12385,11 +13098,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "GAUGE, PRESSURE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 BAR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1872",
@@ -12402,11 +13116,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "WITH 5 KEYS KHARITA",
     "tags": "5, ELECTRONIC, KEYS, KHARITA, LOCK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1873",
@@ -12419,11 +13134,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "",
     "tags": "HOLDER, KEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1874",
@@ -12436,11 +13152,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "220",
     "tags": "220, CUTTING, END, PLIER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1875",
@@ -12453,11 +13170,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "12-35 MM\n25-55 MM",
     "tags": "12-35, 25-55, MM, PIPE, SET, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "928",
@@ -12470,11 +13188,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "EXTENSION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "47 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "930",
@@ -12487,11 +13206,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2\" X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "931",
@@ -12504,11 +13224,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "3/4\" X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "934",
@@ -12521,13 +13242,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "HOLE 22.2 MM CET-2500 MAX 80 M/S MAX 13300 RPM\nDIAMOND BLADE FOR CUTTING HARD CERAMICS, GRES, PORCELAIN\nBORGH",
     "tags": "13300, 2, 22, 80, BLADE, CERAMIC, CERAMICS, CET-2500, CUTTING, DIAMOND, DISC, GRES, HARD, HOLE, M/S, MAX, MM, PORCELAIN, RPM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/934_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "935",
@@ -12540,11 +13262,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "936",
@@ -12557,11 +13280,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "OLFA",
     "tags": "CUTTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "941",
@@ -12574,13 +13298,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "15 STEPS",
     "tags": "15, BIT, DRILL, STEP, STEPS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 -32 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/941_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "942",
@@ -12593,13 +13318,14 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "معجونة",
     "tags": "ACRYLIC, SEALANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/942_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "944",
@@ -12612,11 +13338,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "t",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "945",
@@ -12629,11 +13356,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "LOCKING, LUNG, NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "946",
@@ -12646,11 +13374,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "947",
@@ -12663,11 +13392,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "948",
@@ -12680,11 +13410,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "949",
@@ -12697,11 +13428,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "950",
@@ -12714,11 +13446,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "951",
@@ -12731,11 +13464,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "959",
@@ -12748,11 +13482,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LENGTH 30 CM 25000 HOURS LIFESPAN",
     "tags": "25000, 30, CM, HOURS, LED, LENGTH, LIFESPAN, T5, TCL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 W",
     "attribute": "DAYLIGHT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "961",
@@ -12765,11 +13500,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LENGTH 90 CM 25000 HOURS LIFESPAN",
     "tags": "25000, 30, CM, HOURS, LED, LENGTH, LIFESPAN, T5, TCL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 W",
     "attribute": "DAYLIGHT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "962",
@@ -12782,11 +13518,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LENGTH 120 CM 25000 HOURS LIFESPAN",
     "tags": "25000, 30, CM, HOURS, LED, LENGTH, LIFESPAN, T5, TCL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "16 W",
     "attribute": "WARM",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "963",
@@ -12799,13 +13536,14 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "100 PCS PER BAG\nTILE LEVELING SYSTEM",
     "tags": "100, BAG, CERAMIC, EQUIPMENT, PCS, PER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/963_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "964",
@@ -12818,13 +13556,14 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "100 PCS PER BAG\nTILE LEVELING SYSTEM",
     "tags": "100, BAG, CERAMIC, EQUIPMENT, PCS, PER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1.5 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/964_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "965",
@@ -12837,13 +13576,14 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "",
     "tags": "SPACERS, TILE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1.5 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/965_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "966",
@@ -12856,11 +13596,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "",
     "tags": "SPACERS, TILE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "967",
@@ -12873,11 +13614,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "",
     "tags": "SPACERS, TILE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2.5 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "968",
@@ -12890,11 +13632,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "3/16\" - 1/2\"",
     "tags": "\"1/2\"\"\", \"3/16\"\"\", SINGLE, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "M4 - 12",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "969",
@@ -12907,11 +13650,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "L 85 MM",
     "tags": "85, L, MM, TAP, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "M-M8",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "970",
@@ -12924,11 +13668,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "L 110 MM",
     "tags": "85, L, MM, TAP, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "M5-M12",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "971",
@@ -12941,11 +13686,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "EXTRACTOR, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1/2\" 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "977",
@@ -12958,11 +13704,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "9, CRIMPING, HEX, TOOL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "978",
@@ -12975,11 +13722,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "STICK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "40 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "979",
@@ -12992,13 +13740,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "MPA MAX RPM 13300 80M-S\nFOR ALUMINIUM",
     "tags": "DISC, INOX, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "115 X 3 X 22",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/979_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "983",
@@ -13011,11 +13760,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SHELF, SUPPORT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 39,
     "sizes": "10 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1785",
@@ -13028,11 +13778,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "MA3 ROLLER",
     "tags": "CERAMIC, MA3, PLIER, ROLLER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1788",
@@ -13045,11 +13796,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ROLLBOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 36,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1789",
@@ -13062,13 +13814,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "BYESTA3MLOU LAL BLAT AW LAL 7ILL TABA3 BLAT\n4.5\"",
     "tags": "4, \"5\"\"\", 7ILL, AW, BLAT, BYESTA3MLOU, DISC, GRANITديسك, LAL, TABA3",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1789_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1790",
@@ -13081,11 +13834,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "Driver, INGCO, Screw",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6 X 300 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1791",
@@ -13098,11 +13852,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "RAFI3, SCREWDRIVER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6 X 300 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1794",
@@ -13115,11 +13870,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "عرباية بيبسي هيك بيسموها\nلتحميل البضاعة مع دولابان",
     "tags": "CARGO, TROLLEY, WHEELED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1795",
@@ -13132,11 +13888,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "2 CYLINDERAIR COMPRESSOR. DOUBLE PISTON\nDV12V, 23 AMP\nMAX PRESSURE 150PSI\n85L/MIN\nINCLUDING TOOLS",
     "tags": "150PSI, 2, 23, 85L/MIN, AIR, AMP, COMPRESSOR, CYL, CYLINDERAIR, DOUBLE, DV12V, INCLUDING, MAX, PISTON, PRESSURE, TOOLS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1796",
@@ -13149,11 +13906,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "GALVANIZED \nMFASSLET TEL7IM 7ADID\n8 CM",
     "tags": "GLAVAN, HINGE, IRON",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "18 X 80 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1797",
@@ -13166,11 +13924,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "نحاس",
     "tags": "2, CONNECTOR, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1798",
@@ -13183,11 +13942,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED\nBROWN 800",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "50 ML",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1799",
@@ -13200,11 +13960,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "تبني TEBNI 359\nWATER BASED",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "50 ML",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1800",
@@ -13217,11 +13978,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "50 ML",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1803",
@@ -13234,11 +13996,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED\nBLUE 505",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "50 ML",
     "attribute": "BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1804",
@@ -13251,11 +14014,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED\nORANGE 619",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "50 ML",
     "attribute": "ORANGE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1805",
@@ -13268,11 +14032,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED\nGREEN 404",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "50 ML",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1806",
@@ -13285,11 +14050,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "قرميدي ARMIDI 623\nWATER BASED",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "50 ML",
     "attribute": "BRICK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1807",
@@ -13302,11 +14068,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED\nLIGHT GREEN 400",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "50 ML",
     "attribute": "LIGHT GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1808",
@@ -13319,11 +14086,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED\nMANGO 357",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "50 ML",
     "attribute": "MANGO",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1809",
@@ -13336,11 +14104,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "WATER BASED",
     "tags": "COLORANT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "50 ML",
     "attribute": "PURPLE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1810",
@@ -13353,13 +14122,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "ma3 sobab",
     "tags": "BIDET, MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1810_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1811",
@@ -13372,11 +14142,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "LEVER, MIX, SINK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1812",
@@ -13389,11 +14160,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "BALA JOINT",
     "tags": "BALA, DRAINER, FLOOR, JOINT, S/S",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "20 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1813",
@@ -13406,11 +14178,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "GLASS CUTTING AND GRINDING DISC\nCAN BE USED FOR GLASS, WINE BOTTLES, TILE CERAMIC, CRYSTAL AND PORCELAIN",
     "tags": "BOTTLES, CAN, CERAMIC, CRYSTAL, CUTTING, DISC, GLASS, GRINDING, PORCELAIN, TILE, USED, WINE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "115X22X15 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1816",
@@ -13423,11 +14196,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "BRIGHT CHROME\nINTERIOR - EXTERIOR\n100% PURE ACRYLIC",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "400 ML",
     "attribute": "CHROME",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1817",
@@ -13440,11 +14214,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "",
     "tags": "SPACERS, TILE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "4 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1818",
@@ -13457,11 +14232,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "",
     "tags": "SPACERS, TILE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1825",
@@ -13474,11 +14250,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOT, RAINY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "42",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1826",
@@ -13491,11 +14268,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOT, RAINY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "43",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1827",
@@ -13508,11 +14286,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOT, RAINY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "44",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1828",
@@ -13525,11 +14304,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOT, RAINY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1219",
@@ -13542,11 +14322,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "PH2 DOUBLE SIDED \nMAGNETIC BELT CLIP",
     "tags": "BELT, BIT, CLIP, DOUBLE, END, MAGNETIC, PH2, SIDED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1220",
@@ -13559,11 +14340,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "SINGLE SIDE\nMAGNETIC",
     "tags": "BIT, MAGNETIC, SCREWDRIVER, SIDE, SINGLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 16,
     "sizes": "2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1222",
@@ -13576,11 +14358,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "لخلاط المغسلة",
     "tags": "CORE, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1223",
@@ -13593,11 +14376,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "لخلاط المجلى والدوش",
     "tags": "COREقلب, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1224",
@@ -13610,11 +14394,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "BOTTLE, SPRAYER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "750 ML",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1225",
@@ -13627,11 +14412,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "(4)",
     "tags": "CLIP, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "70 - 90 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1227",
@@ -13644,13 +14430,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "230x2x22.2MM\nMAX RPM 6600",
     "tags": "dep, name, test",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "9\"=23 CM 2MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1227_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1229",
@@ -13663,11 +14450,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "ASSORTED DIFFERENT SHAPES",
     "tags": "ASSORTED, DIFFERENT, FILE, NEEDLE, SHAPES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "11 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1233",
@@ -13680,13 +14468,14 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "FOR DUST \nWITH ELASTIC OR WITHOUT ELASTIC",
     "tags": "DUST, ELASTIC, GOGGLES, SAFETY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "TRANSPARENT",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1233_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1234",
@@ -13699,11 +14488,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "BYESTA3MLOU LAL TEWRI2",
     "tags": "BYESTA3MLOU, LAL, PAD, TEWRI2, TROWEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1235",
@@ -13716,11 +14506,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "SA2OUTA BORRANYE LA BOUWEBET 7ADID\nMADE IN ITALY",
     "tags": "7ADID, BORRANYE, BOUWEBET, DOOR, LA, SA2OUTA, SLUMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "15 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1237",
@@ -13733,11 +14524,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "WEDGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 209,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1238",
@@ -13750,11 +14542,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "WEDGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 80,
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1239",
@@ -13767,11 +14560,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1240",
@@ -13784,11 +14578,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1241",
@@ -13801,11 +14596,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1242",
@@ -13818,13 +14614,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "ROUND DUO LINE",
     "tags": "DUO, LINE, ROUND, TRIMMER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "4 MM X 35M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1242_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1243",
@@ -13837,13 +14634,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR BRUSH CUTTER \nLA 7ECHECHIT 3ECHB BENZYNE",
     "tags": "2T, 3ECHB, 7ECHECHIT, BENZYNE, BRUSH, CUTTER, GASOLINE, LA, OIL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1243_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1244",
@@ -13856,13 +14654,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "VOLTAGE 220V MAX CURRENT: 10 AMP MAX POWER: 1.1 KW\nSTARTING PRESSURE: 1.5 BAR MAX WORKING PRESSURE: 10 BAR JOINT SCREW: 1\" MAX OPERATING TEMPERATURE 60 DEGREE\nBADA SOBBAB",
     "tags": "1, \"1\"\"\", 10, 220V, 5, 60, AMP, BADA, BAR, COMET, CURRENT:, DEGREE, JOINT, KW, MAX, OPERATING, POWER:, PRESSبريس, PRESSURE:, SCREW:, SOBBAB, STARTING, TEMPERATURE, VOLTAGE, WORKING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1244_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1246",
@@ -13875,13 +14674,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MODEL PS-04A\nAUTOMATIC MAX CURRENT: 10A STARTING PRESSURE: 1.5BAR MAX WORKING PRESSURE: 10 BAR VOLTAGE: 220V\nMAX WORKING TEMPERATURE: 60 DEGREE",
     "tags": "LEO, PRESSبريس",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1246_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1248",
@@ -13894,11 +14694,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "DOOR, KNOCKER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1249",
@@ -13911,11 +14712,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "MASKE KHACHAB\nDOUBLE SIDE",
     "tags": "DOUBLE, KHACHAB, MASKE, ROLLER, SIDE, WINDOW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1250",
@@ -13928,11 +14730,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "KEY, ORDINARY, SLIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "18 / 19",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1251",
@@ -13945,11 +14748,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "KEY, ORDINARY, SLIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 / 22",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1431",
@@ -13962,13 +14766,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "5 KEYS",
     "tags": "5, CYLINDER, KEY, KEYS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "6 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1431_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1434",
@@ -13981,13 +14786,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "GRADE B",
     "tags": "B, CUTTER, GRADE, KNIFE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1434_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1436",
@@ -14000,11 +14806,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 X 310 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1438",
@@ -14017,11 +14824,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "14 X 250 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1439",
@@ -14034,11 +14842,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "CHISEL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 X 250 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1440",
@@ -14051,11 +14860,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "SCREW, TIGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "8 MMX 100 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1441",
@@ -14068,11 +14878,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "",
     "tags": "COVER, DOOR, LOCK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1449",
@@ -14085,11 +14896,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "",
     "tags": "HINGES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 142,
     "sizes": "2\" 4.5 X 1CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1452",
@@ -14102,11 +14914,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "سكة جارور\nSET OF 2 PCS FOR 1 DRAWER",
     "tags": "1, 2, DRAWER, PCS, RAIL, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 25,
     "sizes": "40 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1453",
@@ -14119,13 +14932,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "INVERTER\nWITH CABLES AND BELT",
     "tags": "BELT, INVERTER, MASK, MMA, PORTABLE, WELDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "300 A",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1453_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1454",
@@ -14138,11 +14952,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "10A 250V\nBYERKAB 3A KONNICE BRAND",
     "tags": "10A, 250V, ELECTRIC, SWITCH, TRIPLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "10A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1455",
@@ -14155,11 +14970,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "CHINESE \n16A 250V\nSANCHE BRAND \nBYERKAB 3A BRAND KONNICE",
     "tags": "16A, 250V, 3A, BRAND, BYERKAB, CHINESE, DIRECTION, DOUBLE, KONNICE, SANCHE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "16A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1456",
@@ -14172,11 +14988,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "2X0.75MM\nFICHE MA3 WASLE LAL STRIP LED",
     "tags": "2X0, 75MM, DRIVER, FICHE, LAL, LED, MA3, STRIP, WASLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "300V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1457",
@@ -14189,11 +15006,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CONNECTOR, LED, STRIP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1458",
@@ -14206,11 +15024,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "PLASTIC",
     "tags": "CAP, COVER, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 22,
     "sizes": "8.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1459",
@@ -14223,11 +15042,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "BULB, LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "50 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1461",
@@ -14240,11 +15060,12 @@ window.NABIL_PRODUCTS = [
     "category": "WATER TANKS",
     "description": "D: 51 CM, H: 45 CM \nBYESTA3MLOU LAL MAZOUT AKTAR SHI",
     "tags": "TANK, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "60 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1463",
@@ -14257,11 +15078,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "FOR WALL",
     "tags": "ABRASIVE, PAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 20,
     "sizes": "P 150",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1464",
@@ -14274,11 +15096,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "BOX, IRON, TOOL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "53.5 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1465",
@@ -14291,13 +15114,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "CHISEL, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "23 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1465_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1466",
@@ -14310,11 +15134,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "BYESTA3MLOU LAL 7ITAN BARRA",
     "tags": "7ITAN, BARRA, BYESTA3MLOU, LAL, PAD, TROWEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1467",
@@ -14327,11 +15152,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "MA3 BERGHE W JELDE",
     "tags": "BERGHE, GAS, JELDE, MA3, RACCORD, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1471",
@@ -14344,11 +15170,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "MAMSAK OUWARA MEN MA2DA7 LAL OUWARA",
     "tags": "CONN, HOLE, MAMSAK, OUWARA, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "32- 210 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1476",
@@ -14361,11 +15188,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHROME\nMEN 1/2\" LA 3 AM7AT",
     "tags": "\"1/2\"\"\", 3, AM7AT, CHROME, CONNECTOR, LA, MEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1/2 , 3/8'",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1479",
@@ -14378,11 +15206,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MEN MAYLE 1/2\" W TENE MAYLE 3 AM7AT",
     "tags": "\"1/2\"\"\", 3, AM7AT, FLEXIBLE, HOSEنبريج, MAYLE, MAYUE, MEN, TENE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1/2X3/8\" 50C",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1486",
@@ -14395,11 +15224,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "GAS ACCESSORIES",
     "tags": "BURNER, VALVEمفتاح",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "821",
@@ -14412,11 +15242,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "AC, CHNT, CONTACTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "822",
@@ -14429,11 +15260,12 @@ window.NABIL_PRODUCTS = [
     "category": "TILES ACCESSORIES",
     "description": "100 pcs per bag\nLEVELING WEDGES",
     "tags": "50, bag, CERAMIC, pcs, per, SCREW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "823",
@@ -14446,13 +15278,14 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "4 WHEELS",
     "tags": "3, BASE, GAS, JAR, WHEELS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/823_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "824",
@@ -14465,11 +15298,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "COTTON",
     "tags": "PAINT, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "4 \"",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "825",
@@ -14482,11 +15316,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONN, F",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "827",
@@ -14499,11 +15334,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONN, F",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "831",
@@ -14516,11 +15352,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAIN, FLOOR, GASKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "15 X 15 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "832",
@@ -14533,11 +15370,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "DRAIN, FLOOR, GASKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "833",
@@ -14550,11 +15388,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1/2 x 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "834",
@@ -14567,11 +15406,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1/2 x 1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "835",
@@ -14584,11 +15424,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "3/4 x 1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "836",
@@ -14601,11 +15442,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "ELBOW",
     "tags": "CONNECTOR, CORNER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "839",
@@ -14618,13 +15460,14 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "101.6 mm\nPAINT BRUSH",
     "tags": "2, 76, Brush, mm",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/839_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "840",
@@ -14637,13 +15480,14 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "BLADE, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "31.50 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/840_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "841",
@@ -14656,11 +15500,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "842",
@@ -14673,11 +15518,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "4 COMPARTMENTS WITH BELT",
     "tags": "4, BELT, COMPARTMENTS, HOLDER, TOOL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "843",
@@ -14690,13 +15536,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "180 MM",
     "tags": "180, CUTTING, END, MM, PLIER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "7 \"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/843_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "844",
@@ -14709,11 +15556,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "FOR GYPSUM BOARD100 PCS PER BAG",
     "tags": "BAG, BOARD100, GYPSUM, PCS, PER, WEDGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 155,
     "sizes": "6 - 8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "846",
@@ -14726,11 +15574,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "MAX 12 BAR",
     "tags": "12, AIR, BAR, GUN, MAX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "847",
@@ -14743,13 +15592,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "4-  14 MM",
     "tags": "14, 4-, GUN, MM, STAPLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/847_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1560",
@@ -14762,11 +15612,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "DOULEB LA 3ARABEYIT ZBELE\nBYEJE ELO RESSORT TA YERKAB 3AL AXE",
     "tags": "3AL, 3ARABEYIT, AXE, BYEJE, CART, DOULEB, ELO, GARBAGE, LA, RESSORT, TA, WHEEL, YERKAB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "19 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1562",
@@ -14779,11 +15630,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "EXTENSION, GRINDER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1563",
@@ -14796,11 +15648,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CAR, TESTER, VOLTAGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1565",
@@ -14813,11 +15666,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "1 PIECE",
     "tags": "1, MESH, PIECE, SCREEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 20,
     "sizes": "10 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1566",
@@ -14830,11 +15684,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "DAKAR W ENTEYE",
     "tags": "CHLAC, CHLIC, DAKAR, ENTEYE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2.5 CM X 1 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1567",
@@ -14847,11 +15702,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "DAKAR W ENTEYE",
     "tags": "CHLAC, CHLIC, DAKAR, ENTEYE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "5 CM X 1 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1568",
@@ -14864,11 +15720,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "DAKAR W ENTEYE\nSQUARE PIECES",
     "tags": "CHLAC, CHLIC, DAKAR, ENTEYE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "5 X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1569",
@@ -14881,11 +15738,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "DAKAR W ENTEYE",
     "tags": "CHLAC, CHLIC, DAKAR, ENTEYE, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "5 CM ROUND",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1570",
@@ -14898,11 +15756,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "4 ZAWEYA + 4 SUPPORT + 4 BARAGHE",
     "tags": "4, BARAGHE, BED, SUPPORT, ZAWEYA",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1573",
@@ -14915,11 +15774,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BLADE, BRUSH, CUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "3T",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1575",
@@ -14932,11 +15792,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CORNER, MALE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "32 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1576",
@@ -14949,11 +15810,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "",
     "tags": "CORNERكوع, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1578",
@@ -14966,11 +15828,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CAP, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1580",
@@ -14983,11 +15846,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ADAPTOR, M",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "32 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1581",
@@ -15000,13 +15864,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "RALLONGE 10-16 A",
     "tags": "4, EXTENSION, SOCKET, SWITCH, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "3 M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1581_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1582",
@@ -15019,11 +15884,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "LED, PIQUET, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "7 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1583",
@@ -15036,13 +15902,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "BULB, LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "20 W E27",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1583_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1584",
@@ -15055,11 +15922,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "CABLE DU LIBAN\nCABLE TELEPHONE",
     "tags": "CABLE, DU, LIBAN, LIBTEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 69.2,
     "sizes": "2X2 X 0.5 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1585",
@@ -15072,11 +15940,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "MALE, SOCKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1586",
@@ -15089,11 +15958,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "1A 220V",
     "tags": "1A, 220V, FEMALE, PHONE, PLUG",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1587",
@@ -15106,11 +15976,12 @@ window.NABIL_PRODUCTS = [
     "category": "DEVICES",
     "description": "LINERPHONE\nBATTERY AND KAHRABA \nAC / DC",
     "tags": "2, AC, BATTERY, DC, DEVICES, INTERPHONE, KAHRABA, LINERPHONE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1588",
@@ -15123,11 +15994,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "مسكة برم",
     "tags": "ROUND, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1590",
@@ -15140,11 +16012,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "كوستا",
     "tags": "MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1594",
@@ -15157,11 +16030,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "",
     "tags": "ACC, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 17,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1595",
@@ -15174,11 +16048,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "HAND, HOSE, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.50 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1597",
@@ -15191,11 +16066,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "BOTTLE, SPRAYER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1605",
@@ -15208,11 +16084,12 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "",
     "tags": "DISPOSABLE, GEL, KILLROACH, SYRINGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "5 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1611",
@@ -15225,11 +16102,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "AGRICULT, FORK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 FORKS",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1613",
@@ -15242,11 +16120,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "ATROUN LA FATE7 MAJERE",
     "tags": "ATROUN, FATE7, LA, MAJERE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 87,
     "sizes": "1 KG",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1615",
@@ -15259,11 +16138,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CONN, GARDENING, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 30,
     "sizes": "16 X 16 X 16",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1616",
@@ -15276,11 +16156,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CORNER, GARDENING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 19,
     "sizes": "16 X 16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1617",
@@ -15293,11 +16174,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "بلاستيك",
     "tags": "GARDENING, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 15,
     "sizes": "16 X 16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1618",
@@ -15310,13 +16192,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "hayde lal chajar aktar men plant",
     "tags": "GARDENING, POINT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 228,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1618_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1619",
@@ -15329,11 +16212,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "ROPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "100 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1620",
@@ -15346,13 +16230,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "TURBE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 70,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1620_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1625",
@@ -15365,13 +16250,14 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "RACCORD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "3/4 \"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1625_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1626",
@@ -15384,11 +16270,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "500, GR, SHOVEL, SQUARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 KG",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1627",
@@ -15401,11 +16288,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "500, GR, SHOVEL, SQUARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "500 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1628",
@@ -15418,11 +16306,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CAN BE USED FOR OUTDOOR\nSTAINLESS STEEL مع مصفاية",
     "tags": "DRAINER, FLOOR, STAINLESS, STEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "10 X 10 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1630",
@@ -15435,11 +16324,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "BALL, FLOAT, TANK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "3/8\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1631",
@@ -15452,11 +16342,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "REGLAGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1632",
@@ -15469,11 +16360,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "REGLAGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1356",
@@ -15486,11 +16378,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CONN, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 42,
     "sizes": "32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1357",
@@ -15503,11 +16396,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CONN, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 25,
     "sizes": "40 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1375",
@@ -15520,11 +16414,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "BYEJE MENNO ABYAD KAMEN TERKE BAS ALIL ABYAD",
     "tags": "CONN, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "25 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1376",
@@ -15537,11 +16432,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CONN, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1381",
@@ -15554,11 +16450,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CONN, MALE, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "40 X 1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1387",
@@ -15571,11 +16468,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "PPR, REDUCED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "25 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1389",
@@ -15588,11 +16486,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "PPR, REDUCED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "40 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1406",
@@ -15605,11 +16504,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "LAMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "15 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1408",
@@ -15622,11 +16522,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "SQUARE\nSLIM",
     "tags": "LED, PANEL, SLIM, SQUARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "22 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1410",
@@ -15639,13 +16540,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LED RADAR SENSOR LAMP",
     "tags": "LAMP, LED, RADAR, SENSOR, SMART",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 W",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1410_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1411",
@@ -15658,11 +16560,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "مع فتحات\nJUNCTION BOX",
     "tags": "BOX, JUNCTION, PVC, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "20X15X8 CM",
     "attribute": "GREY",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1413",
@@ -15675,11 +16578,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CHASSIS, META",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1414",
@@ -15692,11 +16596,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "FRAME, META",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1415",
@@ -15709,11 +16614,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "META, SINGLE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1416",
@@ -15726,11 +16632,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "META, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1417",
@@ -15743,11 +16650,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "GARDENING, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 38.4,
     "sizes": "1\" X 16 BAR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1418",
@@ -15760,11 +16668,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LA TABLEAU KAHRABA",
     "tags": "DIGITAL, KAHRABA, LA, TABLEAU, TEMPERATURE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1419",
@@ -15777,11 +16686,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "اصفر \nFOR OLD PROJECTOR MODEL ONLY",
     "tags": "MODEL, OLD, ONLY, PROJECTOR, SHEET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 W",
     "attribute": "WARM",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1420",
@@ -15794,11 +16704,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LED FLOOD LIGHT",
     "tags": "FLOOD, LED, LIGHT, PROJECTOR, STAND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 W",
     "attribute": "WARM YELLOW",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1421",
@@ -15811,11 +16722,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "INCLUDING ALL ITS ACCESSORIES",
     "tags": "ACCESSORIES, INCLUDING, SATELLITE, STARSAT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "90 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1423",
@@ -15828,11 +16740,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "STARSAT UNIVERSAL SINGLE LNB\nSR-320",
     "tags": "RECEIVING, SIGNAL, STARSAT, UNIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "1 EXIT",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1424",
@@ -15845,11 +16758,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "STARSAT 4K HD\nSR-3609",
     "tags": "RECEIVING, SIGNAL, STARSAT, UNIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "2 EXIT",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1425",
@@ -15862,11 +16776,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "STARSAT 4K HD\nSR-4604",
     "tags": "RECEIVING, SIGNAL, STARSAT, UNIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 EXIT",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1426",
@@ -15879,11 +16794,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "3 AM7AT\nBALL",
     "tags": "32, CABINET, CM, FLUSH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3/8",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2069",
@@ -15896,11 +16812,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "BATTERY\nUP TO 50 KGS",
     "tags": "50, BATTERY, KGS, PORTABLE, SCALE, UP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2072",
@@ -15913,11 +16830,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DAYLIGHT 20CM CUT OUT",
     "tags": "20CM, CUT, DAYLIGHT, LED, OUT, PANEL, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "8 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2073",
@@ -15930,11 +16848,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CIRCUIT, DLXS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2074",
@@ -15947,11 +16866,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CIRCUIT, DLXS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "2 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2075",
@@ -15964,11 +16884,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CIRCUIT, DLXS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "3 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2077",
@@ -15981,11 +16902,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "12 PCS PER SET",
     "tags": "12, JONCTION, PCS, PER, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2078",
@@ -15998,11 +16920,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "135 LIGHT BROWN\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "400 ML",
     "attribute": "LIGHT BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2081",
@@ -16015,11 +16938,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ADAPTER, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 200,
     "sizes": "8 MM X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2082",
@@ -16032,11 +16956,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "ADAPTER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 300,
     "sizes": "4.2 X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1106",
@@ -16049,11 +16974,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 17,
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1107",
@@ -16066,11 +16992,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 33,
     "sizes": "3/4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1108",
@@ -16083,11 +17010,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 14,
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1110",
@@ -16100,11 +17028,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1111",
@@ -16117,11 +17046,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "2 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1112",
@@ -16134,11 +17064,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "3 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1113",
@@ -16151,11 +17082,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CONN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1495",
@@ -16168,11 +17100,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "BALA RI7A 5 KG PER PACK بدون ريحة",
     "tags": "TEST",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "3.2 x 350 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1496",
@@ -16185,11 +17118,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SERRATED, WRENCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1497",
@@ -16202,11 +17136,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 X 410 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1499",
@@ -16219,11 +17154,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "SILICONE, W/ACID",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "280 ML",
     "attribute": "BRONZE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1500",
@@ -16236,11 +17172,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "SILICONE, W/ACID",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "280 ML",
     "attribute": "ALUMINIUM",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1505",
@@ -16253,11 +17190,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "POLYMER RUBBER \nBYESTA3MLOU LAL KHEZZENET, PISCINES\nWATERPROOF",
     "tags": "BYESTA3MLOU, FLASHING, KHEZZENET, LAL, PISCINES, POLYMER, RUBBER, TAPE, WATERPROOF",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "5 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1506",
@@ -16270,11 +17208,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "11, PCSطقم, SET, SOCKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1507",
@@ -16287,11 +17226,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "FOR IRON 115 MM",
     "tags": "115, ABRASIVE, DISK, IRON, MM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 35,
     "sizes": "P 150",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1508",
@@ -16304,11 +17244,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "RIGHT OR LEFT",
     "tags": "HANDLE, LEFT, PROFILE, RIGHT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1509",
@@ -16321,11 +17262,12 @@ window.NABIL_PRODUCTS = [
     "category": "HINGES AND WOODEN ACC",
     "description": "",
     "tags": "HINGES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 588,
     "sizes": "3\" 7 X 3 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1510",
@@ -16338,11 +17280,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "KEY HOLDER",
     "tags": "KEY, RING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 160,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1512",
@@ -16355,11 +17298,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "WEDGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 60,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1513",
@@ -16372,13 +17316,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "DTC\nBYESTA3MLOU LAL 7ELAL TABA3 BLAT KAMEN",
     "tags": "7ELAL, BLAT, BYESTA3MLOU, DISC, DTC, GRANITEديسك, KAMEN, LAL, TABA3",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1513_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1514",
@@ -16391,11 +17336,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "FILTER CARTRIDGE FIBER PPC POLYPROPYLENE\n5 MICRON",
     "tags": "5, CARTRIDGE, FIBER, FILTER, MICRON, POLYPROPYLENE, PPC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1515",
@@ -16408,11 +17354,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "EASY DOUBLE MA3 SOBBAB PLASTIC",
     "tags": "DOUBLE, EASY, MA3, PLASTIC, SOBBAB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1516",
@@ -16425,11 +17372,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "BYESTA3MLOU BADAL TEFLON AW2AT",
     "tags": "AW2AT, BADAL, BYESTA3MLOU, TEFLON, TIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "200 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1518",
@@ -16442,13 +17390,14 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "32-20 KHAFIFE W ZGHIRE\nBYEJE MA3A ROUS",
     "tags": "MACHINE, PPR, WELDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "9.50 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1518_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1519",
@@ -16461,13 +17410,14 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "UP TO 63 MM",
     "tags": "MACHINE, PPR, WELDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14.50 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1519_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1522",
@@ -16480,11 +17430,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "SINK",
     "tags": "BASIN, WASH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "60 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1528",
@@ -16497,11 +17448,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CHINT, CIRCUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1529",
@@ -16514,11 +17466,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LAL AIR CONDITIONER",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1530",
@@ -16531,11 +17484,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CAP, GRAND, LE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 22,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1531",
@@ -16548,11 +17502,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "",
     "tags": "2, SAT, SPLITTER, WAY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1532",
@@ -16565,11 +17520,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "FICHE SATELLITE FOR TV",
     "tags": "FICHE, SATELLITE, SOCKET, TV",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1533",
@@ -16582,11 +17538,12 @@ window.NABIL_PRODUCTS = [
     "category": "SATELLITE",
     "description": "",
     "tags": "4*1, DISEQC, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1537",
@@ -16599,11 +17556,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 46.78,
     "sizes": "2 X 1.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1540",
@@ -16616,11 +17574,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "ON OFF",
     "tags": "MALE, OFF, ON, SOCKET, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1541",
@@ -16633,11 +17592,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "WITH 2 CABLES FOR BATTERY",
     "tags": "12V, 2, BATTERY, CABLES, LAMP, LED, T5",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1542",
@@ -16650,11 +17610,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "LED, PIQUET, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "7 W",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1543",
@@ -16667,11 +17628,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "BIDOUN CAOUTCHOUC 3AL JWENIB",
     "tags": "3AL, BIDOUN, BOX, CAOUTCHOUC, JUNCTION, JWENIB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "10 X 10 X7CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1545",
@@ -16684,11 +17646,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "BIDOUN CAOUTCHOUC 3AL JWENIB",
     "tags": "3AL, BIDOUN, BOX, CAOUTCHOUC, JUNCTION, JWENIB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "20 X 25 X9CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1546",
@@ -16701,11 +17664,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "BIDOUN BARAGHE",
     "tags": "BARAGHE, BIDOUN, COVER, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "10 X 10 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1547",
@@ -16718,11 +17682,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "BIDOUN BARAGHE",
     "tags": "BARAGHE, BIDOUN, COVER, PLASTIC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "15 X 15 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1549",
@@ -16735,11 +17700,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "PATERE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1551",
@@ -16752,11 +17718,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 X 260 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1553",
@@ -16769,11 +17736,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "MAGNETIC",
     "tags": "LEVEL, SPIRIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "30 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1555",
@@ -16786,11 +17754,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "FOR DUST AND WELDING\n WITHOUT ELASTIC",
     "tags": "DUST, ELASTIC, GOGGLES, SAFETY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1556",
@@ -16803,13 +17772,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "AKTAR SHI BYESTA3MLOU LAL BLAT",
     "tags": "AKTAR, BLAT, BYESTA3MLOU, LAL, PAD, SHI, TROWEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1556_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1558",
@@ -16822,11 +17792,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "SHADOW, SUIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "XL",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1633",
@@ -16839,11 +17810,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHAUFFAGE\nMAYLE DAKAR MAYLE ENTEYE 1/4\"",
     "tags": "CHAUFFAGE, DAKAR, ENTEYE, FLEXIBLE, MAYLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1635",
@@ -16856,11 +17828,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHAUFFAGE \nMAYLTEN INTEYE 1/4\"",
     "tags": "CHAUFFAGE, FLEXIBLE, INTEYE, MAYLTEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1636",
@@ -16873,11 +17846,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHAUFFAGE\nMAYLE INTEYE MAYLE INTEYE MA3 TIGE",
     "tags": "CHAUFFAGE, FLEXIBLE, INTEYE, MA3, MAYLE, TIGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1637",
@@ -16890,11 +17864,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CHAUFFAGE\n1/4\" MAYLE W MAYLE DAKAR",
     "tags": "REGLAGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1640",
@@ -16907,11 +17882,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 X 160 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1642",
@@ -16924,11 +17900,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SPARE, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1643",
@@ -16941,11 +17918,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "ABRASIVE, STONE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1645",
@@ -16958,11 +17936,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "MEASURE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1829",
@@ -16975,11 +17954,12 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "BOOT, RAINY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "46",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1830",
@@ -16992,13 +17972,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "PIPE, SEWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 MM X 5 M",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1830_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1834",
@@ -17011,13 +17992,14 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "MADE IN TURKEY",
     "tags": "IN, MADE, SCRAPER, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1834_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1835",
@@ -17030,11 +18012,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "BYESTA3MLOU LAL MAZOUT\nSOLD PER METER",
     "tags": "BYESTA3MLOU, GARDENING, HOSE, LAL, MAZOUT, METER, PER, SOLD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10.5,
     "sizes": "1/2\"",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1837",
@@ -17047,13 +18030,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DAYLIGHT 20CM CUT OUT",
     "tags": "20CM, CUT, DAYLIGHT, LED, OUT, PANEL, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "22 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1837_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1840",
@@ -17066,11 +18050,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CIRCUIT, DLXS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1841",
@@ -17083,11 +18068,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CHASSIS, GRAND, LE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "4 MODULES",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1843",
@@ -17100,11 +18086,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "DOUBLE DIRECTION",
     "tags": "DIRECTION, DOUBLE, GRAND, LE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1842",
@@ -17117,11 +18104,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SCHUKO, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1844",
@@ -17134,11 +18122,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "5W",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "30 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1845",
@@ -17151,11 +18140,12 @@ window.NABIL_PRODUCTS = [
     "category": "DEVICES",
     "description": "CAN BE USED FOR OUTDOOR",
     "tags": "CAN, DOOR, OUTDOOR, PHONE, SPEAKER, USED, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1846",
@@ -17168,11 +18158,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "AC 220V\n5 LEVELS",
     "tags": "220V, 5, AC, ELECTRIC, LEVEL, LEVELS, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1847",
@@ -17185,11 +18176,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "LEVEL, TUBE, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "97 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1848",
@@ -17202,11 +18194,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "FOR KONNICE AND SANCHE SWITCH",
     "tags": "CHASSIS, KEY, KONNICE, SANCHE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "3 MODULES",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1849",
@@ -17219,13 +18212,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "FOR KONNICE AND SANCHE BRAND",
     "tags": "BRAND, COVER, KONNICE, SANCHE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "3 MODULES",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1849_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1850",
@@ -17238,11 +18232,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "RJ45",
     "tags": "CONNECTOR, RJ45, UTP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 40,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1851",
@@ -17255,11 +18250,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "AC, FUSE, GLASS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 99,
     "sizes": "1.25 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1852",
@@ -17272,11 +18268,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "AC, FUSE, GLASS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 99,
     "sizes": "2 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1854",
@@ -17289,11 +18286,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "مسكة برم",
     "tags": "ROUND, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1855",
@@ -17306,13 +18304,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "UDF",
     "tags": "CARTRIDGE, FILTER, UDF",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1855_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1857",
@@ -17325,11 +18324,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CORNER, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 43,
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1998",
@@ -17342,11 +18342,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "EQUAL, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2002",
@@ -17359,11 +18360,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "BRASS WITH 2 KEYS\nMOTO",
     "tags": "2, BIKE, BRASS, KEYS, LOCK, MOTO",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "180 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2006",
@@ -17376,11 +18378,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "FOR INDOOR AND OUTDOOR USE \nSTRONG ADHESION\nSCREEN WINDOW USE",
     "tags": "ADHESION, INDOOR, OUTDOOR, REPAIR, SCREEN, STRONG, TAPE, USE, WINDOW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "50 MM X 2 M",
     "attribute": "GREYBLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2004",
@@ -17393,11 +18396,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "مع مصفاية",
     "tags": "ADJ, FUNNEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2007",
@@ -17410,11 +18414,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "7000K",
     "tags": "FLOOD, LED, LIGHT, PROJECTOR, STAND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2008",
@@ -17427,11 +18432,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LE GRAND",
     "tags": "BOX, GRAND, LE, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2009",
@@ -17444,11 +18450,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "COPY A\n10A 250V",
     "tags": "(B), 10A, 250V, COPY, GEWISS, SWITCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2010",
@@ -17461,11 +18468,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "COPY A\n15A 250V",
     "tags": "(B), COPY, GEWISS, SOCKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "15 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2011",
@@ -17478,11 +18486,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "OREGON MODEL OP17 no. 77-302-1\nBTOZBAT LAL 7ECHECHE",
     "tags": "7ECHECHE, BTOZBAT, LAL, MODEL, OP17, OREGON, PLUG, SPARK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2012",
@@ -17495,11 +18504,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "وطني",
     "tags": "CORNER, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "2 X 1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2013",
@@ -17512,11 +18522,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "REGAR\nMADE IN TURKEY",
     "tags": "CAP, PVC, REGARD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "20 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2015",
@@ -17529,11 +18540,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "30 X 30 CM",
     "tags": "FRAMELESS, LED, PANEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "60 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2016",
@@ -17546,11 +18558,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MADE IN TURKEY\nBYETRAKABO 3A BA3DOUN",
     "tags": "3A, BA3DOUN, BYETRAKABO, IN, MADE, PVC, STREAM, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2017",
@@ -17563,11 +18576,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MADE IN TURKEY\nBYETRAKABO 3A BA3DOUN",
     "tags": "3A, BA3DOUN, BYETRAKABO, IN, MADE, PVC, STREAM, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "13 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2018",
@@ -17580,11 +18594,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MADE IN TURKEY\nBYETRAKABO 3A BA3DOUN",
     "tags": "3A, BA3DOUN, BYETRAKABO, IN, MADE, PVC, STREAM, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "20 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2019",
@@ -17597,11 +18612,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MADE IN TURKEY\nBYETRAKABO 3A BA3DOUN\nHAYDE BYETRAKAB 3LAYA ASTAL 110",
     "tags": "3A, BA3DOUN, BYETRAKABO, IN, MADE, PVC, STREAM, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "13X50CMX110",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2020",
@@ -17614,11 +18630,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MALE OR FEMALE",
     "tags": "CAP, END, FEMALE, MALE, PVC, STREAM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2021",
@@ -17631,11 +18648,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MALE OR FEMALE",
     "tags": "CAP, END, FEMALE, MALE, PVC, STREAM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "13 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2022",
@@ -17648,11 +18666,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "MALE OR FEMALE",
     "tags": "CAP, END, FEMALE, MALE, PVC, STREAM",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2025",
@@ -17665,11 +18684,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "LED, PIQUET, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "7 W",
     "attribute": "PURPLE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2027",
@@ -17682,11 +18702,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "WARM WHITE 3000K",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "30 CM",
     "attribute": "YELLOW",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2030",
@@ -17699,11 +18720,12 @@ window.NABIL_PRODUCTS = [
     "category": "PPR PIPES ACCESSORIES",
     "description": "",
     "tags": "CONN, PPR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "32 MM X 12CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2031",
@@ -17716,11 +18738,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONVERT, TOILET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2032",
@@ -17733,11 +18756,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONVERT, TOILET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2034",
@@ -17750,11 +18774,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONVERT, TOILET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2037",
@@ -17767,11 +18792,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "COTTON",
     "tags": "PAINT, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 18,
     "sizes": "4 \"",
     "attribute": "YELLOW",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2041",
@@ -17784,11 +18810,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "MOHAIR",
     "tags": "MOHAIR, PAINT, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2042",
@@ -17801,11 +18828,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "SET OF 2 PCS",
     "tags": "2, DOOR, HANDLE, PCS, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2044",
@@ -17818,11 +18846,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "12 V",
     "tags": "12, DC, TESTER, V, VOLTAGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 - 24 V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2047",
@@ -17835,11 +18864,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "",
     "tags": "CORN, DRAIN, PVC",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "110 MM",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2048",
@@ -17852,11 +18882,12 @@ window.NABIL_PRODUCTS = [
     "category": "PVC PIPES ACCESSORIES",
     "description": "",
     "tags": "DRAIN, PVC, T",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "110 MM",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2051",
@@ -17869,13 +18900,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2051_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2054",
@@ -17888,11 +18920,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "220V MADE IN ITALY",
     "tags": "220V, RESISTANCE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "2000 W",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2055",
@@ -17905,13 +18938,14 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "SINK, STRAINER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "7.5 CM",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2055_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2056",
@@ -17924,11 +18958,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "LA FAT7AT EL MAGHSALE",
     "tags": "CAP, EL, FAT7AT, LA, MAGHSALE, SINK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "4.5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2059",
@@ -17941,11 +18976,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "HOT OR COLD\nCOOLER",
     "tags": "COLD, DISPENSER, HOT, MALE, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2060",
@@ -17958,11 +18994,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "PER PC\nMOHAIR 2\"",
     "tags": "PAINT, PC, PER, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2061",
@@ -17975,11 +19012,12 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "MUST BE STANDARD FOR ALL",
     "tags": "KEY, LIFT, MUST, STANDARD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2063",
@@ -17992,13 +19030,14 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "ADJUSTABLE BYEFTA7 W BISAKKIR\nCAN BE USED FOR WASHING MACHINE, REFIGERATOR, ETC\nHOLDS UP TO 200 KGS",
     "tags": "200, ADJUSTABLE, APPLIANCE, BASE, BISAKKIR, BYEFTA7, CAN, ETC, HOLDS, KGS, MACHINE, REFIGERATOR, UP, USED, W, WASHING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2063_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2064",
@@ -18011,11 +19050,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "MADE IN TURKEY",
     "tags": "BRUSH, DOOR, IN, MADE, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "110 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2065",
@@ -18028,11 +19068,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "MADE IN TURKEY",
     "tags": "BRUSH, DOOR, IN, MADE, TURKEY",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "110 CM",
     "attribute": "BROWN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2066",
@@ -18045,13 +19086,14 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "STAINLESS STEEL \nROUND",
     "tags": "ENCLOSURE, ROUND, STAINLESS, STEEL, VENTILATION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2066_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2067",
@@ -18064,11 +19106,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "COOLER AUTO PUMP",
     "tags": "AUTO, ELECTRIC, PUMP, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1880",
@@ -18081,11 +19124,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "MISH MNA2AT \nBYEJE SEDA 3ADE",
     "tags": "GARDENING, HOSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 88.5,
     "sizes": "16 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1885",
@@ -18098,11 +19142,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "GROHE ORIGINAL\nWITH SOBAB",
     "tags": "GROHE, LEVER, ORIGINAL, SINK, SOBAB",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1887",
@@ -18115,11 +19160,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "5 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1888",
@@ -18132,11 +19178,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1889",
@@ -18149,11 +19196,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1890",
@@ -18166,11 +19214,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "BIT, DRILL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1891",
@@ -18183,11 +19232,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "EUROPEAN",
     "tags": "EU, EUROPEAN, PAD, POLISHING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1892",
@@ -18200,11 +19250,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "M14\nWITH HOLE",
     "tags": "BACKING, HOLE, M14, PAD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1893",
@@ -18217,11 +19268,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "P 600",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1894",
@@ -18234,11 +19286,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "P 120",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1895",
@@ -18251,11 +19304,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 24,
     "sizes": "P 400",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1896",
@@ -18268,11 +19322,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 42,
     "sizes": "P 220",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1897",
@@ -18285,13 +19340,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "GREASE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "200 GR",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1897_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1900",
@@ -18304,11 +19360,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "PAINT, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "4 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1902",
@@ -18321,11 +19378,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "SHOWER, WHEELS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1903",
@@ -18338,11 +19396,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "2 LAYERS",
     "tags": "NYLON, TRANSPARENT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 45,
     "sizes": "",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1908",
@@ -18355,11 +19414,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FENCE, THORN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "100 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1911",
@@ -18372,11 +19432,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "FENCE, GARDEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "3/4\" 1X20M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1913",
@@ -18389,11 +19450,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "GALVANIZED 2.6MM THICKNESS",
     "tags": "FENCE, GALVANIZED, GARDEN",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 22,
     "sizes": "6*6 CM 2M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1916",
@@ -18406,11 +19468,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "HOUWE 1.5 M MOTWE TNEN YA3NE BADNA NBI3 3M IZA FALET ya3ne 0.30$/1 meter\nExample: 30 Meters jar x3\neza bado yekheda kella 126 qty x 0.3$",
     "tags": "1, 3M, 5, BADNA, FALET, HOUWE, IZA, M, MOTWE, NBI3, NET, SHADE, TNEN, YA3NE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 60,
     "sizes": "3 M",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1917",
@@ -18423,11 +19486,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "P36",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1918",
@@ -18440,11 +19504,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "P60",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1919",
@@ -18457,11 +19522,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "P80",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1920",
@@ -18474,11 +19540,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "ABRASIVEDISC, SAIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "P80",
     "attribute": "RED",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1921",
@@ -18491,13 +19558,14 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "SCRUB, STAINLESS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1921_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1923",
@@ -18510,11 +19578,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "GROHE COPY",
     "tags": "ANGLE, COPY, GRO, GROHE, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1928",
@@ -18527,11 +19596,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 14,
     "sizes": "1/2 X 3/8 \"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1929",
@@ -18544,11 +19614,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "STAINLESS \nMA3 SOBAB",
     "tags": "ENCASTRE, KITCHEN, MA3, SINK, SOBAB, STAINLESS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "40 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1930",
@@ -18561,11 +19632,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "CASE, GEAR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1931",
@@ -18578,11 +19650,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "NUT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1934",
@@ -18595,11 +19668,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "FLOOR, HYDRAULIC, JACK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "2 TON",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1935",
@@ -18612,13 +19686,14 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "WITH 2 BATTERIES AND CHARGER\nSUCTION MODE + BLOW MODE",
     "tags": "2, BATTERIES, BATTERY, BLOW, BLOWER, CHARGER, MODE, SUCTION",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1935_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2090",
@@ -18631,13 +19706,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "قلب نحاس",
     "tags": "HAND, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2090_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2091",
@@ -18650,11 +19726,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "UP AND DOWN\nRAIN PROOF",
     "tags": "2, DOWN, PROOF, RAIN, REMOTE, UP, WAY, WINCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2092",
@@ -18667,11 +19744,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "UP, DOWN, RIGHT, LEFT\nRAIN PROOF",
     "tags": "4, DOWN, LEFT, PROOF, RAIN, REMOTE, RIGHT, UP, WAY, WINCH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2093",
@@ -18684,11 +19762,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "FILTER, MIXER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2094",
@@ -18701,11 +19780,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "CHISEL, SDS",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "14 MM X 25CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2095",
@@ -18718,11 +19798,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "PAD, POLISH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2097",
@@ -18735,11 +19816,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "UP TO 60 METERS HOSE LENGTH",
     "tags": "60, HOSE, LENGTH, METAL, METERS, REEL, UP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "60 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2098",
@@ -18752,11 +19834,12 @@ window.NABIL_PRODUCTS = [
     "category": "GARDENING",
     "description": "",
     "tags": "CONN, GARDENING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 12,
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2100",
@@ -18769,11 +19852,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "LAL AIR CONDITIONER",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "20 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2101",
@@ -18786,11 +19870,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "2200 LM",
     "tags": "2200, LED, LM, ROUND, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "22 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2102",
@@ -18803,11 +19888,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "DAYLIGHT 20CM CUT OUT",
     "tags": "20CM, CUT, DAYLIGHT, LED, OUT, PANEL, WHITE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 30,
     "sizes": "4 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2103",
@@ -18820,11 +19906,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "E14",
     "tags": "E14, LAMP, LED, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "5W E14",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2104",
@@ -18837,11 +19924,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "7 W MR16",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2107",
@@ -18854,11 +19942,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "10, 13, 14, 15, 17, 18, 19, 21, 22, 24, 27, 32",
     "tags": "10, 13, 14, 15, 17, 18, 19, 21, 22, 24, 27, 32, SET, SOCKET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2108",
@@ -18871,11 +19960,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 13,
     "sizes": "7W E14",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2109",
@@ -18888,11 +19978,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, ROUND",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 41,
     "sizes": "4 X 1.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2110",
@@ -18905,11 +19996,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SINGLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "40 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2111",
@@ -18922,11 +20014,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "GRAND, LE, SINGLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "25 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2113",
@@ -18939,11 +20032,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "SDS",
     "tags": "MIXER, PAINT, STICK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "50 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2114",
@@ -18956,11 +20050,12 @@ window.NABIL_PRODUCTS = [
     "category": "PESTICIDES",
     "description": "",
     "tags": "CAGE, RAT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "23.5 X 11 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2115",
@@ -18973,11 +20068,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "PU, STICK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "600 ML",
     "attribute": "GREY",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2117",
@@ -18990,11 +20086,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "PLIER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "4.5\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2119",
@@ -19007,11 +20104,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "",
     "tags": "CAR, WAX",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "230 GR",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2121",
@@ -19024,11 +20122,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "فراشي تنظيف عالمقدح\n3PCS PER SET",
     "tags": "BRUSH, SDS, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2123",
@@ -19041,11 +20140,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "HANDLE, WELDING",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "800 A",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2124",
@@ -19058,13 +20158,14 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "6 PCS PER SET\n3 PCS CHA2 + 3 PCS MSALLAB",
     "tags": "6, MINI, PCS, PER, SCREWDRIVER, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/2124_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1739",
@@ -19077,11 +20178,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "SILICONE, W/ACID",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "280 ML",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1741",
@@ -19094,13 +20196,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "1 PAIR / SET OF 2 PCS",
     "tags": "1, 2, DOOR, HANDLE, PAIR, PCS, SET",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "SILVER",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1741_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1744",
@@ -19113,11 +20216,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "FUNNEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1745",
@@ -19130,11 +20234,12 @@ window.NABIL_PRODUCTS = [
     "category": "GAS",
     "description": "LA DEFFEYET GAS",
     "tags": "DEFFEYET, GAS, GAUGE, LA",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1749",
@@ -19147,11 +20252,12 @@ window.NABIL_PRODUCTS = [
     "category": "PACKING",
     "description": "",
     "tags": "PAPER, ROLL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "sizes": "1 X 20 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1750",
@@ -19164,11 +20270,12 @@ window.NABIL_PRODUCTS = [
     "category": "KITCHEN",
     "description": "",
     "tags": "DISTILLED, WATER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "10 L",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1751",
@@ -19181,11 +20288,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "T600\nUP TO 600 DEGREE",
     "tags": "600, DEGREE, INFRARED, T600, THERMOMETER, UP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1753",
@@ -19198,11 +20306,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "2MM THICKNESS \n1\" MASKE\nدولاب نفخ",
     "tags": "\"1\"\"\", 2MM, BARROW, MASKE, THICKNESS, WHEEL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1\" 2 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1754",
@@ -19215,11 +20324,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1755",
@@ -19232,11 +20342,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CLAMP, PIPE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 19,
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1756",
@@ -19249,11 +20360,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "B23",
     "tags": "ACCESS, B23, FLUSH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1757",
@@ -19266,11 +20378,12 @@ window.NABIL_PRODUCTS = [
     "category": "PIPES",
     "description": "ONE PIECE IS 2 METERS LENGTH\n22MM BIRAKKIB LAL 25 MM",
     "tags": "2, FOAM, LENGTH, METERS, PIECE, STRIP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 21,
     "sizes": "22 MM X 2 M",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1758",
@@ -19283,11 +20396,12 @@ window.NABIL_PRODUCTS = [
     "category": "PIPES",
     "description": "ONE PIECE IS 2 METERS LENGTH\n25MM BIRAKKIB LAL 32 MM",
     "tags": "2, FOAM, LENGTH, METERS, PIECE, STRIP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 20,
     "sizes": "25 MM X 2 M",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1759",
@@ -19300,11 +20414,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "",
     "tags": "CONNECTOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "1 1/2X1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1762",
@@ -19317,11 +20432,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "70 GR",
     "tags": "70, GR, MIXER, SPARE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1763",
@@ -19334,11 +20450,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "CORE, ITALY, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1765",
@@ -19351,11 +20468,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "GERMANY",
     "tags": "GERMANY, HEATER, VENT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1766",
@@ -19368,11 +20486,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "200 GR",
     "tags": "HAMMER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "0.2 KG",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1767",
@@ -19385,11 +20504,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATTERIES",
     "description": "BATTERY TERMINAL N7AS MRATTABIN",
     "tags": "BATTERY, MRATTABIN, N7AS, TERMI, TERMINAL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1768",
@@ -19402,11 +20522,12 @@ window.NABIL_PRODUCTS = [
     "category": "CONSTRUCTION",
     "description": "مع زيبق",
     "tags": "FLIP, THREAD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "30 M",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1770",
@@ -19419,11 +20540,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "SICKLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1771",
@@ -19436,11 +20558,12 @@ window.NABIL_PRODUCTS = [
     "category": "HAND TOOLS",
     "description": "",
     "tags": "VISE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "30 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1776",
@@ -19453,11 +20576,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "40 WHITE\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "400 ML",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1777",
@@ -19470,11 +20594,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "1007 MATT WHITE\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "400 ML",
     "attribute": "WHITE MATT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1778",
@@ -19487,11 +20612,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "39 BLACK\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "400 ML",
     "attribute": "BLACK",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1779",
@@ -19504,11 +20630,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "4 MATT BLACK\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 14,
     "sizes": "400 ML",
     "attribute": "BLACK MATT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1781",
@@ -19521,11 +20648,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "21 MEDIUM BLUE\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "400 ML",
     "attribute": "MEDIUM BLUE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1783",
@@ -19538,11 +20666,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "35 GOLD\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "400 ML",
     "attribute": "GOLD",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1784",
@@ -19555,11 +20684,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "37 ONION GREEN\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "400 ML",
     "attribute": "GREEN",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1658",
@@ -19572,11 +20702,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "STEP 2\nPAIL",
     "tags": "2, PUTTY, SOFT, STEP, WALL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "17 KGS",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1659",
@@ -19589,11 +20720,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "STEP 1",
     "tags": "1, HARD, PUTTY, STEP, WALL",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1 KG",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1681",
@@ -19606,11 +20738,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINTS",
     "description": "705 OFF WHITE SEMI GLOSSY\nGALLON",
     "tags": "ENAMEL, HW, PAINT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "sizes": "4 KGS",
     "attribute": "705 SEMIGLOS",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1686",
@@ -19623,11 +20756,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "ITANI",
     "tags": "BALL, FLOAT, TANK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1687",
@@ -19640,13 +20774,14 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "",
     "tags": "SCRAPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "10\"",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1687_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1688",
@@ -19659,11 +20794,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "",
     "tags": "SCREW, TIGE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "10 MM X100CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1691",
@@ -19676,11 +20812,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "BULB, LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "7 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1694",
@@ -19693,11 +20830,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "360 DEGREE",
     "tags": "360, DEGREE, INFRARED, MOTIONSENSOR",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "2000 W",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1695",
@@ -19710,11 +20848,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "ASSORTED COLORS\nLAMP BOULE",
     "tags": "BULB, LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 8,
     "sizes": "3 W E27",
     "attribute": "COLOR",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1696",
@@ -19727,11 +20866,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "CONVERTER, E14, E27, LAMP",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 11,
     "sizes": "E14",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1700",
@@ -19744,11 +20884,12 @@ window.NABIL_PRODUCTS = [
     "category": "SPARE PARTS",
     "description": "",
     "tags": "BATTERY, CHARGER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "21 V",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1702",
@@ -19761,11 +20902,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS ACCESSORIES",
     "description": "",
     "tags": "CHAIN, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "26/91",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1704",
@@ -19778,13 +20920,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "LAMP LED BULB",
     "tags": "BULB, LAMP, LED",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "20 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1704_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1706",
@@ -19797,13 +20940,14 @@ window.NABIL_PRODUCTS = [
     "category": "SAFETY",
     "description": "",
     "tags": "GLOVES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "XL",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1706_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1656",
@@ -19816,11 +20960,12 @@ window.NABIL_PRODUCTS = [
     "category": "TOOLS",
     "description": "DIAMETER  16 MM",
     "tags": "16, DIAMETER, DOOR, MM, VIEWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "35-55 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1710",
@@ -19833,13 +20978,14 @@ window.NABIL_PRODUCTS = [
     "category": "LOCKS AND HANDLES",
     "description": "MAINLY FOR ALUMINIUM DOORS\nBM51",
     "tags": "ALUMINIUM, CLOSER, DOOR, DOORS, MAINLY, UPPER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45-60 KGS",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1710_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1713",
@@ -19852,11 +20998,12 @@ window.NABIL_PRODUCTS = [
     "category": "PAINT ACCESSORIES",
     "description": "FOR TEXTURE",
     "tags": "PAINT, ROLL, TEXTURE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1714",
@@ -19869,11 +21016,12 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "ACMA FOR MARBLE AND GRANITE",
     "tags": "ACMA, GLUE, GRANITE, MARBLE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "650 ML",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1715",
@@ -19886,13 +21034,14 @@ window.NABIL_PRODUCTS = [
     "category": "ADHESIVE",
     "description": "",
     "tags": "PU, STICK",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "600 ML",
     "attribute": "WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1715_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1716",
@@ -19905,11 +21054,12 @@ window.NABIL_PRODUCTS = [
     "category": "SCREWS",
     "description": "8 CM",
     "tags": "HOOK, ROLLBOLT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1718",
@@ -19922,11 +21072,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "ENCASTREE",
     "tags": "ENCASTREE, GROHE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1720",
@@ -19939,11 +21090,12 @@ window.NABIL_PRODUCTS = [
     "category": "POWER TOOLS",
     "description": "5200 HEN",
     "tags": "5200, CHAIN, HEN, SAW",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "45 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1723",
@@ -19956,11 +21108,12 @@ window.NABIL_PRODUCTS = [
     "category": "CABLES",
     "description": "25 X 40 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "sizes": "2.5 X 4 CM",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1725",
@@ -19973,13 +21126,14 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "خط واحد",
     "tags": "1, BOX, FUSE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "12 PCS",
     "attribute": "",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1725_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1726",
@@ -19992,11 +21146,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "2200 LM",
     "tags": "2200, LED, LM, ROUND, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "22 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1727",
@@ -20009,11 +21164,12 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "3000K 8W",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "sizes": "45 CM",
     "attribute": "YELLOW",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1729",
@@ -20026,11 +21182,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "SWITCH, TIME",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1730",
@@ -20043,13 +21200,14 @@ window.NABIL_PRODUCTS = [
     "category": "LAMPS",
     "description": "",
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "sizes": "7 W MR16",
     "attribute": "WARM WHITE",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1730_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1731",
@@ -20062,11 +21220,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "4, FRAME, GRAND, LE, MODULES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1732",
@@ -20079,11 +21238,12 @@ window.NABIL_PRODUCTS = [
     "category": "ELECTRICAL",
     "description": "",
     "tags": "6, FRAME, GRAND, LE, MODULES",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 9,
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1487",
@@ -20096,11 +21256,12 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "عنق خلاط 360 درجة متحرك",
     "tags": "FAUCET, SPLASH",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1491",
@@ -20113,13 +21274,14 @@ window.NABIL_PRODUCTS = [
     "category": "BATH ACCESSORIES",
     "description": "",
     "tags": "HAND, SET, SHOWER",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "sizes": "1.15 M",
     "attribute": "CHROME",
     "dimensions": "",
     "additionalImagePaths": [
       "./images/1491_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1492",
@@ -20132,11 +21294,12 @@ window.NABIL_PRODUCTS = [
     "category": "PLUMBING",
     "description": "CONNECTOR VALVE, BRASS",
     "tags": "BRASS, CONNECTOR, VALVE",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 4,
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "additionalImagePaths": []
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1965",
@@ -20199,8 +21362,9 @@ window.NABIL_PRODUCTS = [
     "description": "WITH LED LAMPS \nINSULATED",
     "tags": "BOOSTER, CABLES",
     "imagePath": "./images/1047.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1052",
@@ -20455,8 +21619,9 @@ window.NABIL_PRODUCTS = [
     "description": "وطني",
     "tags": "CONN, PVC, T",
     "imagePath": "./images/1136.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1137",
@@ -20471,8 +21636,9 @@ window.NABIL_PRODUCTS = [
     "description": "وطني",
     "tags": "CONN, PVC, T",
     "imagePath": "./images/1137.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1138",
@@ -20871,8 +22037,9 @@ window.NABIL_PRODUCTS = [
     "description": "بوات مفرد ظاهر مطري ركوب",
     "tags": "BOX, OUTDOOR, SWITCH",
     "imagePath": "./images/1066.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1070",
@@ -21303,8 +22470,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LEATHER",
     "imagePath": "./images/1577.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 371,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1579",
@@ -21319,8 +22487,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GARDENING, HOSE",
     "imagePath": "./images/1579.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 17.5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1226",
@@ -21367,8 +22536,9 @@ window.NABIL_PRODUCTS = [
     "description": "برغي باطون",
     "tags": "SCREW, YELLOW",
     "imagePath": "./images/1027.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 34,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1041",
@@ -21383,8 +22553,9 @@ window.NABIL_PRODUCTS = [
     "description": "20 X 20 MM",
     "tags": "16, CORNER, MM, PEX, X",
     "imagePath": "./images/1041.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1285",
@@ -21431,8 +22602,9 @@ window.NABIL_PRODUCTS = [
     "description": "FLEXIBLE\nTOUL 45 CM",
     "tags": "50, CM, FLEXIBLE, HOSE, SANITARY, TOUL",
     "imagePath": "./images/1303.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1342",
@@ -22375,8 +23547,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SOLID, TUBE",
     "imagePath": "./images/2076.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2085",
@@ -22423,8 +23596,9 @@ window.NABIL_PRODUCTS = [
     "description": "SET OF 2 PCS",
     "tags": "2, FIX, PCS, SCREW, SET",
     "imagePath": "./images/2106.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2120",
@@ -22471,8 +23645,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRILL, SDS",
     "imagePath": "./images/1641.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1646",
@@ -22519,8 +23694,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HEXAGON, SCREW",
     "imagePath": "./images/1836.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 20,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1858",
@@ -22535,8 +23711,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, PIPE",
     "imagePath": "./images/1858.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1772",
@@ -22551,8 +23728,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LOCKING, PLIER",
     "imagePath": "./images/1772.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1774",
@@ -22567,8 +23745,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRILL, SDS",
     "imagePath": "./images/1774.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1775",
@@ -22631,8 +23810,9 @@ window.NABIL_PRODUCTS = [
     "description": "15 CM",
     "tags": "CABLE, CUT, PLIER",
     "imagePath": "./images/1936.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1937",
@@ -22647,8 +23827,9 @@ window.NABIL_PRODUCTS = [
     "description": "WEDGE\n100 PCS PER BAG",
     "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
     "imagePath": "./images/1937.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1945",
@@ -22663,8 +23844,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "TORX",
     "imagePath": "./images/1945.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "498",
@@ -22679,10 +23861,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LEVEL, SPIRIT",
     "imagePath": "./images/498.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/498_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "225",
@@ -22697,10 +23880,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BATHROOM, FAN",
     "imagePath": "./images/225.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/225_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "249",
@@ -22715,10 +23899,11 @@ window.NABIL_PRODUCTS = [
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, HARD, SINGLE",
     "imagePath": "./images/249.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 130,
     "additionalImagePaths": [
       "./images/249_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "260",
@@ -22733,8 +23918,9 @@ window.NABIL_PRODUCTS = [
     "description": "16 X 25 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
     "imagePath": "./images/260.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "263",
@@ -22749,10 +23935,11 @@ window.NABIL_PRODUCTS = [
     "description": "DIGITAL",
     "tags": "DIGITAL, PROTECTOR, VOLTAGE",
     "imagePath": "./images/263.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/263_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "19",
@@ -22767,10 +23954,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOUBLE, HAMMER, SIDE",
     "imagePath": "./images/19.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/19_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "20",
@@ -22785,8 +23973,9 @@ window.NABIL_PRODUCTS = [
     "description": "WITH SMALL CUTTER",
     "tags": "ASSORT, CUTTER, SCREWDRIVER, SMALL",
     "imagePath": "./images/20.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "33",
@@ -22801,10 +23990,11 @@ window.NABIL_PRODUCTS = [
     "description": "70 MBAR",
     "tags": "70, GAS, GAUGE, MBAR",
     "imagePath": "./images/33.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/33_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "48",
@@ -22819,10 +24009,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HANDLE, PAINTROLL, W",
     "imagePath": "./images/48.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/48_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "49",
@@ -22837,8 +24028,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HANDLE, PAINTROLL",
     "imagePath": "./images/49.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "50",
@@ -22853,8 +24045,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SCRAPER, SIDE",
     "imagePath": "./images/50.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "51",
@@ -22869,8 +24062,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CUTTER",
     "imagePath": "./images/51.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "52",
@@ -22885,8 +24079,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRAMIC, PINCER",
     "imagePath": "./images/52.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "54",
@@ -22901,8 +24096,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "COMBمشط, EARTH",
     "imagePath": "./images/54.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "55",
@@ -22917,10 +24113,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GLOVES, PROTECTIVE",
     "imagePath": "./images/55.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "additionalImagePaths": [
       "./images/55_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "58",
@@ -22935,8 +24132,9 @@ window.NABIL_PRODUCTS = [
     "description": "12 PCS",
     "tags": "12, CAOTCHOUK, LEG, PCS",
     "imagePath": "./images/58.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "59",
@@ -22951,10 +24149,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BRUSH, WIRE",
     "imagePath": "./images/59.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/59_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "61",
@@ -22969,10 +24168,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ABRASIVE, PAPER",
     "imagePath": "./images/61.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 63,
     "additionalImagePaths": [
       "./images/61_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "91",
@@ -22987,8 +24187,9 @@ window.NABIL_PRODUCTS = [
     "description": "STANDARD ORIGINAL",
     "tags": "PADLOCK, SECURITY, TOP",
     "imagePath": "./images/91.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "290",
@@ -23003,8 +24204,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PICKAXE, STICK",
     "imagePath": "./images/290.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "359",
@@ -23019,8 +24221,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LOCK, PENDANT",
     "imagePath": "./images/359.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "360",
@@ -23035,8 +24238,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CLOSET, LOCK",
     "imagePath": "./images/360.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "366",
@@ -23051,8 +24255,9 @@ window.NABIL_PRODUCTS = [
     "description": "L = 90 MM",
     "tags": "90, L, MM, ROLLBOLT",
     "imagePath": "./images/366.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1187",
@@ -23067,10 +24272,11 @@ window.NABIL_PRODUCTS = [
     "description": "زاوية نجارين المنيوم",
     "tags": "90, RULER",
     "imagePath": "./images/1187.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/1187_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1199",
@@ -23085,8 +24291,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "10, B, GARDENING, HOSE",
     "imagePath": "./images/1199.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 130,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "102",
@@ -23101,10 +24308,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CORD, EXTENSION, MALE",
     "imagePath": "./images/102.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "additionalImagePaths": [
       "./images/102_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "105",
@@ -23119,8 +24327,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HAND, SAW",
     "imagePath": "./images/105.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "108",
@@ -23135,8 +24344,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GAS, NUT, WRENCH",
     "imagePath": "./images/108.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "114",
@@ -23151,8 +24361,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "10, 16, FT, MEASURING, MM, TAPE",
     "imagePath": "./images/114.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "121",
@@ -23167,8 +24378,9 @@ window.NABIL_PRODUCTS = [
     "description": "FLEXIBLE",
     "tags": "HBBH",
     "imagePath": "./images/121.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "124",
@@ -23183,8 +24395,9 @@ window.NABIL_PRODUCTS = [
     "description": "FIXED WITH SUPPORT AND HOSE ثابت مع نبريج وقاعدة",
     "tags": "HOSE, MOVABLE, PHONE, SHOWER, SUPPORT",
     "imagePath": "./images/124.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "125",
@@ -23199,10 +24412,11 @@ window.NABIL_PRODUCTS = [
     "description": "DRONCO PERFECT C24R-BF",
     "tags": "dep, name, test",
     "imagePath": "./images/125.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "additionalImagePaths": [
       "./images/125_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "135",
@@ -23217,8 +24431,9 @@ window.NABIL_PRODUCTS = [
     "description": "12 VOLT",
     "tags": "BATTERY, CABLES, LAMP, T8, W",
     "imagePath": "./images/135.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "174",
@@ -23233,8 +24448,9 @@ window.NABIL_PRODUCTS = [
     "description": "DOUBLE 240V AELIFV",
     "tags": "BREAKER, CIRCUIT",
     "imagePath": "./images/174.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "407",
@@ -23249,8 +24465,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "AVIATION, SCISSORS",
     "imagePath": "./images/407.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "417",
@@ -23265,8 +24482,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRIVER, SCREW",
     "imagePath": "./images/417.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "430",
@@ -23281,8 +24499,9 @@ window.NABIL_PRODUCTS = [
     "description": "SOCKET SET 46 PCS",
     "tags": "46, PCS, SET, SOCKET",
     "imagePath": "./images/430.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "433",
@@ -23297,10 +24516,11 @@ window.NABIL_PRODUCTS = [
     "description": "MADE IN SWEDEN",
     "tags": "BOWSAW",
     "imagePath": "./images/433.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/433_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "442",
@@ -23315,8 +24535,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BIT, DRILL",
     "imagePath": "./images/442.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1063",
@@ -23331,8 +24552,9 @@ window.NABIL_PRODUCTS = [
     "description": "مع فتحات\nJUNCTION BOX",
     "tags": "BOX, PVC, WATER",
     "imagePath": "./images/1063.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1064",
@@ -23347,8 +24569,9 @@ window.NABIL_PRODUCTS = [
     "description": "مع فتحات\nJUNCTION BOX",
     "tags": "BOX, PVC, WATER",
     "imagePath": "./images/1064.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "857",
@@ -23363,8 +24586,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PLIER, SMW",
     "imagePath": "./images/857.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "860",
@@ -23379,10 +24603,11 @@ window.NABIL_PRODUCTS = [
     "description": "RATED VOLTAGE: 220V\nRATED INPUT POWER: 750W\nDISC DIAMETER: 115MM\nLOAD SPEED: 12000R/MIN",
     "tags": "115MM, 12000R/MIN, 220V, 750W, ANGLE, DIAMETER:, DISC, GRINDER, INPUT, LOAD, POWER:, RATED, SPEED:, VOLTAGE:",
     "imagePath": "./images/860.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/860_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "895",
@@ -23397,8 +24622,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "NECK, TAP",
     "imagePath": "./images/895.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "896",
@@ -23413,8 +24639,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "NECK, TAP",
     "imagePath": "./images/896.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "902",
@@ -23429,8 +24656,9 @@ window.NABIL_PRODUCTS = [
     "description": "تحويلة من عادي ل SDS WITHOUT SELF LOCKING",
     "tags": "CHUCK, DRILL, LOCKING, SDS, SELF, WITHOUT",
     "imagePath": "./images/902.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "571",
@@ -23445,8 +24673,9 @@ window.NABIL_PRODUCTS = [
     "description": "SILICONE FREE بدون سيليكون",
     "tags": "FREE, LUBRICANT, RUST, SILICONE, WD-40",
     "imagePath": "./images/571.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "581",
@@ -23461,8 +24690,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LOCK, PENDANT",
     "imagePath": "./images/581.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "749",
@@ -23477,8 +24707,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "F, UNION",
     "imagePath": "./images/749.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "759",
@@ -23493,8 +24724,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "90, CORNER",
     "imagePath": "./images/759.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "769",
@@ -23509,8 +24741,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "REDUCED, UNION",
     "imagePath": "./images/769.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "770",
@@ -23525,8 +24758,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "REDUCED, UNION",
     "imagePath": "./images/770.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "799",
@@ -23541,8 +24775,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "t",
     "imagePath": "./images/799.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "806",
@@ -23557,8 +24792,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "t",
     "imagePath": "./images/806.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "399",
@@ -23573,8 +24809,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CLAMP",
     "imagePath": "./images/399.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "985",
@@ -23589,8 +24826,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRAINER, FLOOR",
     "imagePath": "./images/985.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1014",
@@ -23605,8 +24843,9 @@ window.NABIL_PRODUCTS = [
     "description": "5 KEYS",
     "tags": "5, CYLINDER, KEY, KEYS",
     "imagePath": "./images/1014.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1020",
@@ -23621,8 +24860,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BASIN, SCREWطقم",
     "imagePath": "./images/1020.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "677",
@@ -23637,8 +24877,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, PIPE",
     "imagePath": "./images/677.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 8,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "502",
@@ -23653,8 +24894,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, GAS, HOSE",
     "imagePath": "./images/502.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "515",
@@ -23669,8 +24911,9 @@ window.NABIL_PRODUCTS = [
     "description": "ADHESIVE BOTTLE + SPRAY BOTTLE\nAC 200 INSTANT ADHESIVE ACTIVATOR",
     "tags": "ADHESIVE, BOTTLE, SPRAY",
     "imagePath": "./images/515.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "516",
@@ -23685,10 +24928,11 @@ window.NABIL_PRODUCTS = [
     "description": "MASE7 AW MA3 RONDELLE\nTOUL 40 MM\n100 PCS PER BOX",
     "tags": "TEST",
     "imagePath": "./images/516.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/516_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "521",
@@ -23703,10 +24947,11 @@ window.NABIL_PRODUCTS = [
     "description": "WITH COBALT FOR METAL WOOD AND PLASTIC\nMA3 MAMSAK",
     "tags": "COBALT, HOLE, METAL, PLASTIC, SAW, WOOD",
     "imagePath": "./images/521.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/521_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "534",
@@ -23721,10 +24966,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DEMOL",
     "imagePath": "./images/534.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 7,
     "additionalImagePaths": [
       "./images/534_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "536",
@@ -23739,10 +24985,11 @@ window.NABIL_PRODUCTS = [
     "description": "DC 12 V\n10A",
     "tags": "10, 12, 965, AIR, COMPRESSOR, DC, KPA, MAX, PRESSURE, V",
     "imagePath": "./images/536.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/536_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "540",
@@ -23757,8 +25004,9 @@ window.NABIL_PRODUCTS = [
     "description": "TOUL 170 CM , 3ARED 88 CM , OUTPUT TABA3O 1\" N7AS\n8 MM THIKNESS",
     "tags": "170, 3ARED, 88, CM, TANK, TOUL, WATER",
     "imagePath": "./images/540.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "547",
@@ -23773,8 +25021,9 @@ window.NABIL_PRODUCTS = [
     "description": "THICKNESS 3 MM , 54 x 40 CM , BRAND ITANI , SOKHAN BI2ALBA 1500 WATT",
     "tags": "3, BRAND, HEATER, ITANI, MM, THICKNESS, WATER",
     "imagePath": "./images/547.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1607",
@@ -23789,8 +25038,9 @@ window.NABIL_PRODUCTS = [
     "description": "مخيط",
     "tags": "GARDEN, HOSE",
     "imagePath": "./images/1607.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1609",
@@ -23805,8 +25055,9 @@ window.NABIL_PRODUCTS = [
     "description": "400 GR",
     "tags": "400, GR, PICKAXE",
     "imagePath": "./images/1609.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1080",
@@ -23821,8 +25072,9 @@ window.NABIL_PRODUCTS = [
     "description": "LAL KHOLAT للخلاط\nSET OF 2 PCS",
     "tags": "TEST",
     "imagePath": "./images/1080.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1215",
@@ -23837,8 +25089,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "7ECHCHE, RAS",
     "imagePath": "./images/1215.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1218",
@@ -23853,8 +25106,9 @@ window.NABIL_PRODUCTS = [
     "description": "PH2 DOUBLE SIDED \nMAGNETIC BELT CLIP",
     "tags": "BELT, BIT, CLIP, DOUBLE, END, MAGNETIC, PH2, SIDED",
     "imagePath": "./images/1218.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1231",
@@ -23869,8 +25123,9 @@ window.NABIL_PRODUCTS = [
     "description": "BYERKABLA 3ASA ME3WAL\nBI OULOULA CHAWKIT DA3ES\nشوكة دعس",
     "tags": "AGRICULTURE, FORK",
     "imagePath": "./images/1231.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1245",
@@ -23885,8 +25140,9 @@ window.NABIL_PRODUCTS = [
     "description": "BALA SE3A MODEL PS-04A\nAUTOMATIC MAX CURRENT: 10A STARTING PRESSURE: 1.5BAR MAX WORKING PRESSURE: 10 BAR VOLTAGE: 220V\nMAX WORKING TEMPERATURE: 60 DEGREE",
     "tags": "1, 10, 10A, 220V, 5BAR, 60, AUTOMATIC, BALA, BAR, CONT, CURRENT:, DEGREE, LEO, MAX, MODEL, PRESSURE, PRESSURE:, PS-04A, SE3A, STARTING, TEMPERATURE:, VOLTAGE:, WORKING",
     "imagePath": "./images/1245.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1247",
@@ -23901,8 +25157,9 @@ window.NABIL_PRODUCTS = [
     "description": "Cordless Portable High Pressure Washer: rechargeable battery, it’s convenient for outdoor working. It can be used to wash cars, flush ground, water flowers, clean solar panels and air conditioners.\nPower Source: 48VF Lithium Battery\n10 meters water hose\nVoltage: 24V",
     "tags": "10, 24V, 48VF, air, BATTERY, can, cars, clean, conditioners, convenient, Cordless, flowers, flush, ground, GUN, High, hose, it’s, Lithium, meters, outdoor, panels, Portable, Power, Pressure, rechargeable, solar, Source:, used, Voltage:, wash, Washer:, WATER, working",
     "imagePath": "./images/1247.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1443",
@@ -23917,8 +25174,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOX, TOOL",
     "imagePath": "./images/1443.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1445",
@@ -23933,8 +25191,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ALUM, LADDER",
     "imagePath": "./images/1445.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1448",
@@ -23949,10 +25208,11 @@ window.NABIL_PRODUCTS = [
     "description": "RESIN CORD SOLDER WIRE",
     "tags": "CORD, RESIN, SOLDER, WIRE",
     "imagePath": "./images/1448.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/1448_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1460",
@@ -23967,8 +25227,9 @@ window.NABIL_PRODUCTS = [
     "description": "CLEAR BODY COLOR\nllli be2yo markit daewo henne 5watt bas ma fata7et item fyoun la2ano alil bay3oun ma ba2a fi menon",
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
     "imagePath": "./images/1460.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "597",
@@ -23983,10 +25244,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "IRON, SOLDERING",
     "imagePath": "./images/597.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/597_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "622",
@@ -24001,8 +25263,9 @@ window.NABIL_PRODUCTS = [
     "description": "PLASTIC",
     "tags": "METER, PLASTIC, WATER",
     "imagePath": "./images/622.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1654",
@@ -24017,8 +25280,9 @@ window.NABIL_PRODUCTS = [
     "description": "ONE PIECE IS 2 METERS LENGTH\n18MM BIRAKKIB LAL 20 MM",
     "tags": "2, FOAM, LENGTH, METERS, PIECE, STRIP",
     "imagePath": "./images/1654.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 20,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1663",
@@ -24033,8 +25297,9 @@ window.NABIL_PRODUCTS = [
     "description": "ZINC CHROMATE",
     "tags": "PAINT, ZIRCON",
     "imagePath": "./images/1663.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1698",
@@ -24049,8 +25314,9 @@ window.NABIL_PRODUCTS = [
     "description": "BLACK AND RED",
     "tags": "BLACK, GUIDER, RED, WIRE",
     "imagePath": "./images/1698.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1623",
@@ -24065,10 +25331,11 @@ window.NABIL_PRODUCTS = [
     "description": "او نبريش راكور\nbyerkab lal 1/2 w lal 3/4",
     "tags": "RACCORD",
     "imagePath": "./images/1623.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/1623_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1624",
@@ -24083,10 +25350,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RACCORD",
     "imagePath": "./images/1624.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/1624_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1639",
@@ -24101,8 +25369,9 @@ window.NABIL_PRODUCTS = [
     "description": "PAINT BRUSH",
     "tags": "101, 6, BRUSH, mm",
     "imagePath": "./images/1639.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1644",
@@ -24117,8 +25386,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BROOM, STICK",
     "imagePath": "./images/1644.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1881",
@@ -24133,8 +25403,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/1881.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1882",
@@ -24149,8 +25420,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LED, SENSOR, SPOT, W",
     "imagePath": "./images/1882.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "925",
@@ -24165,8 +25437,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "VALVE",
     "imagePath": "./images/925.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "845",
@@ -24181,8 +25454,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR USE ON METAL PARTS",
     "tags": "GREASE, METAL, ON, PARTS, SPRAY, USE",
     "imagePath": "./images/845.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1504",
@@ -24197,10 +25471,11 @@ window.NABIL_PRODUCTS = [
     "description": "MA3 BATTERY RECHARGABLE \nMA3 CHRIT USB\nW WEHDE IZA BADNA N7OTT BATTERIES 3ADE",
     "tags": "3ADE, BADNA, BATTERIES, BATTERY, CHRIT, IZA, MA3, N7OTT, RECHARGABLE, RECHARGEABLE, TORCH, USB, W, WEHDE",
     "imagePath": "./images/1504.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/1504_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2005",
@@ -24215,8 +25490,9 @@ window.NABIL_PRODUCTS = [
     "description": "GARBAGE CART",
     "tags": "DUSTBIN, WHEELED",
     "imagePath": "./images/2005.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2029",
@@ -24231,10 +25507,11 @@ window.NABIL_PRODUCTS = [
     "description": "MA3 CHANTA PLASTIC\n2 BATTERIES 21V",
     "tags": "2, 21V, BATTERIES, CHANTA, INSTALL, MA3, PLASTIC, TILE",
     "imagePath": "./images/2029.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2029_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2127",
@@ -24249,8 +25526,9 @@ window.NABIL_PRODUCTS = [
     "description": "RKHIS",
     "tags": "RESSORT, RKHIS, TUBE",
     "imagePath": "./images/2127.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 60,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2128",
@@ -24265,10 +25543,11 @@ window.NABIL_PRODUCTS = [
     "description": "PER METER\n1 LAMP PER LINEAR METER",
     "tags": "3M, LED, LIGHT, METER, PER, STRIP",
     "imagePath": "./images/2128.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 20,
     "additionalImagePaths": [
       "./images/2128_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2203",
@@ -24283,8 +25562,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "\"1/2\"\"\", GARDEN, HOSE",
     "imagePath": "./images/2203.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2205",
@@ -24299,8 +25579,9 @@ window.NABIL_PRODUCTS = [
     "description": "LAMP LED BULB",
     "tags": "BULB, LAMP, LED",
     "imagePath": "./images/2205.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2206",
@@ -24315,8 +25596,9 @@ window.NABIL_PRODUCTS = [
     "description": "POULIE",
     "tags": "POULIE, PULLEY",
     "imagePath": "./images/2206.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2207",
@@ -24331,8 +25613,9 @@ window.NABIL_PRODUCTS = [
     "description": "POULIE",
     "tags": "POULIE, PULLEY",
     "imagePath": "./images/2207.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2208",
@@ -24347,8 +25630,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RACCORD",
     "imagePath": "./images/2208.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2209",
@@ -24363,8 +25647,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RACCORD",
     "imagePath": "./images/2209.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2211",
@@ -24379,8 +25664,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RACCORD",
     "imagePath": "./images/2211.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 8,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2213",
@@ -24395,8 +25681,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BUBBLE",
     "imagePath": "./images/2213.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2214",
@@ -24411,8 +25698,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BUBBLE",
     "imagePath": "./images/2214.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2215",
@@ -24427,8 +25715,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2215.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2217",
@@ -24443,10 +25732,11 @@ window.NABIL_PRODUCTS = [
     "description": "90-240 V",
     "tags": "90-240, SWITCH, V, WIFI",
     "imagePath": "./images/2217.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2217_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2220",
@@ -24461,8 +25751,9 @@ window.NABIL_PRODUCTS = [
     "description": "41 YELLOW\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2220.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2221",
@@ -24477,8 +25768,9 @@ window.NABIL_PRODUCTS = [
     "description": "38 IVORY WHITE\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2221.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2222",
@@ -24493,8 +25785,9 @@ window.NABIL_PRODUCTS = [
     "description": "2 KEYS",
     "tags": "2, CABINET, KEYS, LOCK",
     "imagePath": "./images/2222.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2223",
@@ -24509,10 +25802,11 @@ window.NABIL_PRODUCTS = [
     "description": "VARIABLE SPEED UP TO 6\nSIDE SWITCH\nDUTABLE ALUMINIUM GEAR BOX",
     "tags": "ANGLE, GRINDER",
     "imagePath": "./images/2223.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2223_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2224",
@@ -24527,8 +25821,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PIPE, SEWER",
     "imagePath": "./images/2224.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2225",
@@ -24543,8 +25838,9 @@ window.NABIL_PRODUCTS = [
     "description": "CALOPINA",
     "tags": "CALOPINA, CLAMP",
     "imagePath": "./images/2225.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 12,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2226",
@@ -24559,8 +25855,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ELECTRICAL",
     "imagePath": "./images/2226.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2227",
@@ -24575,8 +25872,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PEUGEOT, SCRAPER",
     "imagePath": "./images/2227.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2228",
@@ -24591,8 +25889,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PEUGEOT, SCRAPER",
     "imagePath": "./images/2228.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2232",
@@ -24607,8 +25906,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "KITCHEN, SS304",
     "imagePath": "./images/2232.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2233",
@@ -24623,8 +25923,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CORE, VALVE",
     "imagePath": "./images/2233.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2234",
@@ -24639,8 +25940,9 @@ window.NABIL_PRODUCTS = [
     "description": "100 PCS PER PACK",
     "tags": "CABLE, TIES",
     "imagePath": "./images/2234.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2235",
@@ -24655,8 +25957,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "FRAME, GRAND, LE",
     "imagePath": "./images/2235.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2236",
@@ -24671,8 +25974,9 @@ window.NABIL_PRODUCTS = [
     "description": "HAYDA GHATA MISH 3ELBE \nMA3 COVER FOR OUTDOOR USE",
     "tags": "FRAME, GRAND, LE",
     "imagePath": "./images/2236.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2237",
@@ -24687,10 +25991,11 @@ window.NABIL_PRODUCTS = [
     "description": "BLINKING ROTARY SIGNAL LAMP",
     "tags": "BLINKING, LAMP, ROTARY, SIGNAL",
     "imagePath": "./images/2237.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2237_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2239",
@@ -24705,8 +26010,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
     "imagePath": "./images/2239.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 29,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2240",
@@ -24721,8 +26027,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
     "imagePath": "./images/2240.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2241",
@@ -24737,10 +26044,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "TIMER",
     "imagePath": "./images/2241.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/2241_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2242",
@@ -24755,8 +26063,9 @@ window.NABIL_PRODUCTS = [
     "description": "CLASSIC",
     "tags": "CLASSIC, MIXER, SINK",
     "imagePath": "./images/2242.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2243",
@@ -24771,8 +26080,9 @@ window.NABIL_PRODUCTS = [
     "description": "VITESSE",
     "tags": "KITCHEN, MIXER, VITESSE",
     "imagePath": "./images/2243.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2245",
@@ -24787,8 +26097,9 @@ window.NABIL_PRODUCTS = [
     "description": "BALA SOBAB MEN WARA",
     "tags": "BALA, DRAIN, FLOOR, MEN, SOBAB, WARA",
     "imagePath": "./images/2245.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2246",
@@ -24803,8 +26114,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ELBOW, WRENCH",
     "imagePath": "./images/2246.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2247",
@@ -24819,8 +26131,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CUTTING, PLIER",
     "imagePath": "./images/2247.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2248",
@@ -24835,8 +26148,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "MASK, WELDING",
     "imagePath": "./images/2248.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2249",
@@ -24851,8 +26165,9 @@ window.NABIL_PRODUCTS = [
     "description": "CARBIRATEUR",
     "tags": "CARB, CARBIRATEUR, CLEANER",
     "imagePath": "./images/2249.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2250",
@@ -24867,8 +26182,9 @@ window.NABIL_PRODUCTS = [
     "description": "ديسك دمعة",
     "tags": "DISC",
     "imagePath": "./images/2250.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2251",
@@ -24883,8 +26199,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CORNER, PVC",
     "imagePath": "./images/2251.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 8,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2252",
@@ -24899,8 +26216,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BIT, DRILL",
     "imagePath": "./images/2252.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2253",
@@ -24915,10 +26233,11 @@ window.NABIL_PRODUCTS = [
     "description": "طاسة عمال",
     "tags": "HAT, SAFETY",
     "imagePath": "./images/2253.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "additionalImagePaths": [
       "./images/2253_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2254",
@@ -24933,8 +26252,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "MARKER, PEN",
     "imagePath": "./images/2254.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2256",
@@ -24949,8 +26269,9 @@ window.NABIL_PRODUCTS = [
     "description": "SET OF 2\n7CM SIZE MEN MASKE LAL EFEL",
     "tags": "2, DOOR, HANDLE, SET",
     "imagePath": "./images/2256.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2257",
@@ -24965,8 +26286,9 @@ window.NABIL_PRODUCTS = [
     "description": "TOUL 190 MM",
     "tags": "CYLINDER, DOOR",
     "imagePath": "./images/2257.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2258",
@@ -24981,8 +26303,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONTACTOR, MODULAR",
     "imagePath": "./images/2258.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2259",
@@ -24997,8 +26320,9 @@ window.NABIL_PRODUCTS = [
     "description": "مع فتحات\nJUNCTION BOX",
     "tags": "BOX, JUNCTION, PVC, WATER",
     "imagePath": "./images/2259.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2260",
@@ -25013,8 +26337,9 @@ window.NABIL_PRODUCTS = [
     "description": "BIRAKKIB 3AL LE GRAND",
     "tags": "3AL, BIRAKKIB, GRAND, LE, OLVA, STORE, SWITCH",
     "imagePath": "./images/2260.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2261",
@@ -25029,8 +26354,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER METER\nONE LAMP PER METER",
     "tags": "3M, LED, LIGHT, METER, PER, STRIP",
     "imagePath": "./images/2261.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6.5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2263",
@@ -25045,8 +26371,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ALUM, HOOD",
     "imagePath": "./images/2263.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2266",
@@ -25061,8 +26388,9 @@ window.NABIL_PRODUCTS = [
     "description": "3 CODES",
     "tags": "3, CODES, COMBINATION, LOCK",
     "imagePath": "./images/2266.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2267",
@@ -25077,8 +26405,9 @@ window.NABIL_PRODUCTS = [
     "description": "4 CODES",
     "tags": "3, CODES, COMBINATION, LOCK",
     "imagePath": "./images/2267.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2268",
@@ -25093,8 +26422,9 @@ window.NABIL_PRODUCTS = [
     "description": "ساقوطة",
     "tags": "HGGGU",
     "imagePath": "./images/2268.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2269",
@@ -25109,8 +26439,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PAINT, REMOVER",
     "imagePath": "./images/2269.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2270",
@@ -25125,8 +26456,9 @@ window.NABIL_PRODUCTS = [
     "description": "CAR REFINISH",
     "tags": "CAR, PUTTY, REFINISH",
     "imagePath": "./images/2270.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2272",
@@ -25141,8 +26473,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ABRASIVE, INDASA, PAPER",
     "imagePath": "./images/2272.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 43,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2273",
@@ -25157,8 +26490,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ABRASIVE, INDASA, PAPER",
     "imagePath": "./images/2273.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 12,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2275",
@@ -25173,8 +26507,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HANDLE, TOWEL",
     "imagePath": "./images/2275.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2276",
@@ -25189,8 +26524,9 @@ window.NABIL_PRODUCTS = [
     "description": "KHOLLAT + BAR DOUCHE + TELEFONE",
     "tags": "BAR, BATH, DOUCHE, KHOLLAT, MIXER, TELEFONE",
     "imagePath": "./images/2276.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2287",
@@ -25205,8 +26541,9 @@ window.NABIL_PRODUCTS = [
     "description": "BALA SOBAB MEN WARA",
     "tags": "BALA, DRAIN, FLOOR, MEN, SOBAB, WARA",
     "imagePath": "./images/2287.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2289",
@@ -25221,8 +26558,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HOSE, MAGIC",
     "imagePath": "./images/2289.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2291",
@@ -25237,8 +26575,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "24, 25, BLADE, FRAME, HACKSAW, HARD, MATERIAL, MM, PER, SOFT, TEETH",
     "imagePath": "./images/2291.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2293",
@@ -25253,8 +26592,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER 1 PC",
     "tags": "BLADE, SAW",
     "imagePath": "./images/2293.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2294",
@@ -25269,8 +26609,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR IRON 115 MM",
     "tags": "115, ABRASIVE, DISK, IRON, MM",
     "imagePath": "./images/2294.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 56,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2296",
@@ -25285,8 +26626,9 @@ window.NABIL_PRODUCTS = [
     "description": "4 TA2AT + 5 KEYS",
     "tags": "4, 5, CYLINDER, DOOR, KEYS, TA2AT",
     "imagePath": "./images/2296.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2297",
@@ -25301,8 +26643,9 @@ window.NABIL_PRODUCTS = [
     "description": "8, 10, 12, 13, 14, 17, 19 MM",
     "tags": "10, 12, 13, 14, 17, 19, 8, MM, SET, SPANNER",
     "imagePath": "./images/2297.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2298",
@@ -25317,8 +26660,9 @@ window.NABIL_PRODUCTS = [
     "description": "SHLIC SHLAC 180MM",
     "tags": "PAD, POLISHING, SHLAC, SHLIC",
     "imagePath": "./images/2298.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2299",
@@ -25333,10 +26677,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PATEX",
     "imagePath": "./images/2299.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2299_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2300",
@@ -25351,8 +26696,9 @@ window.NABIL_PRODUCTS = [
     "description": "12V",
     "tags": "1, 5V, ALKALINE, BATTERY, CALCULATOR",
     "imagePath": "./images/2300.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2301",
@@ -25367,8 +26713,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
     "imagePath": "./images/2301.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2302",
@@ -25383,8 +26730,9 @@ window.NABIL_PRODUCTS = [
     "description": "RED 10 AMP\nYELLOW 30 AMP\nBLUE 15 AMP\nGREEN",
     "tags": "10, 15, 30, AMP, BLADE, BLUE, FUSE, GREEN, RED, YELLOW",
     "imagePath": "./images/2302.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 50,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2309",
@@ -25399,8 +26747,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SHADOW, SUIT",
     "imagePath": "./images/2309.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2310",
@@ -25415,8 +26764,9 @@ window.NABIL_PRODUCTS = [
     "description": "125 SILVER GREY\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2310.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2311",
@@ -25431,8 +26781,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SUPPORT",
     "imagePath": "./images/2311.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2313",
@@ -25447,10 +26798,11 @@ window.NABIL_PRODUCTS = [
     "description": "90 AND 180 DEGREE TURNABLE\nWITH TOOLS AND BAG",
     "tags": "180, 90, BAG, DEGREE, RECHARG, SCREWDRIVER, TOOLS, TURNABLE",
     "imagePath": "./images/2313.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2313_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2317",
@@ -25465,8 +26817,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "\"4\"\"\", ALUM, HOOD",
     "imagePath": "./images/2317.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2318",
@@ -25481,8 +26834,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SCREW, TIGE",
     "imagePath": "./images/2318.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2319",
@@ -25497,8 +26851,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SCREW, TIGE",
     "imagePath": "./images/2319.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2320",
@@ -25513,8 +26868,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SERRATED, WRENCH",
     "imagePath": "./images/2320.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2321",
@@ -25529,8 +26885,9 @@ window.NABIL_PRODUCTS = [
     "description": "2 KEYS",
     "tags": "2, CABINET, KEYS, LOCK",
     "imagePath": "./images/2321.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2323",
@@ -25545,8 +26902,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BAG, TOOL",
     "imagePath": "./images/2323.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2331",
@@ -25561,8 +26919,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "TEST",
     "imagePath": "./images/2331.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2332",
@@ -25577,8 +26936,9 @@ window.NABIL_PRODUCTS = [
     "description": "بلاستيك",
     "tags": "FILTER, WASHER",
     "imagePath": "./images/2332.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2334",
@@ -25593,8 +26953,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR MR16 12V",
     "tags": "12V, HOLDER, LAMP, MR16, PUSH",
     "imagePath": "./images/2334.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 33,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2338",
@@ -25609,8 +26970,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOLT",
     "imagePath": "./images/2338.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 35,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2339",
@@ -25625,8 +26987,9 @@ window.NABIL_PRODUCTS = [
     "description": "LAL COMPRESSEUR",
     "tags": "CHISEL, SDS",
     "imagePath": "./images/2339.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2344",
@@ -25641,8 +27004,9 @@ window.NABIL_PRODUCTS = [
     "description": "BALA SOBAB",
     "tags": "BALA, SOBAB, SS, STREAM",
     "imagePath": "./images/2344.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2447",
@@ -25657,8 +27021,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PPR, REDUCED",
     "imagePath": "./images/2447.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2448",
@@ -25673,8 +27038,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PPR, REDUCED",
     "imagePath": "./images/2448.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2449",
@@ -25689,8 +27055,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2449.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2450",
@@ -25705,8 +27072,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2450.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2451",
@@ -25721,8 +27089,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2451.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2452",
@@ -25737,8 +27106,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2452.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2454",
@@ -25753,8 +27123,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR SHOWER\nMAKHRAJ 3A JANAB",
     "tags": "3A, JANAB, MAKHRAJ, PVC, SHOWER, STREAM",
     "imagePath": "./images/2454.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2455",
@@ -25769,8 +27140,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CLAMP",
     "imagePath": "./images/2455.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 90,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2460",
@@ -25785,8 +27157,9 @@ window.NABIL_PRODUCTS = [
     "description": "E27",
     "tags": "116, 37, 50-60, 85-265V, 900, BULB, E27, HZ, LAMP, LED, LM, MM, STICK, X",
     "imagePath": "./images/2460.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2464",
@@ -25801,8 +27174,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CLAPPE, FAN",
     "imagePath": "./images/2464.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2469",
@@ -25817,8 +27191,9 @@ window.NABIL_PRODUCTS = [
     "description": "4\"",
     "tags": "\"4\"\"\", ALUM, HOOD",
     "imagePath": "./images/2469.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2477",
@@ -25833,8 +27208,9 @@ window.NABIL_PRODUCTS = [
     "description": "BIDOUN BARAGHE",
     "tags": "BARAGHE, BIDOUN, COVER, PLASTIC",
     "imagePath": "./images/2477.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2478",
@@ -25849,8 +27225,9 @@ window.NABIL_PRODUCTS = [
     "description": "18 MM X 1/2\"",
     "tags": "\"1/2\"\"\", 16, CORNER, FIX, MM, PEX, X",
     "imagePath": "./images/2478.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2479",
@@ -25865,8 +27242,9 @@ window.NABIL_PRODUCTS = [
     "description": "WATER BASED\nBLACK 702",
     "tags": "COLORANT",
     "imagePath": "./images/2479.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2483",
@@ -25881,8 +27259,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "G4, LAMP",
     "imagePath": "./images/2483.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2485",
@@ -25897,8 +27276,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRILL, SDS",
     "imagePath": "./images/2485.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2494",
@@ -25913,8 +27293,9 @@ window.NABIL_PRODUCTS = [
     "description": "6600 MAX RPM HOLE 22 MM",
     "tags": "dep, name, test",
     "imagePath": "./images/2494.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2495",
@@ -25929,8 +27310,9 @@ window.NABIL_PRODUCTS = [
     "description": "KITCHEN",
     "tags": "B, GROHE, KITCHEN, LEVER",
     "imagePath": "./images/2495.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2497",
@@ -25945,10 +27327,11 @@ window.NABIL_PRODUCTS = [
     "description": "4\"",
     "tags": "\"4\"\"\", HOLE, SAW",
     "imagePath": "./images/2497.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2497_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2503",
@@ -25963,8 +27346,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "3, BRAKER, CIRCUIT, PHASE",
     "imagePath": "./images/2503.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2508",
@@ -25979,8 +27363,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SINK, STRAINER",
     "imagePath": "./images/2508.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2513",
@@ -25995,8 +27380,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "2, 76, Brush, mm",
     "imagePath": "./images/2513.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2519",
@@ -26011,8 +27397,9 @@ window.NABIL_PRODUCTS = [
     "description": "40 X 40 MM 2 METERS",
     "tags": "10, 20, CABLE, CACHE, MM, X",
     "imagePath": "./images/2519.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 13,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2523",
@@ -26027,8 +27414,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ABRASIVE, STONE",
     "imagePath": "./images/2523.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 19,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2531",
@@ -26043,8 +27431,9 @@ window.NABIL_PRODUCTS = [
     "description": "MAYLE DAKAR MAYLE ENTEYE, 1/2\"\nBYESTA3MLOU AKTAR SHI LA MAYY DAWLE",
     "tags": "\"1/2\"\"\", DAKAR, ENTEYE, HOSE, MAYLE, SANITARY",
     "imagePath": "./images/2531.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2535",
@@ -26059,10 +27448,11 @@ window.NABIL_PRODUCTS = [
     "description": "BATTERY RECHARGEABLE\nLIGHT SOURCE 84 PCS",
     "tags": "84, BATTERY, LANTERN, LIGHT, PCS, RECHARGEABLE, SOURCE",
     "imagePath": "./images/2535.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/2535_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2540",
@@ -26077,8 +27467,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ELECTRIC, TAPE",
     "imagePath": "./images/2540.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2547",
@@ -26093,8 +27484,9 @@ window.NABIL_PRODUCTS = [
     "description": "MA3 AXE ZGHIR LAL MA2DA7\nFYO 3 GRADE MEN WARA2 7AFF KHECHIN, NE3IM W WASAT",
     "tags": "3, 7AFF, AXE, BANDS, FYO, GRADE, KHECHIN, LAL, MA2DA7, MA3, MEN, NE3IM, SANDING, SET, W, WARA2, WASAT, ZGHIR",
     "imagePath": "./images/2547.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2548",
@@ -26109,8 +27501,9 @@ window.NABIL_PRODUCTS = [
     "description": "1/2\"",
     "tags": "\"1/2\"\"\", HOSE, MIXER",
     "imagePath": "./images/2548.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2549",
@@ -26125,8 +27518,9 @@ window.NABIL_PRODUCTS = [
     "description": "MISH SDS \n4 -5 - 6 - 8 -10 MM",
     "tags": "-10, 4, -5, 6, 8, BIT, DRILL, MISH, MM, SDS, SET",
     "imagePath": "./images/2549.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2554",
@@ -26141,10 +27535,11 @@ window.NABIL_PRODUCTS = [
     "description": "MA3 JAWZE + 3 KEYS",
     "tags": "3, ALUM, CYLINDER, JAWZE, KEYS, MA3",
     "imagePath": "./images/2554.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/2554_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2561",
@@ -26159,8 +27554,9 @@ window.NABIL_PRODUCTS = [
     "description": "AIR TEMPERATURE \n1 = 380 DEGREE\n2 = 600 DEGREE\nSECHOIR",
     "tags": "1, 2, 380, 600, AIR, DEGREE, GUN, HEAT, TEMPERATURE",
     "imagePath": "./images/2561.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2565",
@@ -26175,8 +27571,9 @@ window.NABIL_PRODUCTS = [
     "description": "GROHE COPY",
     "tags": "COPY, GROHE, MIXER, SHOWER",
     "imagePath": "./images/2565.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2566",
@@ -26191,8 +27588,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
     "imagePath": "./images/2566.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2574",
@@ -26207,8 +27605,9 @@ window.NABIL_PRODUCTS = [
     "description": "TURKEY",
     "tags": "BOX, FUSE",
     "imagePath": "./images/2574.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2583",
@@ -26223,8 +27622,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BLADE, C24R-BF, DISC, DRONCO, PERFECT, STONE",
     "imagePath": "./images/2583.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2593",
@@ -26239,8 +27639,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HAMMER",
     "imagePath": "./images/2593.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2601",
@@ -26255,8 +27656,9 @@ window.NABIL_PRODUCTS = [
     "description": "75W\nDOUBLE LAMP",
     "tags": "75W, DOUBLE, LAMP, LED, LIGHT, T9",
     "imagePath": "./images/2601.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2603",
@@ -26271,8 +27673,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "NECK, TAP",
     "imagePath": "./images/2603.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2607",
@@ -26287,8 +27690,9 @@ window.NABIL_PRODUCTS = [
     "description": "SET OF 2\n9CM SIZE MEN MASKE LAL EFEL",
     "tags": "2, DOOR, HANDLE, SET",
     "imagePath": "./images/2607.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2608",
@@ -26303,8 +27707,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SAPPHIRE",
     "imagePath": "./images/2608.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2610",
@@ -26319,10 +27724,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LED, SPOT",
     "imagePath": "./images/2610.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "additionalImagePaths": [
       "./images/2610_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2611",
@@ -26337,8 +27743,9 @@ window.NABIL_PRODUCTS = [
     "description": "او نبريش راكور",
     "tags": "RACCORD",
     "imagePath": "./images/2611.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 12,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2619",
@@ -26353,8 +27760,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRILL, SDS",
     "imagePath": "./images/2619.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2639",
@@ -26369,8 +27777,9 @@ window.NABIL_PRODUCTS = [
     "description": "WATANE",
     "tags": "BOX, FLUSH, MOUNTING, WATANE",
     "imagePath": "./images/2639.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2641",
@@ -26385,8 +27794,9 @@ window.NABIL_PRODUCTS = [
     "description": "نحاس",
     "tags": "2, CONNECTOR, WAY",
     "imagePath": "./images/2641.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2644",
@@ -26401,8 +27811,9 @@ window.NABIL_PRODUCTS = [
     "description": "SQUARE",
     "tags": "LINE, TRIMMER",
     "imagePath": "./images/2644.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2462",
@@ -26417,10 +27828,11 @@ window.NABIL_PRODUCTS = [
     "description": "TURBINE\n40W",
     "tags": "28W, DOUBLE, EXHAUST, FAN, TURBINE",
     "imagePath": "./images/2462.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2462_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1489",
@@ -26435,10 +27847,11 @@ window.NABIL_PRODUCTS = [
     "description": "MODEL 3ACm45 (NOSS 7SAN)\n3.0 INNOVATION\n220V 0.45 KW",
     "tags": "0, 220V, 3, 3ACm45, 45, INNOVATION, KW, LEO, MODEL, PUMPطلمبة, SILENCE",
     "imagePath": "./images/1489.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/1489_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1490",
@@ -26453,10 +27866,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HAND, SET, SHOWER",
     "imagePath": "./images/1490.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "additionalImagePaths": [
       "./images/1490_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "1824",
@@ -26471,8 +27885,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOOT, RAINY",
     "imagePath": "./images/1824.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2458",
@@ -26487,8 +27902,9 @@ window.NABIL_PRODUCTS = [
     "description": "VARIABLE SPEED\nSELF CLEANING DUST\nINCLUDING DUST BAG\nMA3A FAHMTEN EXTRA W 3 DISC 7AFF",
     "tags": "BAG, CLEANING, DUST, INCLUDING, ROTARY, SANDER, SELF, SPEED, VARIABLE",
     "imagePath": "./images/2458.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2463",
@@ -26503,8 +27919,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ADAPTOR, POWER",
     "imagePath": "./images/2463.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2467",
@@ -26519,8 +27936,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RACCORD",
     "imagePath": "./images/2467.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2472",
@@ -26535,8 +27953,9 @@ window.NABIL_PRODUCTS = [
     "description": "3 PCS",
     "tags": "3, FLARING, KIT, PCS",
     "imagePath": "./images/2472.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2482",
@@ -26551,8 +27970,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BELT, CRACKLING",
     "imagePath": "./images/2482.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2500",
@@ -26567,10 +27987,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "COTTON",
     "imagePath": "./images/2500.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2500_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2506",
@@ -26585,8 +28006,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HOLDER, ITALY, LAMP",
     "imagePath": "./images/2506.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2511",
@@ -26601,8 +28023,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SAPPHIRE",
     "imagePath": "./images/2511.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2538",
@@ -26617,8 +28040,9 @@ window.NABIL_PRODUCTS = [
     "description": "5 IN 1 DETECTOR\nDETECTS METAL, WOOD STUD, METAL REBAR, AC LIVE WIRE\nUP TO 20 CM DEPTH",
     "tags": "1, 5, AC, DETECTOR, DETECTS, FINDER, IN, LIVE, METAL, REBAR, STUD, WALL, WIRE, WOOD",
     "imagePath": "./images/2538.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2348",
@@ -26633,8 +28057,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "WASPS",
     "imagePath": "./images/2348.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 84,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2351",
@@ -26649,8 +28074,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOOR, KNOB",
     "imagePath": "./images/2351.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2352",
@@ -26665,8 +28091,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOOR, KNOB",
     "imagePath": "./images/2352.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2353",
@@ -26681,8 +28108,9 @@ window.NABIL_PRODUCTS = [
     "description": "SET OF 2 PCS",
     "tags": "2, DOOR, HANDLE, PCS, SET",
     "imagePath": "./images/2353.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2354",
@@ -26697,8 +28125,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOOR, HANDLE",
     "imagePath": "./images/2354.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2355",
@@ -26713,8 +28142,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOOR, HANDLE",
     "imagePath": "./images/2355.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2356",
@@ -26729,8 +28159,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOOR, HANDLE",
     "imagePath": "./images/2356.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2357",
@@ -26745,8 +28176,9 @@ window.NABIL_PRODUCTS = [
     "description": "STAINLESS STEEL",
     "tags": "DOOR, KNOB, STAINLESS, STEEL",
     "imagePath": "./images/2357.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 86,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2358",
@@ -26761,8 +28193,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOOR, KNOB",
     "imagePath": "./images/2358.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 100,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2360",
@@ -26777,8 +28210,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2360.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2361",
@@ -26793,10 +28227,11 @@ window.NABIL_PRODUCTS = [
     "description": "WASLE BALA CHRIT",
     "tags": "4, BALA, CHRIT, EXT, SOCKET, WASLE, WAY",
     "imagePath": "./images/2361.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2361_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2363",
@@ -26811,8 +28246,9 @@ window.NABIL_PRODUCTS = [
     "description": "BALA GHATA",
     "tags": "BALA, FRAME, GHATA, GRAND, LE",
     "imagePath": "./images/2363.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2364",
@@ -26827,8 +28263,9 @@ window.NABIL_PRODUCTS = [
     "description": "SET OF 2 PCS",
     "tags": "2, DOOR, HANDLE, PCS, SET",
     "imagePath": "./images/2364.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2365",
@@ -26843,8 +28280,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, GARDENING, T",
     "imagePath": "./images/2365.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 24,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2366",
@@ -26859,8 +28297,9 @@ window.NABIL_PRODUCTS = [
     "description": "STAINLESS STEEL\nMA4 TASE ZGHIRE W TE3LI2A LAL 3AMOUD BIL 7ET",
     "tags": "3AMOUD, 7ET, BAR, BIL, DOUCHE, LAL, MA4, SS, STAINLESS, STEEL, TASE, TE3LI2A, W, ZGHIRE",
     "imagePath": "./images/2366.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2367",
@@ -26875,8 +28314,9 @@ window.NABIL_PRODUCTS = [
     "description": "VINTAGE STYLE",
     "tags": "STYLE, VALVE, VINTAGE",
     "imagePath": "./images/2367.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2461",
@@ -26891,8 +28331,9 @@ window.NABIL_PRODUCTS = [
     "description": "90 METERS APPROX = 100 YARD",
     "tags": "CABLE, ROUND",
     "imagePath": "./images/2461.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 22,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2480",
@@ -26907,8 +28348,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PAD",
     "imagePath": "./images/2480.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2484",
@@ -26923,8 +28365,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "G4, LAMP",
     "imagePath": "./images/2484.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2486",
@@ -26939,8 +28382,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOLT, CLAMP, U, WIRE",
     "imagePath": "./images/2486.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 24,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2498",
@@ -26955,8 +28399,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, HOLE, SAW",
     "imagePath": "./images/2498.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2504",
@@ -26971,8 +28416,9 @@ window.NABIL_PRODUCTS = [
     "description": "BLINKING ROTARY SIGNAL LAMP",
     "tags": "BLINKING, LAMP, ROTARY, SIGNAL",
     "imagePath": "./images/2504.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2515",
@@ -26987,8 +28433,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "COMPRESSED, PLUNGER",
     "imagePath": "./images/2515.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2517",
@@ -27003,8 +28450,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GILET",
     "imagePath": "./images/2517.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2520",
@@ -27019,8 +28467,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PLUG, SINGLE",
     "imagePath": "./images/2520.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2524",
@@ -27035,8 +28484,9 @@ window.NABIL_PRODUCTS = [
     "description": "90 METERS APPROX = 100 YARD\nCABLE DU LIBAN",
     "tags": "CABLE, HARD, SINGLE",
     "imagePath": "./images/2524.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 180,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2530",
@@ -27051,8 +28501,9 @@ window.NABIL_PRODUCTS = [
     "description": "3 KEYS ORIGINAL",
     "tags": "3, CYLINDER, KEYS, ORIGINAL, YALE",
     "imagePath": "./images/2530.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2533",
@@ -27067,8 +28518,9 @@ window.NABIL_PRODUCTS = [
     "description": "نحاس\n3P",
     "tags": "3, 3P, CIRCUIT, PHASE, POLE",
     "imagePath": "./images/2533.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2536",
@@ -27083,8 +28535,9 @@ window.NABIL_PRODUCTS = [
     "description": "8 PCS TOOLS SET IN A BAG",
     "tags": "SET, TOOLS",
     "imagePath": "./images/2536.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2555",
@@ -27099,8 +28552,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DISC",
     "imagePath": "./images/2555.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2562",
@@ -27115,8 +28569,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GLASS, WELDING",
     "imagePath": "./images/2562.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2567",
@@ -27131,8 +28586,9 @@ window.NABIL_PRODUCTS = [
     "description": "مع فتحات\nJUNCTION BOX",
     "tags": "BOX, JUNCTION, PVC, WATER",
     "imagePath": "./images/2567.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2575",
@@ -27147,8 +28603,9 @@ window.NABIL_PRODUCTS = [
     "description": "WATANE",
     "tags": "BOX, FLUSH, MOUNTING, WATANE",
     "imagePath": "./images/2575.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2590",
@@ -27163,8 +28620,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GLASS, LAMP, SPOT",
     "imagePath": "./images/2590.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2602",
@@ -27179,8 +28637,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SPACERS, TILE",
     "imagePath": "./images/2602.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2604",
@@ -27195,8 +28654,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HANGER, TOWEL",
     "imagePath": "./images/2604.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2620",
@@ -27211,8 +28671,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DRILL, SDS",
     "imagePath": "./images/2620.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2634",
@@ -27227,8 +28688,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "REFERESH, SOLDER",
     "imagePath": "./images/2634.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2640",
@@ -27243,8 +28705,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CHASSIS, SPOT",
     "imagePath": "./images/2640.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2642",
@@ -27259,8 +28722,9 @@ window.NABIL_PRODUCTS = [
     "description": "bala chrit",
     "tags": "3, bala, chrit, SOCKET, WAY",
     "imagePath": "./images/2642.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2645",
@@ -27275,8 +28739,9 @@ window.NABIL_PRODUCTS = [
     "description": "WEATHER PROOF SETS IN 15 MINUTES STICK TO WET SURFACE\nHAYDA LAL KHEZZENET",
     "tags": "15, HICH, IN, MINUTES, PROOF, SETS, STICK, SURFACE, TACK, WEATHER, WET",
     "imagePath": "./images/2645.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2648",
@@ -27291,8 +28756,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "13, 29, 6500, 900, DAYLIGHT, K, LED, MM, SIZE, T8, W, X",
     "imagePath": "./images/2648.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2655",
@@ -27307,8 +28773,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "(B), CAP, GEWISS",
     "imagePath": "./images/2655.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2662",
@@ -27323,8 +28790,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LAMP, PIN, SPOT",
     "imagePath": "./images/2662.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2666",
@@ -27339,8 +28807,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GRAND, LE, SINGLE, SWITCH",
     "imagePath": "./images/2666.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2675",
@@ -27355,8 +28824,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BIDET, SAPPHIRE",
     "imagePath": "./images/2675.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2677",
@@ -27371,8 +28841,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DEMOL",
     "imagePath": "./images/2677.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2681",
@@ -27387,10 +28858,11 @@ window.NABIL_PRODUCTS = [
     "description": "100 PCS PER BAG\nTILE LEVELING SYSTEM",
     "tags": "100, BAG, CERAMIC, EQUIPMENT, PCS, PER",
     "imagePath": "./images/2681.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "additionalImagePaths": [
       "./images/2681_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2686",
@@ -27405,8 +28877,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "STICK",
     "imagePath": "./images/2686.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2691",
@@ -27421,8 +28894,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SHOVEL, SQUARE",
     "imagePath": "./images/2691.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2693",
@@ -27437,8 +28911,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRCUIT, SCHNEIDER",
     "imagePath": "./images/2693.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2696",
@@ -27453,8 +28928,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ROLL, STICK",
     "imagePath": "./images/2696.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2697",
@@ -27469,8 +28945,9 @@ window.NABIL_PRODUCTS = [
     "description": "Aluminium",
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2697.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 21,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2701",
@@ -27485,8 +28962,9 @@ window.NABIL_PRODUCTS = [
     "description": "سحب",
     "tags": "HBBH",
     "imagePath": "./images/2701.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2703",
@@ -27501,8 +28979,9 @@ window.NABIL_PRODUCTS = [
     "description": "BLACK AND RED",
     "tags": "BLACK, GUIDER, RED, WIRE",
     "imagePath": "./images/2703.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2706",
@@ -27517,8 +28996,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONTROL, LIGHT, SENSOR",
     "imagePath": "./images/2706.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2711",
@@ -27533,8 +29013,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CLAMP, NYLON",
     "imagePath": "./images/2711.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2715",
@@ -27549,8 +29030,9 @@ window.NABIL_PRODUCTS = [
     "description": "MAX FLOW 1.7 M3/H\nMAX HEAD: 8.5 M\nSILENT BOOSTING PUMP",
     "tags": "BOOST, PUMP",
     "imagePath": "./images/2715.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2716",
@@ -27565,8 +29047,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SANCHE, SWITCH",
     "imagePath": "./images/2716.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2718",
@@ -27581,8 +29064,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RAT, SLAPPING",
     "imagePath": "./images/2718.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2725",
@@ -27597,8 +29081,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BATHROOM, SHELF",
     "imagePath": "./images/2725.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2727",
@@ -27613,8 +29098,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CAN, WATER",
     "imagePath": "./images/2727.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2737",
@@ -27629,8 +29115,9 @@ window.NABIL_PRODUCTS = [
     "description": "صباب كلابيه\nLA TROMBIT MAY",
     "tags": "LA, MAY, SAPPHIRE, TROMBIT",
     "imagePath": "./images/2737.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2739",
@@ -27645,8 +29132,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "MESH",
     "imagePath": "./images/2739.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2741",
@@ -27661,8 +29149,9 @@ window.NABIL_PRODUCTS = [
     "description": "ذكر وانثى\n2*1 mm",
     "tags": "CABLE, EXT",
     "imagePath": "./images/2741.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2745",
@@ -27677,8 +29166,9 @@ window.NABIL_PRODUCTS = [
     "description": "LAL ALUMINIUM RKHAM W MOSAIC",
     "tags": "ALUMINIUM, LAL, MOSAIC, PAD, RKHAM, UTILITY, W",
     "imagePath": "./images/2745.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2749",
@@ -27693,8 +29183,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "1, 5V, ALKALINE, BATTERY, CALCULATOR",
     "imagePath": "./images/2749.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2131",
@@ -27709,8 +29200,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONSTRUCTION, THREAD",
     "imagePath": "./images/2131.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2133",
@@ -27725,8 +29217,9 @@ window.NABIL_PRODUCTS = [
     "description": "DOES NOT HURT THE PIPELINE",
     "tags": "CLEANER, DOES, FOAM, HURT, NOT, PIPE, PIPELINE",
     "imagePath": "./images/2133.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2134",
@@ -27741,8 +29234,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR SINK LEVEL",
     "tags": "&POLISH, CLEANER, LEVEL, SINK, STAINLESS, STEEL",
     "imagePath": "./images/2134.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2135",
@@ -27757,8 +29251,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RAT, SLAPPING",
     "imagePath": "./images/2135.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2137",
@@ -27773,10 +29268,11 @@ window.NABIL_PRODUCTS = [
     "description": "INCLUDING 4 USB PORTS",
     "tags": "4, 6, EXT, INCLUDING, PORTS, SOCKET, SWITCH, USB, WAY",
     "imagePath": "./images/2137.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2137_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2139",
@@ -27791,8 +29287,9 @@ window.NABIL_PRODUCTS = [
     "description": "50 X 35 CM",
     "tags": "90, DEGREE, METAL",
     "imagePath": "./images/2139.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2141",
@@ -27807,8 +29304,9 @@ window.NABIL_PRODUCTS = [
     "description": "180 DEGREE\n3 PLUGS",
     "tags": "180, 3, DEGREE, ELECTRICAL, PLUG, PLUGS",
     "imagePath": "./images/2141.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2142",
@@ -27823,8 +29321,9 @@ window.NABIL_PRODUCTS = [
     "description": "3D 4D\n2 BATTERIES\nTRIPOD INCLUDED",
     "tags": "2, BATTERIES, INCLUDED, LASER, LEVEL, METER, TRIPOD",
     "imagePath": "./images/2142.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2144",
@@ -27839,8 +29338,9 @@ window.NABIL_PRODUCTS = [
     "description": "8CM",
     "tags": "DOOR, SLUMP",
     "imagePath": "./images/2144.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2146",
@@ -27855,8 +29355,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SAPPHIRE",
     "imagePath": "./images/2146.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2150",
@@ -27871,8 +29372,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER METER",
     "tags": "ALUM, RUBBER",
     "imagePath": "./images/2150.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 14,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2152",
@@ -27887,8 +29389,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2152.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2154",
@@ -27903,8 +29406,9 @@ window.NABIL_PRODUCTS = [
     "description": "AKTAR SHI HAYDA MODEL MATLOUB",
     "tags": "COVER, SOFTCLOSE, TOILET",
     "imagePath": "./images/2154.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2157",
@@ -27919,8 +29423,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, FORK, TERMINAL",
     "imagePath": "./images/2157.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 80,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2158",
@@ -27935,8 +29440,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HEAT, INSULATED, TERM",
     "imagePath": "./images/2158.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 66,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2159",
@@ -27951,8 +29457,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "INSULATED, RING, TERM",
     "imagePath": "./images/2159.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 50,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2161",
@@ -27967,8 +29474,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PAINT, THINNER",
     "imagePath": "./images/2161.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2163",
@@ -27983,8 +29491,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOLT, CLAMP, U, WIRE",
     "imagePath": "./images/2163.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2164",
@@ -27999,8 +29508,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, PIPE",
     "imagePath": "./images/2164.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2165",
@@ -28015,8 +29525,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2165.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 14,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2169",
@@ -28031,8 +29542,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
     "imagePath": "./images/2169.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2170",
@@ -28047,8 +29559,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LAMP, LED",
     "imagePath": "./images/2170.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2171",
@@ -28063,8 +29576,9 @@ window.NABIL_PRODUCTS = [
     "description": "RGB WITH REMOTE CONTROL\nSMD TYPE 5050\n54LEDS/M\nWATERPROOF",
     "tags": "12, 24W, DC, LED, LIGHT, METER, PER, POWER, STRIP, V",
     "imagePath": "./images/2171.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2174",
@@ -28079,10 +29593,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ELECTRIC, SOCKET",
     "imagePath": "./images/2174.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "additionalImagePaths": [
       "./images/2174_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2178",
@@ -28097,8 +29612,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "AUTO, HEAD",
     "imagePath": "./images/2178.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2179",
@@ -28113,8 +29629,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "NAIL",
     "imagePath": "./images/2179.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3000,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2180",
@@ -28129,8 +29646,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CUTTING, PLIER",
     "imagePath": "./images/2180.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2181",
@@ -28145,8 +29663,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BOB, PLUMB",
     "imagePath": "./images/2181.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2182",
@@ -28161,8 +29680,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HOOK, ROLLBOLT",
     "imagePath": "./images/2182.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 49,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2183",
@@ -28177,8 +29697,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CHALK",
     "imagePath": "./images/2183.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 29,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2186",
@@ -28193,8 +29714,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER METER",
     "tags": "CHAIN, METAL",
     "imagePath": "./images/2186.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 25.2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2187",
@@ -28209,8 +29731,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HEXAGON, SCREW",
     "imagePath": "./images/2187.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 50,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2188",
@@ -28225,8 +29748,9 @@ window.NABIL_PRODUCTS = [
     "description": "GRADO",
     "tags": "GRADO, LOCK, SECURITY, TOP",
     "imagePath": "./images/2188.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2191",
@@ -28241,8 +29765,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BIT, DRILL, SDS",
     "imagePath": "./images/2191.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2192",
@@ -28257,10 +29782,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PLIER",
     "imagePath": "./images/2192.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2192_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2193",
@@ -28275,8 +29801,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR PU 600 ML",
     "tags": "600, GUN, ML, PU",
     "imagePath": "./images/2193.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2194",
@@ -28291,8 +29818,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER SET OF 2 PCS\nLAL BWEB",
     "tags": "HINGES",
     "imagePath": "./images/2194.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2195",
@@ -28307,8 +29835,9 @@ window.NABIL_PRODUCTS = [
     "description": "6 PCS BYEJE MA3ON MAMSAKEN BASS",
     "tags": "6, BASS, BYEJE, DISC, MA3ON, MAMSAKEN, PCS, ROTARY",
     "imagePath": "./images/2195.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 18,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2198",
@@ -28323,8 +29852,9 @@ window.NABIL_PRODUCTS = [
     "description": "190 LACQUER\nMUTLI FUNCTIONAL SPRAY PAINT\nDRY IN 10 MINUTES OR LESS\nCAN BE USED FOR METAL, PLASTIC, WOOD AND MORE",
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2198.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2199",
@@ -28339,8 +29869,9 @@ window.NABIL_PRODUCTS = [
     "description": "مبيد رش للخارج فقط \nللزراعة حول الشجر",
     "tags": "DECATRINE, TRINITY",
     "imagePath": "./images/2199.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2200",
@@ -28355,8 +29886,9 @@ window.NABIL_PRODUCTS = [
     "description": "مبيد حشرات للاستعمال الخارجي فقط",
     "tags": "DELTAMETRIN",
     "imagePath": "./images/2200.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2560",
@@ -28371,8 +29903,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CHASSIS, SPOT",
     "imagePath": "./images/2560.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2564",
@@ -28387,8 +29920,9 @@ window.NABIL_PRODUCTS = [
     "description": "KAMALAKKA\nSEALING GASKETS, LEAK PREVENTION, FLUID RESISTANCE",
     "tags": "FLUID, GASKET, GASKETS, KAMALAKKA, LEAK, PREVENTION, RESISTANCE, SEALING, SHELLAC",
     "imagePath": "./images/2564.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 12,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2577",
@@ -28403,8 +29937,9 @@ window.NABIL_PRODUCTS = [
     "description": "220V",
     "tags": "220V, BOX, FUSE, LAMP, LED",
     "imagePath": "./images/2577.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2587",
@@ -28419,8 +29954,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ELASTICAL, WIRE",
     "imagePath": "./images/2587.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2606",
@@ -28435,8 +29971,9 @@ window.NABIL_PRODUCTS = [
     "description": "ELA REGLAGE",
     "tags": "CABINET, ELA, FLUSHطابة, REGLAGE",
     "imagePath": "./images/2606.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2617",
@@ -28451,8 +29988,9 @@ window.NABIL_PRODUCTS = [
     "description": "BALA CHRIT",
     "tags": "2, BALA, CHRIT, EXT, SOCKET, WAY",
     "imagePath": "./images/2617.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2654",
@@ -28467,8 +30005,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CABLE, STAINLESS, TIE",
     "imagePath": "./images/2654.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2699",
@@ -28483,8 +30022,9 @@ window.NABIL_PRODUCTS = [
     "description": "بنسة لسان بلاط",
     "tags": "LEVELING, PLIER, TILE",
     "imagePath": "./images/2699.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2720",
@@ -28499,8 +30039,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "FURNITURE, LEG",
     "imagePath": "./images/2720.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 18,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2729",
@@ -28515,8 +30056,9 @@ window.NABIL_PRODUCTS = [
     "description": "لموتور الحشاشة",
     "tags": "SPARE, TRIMMER",
     "imagePath": "./images/2729.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2735",
@@ -28531,8 +30073,9 @@ window.NABIL_PRODUCTS = [
     "description": "مع شك للنربيش",
     "tags": "BROOM",
     "imagePath": "./images/2735.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2747",
@@ -28547,8 +30090,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR GLASS",
     "tags": "CUP, GLASS, SUCTION, TRIPLE",
     "imagePath": "./images/2747.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2785",
@@ -28563,8 +30107,9 @@ window.NABIL_PRODUCTS = [
     "description": "5 MICRON COTTON",
     "tags": "CARTRIDGE, FILTER",
     "imagePath": "./images/2785.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2797",
@@ -28579,8 +30124,9 @@ window.NABIL_PRODUCTS = [
     "description": "بوات مفرد ظاهر مطري ركوب",
     "tags": "BOX, OUTDOOR, SWITCH",
     "imagePath": "./images/2797.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2750",
@@ -28595,8 +30141,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BATTERY, بطاريةvvvvv",
     "imagePath": "./images/2750.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 15,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2756",
@@ -28611,8 +30158,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SAFETY, VALVE",
     "imagePath": "./images/2756.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2035",
@@ -28627,8 +30175,9 @@ window.NABIL_PRODUCTS = [
     "description": "MADE IN TURKEY",
     "tags": "CONVERT, IN, MADE, TOILET, TURKEY",
     "imagePath": "./images/2035.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2058",
@@ -28643,8 +30192,9 @@ window.NABIL_PRODUCTS = [
     "description": "HOT OR COLD\nCOOLER",
     "tags": "COLD, DISPENS, FEMALE, HOT, WATER",
     "imagePath": "./images/2058.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2459",
@@ -28659,8 +30209,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BIT, DRILL",
     "imagePath": "./images/2459.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2468",
@@ -28675,8 +30226,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RACCORD",
     "imagePath": "./images/2468.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2489",
@@ -28691,8 +30243,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "WHEEL, WIRE",
     "imagePath": "./images/2489.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2501",
@@ -28707,10 +30260,11 @@ window.NABIL_PRODUCTS = [
     "description": "LAL ALUMINIUM RKHAM W MOSAIC",
     "tags": "ALUMINIUM, LAL, MOSAIC, PAD, RKHAM, UTILITY, W",
     "imagePath": "./images/2501.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "additionalImagePaths": [
       "./images/2501_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2507",
@@ -28725,8 +30279,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GLASS, LAMP, SPOT",
     "imagePath": "./images/2507.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 12,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2539",
@@ -28741,8 +30296,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DUST, GRINDER",
     "imagePath": "./images/2539.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2553",
@@ -28757,8 +30313,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "Driver, INGCO, Screw",
     "imagePath": "./images/2553.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2570",
@@ -28773,8 +30330,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONN, INSULATION, IPC",
     "imagePath": "./images/2570.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 32,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2586",
@@ -28789,8 +30347,9 @@ window.NABIL_PRODUCTS = [
     "description": "BI OULOULO WIZZ\n35 PCS MA3 CHANTA",
     "tags": "35, BI, BIT, CHANTA, MA3, OULOULO, PCS, SCREWDRIVER, SET, WIZZ",
     "imagePath": "./images/2586.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2623",
@@ -28805,8 +30364,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, GAS, HOSE",
     "imagePath": "./images/2623.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 8,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2669",
@@ -28821,8 +30381,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR",
     "imagePath": "./images/2669.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2689",
@@ -28837,8 +30398,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CUTTER, TILE",
     "imagePath": "./images/2689.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2721",
@@ -28853,10 +30415,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ADAPTOR, INTERNATIONAL",
     "imagePath": "./images/2721.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "additionalImagePaths": [
       "./images/2721_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2730",
@@ -28871,8 +30434,9 @@ window.NABIL_PRODUCTS = [
     "description": "MIL LAL 7ECHECHE",
     "tags": "IRON, TIMMER, WIRE",
     "imagePath": "./images/2730.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2736",
@@ -28887,8 +30451,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "FLEXIBLE, GAS",
     "imagePath": "./images/2736.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2748",
@@ -28903,8 +30468,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR GLASS",
     "tags": "CUP, DOUBLE, GLASS, SUCTION",
     "imagePath": "./images/2748.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2786",
@@ -28919,8 +30485,9 @@ window.NABIL_PRODUCTS = [
     "description": "SET OF 4 PCS",
     "tags": "4, FEET, NON, PCS, SET, SLIP",
     "imagePath": "./images/2786.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2799",
@@ -28935,8 +30502,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "STAIRCASE, SWITCH, TIME",
     "imagePath": "./images/2799.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2475",
@@ -28951,8 +30519,9 @@ window.NABIL_PRODUCTS = [
     "description": "30 MT LENGTH",
     "tags": "PAPER, TAPE",
     "imagePath": "./images/2475.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 26,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2491",
@@ -28967,8 +30536,9 @@ window.NABIL_PRODUCTS = [
     "description": "5 PCS SET",
     "tags": "5, BRUSH, PCS, SET, WIRE",
     "imagePath": "./images/2491.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2546",
@@ -28983,8 +30553,9 @@ window.NABIL_PRODUCTS = [
     "description": "75W\nDOUBLE LAMP",
     "tags": "75W, DOUBLE, LAMP, LED, LIGHT, T9",
     "imagePath": "./images/2546.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2580",
@@ -28999,8 +30570,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "RELAY, SOLID, STATE",
     "imagePath": "./images/2580.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2625",
@@ -29015,8 +30587,9 @@ window.NABIL_PRODUCTS = [
     "description": "INSTANT CONTACT ADHESIVE",
     "tags": "ADHESIVE, CONTACT, INSTANT, PATTEX, SPRAY",
     "imagePath": "./images/2625.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2723",
@@ -29031,8 +30604,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BROOM, DUSTPAN",
     "imagePath": "./images/2723.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2788",
@@ -29047,8 +30621,9 @@ window.NABIL_PRODUCTS = [
     "description": "HEAVY DUTY ADHESIVE \nCONCRETE, ALUMINIUM, STONE, METAL",
     "tags": "ADHESIVE, ALUMINIUM, CONCRETE, DUTY, HEAVY, METAL, POLYURETHANE, SEALENT, STONE",
     "imagePath": "./images/2788.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2628",
@@ -29063,8 +30638,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ASSORTED, BRUSH, CARBON",
     "imagePath": "./images/2628.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 16,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2791",
@@ -29079,10 +30655,11 @@ window.NABIL_PRODUCTS = [
     "description": "FOR WINDOW AND DOOR",
     "tags": "DOOR, DOUBLE, SEALING, STRIP, TAPE, WINDOW",
     "imagePath": "./images/2791.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 3,
     "additionalImagePaths": [
       "./images/2791_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2631",
@@ -29097,8 +30674,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER BOX",
     "tags": "BOX, INSULATION, NAILS, PER",
     "imagePath": "./images/2631.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1717",
@@ -29113,8 +30691,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BALL, ENCASTREE, GROHE",
     "imagePath": "./images/1717.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1728",
@@ -29129,8 +30708,9 @@ window.NABIL_PRODUCTS = [
     "description": "CACHE CABLE RESSORT",
     "tags": "CABLE, CACHE, CAOUTCHOUC, RESSORT, TUBE",
     "imagePath": "./images/1728.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 24,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2502",
@@ -29145,8 +30725,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BAL, LINEN, ROPE",
     "imagePath": "./images/2502.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2579",
@@ -29161,10 +30742,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "3, PHASE, PLUG",
     "imagePath": "./images/2579.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 5,
     "additionalImagePaths": [
       "./images/2579_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2588",
@@ -29179,8 +30761,9 @@ window.NABIL_PRODUCTS = [
     "description": "BYEJE 6 CM 3ARDO\nINCLUDING CYLINDER AND KEYS",
     "tags": "3ARDO, 6, BYEJE, CM, CYLINDER, DOOR",
     "imagePath": "./images/2588.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2598",
@@ -29195,8 +30778,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ROUND, SCREW",
     "imagePath": "./images/2598.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 288,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2638",
@@ -29211,8 +30795,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "LED, MOSQUITO, TRAP",
     "imagePath": "./images/2638.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2659",
@@ -29227,8 +30812,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR",
     "imagePath": "./images/2659.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 10,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2690",
@@ -29243,10 +30829,11 @@ window.NABIL_PRODUCTS = [
     "description": "WITH CHARGER -  1/2\"\nINTELLIGENT PUMP - CAN REACH UP TO 2 BAR\nUSE BRUSHLESS MOTOR TECHNOLOGY, CAN SAVE UP TO 50% ENERGY COMPARED TO TRADITIONAL PUMPS\nSILENT PERFORMANCE\nAUTOMATIC MODE AND MANUAL MODE WITH MULTIPLE SPEED / PRESSURE SETTINGS\nINCLUDES OVERLOAD PROTECTION DRY RUN PROTECTION",
     "tags": "\"1/2\"\"\", 2, 50%, AUTOMATIC, BAR, BOOSTER, BRUSHLESS, CAN, CHARGER, COMPARED, DRY, ENERGY, INCLUDES, INTELLIGENT, MANUAL, MODE, MOTOR, MULTIPLE, OVERLOAD, PERFORMANCE, PRESSURE, PROTECTION, PUMP, PUMPS, REACH, RUN, SAVE, SETTINGS, SILENT, SPEED, TECHNOLOGY, TRADITIONAL, UP, USE",
     "imagePath": "./images/2690.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 1,
     "additionalImagePaths": [
       "./images/2690_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2722",
@@ -29261,8 +30848,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BROOM, GRASS",
     "imagePath": "./images/2722.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2731",
@@ -29277,8 +30865,9 @@ window.NABIL_PRODUCTS = [
     "description": "MIL LAL 7ECHECHE",
     "tags": "IRON, TIMMER, WIRE",
     "imagePath": "./images/2731.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2787",
@@ -29293,8 +30882,9 @@ window.NABIL_PRODUCTS = [
     "description": "SELF ADHESIVE WATERPROOF FIT ON DOOR AND WINDOWS",
     "tags": "ADHESIVE, DOOR, FIT, FOAM, ON, SELF, STRIP, WATERPROOF, WINDOWS",
     "imagePath": "./images/2787.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2800",
@@ -29309,8 +30899,9 @@ window.NABIL_PRODUCTS = [
     "description": "TESA",
     "tags": "ADHESIVE, TAPE, TESA, WATERPROOF",
     "imagePath": "./images/2800.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2476",
@@ -29325,8 +30916,9 @@ window.NABIL_PRODUCTS = [
     "description": "30 MT LENGTH",
     "tags": "PAPER, TAPE",
     "imagePath": "./images/2476.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 54,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2492",
@@ -29341,8 +30933,9 @@ window.NABIL_PRODUCTS = [
     "description": "RAPPORTEUR",
     "tags": "PROTRACTOR, RAPPORTEUR",
     "imagePath": "./images/2492.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2581",
@@ -29357,8 +30950,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BAR, NEUTRE",
     "imagePath": "./images/2581.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2789",
@@ -29373,8 +30967,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONSTRUCTION, POT",
     "imagePath": "./images/2789.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2493",
@@ -29389,8 +30984,9 @@ window.NABIL_PRODUCTS = [
     "description": "TO SELL PER PC\n10*16 MM",
     "tags": "10*16, BUTTERFLY, CLIP, HOSE, MM, PC, PER, SELL",
     "imagePath": "./images/2493.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 14,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2627",
@@ -29405,8 +31001,9 @@ window.NABIL_PRODUCTS = [
     "description": "HAYDA FARED TEKBIS 3AL BAROUD\nINCLUDING GLOVES AND A BAG OF CARTRIDGE (مسامير)",
     "tags": "3AL, BAG, BAROUD, CARTRIDGE, FARED, GLOVES, GUN, HAYDA, INCLUDING, MINI, NAIL, STEEL, TEKBIS",
     "imagePath": "./images/2627.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2792",
@@ -29421,10 +31018,11 @@ window.NABIL_PRODUCTS = [
     "description": "LAL NEFOURA\n2.2 M\n2200 L",
     "tags": "2, 2200, L, LAL, M, NEFOURA, NN, PUMP, SUBMERSIBLE",
     "imagePath": "./images/2792.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/2792_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2793",
@@ -29439,8 +31037,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "MASK, SAFETY",
     "imagePath": "./images/2793.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 20,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2278",
@@ -29455,8 +31054,9 @@ window.NABIL_PRODUCTS = [
     "description": "FLEXIBLE",
     "tags": "HBBH",
     "imagePath": "./images/2278.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2279",
@@ -29471,8 +31071,9 @@ window.NABIL_PRODUCTS = [
     "description": "برغي واحد",
     "tags": "1, CLAMP, MOUNTING",
     "imagePath": "./images/2279.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2280",
@@ -29487,8 +31088,9 @@ window.NABIL_PRODUCTS = [
     "description": "برغيين",
     "tags": "2, CLAMP, MOUNTING",
     "imagePath": "./images/2280.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2281",
@@ -29503,10 +31105,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "13, 29, 6500, 900, DAYLIGHT, K, LED, MM, SIZE, T8, W, X",
     "imagePath": "./images/2281.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 10,
     "additionalImagePaths": [
       "./images/2281_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2282",
@@ -29521,8 +31124,9 @@ window.NABIL_PRODUCTS = [
     "description": "FLEXIBLE",
     "tags": "45, CM, FLEXIBLE, HOSE, SANITARY, TOUL",
     "imagePath": "./images/2282.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2283",
@@ -29537,8 +31141,9 @@ window.NABIL_PRODUCTS = [
     "description": "10 PCS OF FUSE",
     "tags": "10, FUSE, IN, PCS, PLUG, TESTER",
     "imagePath": "./images/2283.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2284",
@@ -29553,8 +31158,9 @@ window.NABIL_PRODUCTS = [
     "description": "مسن 20 CM\nسبلة جنزير",
     "tags": "FILE, SAW",
     "imagePath": "./images/2284.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2372",
@@ -29569,8 +31175,9 @@ window.NABIL_PRODUCTS = [
     "description": "وطني\nREGARD",
     "tags": "CAP, PVC, REGARD",
     "imagePath": "./images/2372.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2374",
@@ -29585,8 +31192,9 @@ window.NABIL_PRODUCTS = [
     "description": "COMPOSITE",
     "tags": "COMPOS, COMPOSITE, PIPE, PPR",
     "imagePath": "./images/2374.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 58,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2376",
@@ -29601,8 +31209,9 @@ window.NABIL_PRODUCTS = [
     "description": "HAYDA BYESTA3MLOU LA MELANGEUR BIL 7ET\nBYEJE STANDARD",
     "tags": "7ET, BIL, BYEJE, BYESTA3MLOU, DOUBLE, ELBOW, HAYDA, LA, MELANGEUR, PPR, STANDARD",
     "imagePath": "./images/2376.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2378",
@@ -29617,8 +31226,9 @@ window.NABIL_PRODUCTS = [
     "description": "طربوش قازان اصفر",
     "tags": "SOCKET, WRENCH",
     "imagePath": "./images/2378.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2380",
@@ -29633,8 +31243,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER PAIR",
     "tags": "ALUM, HANDLE, PAIR, PER",
     "imagePath": "./images/2380.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2381",
@@ -29649,8 +31260,9 @@ window.NABIL_PRODUCTS = [
     "description": "PER PAIR",
     "tags": "ALUM, HANDLE, PAIR, PER",
     "imagePath": "./images/2381.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2383",
@@ -29665,8 +31277,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ELECTRIC, PLATE, STOVE",
     "imagePath": "./images/2383.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2385",
@@ -29681,8 +31294,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HEXAGON, SCREW",
     "imagePath": "./images/2385.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 60,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2386",
@@ -29697,8 +31311,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "2A, CLIP, GALVANIZED, HOSE",
     "imagePath": "./images/2386.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2387",
@@ -29713,8 +31328,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PAD, TROWEL",
     "imagePath": "./images/2387.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 22,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2388",
@@ -29729,8 +31345,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "DOUBLE, TAPE",
     "imagePath": "./images/2388.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2389",
@@ -29745,8 +31362,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2389.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 27,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2390",
@@ -29761,8 +31379,9 @@ window.NABIL_PRODUCTS = [
     "description": "PINCEAUX DE PEINTURE",
     "tags": "DE, PAINTBRUSH, PEINTURE, PINCEAUX, SET",
     "imagePath": "./images/2390.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2391",
@@ -29777,8 +31396,9 @@ window.NABIL_PRODUCTS = [
     "description": "1 PAIR / SET OF 2 PCS",
     "tags": "1, 2, DOOR, HANDLE, PAIR, PCS, SET",
     "imagePath": "./images/2391.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2392",
@@ -29793,8 +31413,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SOLID, TUBE",
     "imagePath": "./images/2392.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2393",
@@ -29809,8 +31430,9 @@ window.NABIL_PRODUCTS = [
     "description": "RALLONGE\nMAX 10A",
     "tags": "4, EXT, RALLONGE, SOCKET, WAY",
     "imagePath": "./images/2393.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2394",
@@ -29825,8 +31447,9 @@ window.NABIL_PRODUCTS = [
     "description": "SANCHE",
     "tags": "SANCHE, SHUKO",
     "imagePath": "./images/2394.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2399",
@@ -29841,8 +31464,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BACKFILL, BAG",
     "imagePath": "./images/2399.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2400",
@@ -29857,8 +31481,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "\"1/2\"\"\", 20, MM, PEX, RACCORD, X",
     "imagePath": "./images/2400.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 15,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2402",
@@ -29873,8 +31498,9 @@ window.NABIL_PRODUCTS = [
     "description": "Aluminium",
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2402.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2406",
@@ -29889,8 +31515,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, T",
     "imagePath": "./images/2406.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2407",
@@ -29905,8 +31532,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, T",
     "imagePath": "./images/2407.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2408",
@@ -29921,8 +31549,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SPARE, TAP",
     "imagePath": "./images/2408.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2412",
@@ -29937,8 +31566,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PAD, POLISH",
     "imagePath": "./images/2412.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2413",
@@ -29953,8 +31583,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "4, BLADES, CLEANER, CUTTER, INCLUDING",
     "imagePath": "./images/2413.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2416",
@@ -29969,8 +31600,9 @@ window.NABIL_PRODUCTS = [
     "description": "AUTO DARKENING WELDING GLASSES",
     "tags": "AUTO, DARKENING, DIGITAL, GLASSES, WELDING",
     "imagePath": "./images/2416.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2417",
@@ -29985,8 +31617,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "PLANER, SET, WOOD",
     "imagePath": "./images/2417.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2419",
@@ -30001,8 +31634,9 @@ window.NABIL_PRODUCTS = [
     "description": "HEATING COIL TYPE 212 \n220 V",
     "tags": "RESISTANCE",
     "imagePath": "./images/2419.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2420",
@@ -30017,8 +31651,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "3, AC, CONTACTOR, PHASES",
     "imagePath": "./images/2420.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2421",
@@ -30033,8 +31668,9 @@ window.NABIL_PRODUCTS = [
     "description": "6 MODULES",
     "tags": "6, BOX, MODULES, SWITCH",
     "imagePath": "./images/2421.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 9,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2422",
@@ -30049,8 +31685,9 @@ window.NABIL_PRODUCTS = [
     "description": "HOLD MAX 50 KGS WEIGHT",
     "tags": "50, HOLD, KGS, MAX, MOVABLE, STAND, TV, WALL, WEIGHT",
     "imagePath": "./images/2422.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2423",
@@ -30065,8 +31702,9 @@ window.NABIL_PRODUCTS = [
     "description": "TONER BI OULOULO KAMEN\nSENDER AND RECEIVER",
     "tags": "BI, CABLE, KAMEN, OULOULO, TONER, TRACKER",
     "imagePath": "./images/2423.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2424",
@@ -30081,8 +31719,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CONNECTOR, T8",
     "imagePath": "./images/2424.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 40,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2425",
@@ -30097,8 +31736,9 @@ window.NABIL_PRODUCTS = [
     "description": "FICHE LAL STRIP LED LAMBA WEHDE",
     "tags": "3M, DRIVER, FICHE, LAL, LAMBA, LED, STRIP, WEHDE",
     "imagePath": "./images/2425.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2426",
@@ -30113,8 +31753,9 @@ window.NABIL_PRODUCTS = [
     "description": "LAMP LED BULB",
     "tags": "BULB, LAMP, LED",
     "imagePath": "./images/2426.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 13,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2427",
@@ -30129,8 +31770,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SHADOW, SUIT",
     "imagePath": "./images/2427.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2429",
@@ -30145,8 +31787,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ACC, FLUSH",
     "imagePath": "./images/2429.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2431",
@@ -30161,8 +31804,9 @@ window.NABIL_PRODUCTS = [
     "description": "25 MM",
     "tags": "25, MEASURING, MM, TAPE",
     "imagePath": "./images/2431.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2435",
@@ -30177,8 +31821,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GLUE, GUN, HOTMELT",
     "imagePath": "./images/2435.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2436",
@@ -30193,8 +31838,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ANTI-SLIP, TAPE",
     "imagePath": "./images/2436.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2438",
@@ -30209,10 +31855,11 @@ window.NABIL_PRODUCTS = [
     "description": "FOR ALUMINIUM DOORS",
     "tags": "ALUMINIUM, CYLINDER, DOORS",
     "imagePath": "./images/2438.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 6,
     "additionalImagePaths": [
       "./images/2438_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2439",
@@ -30227,8 +31874,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR WOOD",
     "tags": "BIT, DRILL, FLAT, WOOD",
     "imagePath": "./images/2439.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2440",
@@ -30243,8 +31891,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR WOOD",
     "tags": "BIT, DRILL, FLAT, WOOD",
     "imagePath": "./images/2440.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2441",
@@ -30259,8 +31908,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR WOOD",
     "tags": "BIT, DRILL, FLAT, WOOD",
     "imagePath": "./images/2441.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2444",
@@ -30275,8 +31925,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2444.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 87,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2466",
@@ -30291,8 +31942,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CLAPPE, FAN",
     "imagePath": "./images/2466.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2471",
@@ -30307,8 +31959,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BRUSH, WIRE",
     "imagePath": "./images/2471.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2481",
@@ -30323,10 +31976,11 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BELT, CRACKLING",
     "imagePath": "./images/2481.jpg",
-    "inventoryQuantity": 0,
+    "inventoryQuantity": 2,
     "additionalImagePaths": [
       "./images/2481_2.jpg"
-    ]
+    ],
+    "inventoryTracked": true
   },
   {
     "sku": "2487",
@@ -30341,8 +31995,9 @@ window.NABIL_PRODUCTS = [
     "description": "مسكة طقطاق",
     "tags": "HANDLE, SOCKET",
     "imagePath": "./images/2487.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2505",
@@ -30357,8 +32012,9 @@ window.NABIL_PRODUCTS = [
     "description": "BI OULOULO MAGIC",
     "tags": "BI, MAGIC, OULOULO, SWITCH",
     "imagePath": "./images/2505.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2525",
@@ -30373,8 +32029,9 @@ window.NABIL_PRODUCTS = [
     "description": "LAL AIR CONDITIONER",
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
     "imagePath": "./images/2525.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2534",
@@ -30389,8 +32046,9 @@ window.NABIL_PRODUCTS = [
     "description": "2P+ \n250V",
     "tags": "250V, 2P+, 3, PHASE, PLUG",
     "imagePath": "./images/2534.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2542",
@@ -30405,8 +32063,9 @@ window.NABIL_PRODUCTS = [
     "description": "بلاستيك\n4 W 5\" BTOZBAT",
     "tags": "4, \"5\"\"\", BTOZBAT, COVER, VENTILATION, W",
     "imagePath": "./images/2542.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2563",
@@ -30421,8 +32080,9 @@ window.NABIL_PRODUCTS = [
     "description": "100 pcs per bag\nTILE WEDGES",
     "tags": "50, bag, CERAMIC, pcs, per, SCREW",
     "imagePath": "./images/2563.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 6,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2568",
@@ -30437,8 +32097,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR SOLAR SYSTEM 2 POLE",
     "tags": "BRK, CIRCUIT, DC",
     "imagePath": "./images/2568.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2576",
@@ -30453,8 +32114,9 @@ window.NABIL_PRODUCTS = [
     "description": "AC",
     "tags": "AC, DIFERENCIAL, INTERRUPTOR",
     "imagePath": "./images/2576.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2585",
@@ -30469,8 +32131,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "COULIS, PIED",
     "imagePath": "./images/2585.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2591",
@@ -30485,8 +32148,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "3, EXT, SHUKO, SOCKET, SWITCH, W, WAY",
     "imagePath": "./images/2591.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2595",
@@ -30501,8 +32165,9 @@ window.NABIL_PRODUCTS = [
     "description": "FOR INSIDE AND OUTSIDE",
     "tags": "INSECTICIDE, INSIDE, OUTSIDE",
     "imagePath": "./images/2595.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 11,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2613",
@@ -30517,8 +32182,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CAP, GARDENING",
     "imagePath": "./images/2613.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 17,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2616",
@@ -30533,8 +32199,9 @@ window.NABIL_PRODUCTS = [
     "description": "INVERSEUR",
     "tags": "CIRCUIT, INVERSEUR",
     "imagePath": "./images/2616.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2621",
@@ -30549,8 +32216,9 @@ window.NABIL_PRODUCTS = [
     "description": "SELF ADHESIVE FOR DRY WALL JOINT",
     "tags": "ADHESIVE, DRY, FIBERGLASS, JOINT, SELF, TAPE, WALL",
     "imagePath": "./images/2621.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 3,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2635",
@@ -30565,8 +32233,9 @@ window.NABIL_PRODUCTS = [
     "description": "OIL",
     "tags": "LUBRICANT, MACHINE",
     "imagePath": "./images/2635.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2656",
@@ -30581,8 +32250,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "AC, CABLE, POWER",
     "imagePath": "./images/2656.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2672",
@@ -30597,8 +32267,9 @@ window.NABIL_PRODUCTS = [
     "description": "10 METERS CABLE LENGTH\n220V",
     "tags": "10, 220V, CABLE, LANTERN, LENGTH, METERS, WORKING",
     "imagePath": "./images/2672.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2674",
@@ -30613,8 +32284,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "TAPE, TEFLON",
     "imagePath": "./images/2674.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2678",
@@ -30629,8 +32301,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "3, SPRINKLE",
     "imagePath": "./images/2678.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 12,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2682",
@@ -30645,8 +32318,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "GARDEN, PINCER, TELESCOPIC",
     "imagePath": "./images/2682.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2692",
@@ -30661,8 +32335,9 @@ window.NABIL_PRODUCTS = [
     "description": "WITH CYLINDER",
     "tags": "CYLINDER, HOOK, LOCK",
     "imagePath": "./images/2692.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2694",
@@ -30677,8 +32352,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "SANCHE, SWITCH",
     "imagePath": "./images/2694.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2698",
@@ -30693,8 +32369,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HAMMER, TILES",
     "imagePath": "./images/2698.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2702",
@@ -30709,8 +32386,9 @@ window.NABIL_PRODUCTS = [
     "description": "سحب",
     "tags": "HBBH",
     "imagePath": "./images/2702.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2708",
@@ -30725,8 +32403,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "CUTTER, GLASS",
     "imagePath": "./images/2708.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2713",
@@ -30741,8 +32420,9 @@ window.NABIL_PRODUCTS = [
     "description": "MULTIFUNCTION LED/LCD TV REMOTE CONTROL\nCOMPATIBLE FOR SMART TV",
     "tags": "COMPATIBLE, CONTROL, LED/LCD, MULTIFUNCTION, REMOTE, SMART, TV, UNIVERSAL",
     "imagePath": "./images/2713.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2717",
@@ -30757,8 +32437,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "ENERGY, METER",
     "imagePath": "./images/2717.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 7,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2719",
@@ -30773,8 +32454,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "TANK, WATER",
     "imagePath": "./images/2719.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2726",
@@ -30789,8 +32471,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "HANDLE, NON, SLIP",
     "imagePath": "./images/2726.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2728",
@@ -30805,8 +32488,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BLADE, BRUSH, CUT",
     "imagePath": "./images/2728.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2734",
@@ -30821,8 +32505,9 @@ window.NABIL_PRODUCTS = [
     "description": "CROSS STYLE",
     "tags": "CAR, CROSS, JACK, SCISSOR, STYLE",
     "imagePath": "./images/2734.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2740",
@@ -30837,8 +32522,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "IRON, MESH",
     "imagePath": "./images/2740.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2742",
@@ -30853,8 +32539,9 @@ window.NABIL_PRODUCTS = [
     "description": "ذكر وانثى\n3*1.5 mm",
     "tags": "CABLE, EXT",
     "imagePath": "./images/2742.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2746",
@@ -30869,8 +32556,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "MASK, SAFETY",
     "imagePath": "./images/2746.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 4,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2751",
@@ -30885,8 +32573,9 @@ window.NABIL_PRODUCTS = [
     "description": "",
     "tags": "BATTERY, بطاريةvvvvv",
     "imagePath": "./images/2751.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 13,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2759",
@@ -30901,8 +32590,9 @@ window.NABIL_PRODUCTS = [
     "description": "EMBRAYAGE (DUBRYAGE)\nFOR CHAIN SAW 12\"",
     "tags": "(DUBRYAGE), 2500, CHAIN, CLUTCH, EMBRAYAGE, SAW",
     "imagePath": "./images/2759.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 1,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2784",
@@ -30917,8 +32607,9 @@ window.NABIL_PRODUCTS = [
     "description": "BYEJE BI ALBO FILTER CARTRIDGE\nFAT7A 3/4\"",
     "tags": "FILTER, TANK",
     "imagePath": "./images/2784.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 5,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "2796",
@@ -30933,8 +32624,9 @@ window.NABIL_PRODUCTS = [
     "description": "EASY",
     "tags": "HBBH",
     "imagePath": "./images/2796.jpg",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
+    "inventoryQuantity": 2,
+    "additionalImagePaths": [],
+    "inventoryTracked": true
   },
   {
     "sku": "1976",
