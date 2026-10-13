@@ -10,13 +10,27 @@ Generate and verify a new QR code after the GitHub Pages address changes. The ho
 
 ## Import products locally
 
-The importer does not use Supabase, Google sign-in, or a remote database. It reads the workbook in your browser and writes the updated catalog and matching photos to a local project folder you choose. Do not publish `admin-import.html`.
+The importer does not use Supabase, Google sign-in, or a remote database. It can read an Excel workbook in your browser, or read stock availability directly from QuickBooks POS v9 through the local Windows connector. Both options update a local catalog; nothing is automatically published. Do not publish `admin-import.html`.
 
-1. Open `admin-import.html` from the Daychounieh Tools project folder in a recent version of Chrome or Edge.
-2. Click **Select Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file. This only selects the workbook; it does not import it yet.
-3. Optionally click **Choose photos folder** and select the folder with product photos. Name the main photo after its item code, such as `290.jpg` or `290_Def.jpg`; the importer saves either as `290.jpg`. For an optional second photo, name it `290_2.jpg` or `290_Alt.jpg`; product details show both photos with previous/next controls.
-4. Click **Step 3: Import selected Excel and photos into local project** once. When your browser asks, select your local project folder containing `index.html`, `catalog.js`, and `images`—not the separate GitHub repository folder. Products in the spreadsheet update matching catalog items by item code. If a row has Qty 1 of zero, less than zero, blank, or nonnumeric, the importer asks you to confirm removing that matching item from the catalog; its photo file stays in `images/`. Products omitted from the workbook remain in the catalog, and matched photos are copied into `images/`.
-5. Check the updated local storefront. To transfer the inventory update to the GitHub Desktop copy, click **Choose local project folder** and select the local project folder, then click **Choose GitHub repository folder** and select the repository folder containing `.git`, `index.html`, and `images`. Once both are selected, click **Copy catalog and photos to GitHub Desktop**. The importer overwrites `catalog.js` and same-named image files, does not delete extra images, and does not publish online. Review the copied changes and commit and push them through GitHub Desktop to publish.
+### Read stock from QuickBooks POS v9
+
+The POS connector runs only on the Windows computer with QuickBooks POS installed and logged in. It uses the 32-bit POS SDK locally; it does not connect to Supabase or send inventory to a remote service. The public shop displays the last stock values you reviewed and published.
+
+1. Install 32-bit Python for Windows and, in Command Prompt, run `py -3-32 -m pip install pywin32`.
+2. Keep QuickBooks POS open and logged in. Start the connector from the project folder with `py -3-32 inventory-sync\pos_importer.py`. The first POS SDK request may prompt for authorization in QuickBooks POS; allow it.
+3. Open `http://127.0.0.1:8765/` in Chrome or Edge. The importer page must be opened from this local address for its POS connection to work.
+4. Click **Read stock from QuickBooks POS**, review the returned item count, then click **Update local catalog with POS stock**. Select the project folder containing `catalog.js` and confirm the update. The import updates stock status only for item codes already in the catalog; it does not change product details, prices, or photos. It leaves zero-stock items listed but marks them out of stock, and prevents customers from adding them to their bag.
+5. Review the local website. Use the importer’s **Choose local project folder**, **Choose GitHub repository folder**, and **Copy catalog and photos to GitHub Desktop** steps. Review, commit, and push in GitHub Desktop to publish the stock update. Keep the connector window open only while using the importer; press Ctrl+C to stop it.
+
+The connector uses `ALU` as the POS item-code field, matching the provided POS script. If your POS item code is stored under a different XML field, run `set QBPOS_ITEM_CODE_FIELD=ItemNumber` in Command Prompt (replace `ItemNumber` with the correct XML field) before starting the connector. The connector reports POS errors or missing quantity fields instead of changing the catalog when it cannot read inventory correctly.
+
+### Manually import Excel or CSV
+
+This option remains available whether or not QuickBooks POS is installed. Open `admin-import.html` from the Daychounieh Tools project folder in a recent version of Chrome or Edge.
+1. Click **Select Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file. This only selects the workbook; it does not import it yet.
+2. Optionally click **Choose photos folder** and select the folder with product photos. Name the main photo after its item code, such as `290.jpg` or `290_Def.jpg`; the importer saves either as `290.jpg`. For an optional second photo, name it `290_2.jpg` or `290_Alt.jpg`; product details show both photos with previous/next controls.
+3. Click **Step 3: Import selected Excel and photos into local project** once. When your browser asks, select your local project folder containing `index.html`, `catalog.js`, and `images`—not the separate GitHub repository folder. Products in the spreadsheet update matching catalog items by item code. If a row has Qty 1 of zero, less than zero, blank, or nonnumeric, the importer asks you to confirm removing that matching item from the catalog; its photo stays in `images/`. Products omitted from the workbook remain in the catalog, and matched photos are copied into `images/`.
+4. Check the updated local storefront. To transfer the inventory update to the GitHub Desktop copy, click **Choose local project folder** and select the local project folder, then click **Choose GitHub repository folder** and select the repository folder containing `.git`, `index.html`, and `images`. Once both are selected, click **Copy catalog and photos to GitHub Desktop**. The importer overwrites `catalog.js` and same-named image files, does not delete extra images, and does not publish online. Review the copied changes and commit and push them through GitHub Desktop to publish.
 
 To remove every catalog item that has no usable local or web picture, click **Remove items without pictures** next to the import button. The tool checks all catalog items against existing files in the project's `images/` folder and valid web image URLs, shows a confirmation with the number to remove, and leaves all image files untouched. Back up the project before confirming; removing catalog items cannot be undone by the importer.
 
@@ -28,7 +42,7 @@ For the QuickBooks inventory export, the importer uses only the website fields: 
 
 The browser fetches the Excel-reading library from jsDelivr when opening the importer for `.xls`/`.xlsx` workbooks; the spreadsheet and photos stay on your computer and are not sent to that service. CSV import uses the browser directly. Keep a backup of the project folder before importing.
 
-The local importer is excluded from the public GitHub repository by `.gitignore`. If you move the project to another computer, copy `admin-import.html` there separately if you need the import tool.
+The local importer page is excluded from the public GitHub repository by `.gitignore`. If you move the import setup to another computer, copy `admin-import.html` and the `inventory-sync` folder there separately; the connector contains no credentials.
 
 ## Catalog and orders
 
