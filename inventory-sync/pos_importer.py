@@ -18,11 +18,11 @@ PORT = 8765
 APP_NAME = "Daychounieh Tools Local Inventory Importer"
 APP_ID = "{C18A21C1-6F93-4A86-9294-7B98A1FB8FC0}"
 COM_PROGID = "QBPOSXMLRPLib.RequestProcessor"
-ITEM_CODE_FIELD = os.environ.get("QBPOS_ITEM_CODE_FIELD", "ALU")
+ITEM_CODE_FIELD = os.environ.get("QBPOS_ITEM_CODE_FIELD", "ItemNumber")
 QBPOSXML_VERSION = "3.0"
 
 
-def query_pos_inventory():
+def query_pos_response():
     import pythoncom
     import win32com.client
 
@@ -50,7 +50,11 @@ def query_pos_inventory():
     finally:
         pythoncom.CoUninitialize()
 
-    return parse_pos_response(response_xml)
+    return response_xml
+
+
+def query_pos_inventory():
+    return parse_pos_response(query_pos_response())
 
 
 def parse_pos_response(response_xml):
@@ -89,7 +93,7 @@ def parse_pos_response(response_xml):
             quantity = next(
                 (
                     number
-                    for name in ("QtyOnHand", "OnHand", "TotalQtyOnHand")
+                    for name in ("QuantityOnHand", "QtyOnHand", "OnHand", "TotalQtyOnHand")
                     if (number := _number(fields.get(name))) is not None
                 ),
                 None,
@@ -114,6 +118,34 @@ def _number(value):
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+def discover_pos_fields():
+    root = ET.fromstring(query_pos_response())
+    first_item = next(root.iter("ItemInventoryRet"), None)
+    if first_item is None:
+        raise RuntimeError("QuickBooks POS returned no items to inspect.")
+
+    fields = {
+        element.tag: (element.text or "").strip()
+        for element in first_item.iter()
+        if element is not first_item and len(element) == 0
+    }
+    print("XML fields on the first QuickBooks POS inventory item:")
+    for name in sorted(fields, key=str.casefold):
+        print(f"  {name}")
+
+    candidates = {
+        name: value
+        for name, value in fields.items()
+        if name.casefold() in {
+            "alu", "itemnumber", "itemno", "itemcode", "sku", "upc", "listid"
+        }
+        or re.fullmatch(r"(?:qty.*onhand|onhand.*|qtyonhand)", name, re.I)
+    }
+    print("\nPossible item-code and stock fields on that item:")
+    for name, value in sorted(candidates.items(), key=lambda entry: entry[0].casefold()):
+        print(f"  {name} = {value}")
 
 
 class ImporterHandler(BaseHTTPRequestHandler):
@@ -190,6 +222,9 @@ def main():
         raise SystemExit("The QuickBooks POS importer must run on Windows.")
     if not re.fullmatch(r"[A-Za-z0-9_]+", ITEM_CODE_FIELD):
         raise SystemExit("QBPOS_ITEM_CODE_FIELD must be a POS XML field name.")
+    if "--discover" in sys.argv[1:]:
+        discover_pos_fields()
+        return
     server = HTTPServer((HOST, PORT), ImporterHandler)
     print(f"Open http://{HOST}:{PORT}/ in Chrome or Edge.")
     print("Keep this window open while importing from QuickBooks POS.")
