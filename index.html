@@ -103,10 +103,6 @@
     .product-price { font-size: 13px; font-weight: 700; }
     .add-button { padding: 7px 0 7px 10px; border: 0; background: none; color: var(--green); font-size: 11px; font-weight: 700; }
     .add-button:hover { text-decoration: underline; }
-    .add-button:disabled { cursor: not-allowed; color: var(--muted); text-decoration: none; }
-    .product-stock { margin: 0 0 8px; font-size: 11px; font-weight: 700; }
-    .product-stock.available, .detail-stock.available { color: #247344; }
-    .product-stock.unavailable, .detail-stock.unavailable { color: #a53c35; }
     .empty-state { grid-column: 1/-1; min-height: 245px; padding: 38px 24px; display: grid; place-items: center; border: 1px dashed #cdd2c8; border-radius: 6px; text-align: center; }
     .empty-state h3 { margin-bottom: 8px; font-size: 19px; letter-spacing: -.03em; }
     .empty-state p { max-width: 400px; margin-bottom: 18px; color: var(--muted); font-size: 13px; line-height: 1.6; }
@@ -130,7 +126,6 @@
     .detail-placeholder { color: var(--muted); font-size: 13px; }
     .detail-copy { padding: 16px 10px 16px 0; }
     .detail-sku { margin-bottom: 10px; color: var(--muted); font-size: 11px; }
-    .detail-stock { margin: 0 0 12px; font-size: 12px; font-weight: 700; }
     .detail-size { margin: 0 0 12px; color: #51574f; font-size: 12px; line-height: 1.6; white-space: pre-wrap; }
     .detail-attribute { margin: 0 0 12px; color: #51574f; font-size: 12px; line-height: 1.6; }
     .detail-description { color: #5d625a; font-size: 13px; line-height: 1.7; white-space: pre-wrap; }
@@ -404,7 +399,6 @@
           <p class="product-category" id="detail-category"></p>
           <h2 id="detail-title" dir="auto"></h2>
           <p class="detail-sku" id="detail-sku"></p>
-          <p class="detail-stock" id="detail-stock" hidden></p>
           <p class="detail-size" id="detail-size" hidden></p>
           <p class="detail-attribute" id="detail-attribute" hidden></p>
           <p class="detail-description" id="detail-description"></p>
@@ -524,12 +518,6 @@
         return new Intl.NumberFormat(undefined, { style: "currency", currency: CURRENCY }).format(value);
       }
 
-      function productInStock(product) {
-        if (product.inventoryTracked !== true) return null;
-        const quantity = Number(product.inventoryQuantity);
-        return Number.isFinite(quantity) ? quantity > 0 : null;
-      }
-
       function cleanDescription(value) {
         return String(value ?? "")
           .replace(/_x000D_\r*\n?/gi, "\n")
@@ -609,8 +597,6 @@
             product.dimensions ? `Dimensions: ${product.dimensions}` : "",
             `Size: ${product.sizes || "Not specified"}`
           ].filter(Boolean).join(" · ");
-          const inStock = productInStock(product);
-          const stockMarkup = inStock === null ? "" : `<p class="product-stock ${inStock ? "available" : "unavailable"}">${inStock ? "In stock" : "Out of stock"}</p>`;
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
             <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}<span class="sku">${escapeHtml(product.sku)}</span></div>
             <div class="product-info">
@@ -619,8 +605,7 @@
               ${sizeDetails ? `<p class="product-size" dir="auto">${escapeHtml(sizeDetails)}</p>` : ""}
               ${product.attribute ? `<p class="product-attribute" dir="auto">Attribute: ${escapeHtml(product.attribute)}</p>` : ""}
               <p class="product-description" dir="auto">${escapeHtml(description)}</p>
-              ${stockMarkup}
-              <div class="product-bottom"><span class="product-price">${money(product.price)}</span><button class="add-button" type="button" data-add="${escapeHtml(product.sku)}"${inStock === false ? " disabled" : ""}>${inStock === false ? "Out of stock" : "Add to bag +"}</button></div>
+              <div class="product-bottom"><span class="product-price">${money(product.price)}</span><button class="add-button" type="button" data-add="${escapeHtml(product.sku)}">Add to bag +</button></div>
             </div>
           </article>`;
         }).join("");
@@ -636,11 +621,6 @@
         document.getElementById("detail-category").textContent = product.category || "Other";
         document.getElementById("detail-title").textContent = product.name;
         document.getElementById("detail-sku").textContent = `Item code: ${product.sku}`;
-        const detailStock = document.getElementById("detail-stock");
-        const inStock = productInStock(product);
-        detailStock.hidden = inStock === null;
-        detailStock.textContent = inStock === null ? "" : inStock ? "In stock" : "Out of stock";
-        detailStock.className = `detail-stock${inStock === null ? "" : inStock ? " available" : " unavailable"}`;
         const detailSize = document.getElementById("detail-size");
         const sizeDetails = [
           product.dimensions ? `Dimensions: ${product.dimensions}` : "",
@@ -653,10 +633,7 @@
         detailAttribute.hidden = !product.attribute;
         document.getElementById("detail-description").textContent = cleanDescription(product.description) || product.tags || "Product details available on request.";
         document.getElementById("detail-price").textContent = money(product.price);
-        const addButton = document.getElementById("detail-add-button");
-        addButton.dataset.add = product.sku;
-        addButton.disabled = inStock === false;
-        addButton.textContent = inStock === false ? "Out of stock" : "Add to bag";
+        document.getElementById("detail-add-button").dataset.add = product.sku;
         openOverlay("product-overlay");
       }
 
@@ -685,10 +662,6 @@
       function addToCart(sku) {
         const product = productBySku(sku);
         if (!product) return;
-        if (productInStock(product) === false) {
-          showNotice(`${product.name} is currently out of stock.`);
-          return;
-        }
         cart[sku] = (Number(cart[sku]) || 0) + 1;
         if (!saveStorage(CART_KEY, cart)) return;
         renderCart();
@@ -780,13 +753,6 @@
         const items = Object.entries(cart).map(([sku, quantity]) => ({ product: productBySku(sku), quantity: Number(quantity) })).filter((item) => item.product && item.quantity > 0);
         if (!items.length) {
           setStatus(status, "Your bag is empty.", "error");
-          return;
-        }
-        if (items.some(({ product }) => productInStock(product) === false)) {
-          closeOverlay("checkout-overlay");
-          openOverlay("cart-overlay");
-          renderCart();
-          setStatus(document.getElementById("cart-status"), "Your bag includes an item that is now out of stock. Remove it before sending your order.", "error");
           return;
         }
         const digits = WHATSAPP_NUMBER.replace(/\D/g, "");

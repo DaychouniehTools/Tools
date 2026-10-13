@@ -6,8 +6,9 @@ import mimetypes
 import os
 import re
 import sys
+import threading
 from datetime import datetime, timezone
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
@@ -20,6 +21,7 @@ APP_ID = "{C18A21C1-6F93-4A86-9294-7B98A1FB8FC0}"
 COM_PROGID = "QBPOSXMLRPLib.RequestProcessor"
 ITEM_CODE_FIELD = os.environ.get("QBPOS_ITEM_CODE_FIELD", "ItemNumber")
 QBPOSXML_VERSION = "3.0"
+POS_REQUEST_LOCK = threading.Lock()
 
 
 def query_pos_response():
@@ -172,7 +174,8 @@ class ImporterHandler(BaseHTTPRequestHandler):
         route = urlsplit(self.path).path
         if route == "/api/pos/inventory":
             try:
-                inventory = query_pos_inventory()
+                with POS_REQUEST_LOCK:
+                    inventory = query_pos_inventory()
             except Exception as error:
                 message = json.dumps({"error": str(error)})
                 self._send(502, "application/json; charset=utf-8", message)
@@ -225,7 +228,8 @@ def main():
     if "--discover" in sys.argv[1:]:
         discover_pos_fields()
         return
-    server = HTTPServer((HOST, PORT), ImporterHandler)
+    server = ThreadingHTTPServer((HOST, PORT), ImporterHandler)
+    server.daemon_threads = True
     print(f"Open http://{HOST}:{PORT}/ in Chrome or Edge.")
     print("Keep this window open while importing from QuickBooks POS.")
     try:
