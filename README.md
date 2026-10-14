@@ -4,13 +4,17 @@ Daychounieh Tools is a responsive product catalog with Arabic and English produc
 
 ## Website
 
-The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. Open `index.html` to view the bundled catalog locally. The prepared catalog has 2,127 items and 1,899 product photos in `images/`. Search matches names, item codes, categories, descriptions, and tags. Customers can click a product photo to see a larger image and its details.
+The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. Open `index.html` to view the bundled catalog locally. The reviewed catalog has 1,692 items; the `images/` folder may contain extra files not used by the current catalog. Search matches names, item codes, categories, descriptions, and tags. Customers can click a product photo to see a larger image and its details.
 
 Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 
 ## Import products locally
 
 The importer does not use Supabase, Google sign-in, or a remote database. It reads the workbook in your browser and writes the updated catalog and matching photos to a local project folder you choose. Do not publish `admin-import.html`.
+
+### QuickBooks POS v9
+
+On the Windows computer with QuickBooks POS installed, log in to POS and double-click `Start POS Importer.bat`. Keep `inventory-sync/pos_importer.py` with the launcher. The connector requires 32-bit Python and `pywin32`; if prompted, install the module with `py -3-32 -m pip install pywin32`. Keep the connector window open. In the local importer, read the POS items, then review and confirm the local catalog update. QuickBooks POS currently supplies item codes and stock quantities only: the connector does not read the POS picture tick or download POS pictures. Picture cleanup checks image URLs and files in the selected local project's `images/` folder. Changes are local until reviewed and published through GitHub Desktop; clicking Read does not update the live site.
 
 1. Open `admin-import.html` from the Daychounieh Tools project folder in a recent version of Chrome or Edge.
 2. Click **Select Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file. This only selects the workbook; it does not import it yet.
