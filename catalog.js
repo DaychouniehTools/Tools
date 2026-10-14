@@ -22722,7 +22722,7 @@ window.NABIL_PRODUCTS = [
     "attribute": "SILVER",
     "dimensions": "",
     "sizes": "9 CM",
-    "description": "SET OF 2\n7CM SIZE MEN MASKE LAL EFEL",
+    "description": "SET OF 2\n7CM SIZE MEN MASKE LAL EFEL test1",
     "tags": "2, DOOR, HANDLE, SET",
     "imagePath": "./images/2256.jpg",
     "inventoryQuantity": 0,
