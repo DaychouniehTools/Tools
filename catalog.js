@@ -22311,7 +22311,7 @@ window.NABIL_PRODUCTS = [
     "attribute": "",
     "dimensions": "",
     "sizes": "9 CM",
-    "description": "TOUL 190 MM",
+    "description": "TOUL 190 MM test2",
     "tags": "CYLINDER, DOOR",
     "imagePath": "./images/2257.jpg",
     "inventoryQuantity": 2,
