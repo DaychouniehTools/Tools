@@ -20203,22 +20203,6 @@ window.NABIL_PRODUCTS = [
     "additionalImagePaths": []
   },
   {
-    "sku": "1052",
-    "name": "CLAMPS ملقط كابل تدكير كبير",
-    "price": 2.8,
-    "imageUrl": "",
-    "barcode": "1000000001052",
-    "category": "BATTERIES",
-    "attribute": "",
-    "dimensions": "",
-    "sizes": "",
-    "description": "SELLING PER SET OF 2 PCS",
-    "tags": "2, CLAMPS, PCS, PER, SELLING, SET",
-    "imagePath": "",
-    "inventoryQuantity": 0,
-    "additionalImagePaths": []
-  },
-  {
     "sku": "1118",
     "name": "PVC T CONN تيه اف بلاستيك",
     "price": 0.45,
