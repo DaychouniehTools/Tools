@@ -18,7 +18,7 @@ window.NABIL_PRODUCTS = [
   {
     "sku": "1937",
     "name": "empty",
-    "price": 3.5,
+    "price": 3.55,
     "imageUrl": "",
     "barcode": "1000000001936",
     "category": "HAND TOOLS",
