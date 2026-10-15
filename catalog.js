@@ -14,7 +14,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "500 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "293",
@@ -31,7 +32,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "296",
@@ -48,7 +50,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.8 X 1.6 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "298",
@@ -65,7 +68,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "299",
@@ -82,7 +86,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "9\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "300",
@@ -99,7 +104,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/300_2.jpg"
+    ]
   },
   {
     "sku": "304",
@@ -116,7 +124,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "27 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "305",
@@ -133,7 +142,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "28 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "308",
@@ -150,7 +160,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/308_2.jpg"
+    ]
   },
   {
     "sku": "309",
@@ -167,7 +180,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "311",
@@ -184,7 +198,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/311_2.jpg"
+    ]
   },
   {
     "sku": "312",
@@ -201,7 +218,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1000 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "313",
@@ -218,7 +236,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2000 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "314",
@@ -235,7 +254,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "315",
@@ -252,7 +272,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "316",
@@ -269,7 +290,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "317",
@@ -286,7 +308,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "318",
@@ -303,7 +326,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3.5 X 16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "324",
@@ -320,7 +344,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3.9 X 30 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "331",
@@ -337,7 +362,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "333",
@@ -354,7 +380,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "335",
@@ -371,7 +398,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "9 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/335_2.jpg"
+    ]
   },
   {
     "sku": "338",
@@ -388,7 +418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "24 CM",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "339",
@@ -405,7 +436,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/339_2.jpg"
+    ]
   },
   {
     "sku": "340",
@@ -422,7 +456,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "347",
@@ -439,7 +474,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "349",
@@ -456,7 +492,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "29 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "350",
@@ -473,7 +510,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "351",
@@ -490,7 +528,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "35 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/351_2.jpg"
+    ]
   },
   {
     "sku": "354",
@@ -507,7 +548,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.5\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "356",
@@ -524,7 +566,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "23 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/356_2.jpg"
+    ]
   },
   {
     "sku": "357",
@@ -541,7 +586,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "500 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "361",
@@ -558,7 +604,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 55 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "362",
@@ -575,7 +622,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 50 MM",
     "attribute": "GREY",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "363",
@@ -592,7 +640,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 55 MM",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "365",
@@ -609,7 +658,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "371",
@@ -626,7 +676,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\" 100 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "372",
@@ -643,7 +694,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM 7.6",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "376",
@@ -660,7 +712,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "377",
@@ -677,7 +730,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "378",
@@ -694,7 +748,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "382",
@@ -711,7 +766,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "24\" X 60 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "384",
@@ -728,7 +784,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 13 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/384_2.jpg"
+    ]
   },
   {
     "sku": "387",
@@ -745,7 +804,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 6 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "388",
@@ -762,7 +822,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "47 X 15 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1939",
@@ -779,7 +840,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1940",
@@ -796,7 +858,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1941",
@@ -813,7 +876,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "11 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1942",
@@ -830,7 +894,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1944",
@@ -847,7 +912,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1947",
@@ -864,7 +930,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1948",
@@ -881,7 +948,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1951",
@@ -898,7 +966,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "41",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1954",
@@ -915,7 +984,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "44",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1955",
@@ -932,7 +1002,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1956",
@@ -949,7 +1020,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1958",
@@ -966,7 +1038,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1959",
@@ -983,7 +1056,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1960",
@@ -1000,7 +1074,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1962",
@@ -1017,7 +1092,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1963",
@@ -1034,7 +1110,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM X 30CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1967",
@@ -1051,7 +1128,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1968",
@@ -1068,7 +1146,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1969",
@@ -1085,7 +1164,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1970",
@@ -1102,7 +1182,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1971",
@@ -1119,7 +1200,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1972",
@@ -1136,7 +1218,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 X 4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1973",
@@ -1153,7 +1236,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6\" X 110 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1974",
@@ -1170,7 +1254,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 5\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1975",
@@ -1187,7 +1272,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1979",
@@ -1204,7 +1290,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1980",
@@ -1221,7 +1308,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1981",
@@ -1238,7 +1326,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1983",
@@ -1255,7 +1344,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "120 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1985",
@@ -1272,7 +1362,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1986",
@@ -1289,7 +1380,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1987",
@@ -1306,7 +1398,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "120 X 100 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "528",
@@ -1323,7 +1416,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "573",
@@ -1340,7 +1434,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "580",
@@ -1357,7 +1452,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "614",
@@ -1374,7 +1470,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "672",
@@ -1391,7 +1488,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "SILVER",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "676",
@@ -1408,7 +1506,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "692",
@@ -1425,7 +1524,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "722",
@@ -1442,7 +1542,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "728",
@@ -1459,7 +1560,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "815",
@@ -1476,7 +1578,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "816",
@@ -1493,7 +1596,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1049",
@@ -1510,7 +1614,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "120 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1050",
@@ -1527,7 +1632,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1904",
@@ -1544,7 +1650,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1988",
@@ -1561,7 +1668,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1988_2.jpg"
+    ]
   },
   {
     "sku": "1990",
@@ -1578,7 +1688,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1991",
@@ -1595,7 +1706,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "150 CM",
     "attribute": "GREY",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1992",
@@ -1612,7 +1724,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "7\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1992_2.jpg"
+    ]
   },
   {
     "sku": "1995",
@@ -1629,7 +1744,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2001",
@@ -1646,7 +1762,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 HP",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2001_2.jpg"
+    ]
   },
   {
     "sku": "1996",
@@ -1663,7 +1782,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1997",
@@ -1680,7 +1800,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "551",
@@ -1697,7 +1818,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 - 120 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "556",
@@ -1714,7 +1836,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "559",
@@ -1731,7 +1854,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "560",
@@ -1748,7 +1872,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2''",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "561",
@@ -1765,7 +1890,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5.3 X 11 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "565",
@@ -1782,7 +1908,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 X 15 CM",
     "attribute": "BEIGE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "566",
@@ -1799,7 +1926,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "567",
@@ -1816,7 +1944,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 CM",
     "attribute": "BEIGE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "3",
@@ -1833,7 +1962,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "4",
@@ -1850,7 +1980,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/4_2.jpg"
+    ]
   },
   {
     "sku": "5",
@@ -1867,7 +2000,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 W E14",
     "attribute": "LIGHT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "8",
@@ -1884,7 +2018,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "11 W E14",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "9",
@@ -1901,7 +2036,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 W E14",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "14",
@@ -1918,7 +2054,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.5 CM LARGE",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "15",
@@ -1935,7 +2072,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 CM SMALL",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "16",
@@ -1952,7 +2090,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM LARGE",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "21",
@@ -1969,7 +2108,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1200",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "22",
@@ -1986,7 +2126,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 M",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/22_2.jpg"
+    ]
   },
   {
     "sku": "23",
@@ -2003,7 +2146,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 CM X 20 M",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/23_2.jpg"
+    ]
   },
   {
     "sku": "25",
@@ -2020,7 +2166,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 1/2\" 30T",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/25_2.jpg"
+    ]
   },
   {
     "sku": "28",
@@ -2037,7 +2186,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 CM SMALL",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "29",
@@ -2054,7 +2204,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "90 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "31",
@@ -2071,7 +2222,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 X 15 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/31_2.jpg"
+    ]
   },
   {
     "sku": "32",
@@ -2088,7 +2242,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/32_2.jpg"
+    ]
   },
   {
     "sku": "35",
@@ -2105,7 +2262,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "36",
@@ -2122,7 +2280,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/36_2.jpg"
+    ]
   },
   {
     "sku": "37",
@@ -2139,7 +2300,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/37_2.jpg"
+    ]
   },
   {
     "sku": "39",
@@ -2156,7 +2320,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "40",
@@ -2173,7 +2338,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1X1 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/40_2.jpg"
+    ]
   },
   {
     "sku": "41",
@@ -2190,7 +2358,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "290 ML",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/41_2.jpg"
+    ]
   },
   {
     "sku": "43",
@@ -2207,7 +2378,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "750 ML",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/43_2.jpg"
+    ]
   },
   {
     "sku": "47",
@@ -2224,7 +2398,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "62",
@@ -2241,7 +2416,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 150",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "64",
@@ -2258,7 +2434,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7\" = 18 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "69",
@@ -2275,7 +2452,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "73",
@@ -2292,7 +2470,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "53",
@@ -2309,7 +2488,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/53_2.jpg"
+    ]
   },
   {
     "sku": "67",
@@ -2326,7 +2508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/4\" / 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "68",
@@ -2343,7 +2526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "74",
@@ -2360,7 +2544,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "79",
@@ -2377,7 +2562,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "TOUGH",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/79_2.jpg"
+    ]
   },
   {
     "sku": "81",
@@ -2394,7 +2582,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "19 CM SMALL",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/81_2.jpg"
+    ]
   },
   {
     "sku": "84",
@@ -2411,7 +2602,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "85",
@@ -2428,7 +2620,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "87",
@@ -2445,7 +2638,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "AA",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "88",
@@ -2462,7 +2656,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "AAA",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "89",
@@ -2479,7 +2674,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "38 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/89_2.jpg"
+    ]
   },
   {
     "sku": "90",
@@ -2496,7 +2694,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "92",
@@ -2513,7 +2712,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "38 MM",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "94",
@@ -2530,7 +2730,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 - 16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/94_2.jpg"
+    ]
   },
   {
     "sku": "626",
@@ -2547,7 +2750,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "627",
@@ -2564,7 +2768,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 - 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "630",
@@ -2581,7 +2786,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "35 - 50 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "631",
@@ -2598,7 +2804,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 - 55 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "632",
@@ -2615,7 +2822,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 - 35 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "633",
@@ -2632,7 +2840,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "634",
@@ -2649,7 +2858,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1117",
@@ -2666,7 +2876,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1119",
@@ -2683,7 +2894,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1120",
@@ -2700,7 +2912,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1121",
@@ -2717,7 +2930,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1123",
@@ -2734,7 +2948,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1139",
@@ -2751,7 +2966,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1140",
@@ -2762,13 +2978,14 @@ window.NABIL_PRODUCTS = [
     "imagePath": "./images/1140.jpg",
     "barcode": "1000000001140",
     "category": "PVC PIPES ACCESSORIES",
-    "description": "ريكار 5انش \nفرع واحد 3 انش و ثلاث فروع 2 انش\nسيفون صليب 3 \"",
+    "description": "ريكار 5انش \nفرع واحد 3 انش æ ثلاث فروع 2 انش\nسيفون صليب 3 \"\nفرع واحد 3 انش و ثلاث فروع 2 انش",
     "tags": "\"2\"\"\", DRAIN, PVC",
     "inventoryQuantity": 1,
     "sizes": "2 X 3 X 5 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1141",
@@ -2785,7 +3002,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1142",
@@ -2802,7 +3020,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1143",
@@ -2819,7 +3038,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1144",
@@ -2836,7 +3056,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\" X 1.2M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1148",
@@ -2853,7 +3074,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 X 3/4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1149",
@@ -2870,7 +3092,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1150",
@@ -2887,7 +3110,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1156",
@@ -2904,7 +3128,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1159",
@@ -2921,7 +3146,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM 2.5 MM",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1160",
@@ -2938,7 +3164,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1161",
@@ -2955,7 +3182,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1162",
@@ -2972,7 +3200,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1164",
@@ -2989,7 +3218,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1165",
@@ -3006,7 +3236,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1166",
@@ -3023,7 +3254,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1168",
@@ -3040,7 +3272,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1169",
@@ -3057,7 +3290,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1170",
@@ -3074,7 +3308,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1171",
@@ -3091,7 +3326,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1173",
@@ -3108,7 +3344,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1173_2.jpg"
+    ]
   },
   {
     "sku": "1174",
@@ -3125,7 +3364,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1175",
@@ -3142,7 +3382,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1175_2.jpg"
+    ]
   },
   {
     "sku": "1177",
@@ -3159,7 +3402,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1179",
@@ -3176,7 +3420,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1180",
@@ -3193,7 +3438,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1182",
@@ -3210,7 +3456,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1184",
@@ -3227,7 +3474,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1184_2.jpg"
+    ]
   },
   {
     "sku": "1186",
@@ -3244,7 +3494,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 40",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1188",
@@ -3261,7 +3512,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1189",
@@ -3278,7 +3530,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1194",
@@ -3295,7 +3548,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 X 150 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1196",
@@ -3312,7 +3566,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "130 KG",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1201",
@@ -3329,7 +3584,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "999044",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1203",
@@ -3346,7 +3602,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "38",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1204",
@@ -3363,7 +3620,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1205",
@@ -3380,7 +3638,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "917",
@@ -3397,7 +3656,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 X 25 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/917_2.jpg"
+    ]
   },
   {
     "sku": "918",
@@ -3414,7 +3676,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 X 25 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "920",
@@ -3431,7 +3694,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "700 N",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/920_2.jpg"
+    ]
   },
   {
     "sku": "923",
@@ -3448,7 +3714,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "E 27",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "926",
@@ -3465,7 +3732,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "927",
@@ -3482,7 +3750,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "848",
@@ -3499,7 +3768,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/4 X 5/8",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "849",
@@ -3516,7 +3786,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "9.50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "850",
@@ -3533,7 +3804,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 2 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "851",
@@ -3550,7 +3822,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 4 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/851_2.jpg"
+    ]
   },
   {
     "sku": "852",
@@ -3567,7 +3842,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "853",
@@ -3584,7 +3860,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "854",
@@ -3601,7 +3878,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "855",
@@ -3618,7 +3896,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "28 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "862",
@@ -3635,7 +3914,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "863",
@@ -3652,7 +3932,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "864",
@@ -3669,7 +3950,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "865",
@@ -3686,7 +3968,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 M",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "866",
@@ -3703,7 +3986,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/866_2.jpg"
+    ]
   },
   {
     "sku": "867",
@@ -3720,7 +4006,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "868",
@@ -3737,7 +4024,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "870",
@@ -3754,7 +4042,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 KG",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "872",
@@ -3771,7 +4060,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "873",
@@ -3788,7 +4078,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "290 /310 ML",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "874",
@@ -3805,7 +4096,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "7.5 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/874_2.jpg"
+    ]
   },
   {
     "sku": "875",
@@ -3822,7 +4116,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "880",
@@ -3839,7 +4134,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/880_2.jpg"
+    ]
   },
   {
     "sku": "881",
@@ -3856,7 +4154,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "882",
@@ -3873,7 +4172,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 10 M",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/882_2.jpg"
+    ]
   },
   {
     "sku": "883",
@@ -3890,7 +4192,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12\"30 CM 4MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "884",
@@ -3907,7 +4210,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12\"30CM 3MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/884_2.jpg"
+    ]
   },
   {
     "sku": "876",
@@ -3924,7 +4230,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 X 22 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "885",
@@ -3941,7 +4248,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "23  X 30 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/885_2.jpg"
+    ]
   },
   {
     "sku": "879",
@@ -3958,7 +4268,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "19 X 3.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "887",
@@ -3975,7 +4286,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16\" 33 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "889",
@@ -3992,7 +4304,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.8 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "892",
@@ -4009,7 +4322,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "893",
@@ -4026,7 +4340,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "894",
@@ -4043,7 +4358,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.50 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/894_2.jpg"
+    ]
   },
   {
     "sku": "897",
@@ -4060,7 +4378,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/897_2.jpg"
+    ]
   },
   {
     "sku": "898",
@@ -4077,7 +4398,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/898_2.jpg"
+    ]
   },
   {
     "sku": "899",
@@ -4094,7 +4418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 M X 19 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "901",
@@ -4111,7 +4436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "905",
@@ -4128,7 +4454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "906",
@@ -4145,7 +4472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 X 2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "907",
@@ -4162,7 +4490,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "908",
@@ -4179,7 +4508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8  X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "910",
@@ -4196,7 +4526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 120 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "911",
@@ -4213,7 +4544,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 X 125 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "912",
@@ -4230,7 +4562,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 x 125 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "913",
@@ -4247,7 +4580,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 125 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "914",
@@ -4264,7 +4598,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/914_2.jpg"
+    ]
   },
   {
     "sku": "916",
@@ -4281,7 +4618,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "485",
@@ -4298,7 +4636,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "500 V , 25 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/485_2.jpg"
+    ]
   },
   {
     "sku": "487",
@@ -4315,7 +4656,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 M",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/487_2.jpg"
+    ]
   },
   {
     "sku": "488",
@@ -4332,7 +4676,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 M",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/488_2.jpg"
+    ]
   },
   {
     "sku": "492",
@@ -4349,7 +4696,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "90 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "495",
@@ -4366,7 +4714,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "499",
@@ -4383,7 +4732,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "500",
@@ -4400,7 +4750,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "19 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "501",
@@ -4417,7 +4768,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/501_2.jpg"
+    ]
   },
   {
     "sku": "503",
@@ -4434,7 +4788,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "504",
@@ -4451,7 +4806,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "507",
@@ -4468,7 +4824,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "WHITE",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "508",
@@ -4485,7 +4842,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "511",
@@ -4502,7 +4860,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "96",
@@ -4519,7 +4878,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5.5 M",
     "attribute": "BLACK /WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "97",
@@ -4536,7 +4896,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "9 M",
     "attribute": "BLACK /WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "98",
@@ -4553,7 +4914,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "99",
@@ -4570,7 +4932,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/99_2.jpg"
+    ]
   },
   {
     "sku": "100",
@@ -4587,7 +4952,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "101",
@@ -4604,7 +4970,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/101_2.jpg"
+    ]
   },
   {
     "sku": "103",
@@ -4621,7 +4990,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "107",
@@ -4638,7 +5008,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 M",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "111",
@@ -4655,7 +5026,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 M / 48 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "116",
@@ -4672,7 +5044,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "27 X 7.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "117",
@@ -4689,7 +5062,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/117_2.jpg"
+    ]
   },
   {
     "sku": "118",
@@ -4706,7 +5082,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "123",
@@ -4723,7 +5100,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/123_2.jpg"
+    ]
   },
   {
     "sku": "127",
@@ -4740,7 +5120,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "02 - 090",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "128",
@@ -4757,7 +5138,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 M X 19 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "133",
@@ -4774,7 +5156,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/133_2.jpg"
+    ]
   },
   {
     "sku": "134",
@@ -4791,7 +5176,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "27 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/134_2.jpg"
+    ]
   },
   {
     "sku": "137",
@@ -4808,7 +5196,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8.5 X 12 CM",
     "attribute": "RIGHT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "138",
@@ -4825,7 +5214,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "200 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/138_2.jpg"
+    ]
   },
   {
     "sku": "142",
@@ -4842,7 +5234,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM 4.8 MM",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/142_2.jpg"
+    ]
   },
   {
     "sku": "143",
@@ -4859,7 +5254,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM 4.8 MM",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/143_2.jpg"
+    ]
   },
   {
     "sku": "147",
@@ -4876,7 +5274,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "149",
@@ -4893,7 +5292,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "150",
@@ -4910,7 +5310,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "151",
@@ -4927,7 +5328,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/151_2.jpg"
+    ]
   },
   {
     "sku": "152",
@@ -4944,7 +5348,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "155",
@@ -4961,7 +5366,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/155_2.jpg"
+    ]
   },
   {
     "sku": "156",
@@ -4978,7 +5386,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "800 W",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "157",
@@ -4995,7 +5404,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 - 15 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "168",
@@ -5012,7 +5422,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 A",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "179",
@@ -5029,7 +5440,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1200 W",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "180",
@@ -5046,7 +5458,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "181",
@@ -5063,7 +5476,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "182",
@@ -5080,7 +5494,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "183",
@@ -5097,7 +5512,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/183_2.jpg"
+    ]
   },
   {
     "sku": "186",
@@ -5114,7 +5532,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/186_2.jpg"
+    ]
   },
   {
     "sku": "187",
@@ -5131,7 +5552,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\" 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/187_2.jpg"
+    ]
   },
   {
     "sku": "188",
@@ -5148,7 +5572,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "190",
@@ -5165,7 +5590,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.5 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "191",
@@ -5182,7 +5608,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "192",
@@ -5199,7 +5626,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "193",
@@ -5216,7 +5644,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "194",
@@ -5233,7 +5662,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "401",
@@ -5250,7 +5680,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 POLES",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/401_2.jpg"
+    ]
   },
   {
     "sku": "410",
@@ -5267,7 +5700,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 60 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "412",
@@ -5284,7 +5718,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "413",
@@ -5301,7 +5736,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 X 6.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "415",
@@ -5318,7 +5754,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/415_2.jpg"
+    ]
   },
   {
     "sku": "416",
@@ -5335,7 +5774,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "500 ML",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "418",
@@ -5352,7 +5792,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "56.7 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "420",
@@ -5369,7 +5810,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/16\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "421",
@@ -5386,7 +5828,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/421_2.jpg"
+    ]
   },
   {
     "sku": "423",
@@ -5403,7 +5848,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 7 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/423_2.jpg"
+    ]
   },
   {
     "sku": "424",
@@ -5420,7 +5868,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "16.5",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/424_2.jpg"
+    ]
   },
   {
     "sku": "425",
@@ -5437,7 +5888,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 80",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "426",
@@ -5454,7 +5906,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 100",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "428",
@@ -5471,7 +5924,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 80",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "429",
@@ -5488,7 +5942,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/429_2.jpg"
+    ]
   },
   {
     "sku": "432",
@@ -5505,7 +5962,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "450 M X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "434",
@@ -5522,7 +5980,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "53 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/434_2.jpg"
+    ]
   },
   {
     "sku": "438",
@@ -5539,7 +6000,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 160 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/438_2.jpg"
+    ]
   },
   {
     "sku": "439",
@@ -5556,7 +6020,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 110 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/439_2.jpg"
+    ]
   },
   {
     "sku": "440",
@@ -5573,7 +6040,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 X 160 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/440_2.jpg"
+    ]
   },
   {
     "sku": "443",
@@ -5590,7 +6060,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 115 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "444",
@@ -5607,7 +6078,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "445",
@@ -5624,7 +6096,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "446",
@@ -5641,7 +6114,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 TO 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "447",
@@ -5658,7 +6132,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "90 CM",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/447_2.jpg"
+    ]
   },
   {
     "sku": "448",
@@ -5675,7 +6152,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "90 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "450",
@@ -5692,7 +6170,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 x 18 x 18",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "451",
@@ -5709,7 +6188,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 x 1/2 x18",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "452",
@@ -5726,7 +6206,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "453",
@@ -5743,7 +6224,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "454",
@@ -5760,7 +6242,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 16 X 16",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "455",
@@ -5777,7 +6260,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "456",
@@ -5794,7 +6278,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "457",
@@ -5811,7 +6296,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 1/2 X16",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "458",
@@ -5828,7 +6314,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 1/2 X18",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "459",
@@ -5845,7 +6332,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "460",
@@ -5862,7 +6350,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "461",
@@ -5879,7 +6368,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 16",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "462",
@@ -5896,7 +6386,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 18",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "463",
@@ -5913,7 +6404,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 16",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "464",
@@ -5930,7 +6422,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 18",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "465",
@@ -5947,7 +6440,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "466",
@@ -5964,7 +6458,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "467",
@@ -5981,7 +6476,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "468",
@@ -5998,7 +6494,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "469",
@@ -6015,7 +6512,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "470",
@@ -6032,7 +6530,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4 , 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "471",
@@ -6049,7 +6548,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 , 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "472",
@@ -6066,7 +6566,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 , 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "473",
@@ -6083,7 +6584,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/473_2.jpg"
+    ]
   },
   {
     "sku": "474",
@@ -6100,7 +6604,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "29 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "475",
@@ -6117,7 +6622,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.5 , 10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "478",
@@ -6134,7 +6640,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "479",
@@ -6151,7 +6658,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "60 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "481",
@@ -6168,7 +6676,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1329",
@@ -6185,7 +6694,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 1.5 MM",
     "attribute": "BLACK/RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1329_2.jpg"
+    ]
   },
   {
     "sku": "1330",
@@ -6202,7 +6714,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 2.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1331",
@@ -6219,7 +6732,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 2 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1332",
@@ -6236,7 +6750,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 Y",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1332_2.jpg"
+    ]
   },
   {
     "sku": "1333",
@@ -6253,7 +6770,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 Y",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1334",
@@ -6270,7 +6788,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1335",
@@ -6287,7 +6806,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1336",
@@ -6304,7 +6824,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1337",
@@ -6321,7 +6842,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 X 7 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1338",
@@ -6338,7 +6860,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 9 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1339",
@@ -6355,7 +6878,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 MODULES",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1340",
@@ -6372,7 +6896,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1341",
@@ -6389,7 +6914,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "197",
@@ -6406,7 +6932,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 , 2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "198",
@@ -6423,7 +6950,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4 , 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "201",
@@ -6440,7 +6968,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/201_2.jpg"
+    ]
   },
   {
     "sku": "202",
@@ -6457,7 +6988,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/202_2.jpg"
+    ]
   },
   {
     "sku": "206",
@@ -6474,7 +7008,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 X 10 M",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "212",
@@ -6491,7 +7026,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "213",
@@ -6508,7 +7044,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "214",
@@ -6525,7 +7062,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.20 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "216",
@@ -6542,7 +7080,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "220",
@@ -6559,7 +7098,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.5 X 2 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "221",
@@ -6576,7 +7116,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 X 1.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "224",
@@ -6593,7 +7134,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\"",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "226",
@@ -6610,7 +7152,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6\"",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/226_2.jpg"
+    ]
   },
   {
     "sku": "228",
@@ -6627,7 +7172,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 L",
     "attribute": "WHITE ORANGE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "231",
@@ -6644,7 +7190,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "10\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/231_2.jpg"
+    ]
   },
   {
     "sku": "233",
@@ -6661,7 +7210,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "236",
@@ -6678,7 +7228,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "237",
@@ -6695,7 +7246,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "13",
@@ -6712,7 +7264,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "17",
@@ -6749,7 +7302,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "239",
@@ -6766,7 +7320,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "240",
@@ -6783,7 +7338,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "241",
@@ -6800,7 +7356,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "242",
@@ -6817,7 +7374,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "243",
@@ -6834,7 +7392,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "244",
@@ -6851,7 +7410,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "246",
@@ -6868,7 +7428,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "0.8 X 30 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "247",
@@ -6885,7 +7446,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 X 30 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "248",
@@ -6902,7 +7464,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/248_2.jpg"
+    ]
   },
   {
     "sku": "253",
@@ -6919,7 +7484,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 1.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "258",
@@ -6936,7 +7502,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 X 2 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "259",
@@ -6953,7 +7520,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.6 X 1.6 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "261",
@@ -6970,7 +7538,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 X 2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "262",
@@ -6987,7 +7556,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "120 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "264",
@@ -7004,7 +7574,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/264_2.jpg"
+    ]
   },
   {
     "sku": "267",
@@ -7021,7 +7594,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 PCS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "270",
@@ -7038,7 +7612,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "24 PCS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "272",
@@ -7055,7 +7630,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "275",
@@ -7072,7 +7648,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/275_2.jpg"
+    ]
   },
   {
     "sku": "276",
@@ -7089,7 +7668,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "220 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/276_2.jpg"
+    ]
   },
   {
     "sku": "277",
@@ -7106,7 +7688,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 A 300 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "278",
@@ -7123,7 +7706,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 PCS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "280",
@@ -7140,7 +7724,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "281",
@@ -7157,7 +7742,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "SMALL",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "283",
@@ -7174,7 +7760,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 KEYS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/283_2.jpg"
+    ]
   },
   {
     "sku": "284",
@@ -7191,7 +7780,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "285",
@@ -7208,7 +7798,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "286",
@@ -7225,7 +7816,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "287",
@@ -7242,7 +7834,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "SINGLE 63 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1206",
@@ -7259,7 +7852,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 X1.2X 22",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1206_2.jpg"
+    ]
   },
   {
     "sku": "1208",
@@ -7276,7 +7872,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1209",
@@ -7293,7 +7890,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1210",
@@ -7310,7 +7908,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "28 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "570",
@@ -7327,7 +7926,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "572",
@@ -7344,7 +7944,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "575",
@@ -7361,7 +7962,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "576",
@@ -7378,7 +7980,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7/8\"",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "577",
@@ -7395,7 +7998,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/8\"",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "579",
@@ -7412,7 +8016,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "587",
@@ -7429,7 +8034,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 40 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "595",
@@ -7446,7 +8052,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "70 X 53 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "596",
@@ -7463,7 +8070,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 100 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "599",
@@ -7480,7 +8088,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "0.5 KG",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/599_2.jpg"
+    ]
   },
   {
     "sku": "602",
@@ -7497,7 +8108,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "606",
@@ -7514,7 +8126,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "608",
@@ -7531,7 +8144,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 X 35 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "609",
@@ -7548,7 +8162,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 X 65 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "610",
@@ -7565,7 +8180,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "300 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "611",
@@ -7582,7 +8198,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "612",
@@ -7599,7 +8216,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/612_2.jpg"
+    ]
   },
   {
     "sku": "613",
@@ -7616,7 +8236,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/613_2.jpg"
+    ]
   },
   {
     "sku": "615",
@@ -7633,7 +8256,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "R20P",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "616",
@@ -7650,7 +8274,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 220",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "617",
@@ -7667,7 +8292,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 320",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "618",
@@ -7684,7 +8310,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 400",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "619",
@@ -7701,7 +8328,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 1200",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "621",
@@ -7718,7 +8346,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "624",
@@ -7735,7 +8364,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/624_2.jpg"
+    ]
   },
   {
     "sku": "625",
@@ -7752,7 +8384,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1046",
@@ -7769,7 +8402,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1046_2.jpg"
+    ]
   },
   {
     "sku": "1056",
@@ -7786,7 +8422,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1057",
@@ -7803,7 +8440,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1058",
@@ -7820,7 +8458,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1058_2.jpg"
+    ]
   },
   {
     "sku": "1061",
@@ -7831,13 +8472,14 @@ window.NABIL_PRODUCTS = [
     "imagePath": "./images/1061.jpg",
     "barcode": "1000000001061",
     "category": "ELECTRICAL",
-    "description": "ضوي تحويل من كبس ل قلاووز E27",
+    "description": "ضوي تحويل من كبس á قلاووز E27\nضوي تحويل من كبس ل قلاووز E27",
     "tags": "B22, CONVERTER, E27, LAMP",
     "inventoryQuantity": 4,
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1065",
@@ -7854,7 +8496,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "24X19X9 CM",
     "attribute": "GREY",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1067",
@@ -7871,7 +8514,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1068",
@@ -7888,7 +8532,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1072",
@@ -7905,7 +8550,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1072_2.jpg"
+    ]
   },
   {
     "sku": "1073",
@@ -7922,7 +8570,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1073_2.jpg"
+    ]
   },
   {
     "sku": "1074",
@@ -7939,7 +8590,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "389",
@@ -7956,7 +8608,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "390",
@@ -7973,7 +8626,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "391",
@@ -7990,7 +8644,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 W E17",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/391_2.jpg"
+    ]
   },
   {
     "sku": "396",
@@ -8007,7 +8664,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "60 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "397",
@@ -8024,7 +8682,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 X 6 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/397_2.jpg"
+    ]
   },
   {
     "sku": "398",
@@ -8041,7 +8702,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "732",
@@ -8058,7 +8720,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "733",
@@ -8075,7 +8738,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "734",
@@ -8092,7 +8756,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "737",
@@ -8109,7 +8774,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "740",
@@ -8126,7 +8792,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "741",
@@ -8143,7 +8810,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/741_2.jpg"
+    ]
   },
   {
     "sku": "742",
@@ -8160,7 +8830,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 MM X 1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "744",
@@ -8177,7 +8848,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "745",
@@ -8194,7 +8866,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "746",
@@ -8211,7 +8884,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 MM X 1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "747",
@@ -8228,7 +8902,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "748",
@@ -8245,7 +8920,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "750",
@@ -8262,7 +8938,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 40 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "751",
@@ -8279,7 +8956,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "752",
@@ -8296,7 +8974,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 X 20",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "753",
@@ -8313,7 +8992,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 25 X 25",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "754",
@@ -8330,7 +9010,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 40 X 40",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "755",
@@ -8347,7 +9028,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 50 X 50",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "756",
@@ -8364,7 +9046,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "757",
@@ -8381,7 +9064,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "758",
@@ -8398,7 +9082,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 40 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "760",
@@ -8415,7 +9100,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "762",
@@ -8432,7 +9118,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "763",
@@ -8449,7 +9136,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "765",
@@ -8466,7 +9154,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "766",
@@ -8483,7 +9172,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "767",
@@ -8500,7 +9190,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "768",
@@ -8517,7 +9208,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "771",
@@ -8534,7 +9226,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 1/2 X20",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "772",
@@ -8551,7 +9244,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 3/4 X25",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "773",
@@ -8568,7 +9262,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 1 X 32",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "774",
@@ -8585,7 +9280,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X1 1/2X50",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "778",
@@ -8602,7 +9298,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\" X 50 M",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "779",
@@ -8619,7 +9316,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "280 ML",
     "attribute": "CLEAR",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/779_2.jpg"
+    ]
   },
   {
     "sku": "783",
@@ -8636,7 +9336,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 MM",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/783_2.jpg"
+    ]
   },
   {
     "sku": "786",
@@ -8653,7 +9356,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "788",
@@ -8670,7 +9374,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "789",
@@ -8687,7 +9392,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "791",
@@ -8704,7 +9410,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "792",
@@ -8721,7 +9428,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "793",
@@ -8738,7 +9446,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "794",
@@ -8755,7 +9464,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "795",
@@ -8772,7 +9482,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "796",
@@ -8789,7 +9500,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "35.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "797",
@@ -8806,7 +9518,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "798",
@@ -8823,7 +9536,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "11 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "800",
@@ -8840,7 +9554,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "801",
@@ -8857,7 +9572,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "802",
@@ -8874,7 +9590,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "803",
@@ -8891,7 +9608,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "804",
@@ -8908,7 +9626,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "805",
@@ -8925,7 +9644,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "19 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "807",
@@ -8942,7 +9662,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "808",
@@ -8959,7 +9680,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "809",
@@ -8976,7 +9698,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "810",
@@ -8993,7 +9716,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 310 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "811",
@@ -9010,7 +9734,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 210 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/811_2.jpg"
+    ]
   },
   {
     "sku": "814",
@@ -9027,7 +9754,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 M",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "635",
@@ -9044,7 +9772,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "636",
@@ -9061,7 +9790,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "637",
@@ -9078,7 +9808,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "638",
@@ -9095,7 +9826,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "639",
@@ -9112,7 +9844,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "640",
@@ -9129,7 +9862,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "641",
@@ -9146,7 +9880,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "642",
@@ -9163,7 +9898,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "643",
@@ -9180,7 +9916,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "644",
@@ -9197,7 +9934,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "645",
@@ -9214,7 +9952,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "646",
@@ -9231,7 +9970,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "648",
@@ -9248,7 +9988,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "649",
@@ -9265,7 +10006,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "650",
@@ -9282,7 +10024,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "651",
@@ -9299,7 +10042,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "652",
@@ -9316,7 +10060,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "654",
@@ -9333,7 +10078,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "655",
@@ -9350,7 +10096,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "659",
@@ -9367,7 +10114,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "660",
@@ -9384,7 +10132,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "661",
@@ -9401,7 +10150,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "662",
@@ -9418,7 +10168,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "664",
@@ -9435,7 +10186,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "665",
@@ -9452,7 +10204,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "666",
@@ -9469,7 +10222,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "667",
@@ -9486,7 +10240,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "668",
@@ -9503,7 +10258,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "669",
@@ -9520,7 +10276,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "670",
@@ -9537,7 +10294,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "671",
@@ -9554,7 +10312,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/671_2.jpg"
+    ]
   },
   {
     "sku": "674",
@@ -9571,7 +10332,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.8 X 2.75 M",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "678",
@@ -9588,7 +10350,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\" X 10",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "681",
@@ -9605,7 +10368,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4 X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "683",
@@ -9622,7 +10386,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "684",
@@ -9639,7 +10404,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "685",
@@ -9656,7 +10422,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "686",
@@ -9673,7 +10440,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 X 1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "689",
@@ -9690,7 +10458,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/689_2.jpg"
+    ]
   },
   {
     "sku": "691",
@@ -9707,7 +10478,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "696",
@@ -9724,7 +10496,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "698",
@@ -9741,7 +10514,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "699",
@@ -9758,7 +10532,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "702",
@@ -9775,7 +10550,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "704",
@@ -9792,7 +10568,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "715",
@@ -9809,7 +10586,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/715_2.jpg"
+    ]
   },
   {
     "sku": "718",
@@ -9826,7 +10606,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "721",
@@ -9843,7 +10624,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/721_2.jpg"
+    ]
   },
   {
     "sku": "724",
@@ -9860,7 +10644,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "0.75 HP",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/724_2.jpg"
+    ]
   },
   {
     "sku": "726",
@@ -9877,7 +10664,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "28 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/726_2.jpg"
+    ]
   },
   {
     "sku": "1647",
@@ -9894,7 +10684,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1649",
@@ -9911,7 +10702,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.5 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1650",
@@ -9928,7 +10720,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1651",
@@ -9945,7 +10738,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.2 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1652",
@@ -9962,7 +10756,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1653",
@@ -9979,7 +10774,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 X 2 CM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1655",
@@ -9996,7 +10792,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 KG",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "517",
@@ -10013,7 +10810,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "519",
@@ -10030,7 +10828,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "35 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "520",
@@ -10047,7 +10846,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "48 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "522",
@@ -10064,7 +10864,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "95 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "523",
@@ -10081,7 +10882,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "525",
@@ -10098,7 +10900,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "526",
@@ -10115,7 +10918,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 95 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "527",
@@ -10132,7 +10936,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "529",
@@ -10149,7 +10954,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 STEPS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/529_2.jpg"
+    ]
   },
   {
     "sku": "530",
@@ -10166,7 +10974,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 x 300 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/530_2.jpg"
+    ]
   },
   {
     "sku": "531",
@@ -10183,7 +10994,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "532",
@@ -10200,7 +11012,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 30 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "533",
@@ -10217,7 +11030,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "535",
@@ -10234,7 +11048,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 KG",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "537",
@@ -10251,7 +11066,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "538",
@@ -10268,7 +11084,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/538_2.jpg"
+    ]
   },
   {
     "sku": "539",
@@ -10285,7 +11104,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "541",
@@ -10302,7 +11122,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/541_2.jpg"
+    ]
   },
   {
     "sku": "984",
@@ -10319,7 +11142,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1500 W",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "986",
@@ -10336,7 +11160,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "987",
@@ -10353,7 +11178,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "989",
@@ -10370,7 +11196,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "990",
@@ -10387,7 +11214,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "991",
@@ -10404,7 +11232,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 X 10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "992",
@@ -10421,7 +11250,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "993",
@@ -10438,7 +11268,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "997",
@@ -10455,7 +11286,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "998",
@@ -10472,7 +11304,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5  CM X 25 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "999",
@@ -10489,7 +11322,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "0.50 HP",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/999_2.jpg"
+    ]
   },
   {
     "sku": "1000",
@@ -10506,7 +11342,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 HP",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1000_2.jpg"
+    ]
   },
   {
     "sku": "1003",
@@ -10523,7 +11362,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "750 W",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1003_2.jpg"
+    ]
   },
   {
     "sku": "1004",
@@ -10540,7 +11382,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1005",
@@ -10557,7 +11400,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "230 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1006",
@@ -10574,7 +11418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "44 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1008",
@@ -10591,7 +11436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1009",
@@ -10608,7 +11454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1010",
@@ -10625,7 +11472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1011",
@@ -10642,7 +11490,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1011_2.jpg"
+    ]
   },
   {
     "sku": "1015",
@@ -10659,7 +11510,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "9 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1019",
@@ -10676,7 +11528,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1021",
@@ -10693,7 +11546,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1022",
@@ -10710,7 +11564,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2, 3/8\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1024",
@@ -10727,7 +11582,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1026",
@@ -10744,7 +11600,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1030",
@@ -10761,7 +11618,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "61 X 19 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1030_2.jpg"
+    ]
   },
   {
     "sku": "1035",
@@ -10778,7 +11638,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1036",
@@ -10795,7 +11656,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1037",
@@ -10812,7 +11674,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1038",
@@ -10829,7 +11692,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1039",
@@ -10846,7 +11710,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 X 20",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1040",
@@ -10863,7 +11728,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 1/2 X20",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1042",
@@ -10880,7 +11746,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1043",
@@ -10897,7 +11764,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 1/2",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1044",
@@ -10914,7 +11782,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 3/4",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1045",
@@ -10931,7 +11800,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 3/4",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1738",
@@ -10948,7 +11818,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "195",
@@ -10965,7 +11836,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "196",
@@ -10982,7 +11854,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2  1 1/4",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1257",
@@ -10999,7 +11872,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1258",
@@ -11016,7 +11890,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1259",
@@ -11033,7 +11908,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1260",
@@ -11050,7 +11926,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1261",
@@ -11067,7 +11944,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1263",
@@ -11084,7 +11962,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1264",
@@ -11101,7 +11980,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10  X 120 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1265",
@@ -11118,7 +11998,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 100 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1265_2.jpg"
+    ]
   },
   {
     "sku": "1266",
@@ -11135,7 +12018,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 120 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1267",
@@ -11152,7 +12036,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1268",
@@ -11169,7 +12054,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D12.7 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1269",
@@ -11186,7 +12072,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D12.7 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1270",
@@ -11203,7 +12090,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D12.7 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1271",
@@ -11220,7 +12108,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D22 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1272",
@@ -11237,7 +12126,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1273",
@@ -11254,7 +12144,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1276",
@@ -11271,7 +12162,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D25.4 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1277",
@@ -11288,7 +12180,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D22MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1279",
@@ -11305,7 +12198,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "D12.7MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1280",
@@ -11322,7 +12216,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM 7.6",
     "attribute": "BLACK WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1281",
@@ -11339,7 +12234,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3.45 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1283",
@@ -11356,7 +12252,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.2 X 30 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1284",
@@ -11373,7 +12270,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1288",
@@ -11390,7 +12288,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1289",
@@ -11407,7 +12306,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1290",
@@ -11424,7 +12324,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1291",
@@ -11441,7 +12342,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12\" 3/8",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1291_2.jpg"
+    ]
   },
   {
     "sku": "1292",
@@ -11458,7 +12362,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8\" 18.50",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1293",
@@ -11475,7 +12380,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1293_2.jpg"
+    ]
   },
   {
     "sku": "1296",
@@ -11492,7 +12400,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 20 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1297",
@@ -11509,7 +12418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1298",
@@ -11526,7 +12436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1299",
@@ -11543,7 +12454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 50 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1300",
@@ -11560,7 +12472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1302",
@@ -11577,7 +12490,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1304",
@@ -11594,7 +12508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1305",
@@ -11611,7 +12526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1308",
@@ -11628,7 +12544,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1310",
@@ -11645,7 +12562,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1310_2.jpg"
+    ]
   },
   {
     "sku": "1311",
@@ -11662,7 +12582,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1312",
@@ -11679,7 +12600,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1312_2.jpg"
+    ]
   },
   {
     "sku": "1313",
@@ -11696,7 +12620,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1314",
@@ -11713,7 +12638,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "200 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1315",
@@ -11730,7 +12656,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 8 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1316",
@@ -11747,7 +12674,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7W E14",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1317",
@@ -11764,7 +12692,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "9 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1317_2.jpg"
+    ]
   },
   {
     "sku": "1318",
@@ -11781,7 +12712,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1319",
@@ -11798,7 +12730,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1320",
@@ -11815,7 +12748,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1320_2.jpg"
+    ]
   },
   {
     "sku": "1321",
@@ -11832,7 +12768,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1321_2.jpg"
+    ]
   },
   {
     "sku": "1322",
@@ -11849,7 +12788,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1322_2.jpg"
+    ]
   },
   {
     "sku": "1323",
@@ -11866,7 +12808,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM X 20 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1325",
@@ -11883,7 +12826,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12V 5A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1326",
@@ -11900,7 +12844,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "19 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1859",
@@ -11917,7 +12862,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "21 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1859_2.jpg"
+    ]
   },
   {
     "sku": "1860",
@@ -11934,7 +12882,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 X 17 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1861",
@@ -11951,7 +12900,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 X 14 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1863",
@@ -11968,7 +12918,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "110-145 KGS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1863_2.jpg"
+    ]
   },
   {
     "sku": "1484",
@@ -11985,7 +12938,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1511",
@@ -12002,7 +12956,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1748",
@@ -12019,7 +12974,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 200 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1769",
@@ -12036,7 +12992,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 200 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1838",
@@ -12053,7 +13010,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "48 X 40 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1866",
@@ -12070,7 +13028,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM X 6 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1868",
@@ -12087,7 +13046,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1868_2.jpg"
+    ]
   },
   {
     "sku": "1869",
@@ -12104,7 +13066,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 , 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1870",
@@ -12121,7 +13084,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1871",
@@ -12138,7 +13102,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 BAR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1872",
@@ -12155,7 +13120,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1873",
@@ -12172,7 +13138,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1874",
@@ -12189,7 +13156,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1875",
@@ -12206,7 +13174,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "928",
@@ -12223,7 +13192,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "47 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "930",
@@ -12240,7 +13210,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\" X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "931",
@@ -12257,7 +13228,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\" X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "934",
@@ -12274,7 +13246,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/934_2.jpg"
+    ]
   },
   {
     "sku": "935",
@@ -12291,7 +13266,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "936",
@@ -12308,7 +13284,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "941",
@@ -12325,7 +13302,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 -32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/941_2.jpg"
+    ]
   },
   {
     "sku": "942",
@@ -12342,7 +13322,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/942_2.jpg"
+    ]
   },
   {
     "sku": "944",
@@ -12359,7 +13342,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "945",
@@ -12376,7 +13360,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "946",
@@ -12393,7 +13378,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "947",
@@ -12410,7 +13396,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "948",
@@ -12427,7 +13414,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "949",
@@ -12444,7 +13432,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "950",
@@ -12461,7 +13450,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "951",
@@ -12478,7 +13468,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "959",
@@ -12495,7 +13486,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 W",
     "attribute": "DAYLIGHT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "961",
@@ -12512,7 +13504,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 W",
     "attribute": "DAYLIGHT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "962",
@@ -12529,7 +13522,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 W",
     "attribute": "WARM",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "963",
@@ -12546,7 +13540,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/963_2.jpg"
+    ]
   },
   {
     "sku": "964",
@@ -12563,7 +13560,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/964_2.jpg"
+    ]
   },
   {
     "sku": "965",
@@ -12580,7 +13580,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/965_2.jpg"
+    ]
   },
   {
     "sku": "966",
@@ -12597,7 +13600,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "967",
@@ -12614,7 +13618,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "968",
@@ -12631,7 +13636,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "M4 - 12",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "969",
@@ -12648,7 +13654,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "M-M8",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "970",
@@ -12665,7 +13672,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "M5-M12",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "971",
@@ -12682,7 +13690,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\" 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "977",
@@ -12699,7 +13708,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "978",
@@ -12716,7 +13726,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "979",
@@ -12733,7 +13744,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 X 3 X 22",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/979_2.jpg"
+    ]
   },
   {
     "sku": "983",
@@ -12750,7 +13764,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1785",
@@ -12767,7 +13782,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1788",
@@ -12784,7 +13800,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1789",
@@ -12801,7 +13818,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1789_2.jpg"
+    ]
   },
   {
     "sku": "1790",
@@ -12818,7 +13838,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 300 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1791",
@@ -12835,7 +13856,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 300 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1794",
@@ -12852,7 +13874,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1795",
@@ -12869,7 +13892,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1796",
@@ -12886,7 +13910,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 X 80 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1797",
@@ -12903,7 +13928,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1798",
@@ -12920,7 +13946,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1799",
@@ -12937,7 +13964,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1800",
@@ -12954,7 +13982,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1803",
@@ -12971,7 +14000,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1804",
@@ -12988,7 +14018,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "ORANGE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1805",
@@ -13005,7 +14036,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1806",
@@ -13022,7 +14054,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "BRICK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1807",
@@ -13039,7 +14072,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "LIGHT GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1808",
@@ -13056,7 +14090,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "MANGO",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1809",
@@ -13073,7 +14108,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 ML",
     "attribute": "PURPLE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1810",
@@ -13090,7 +14126,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1810_2.jpg"
+    ]
   },
   {
     "sku": "1811",
@@ -13107,7 +14146,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1812",
@@ -13124,7 +14164,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1813",
@@ -13141,7 +14182,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "115X22X15 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1816",
@@ -13158,7 +14200,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1817",
@@ -13175,7 +14218,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1818",
@@ -13192,7 +14236,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1825",
@@ -13209,7 +14254,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "42",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1826",
@@ -13226,7 +14272,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "43",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1827",
@@ -13243,7 +14290,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "44",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1828",
@@ -13260,7 +14308,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1219",
@@ -13277,7 +14326,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1220",
@@ -13294,7 +14344,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1222",
@@ -13311,7 +14362,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1223",
@@ -13328,7 +14380,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1224",
@@ -13345,7 +14398,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "750 ML",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1225",
@@ -13362,7 +14416,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "70 - 90 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1227",
@@ -13379,7 +14434,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "9\"=23 CM 2MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1227_2.jpg"
+    ]
   },
   {
     "sku": "1229",
@@ -13396,7 +14454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "11 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1233",
@@ -13413,7 +14472,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1233_2.jpg"
+    ]
   },
   {
     "sku": "1234",
@@ -13430,7 +14492,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1235",
@@ -13447,7 +14510,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1237",
@@ -13464,7 +14528,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1238",
@@ -13481,7 +14546,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1239",
@@ -13498,7 +14564,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1240",
@@ -13515,7 +14582,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1241",
@@ -13532,7 +14600,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1242",
@@ -13549,7 +14618,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 MM X 35M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1242_2.jpg"
+    ]
   },
   {
     "sku": "1243",
@@ -13566,7 +14638,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1243_2.jpg"
+    ]
   },
   {
     "sku": "1244",
@@ -13583,7 +14658,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1244_2.jpg"
+    ]
   },
   {
     "sku": "1246",
@@ -13600,7 +14678,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1246_2.jpg"
+    ]
   },
   {
     "sku": "1248",
@@ -13617,7 +14698,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1249",
@@ -13634,7 +14716,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1250",
@@ -13651,7 +14734,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "18 / 19",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1251",
@@ -13668,7 +14752,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 / 22",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1431",
@@ -13685,7 +14770,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1431_2.jpg"
+    ]
   },
   {
     "sku": "1434",
@@ -13702,7 +14790,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1434_2.jpg"
+    ]
   },
   {
     "sku": "1436",
@@ -13719,7 +14810,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 X 310 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1438",
@@ -13736,7 +14828,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 X 250 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1439",
@@ -13753,7 +14846,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 X 250 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1440",
@@ -13770,7 +14864,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MMX 100 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1441",
@@ -13787,7 +14882,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1449",
@@ -13804,7 +14900,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\" 4.5 X 1CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1452",
@@ -13821,7 +14918,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1453",
@@ -13838,7 +14936,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "300 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1453_2.jpg"
+    ]
   },
   {
     "sku": "1454",
@@ -13855,7 +14956,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1455",
@@ -13872,7 +14974,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1456",
@@ -13889,7 +14992,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "300V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1457",
@@ -13906,7 +15010,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1458",
@@ -13923,7 +15028,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1459",
@@ -13940,7 +15046,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1461",
@@ -13957,7 +15064,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "60 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1463",
@@ -13974,7 +15082,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 150",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1464",
@@ -13991,7 +15100,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "53.5 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1465",
@@ -14008,7 +15118,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "23 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1465_2.jpg"
+    ]
   },
   {
     "sku": "1466",
@@ -14025,7 +15138,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1467",
@@ -14042,7 +15156,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1471",
@@ -14059,7 +15174,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32- 210 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1476",
@@ -14076,7 +15192,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 , 3/8'",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1479",
@@ -14093,7 +15210,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2X3/8\" 50C",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1486",
@@ -14110,7 +15228,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "821",
@@ -14127,7 +15246,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "822",
@@ -14144,7 +15264,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "823",
@@ -14161,7 +15282,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/823_2.jpg"
+    ]
   },
   {
     "sku": "824",
@@ -14178,7 +15302,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 \"",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "825",
@@ -14195,7 +15320,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "827",
@@ -14212,7 +15338,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "831",
@@ -14229,7 +15356,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 X 15 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "832",
@@ -14246,7 +15374,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "833",
@@ -14263,7 +15392,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 x 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "834",
@@ -14280,7 +15410,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 x 1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "835",
@@ -14297,7 +15428,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4 x 1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "836",
@@ -14314,7 +15446,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "839",
@@ -14331,7 +15464,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/839_2.jpg"
+    ]
   },
   {
     "sku": "840",
@@ -14348,7 +15484,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "31.50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/840_2.jpg"
+    ]
   },
   {
     "sku": "841",
@@ -14365,7 +15504,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "842",
@@ -14382,7 +15522,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "843",
@@ -14399,7 +15540,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/843_2.jpg"
+    ]
   },
   {
     "sku": "844",
@@ -14416,7 +15560,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 - 8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "846",
@@ -14433,7 +15578,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "847",
@@ -14450,7 +15596,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/847_2.jpg"
+    ]
   },
   {
     "sku": "1560",
@@ -14467,7 +15616,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "19 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1562",
@@ -14484,7 +15634,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1563",
@@ -14501,7 +15652,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1565",
@@ -14518,7 +15670,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1566",
@@ -14535,7 +15688,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 CM X 1 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1567",
@@ -14552,7 +15706,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM X 1 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1568",
@@ -14569,7 +15724,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 X 5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1569",
@@ -14586,7 +15742,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM ROUND",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1570",
@@ -14603,7 +15760,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1573",
@@ -14620,7 +15778,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3T",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1575",
@@ -14637,7 +15796,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1576",
@@ -14654,7 +15814,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1578",
@@ -14671,7 +15832,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1580",
@@ -14688,7 +15850,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1581",
@@ -14705,7 +15868,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1581_2.jpg"
+    ]
   },
   {
     "sku": "1582",
@@ -14722,7 +15888,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1583",
@@ -14739,7 +15906,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 W E27",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1583_2.jpg"
+    ]
   },
   {
     "sku": "1584",
@@ -14756,7 +15926,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2X2 X 0.5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1585",
@@ -14773,7 +15944,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1586",
@@ -14790,7 +15962,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1587",
@@ -14807,7 +15980,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1588",
@@ -14824,7 +15998,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1590",
@@ -14841,7 +16016,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1594",
@@ -14858,7 +16034,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1595",
@@ -14875,7 +16052,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.50 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1597",
@@ -14892,7 +16070,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1605",
@@ -14909,7 +16088,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1611",
@@ -14926,7 +16106,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 FORKS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1613",
@@ -14943,7 +16124,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 KG",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1615",
@@ -14960,7 +16142,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 16 X 16",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1616",
@@ -14977,7 +16160,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1617",
@@ -14994,7 +16178,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 X 16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1618",
@@ -15011,7 +16196,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1618_2.jpg"
+    ]
   },
   {
     "sku": "1619",
@@ -15028,7 +16216,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1620",
@@ -15045,7 +16234,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1620_2.jpg"
+    ]
   },
   {
     "sku": "1625",
@@ -15062,7 +16254,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1625_2.jpg"
+    ]
   },
   {
     "sku": "1626",
@@ -15079,7 +16274,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 KG",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1627",
@@ -15096,7 +16292,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "500 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1628",
@@ -15113,7 +16310,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 10 CM",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1630",
@@ -15130,7 +16328,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/8\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1631",
@@ -15147,7 +16346,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1632",
@@ -15164,7 +16364,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1356",
@@ -15181,7 +16382,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1357",
@@ -15198,7 +16400,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1375",
@@ -15215,7 +16418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 25 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1376",
@@ -15232,7 +16436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1381",
@@ -15249,7 +16454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1387",
@@ -15266,7 +16472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1389",
@@ -15283,7 +16490,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1406",
@@ -15300,7 +16508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1408",
@@ -15317,7 +16526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1410",
@@ -15334,7 +16544,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1410_2.jpg"
+    ]
   },
   {
     "sku": "1411",
@@ -15351,7 +16564,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20X15X8 CM",
     "attribute": "GREY",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1413",
@@ -15368,7 +16582,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1414",
@@ -15385,7 +16600,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1415",
@@ -15402,7 +16618,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1416",
@@ -15419,7 +16636,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1417",
@@ -15436,7 +16654,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\" X 16 BAR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1418",
@@ -15453,7 +16672,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1419",
@@ -15470,7 +16690,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 W",
     "attribute": "WARM",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1420",
@@ -15487,7 +16708,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 W",
     "attribute": "WARM YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1421",
@@ -15504,7 +16726,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "90 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1423",
@@ -15521,7 +16744,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 EXIT",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1424",
@@ -15538,7 +16762,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 EXIT",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1425",
@@ -15555,7 +16780,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 EXIT",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1426",
@@ -15572,7 +16798,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/8",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2069",
@@ -15589,7 +16816,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2072",
@@ -15606,7 +16834,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2073",
@@ -15623,7 +16852,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2074",
@@ -15640,7 +16870,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2075",
@@ -15657,7 +16888,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2077",
@@ -15674,7 +16906,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2078",
@@ -15691,7 +16924,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "LIGHT BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2081",
@@ -15708,7 +16942,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM X 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2082",
@@ -15725,7 +16960,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.2 X 75 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1106",
@@ -15742,7 +16978,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1107",
@@ -15759,7 +16996,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1108",
@@ -15776,7 +17014,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1110",
@@ -15793,7 +17032,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1111",
@@ -15810,7 +17050,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1112",
@@ -15827,7 +17068,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1113",
@@ -15844,7 +17086,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1495",
@@ -15861,7 +17104,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3.2 x 350 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1496",
@@ -15878,7 +17122,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1497",
@@ -15895,7 +17140,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 410 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1499",
@@ -15912,7 +17158,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "280 ML",
     "attribute": "BRONZE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1500",
@@ -15929,7 +17176,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "280 ML",
     "attribute": "ALUMINIUM",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1505",
@@ -15946,7 +17194,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1506",
@@ -15963,7 +17212,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1507",
@@ -15980,7 +17230,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 150",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1508",
@@ -15997,7 +17248,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1509",
@@ -16014,7 +17266,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3\" 7 X 3 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1510",
@@ -16031,7 +17284,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1512",
@@ -16048,7 +17302,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1513",
@@ -16065,7 +17320,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1513_2.jpg"
+    ]
   },
   {
     "sku": "1514",
@@ -16082,7 +17340,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1515",
@@ -16099,7 +17358,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1516",
@@ -16116,7 +17376,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "200 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1518",
@@ -16133,7 +17394,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "9.50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1518_2.jpg"
+    ]
   },
   {
     "sku": "1519",
@@ -16150,7 +17414,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "14.50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1519_2.jpg"
+    ]
   },
   {
     "sku": "1522",
@@ -16167,7 +17434,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "60 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1528",
@@ -16184,7 +17452,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1529",
@@ -16201,7 +17470,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1530",
@@ -16218,7 +17488,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1531",
@@ -16235,7 +17506,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1532",
@@ -16252,7 +17524,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1533",
@@ -16269,7 +17542,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1537",
@@ -16286,7 +17560,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 1.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1540",
@@ -16303,7 +17578,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1541",
@@ -16320,7 +17596,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1542",
@@ -16337,7 +17614,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 W",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1543",
@@ -16354,7 +17632,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 10 X7CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1545",
@@ -16371,7 +17650,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 25 X9CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1546",
@@ -16388,7 +17668,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 10 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1547",
@@ -16405,7 +17686,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 X 15 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1549",
@@ -16422,7 +17704,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1551",
@@ -16439,7 +17722,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 X 260 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1553",
@@ -16456,7 +17740,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1555",
@@ -16473,7 +17758,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1556",
@@ -16490,7 +17776,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1556_2.jpg"
+    ]
   },
   {
     "sku": "1558",
@@ -16507,7 +17796,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "XL",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1633",
@@ -16524,7 +17814,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1635",
@@ -16541,7 +17832,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1636",
@@ -16558,7 +17850,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1637",
@@ -16575,7 +17868,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "80 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1640",
@@ -16592,7 +17886,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 160 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1642",
@@ -16609,7 +17904,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1643",
@@ -16626,7 +17922,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1645",
@@ -16643,7 +17940,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1829",
@@ -16660,7 +17958,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "46",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1830",
@@ -16677,7 +17976,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM X 5 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1830_2.jpg"
+    ]
   },
   {
     "sku": "1834",
@@ -16694,7 +17996,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1834_2.jpg"
+    ]
   },
   {
     "sku": "1835",
@@ -16711,7 +18016,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1837",
@@ -16728,7 +18034,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1837_2.jpg"
+    ]
   },
   {
     "sku": "1840",
@@ -16745,7 +18054,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1841",
@@ -16762,7 +18072,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 MODULES",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1843",
@@ -16779,7 +18090,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1842",
@@ -16796,7 +18108,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1844",
@@ -16813,7 +18126,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1845",
@@ -16830,7 +18144,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1846",
@@ -16847,7 +18162,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1847",
@@ -16864,7 +18180,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "97 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1848",
@@ -16881,7 +18198,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 MODULES",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1849",
@@ -16898,7 +18216,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 MODULES",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1849_2.jpg"
+    ]
   },
   {
     "sku": "1850",
@@ -16915,7 +18236,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1851",
@@ -16932,7 +18254,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.25 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1852",
@@ -16949,7 +18272,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1854",
@@ -16966,7 +18290,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1855",
@@ -16983,7 +18308,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1855_2.jpg"
+    ]
   },
   {
     "sku": "1857",
@@ -17000,7 +18328,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM X 3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1998",
@@ -17017,7 +18346,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 X 32 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2002",
@@ -17034,7 +18364,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "180 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2006",
@@ -17051,7 +18382,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 MM X 2 M",
     "attribute": "GREYBLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2004",
@@ -17068,7 +18400,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2007",
@@ -17085,7 +18418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2008",
@@ -17102,7 +18436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2009",
@@ -17119,7 +18454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2010",
@@ -17136,7 +18472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "15 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2011",
@@ -17153,7 +18490,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2012",
@@ -17170,7 +18508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 X 1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2013",
@@ -17187,7 +18526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2015",
@@ -17204,7 +18544,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "60 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2016",
@@ -17221,7 +18562,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2017",
@@ -17238,7 +18580,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2018",
@@ -17255,7 +18598,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2019",
@@ -17272,7 +18616,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13X50CMX110",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2020",
@@ -17289,7 +18634,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2021",
@@ -17306,7 +18652,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "13 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2022",
@@ -17323,7 +18670,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2025",
@@ -17340,7 +18688,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 W",
     "attribute": "PURPLE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2027",
@@ -17357,7 +18706,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2030",
@@ -17374,7 +18724,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "32 MM X 12CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2031",
@@ -17391,7 +18742,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2032",
@@ -17408,7 +18760,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2034",
@@ -17425,7 +18778,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2037",
@@ -17442,7 +18796,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 \"",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2041",
@@ -17459,7 +18814,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2042",
@@ -17476,7 +18832,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2044",
@@ -17493,7 +18850,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 - 24 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2047",
@@ -17510,7 +18868,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "110 MM",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2048",
@@ -17527,7 +18886,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "110 MM",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2051",
@@ -17544,7 +18904,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2051_2.jpg"
+    ]
   },
   {
     "sku": "2054",
@@ -17561,7 +18924,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2000 W",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2055",
@@ -17578,7 +18942,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "7.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2055_2.jpg"
+    ]
   },
   {
     "sku": "2056",
@@ -17595,7 +18962,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2059",
@@ -17612,7 +18980,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2060",
@@ -17629,7 +18998,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2061",
@@ -17646,7 +19016,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2063",
@@ -17663,7 +19034,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2063_2.jpg"
+    ]
   },
   {
     "sku": "2064",
@@ -17680,7 +19054,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "110 CM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2065",
@@ -17697,7 +19072,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "110 CM",
     "attribute": "BROWN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2066",
@@ -17714,7 +19090,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2066_2.jpg"
+    ]
   },
   {
     "sku": "2067",
@@ -17731,7 +19110,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1880",
@@ -17748,7 +19128,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 MM",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1885",
@@ -17765,7 +19146,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1887",
@@ -17782,7 +19164,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1888",
@@ -17799,7 +19182,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1889",
@@ -17816,7 +19200,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "8 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1890",
@@ -17833,7 +19218,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1891",
@@ -17850,7 +19236,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1892",
@@ -17867,7 +19254,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "115 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1893",
@@ -17884,7 +19272,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 600",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1894",
@@ -17901,7 +19290,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 120",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1895",
@@ -17918,7 +19308,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 400",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1896",
@@ -17935,7 +19326,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P 220",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1897",
@@ -17952,7 +19344,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "200 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1897_2.jpg"
+    ]
   },
   {
     "sku": "1900",
@@ -17969,7 +19364,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1902",
@@ -17986,7 +19382,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1903",
@@ -18003,7 +19400,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1908",
@@ -18020,7 +19418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "100 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1911",
@@ -18037,7 +19436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3/4\" 1X20M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1913",
@@ -18054,7 +19454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "6*6 CM 2M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1916",
@@ -18071,7 +19472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 M",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1917",
@@ -18088,7 +19490,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P36",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1918",
@@ -18105,7 +19508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P60",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1919",
@@ -18122,7 +19526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P80",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1920",
@@ -18139,7 +19544,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "P80",
     "attribute": "RED",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1921",
@@ -18156,7 +19562,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1921_2.jpg"
+    ]
   },
   {
     "sku": "1923",
@@ -18173,7 +19582,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1928",
@@ -18190,7 +19600,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2 X 3/8 \"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1929",
@@ -18207,7 +19618,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 X 50 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1930",
@@ -18224,7 +19636,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1931",
@@ -18241,7 +19654,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1934",
@@ -18258,7 +19672,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2 TON",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1935",
@@ -18275,7 +19690,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1935_2.jpg"
+    ]
   },
   {
     "sku": "2090",
@@ -18292,7 +19710,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2090_2.jpg"
+    ]
   },
   {
     "sku": "2091",
@@ -18309,7 +19730,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2092",
@@ -18326,7 +19748,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2093",
@@ -18343,7 +19766,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2094",
@@ -18360,7 +19784,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "14 MM X 25CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2095",
@@ -18377,7 +19802,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2097",
@@ -18394,7 +19820,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "60 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2098",
@@ -18411,7 +19838,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "16 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2100",
@@ -18428,7 +19856,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 UF 450V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2101",
@@ -18445,7 +19874,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2102",
@@ -18462,7 +19892,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 W",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2103",
@@ -18479,7 +19910,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "5W E14",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2104",
@@ -18496,7 +19928,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 W MR16",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2107",
@@ -18513,7 +19946,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2108",
@@ -18530,7 +19964,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7W E14",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2109",
@@ -18547,7 +19982,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 X 1.5 MM",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2110",
@@ -18564,7 +20000,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "40 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2111",
@@ -18581,7 +20018,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2113",
@@ -18598,7 +20036,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "50 X 10 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2114",
@@ -18615,11 +20054,12 @@ window.NABIL_PRODUCTS = [
     "sizes": "23.5 X 11 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2115",
-    "name": "PU STICK اصبع ب يو",
+    "name": "PU STICK اصبع È يو",
     "shopifyHandle": "pu-stick-coeu-e-i-2115",
     "price": 3,
     "imageUrl": "",
@@ -18632,7 +20072,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "600 ML",
     "attribute": "GREY",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2117",
@@ -18649,7 +20090,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4.5\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2119",
@@ -18666,7 +20108,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "230 GR",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2121",
@@ -18683,7 +20126,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2123",
@@ -18700,7 +20144,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "800 A",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2124",
@@ -18717,7 +20162,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2124_2.jpg"
+    ]
   },
   {
     "sku": "1739",
@@ -18734,7 +20182,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "280 ML",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1741",
@@ -18751,7 +20200,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "SILVER",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1741_2.jpg"
+    ]
   },
   {
     "sku": "1744",
@@ -18768,7 +20220,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1745",
@@ -18785,7 +20238,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1749",
@@ -18802,7 +20256,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 X 20 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1750",
@@ -18819,7 +20274,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 L",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1751",
@@ -18836,7 +20292,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1753",
@@ -18853,7 +20310,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\" 2 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1754",
@@ -18870,7 +20328,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1755",
@@ -18887,7 +20346,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1756",
@@ -18904,7 +20364,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1757",
@@ -18921,7 +20382,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 MM X 2 M",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1758",
@@ -18938,7 +20400,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "25 MM X 2 M",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1759",
@@ -18955,7 +20418,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/2X1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1762",
@@ -18972,7 +20436,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1763",
@@ -18989,7 +20454,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1/2\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1765",
@@ -19006,7 +20472,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1766",
@@ -19023,7 +20490,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "0.2 KG",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1767",
@@ -19040,7 +20508,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1768",
@@ -19057,7 +20526,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 M",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1770",
@@ -19074,7 +20544,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1771",
@@ -19091,7 +20562,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "30 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1776",
@@ -19108,7 +20580,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1777",
@@ -19125,7 +20598,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "WHITE MATT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1778",
@@ -19142,7 +20616,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "BLACK",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1779",
@@ -19159,7 +20634,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "BLACK MATT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1781",
@@ -19176,7 +20652,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "MEDIUM BLUE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1783",
@@ -19193,7 +20670,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "GOLD",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1784",
@@ -19210,7 +20688,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "400 ML",
     "attribute": "GREEN",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1658",
@@ -19227,7 +20706,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "17 KGS",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1659",
@@ -19244,7 +20724,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 KG",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1681",
@@ -19261,7 +20742,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "4 KGS",
     "attribute": "705 SEMIGLOS",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1686",
@@ -19278,7 +20760,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1687",
@@ -19295,7 +20778,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "10\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1687_2.jpg"
+    ]
   },
   {
     "sku": "1688",
@@ -19312,7 +20798,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM X100CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1691",
@@ -19329,7 +20816,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1694",
@@ -19346,7 +20834,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2000 W",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1695",
@@ -19363,7 +20852,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "3 W E27",
     "attribute": "COLOR",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1696",
@@ -19380,7 +20870,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "E14",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1700",
@@ -19397,7 +20888,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "21 V",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1702",
@@ -19414,7 +20906,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "26/91",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1704",
@@ -19431,7 +20924,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "20 W E27",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1704_2.jpg"
+    ]
   },
   {
     "sku": "1706",
@@ -19448,7 +20944,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "XL",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1706_2.jpg"
+    ]
   },
   {
     "sku": "1656",
@@ -19465,7 +20964,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "35-55 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1710",
@@ -19482,7 +20982,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "45-60 KGS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1710_2.jpg"
+    ]
   },
   {
     "sku": "1713",
@@ -19499,7 +21002,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1714",
@@ -19516,11 +21020,12 @@ window.NABIL_PRODUCTS = [
     "sizes": "650 ML",
     "attribute": "TRANSPARENT",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1715",
-    "name": "PU STICK اصبع ب يو",
+    "name": "PU STICK اصبع È يو",
     "shopifyHandle": "pu-stick-coeu-e-i-1715",
     "price": 4.5,
     "imageUrl": "",
@@ -19533,7 +21038,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "600 ML",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1715_2.jpg"
+    ]
   },
   {
     "sku": "1716",
@@ -19550,7 +21058,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "10 MM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1718",
@@ -19567,7 +21076,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1720",
@@ -19584,7 +21094,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1723",
@@ -19601,7 +21112,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "2.5 X 4 CM",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1725",
@@ -19618,7 +21130,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "12 PCS",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1725_2.jpg"
+    ]
   },
   {
     "sku": "1726",
@@ -19635,7 +21150,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "22 W",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1727",
@@ -19652,7 +21168,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "45 CM",
     "attribute": "YELLOW",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1729",
@@ -19669,7 +21186,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1730",
@@ -19686,7 +21204,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "7 W MR16",
     "attribute": "WARM WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1730_2.jpg"
+    ]
   },
   {
     "sku": "1731",
@@ -19703,7 +21224,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1732",
@@ -19720,7 +21242,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "WHITE",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1487",
@@ -19737,7 +21260,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1491",
@@ -19754,7 +21278,10 @@ window.NABIL_PRODUCTS = [
     "sizes": "1.15 M",
     "attribute": "CHROME",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1491_2.jpg"
+    ]
   },
   {
     "sku": "1492",
@@ -19771,7 +21298,8 @@ window.NABIL_PRODUCTS = [
     "sizes": "1 1/4\"",
     "attribute": "",
     "dimensions": "",
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1047",
@@ -19787,7 +21315,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOOSTER, CABLES",
     "imagePath": "./images/1047.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1136",
@@ -19803,7 +21332,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PVC, T",
     "imagePath": "./images/1136.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1137",
@@ -19819,7 +21349,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PVC, T",
     "imagePath": "./images/1137.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1066",
@@ -19835,7 +21366,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, OUTDOOR, SWITCH",
     "imagePath": "./images/1066.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1577",
@@ -19851,7 +21383,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LEATHER",
     "imagePath": "./images/1577.jpg",
     "inventoryQuantity": 371,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1579",
@@ -19867,7 +21400,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GARDENING, HOSE",
     "imagePath": "./images/1579.jpg",
     "inventoryQuantity": 17.5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1027",
@@ -19883,7 +21417,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SCREW, YELLOW",
     "imagePath": "./images/1027.jpg",
     "inventoryQuantity": 34,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1041",
@@ -19899,7 +21434,8 @@ window.NABIL_PRODUCTS = [
     "tags": "16, CORNER, MM, PEX, X",
     "imagePath": "./images/1041.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1303",
@@ -19915,7 +21451,8 @@ window.NABIL_PRODUCTS = [
     "tags": "50, CM, FLEXIBLE, HOSE, SANITARY, TOUL",
     "imagePath": "./images/1303.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2076",
@@ -19931,7 +21468,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SOLID, TUBE",
     "imagePath": "./images/2076.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2106",
@@ -19947,7 +21485,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, FIX, PCS, SCREW, SET",
     "imagePath": "./images/2106.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1641",
@@ -19963,7 +21502,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRILL, SDS",
     "imagePath": "./images/1641.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1836",
@@ -19979,7 +21519,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HEXAGON, SCREW",
     "imagePath": "./images/1836.jpg",
     "inventoryQuantity": 20,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1858",
@@ -19995,7 +21536,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, PIPE",
     "imagePath": "./images/1858.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1772",
@@ -20011,7 +21553,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LOCKING, PLIER",
     "imagePath": "./images/1772.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1774",
@@ -20027,7 +21570,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRILL, SDS",
     "imagePath": "./images/1774.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1936",
@@ -20043,7 +21587,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, CUT, PLIER",
     "imagePath": "./images/1936.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1937",
@@ -20059,7 +21604,8 @@ window.NABIL_PRODUCTS = [
     "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
     "imagePath": "./images/1937.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1945",
@@ -20075,7 +21621,8 @@ window.NABIL_PRODUCTS = [
     "tags": "TORX",
     "imagePath": "./images/1945.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "498",
@@ -20091,7 +21638,10 @@ window.NABIL_PRODUCTS = [
     "tags": "LEVEL, SPIRIT",
     "imagePath": "./images/498.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/498_2.jpg"
+    ]
   },
   {
     "sku": "225",
@@ -20107,7 +21657,10 @@ window.NABIL_PRODUCTS = [
     "tags": "BATHROOM, FAN",
     "imagePath": "./images/225.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/225_2.jpg"
+    ]
   },
   {
     "sku": "249",
@@ -20123,7 +21676,10 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, HARD, SINGLE",
     "imagePath": "./images/249.jpg",
     "inventoryQuantity": 130,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/249_2.jpg"
+    ]
   },
   {
     "sku": "260",
@@ -20139,7 +21695,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 20, CABLE, CACHE, MM, X",
     "imagePath": "./images/260.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "263",
@@ -20155,7 +21712,10 @@ window.NABIL_PRODUCTS = [
     "tags": "DIGITAL, PROTECTOR, VOLTAGE",
     "imagePath": "./images/263.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/263_2.jpg"
+    ]
   },
   {
     "sku": "19",
@@ -20171,7 +21731,10 @@ window.NABIL_PRODUCTS = [
     "tags": "DOUBLE, HAMMER, SIDE",
     "imagePath": "./images/19.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/19_2.jpg"
+    ]
   },
   {
     "sku": "20",
@@ -20187,7 +21750,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ASSORT, CUTTER, SCREWDRIVER, SMALL",
     "imagePath": "./images/20.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "33",
@@ -20203,7 +21767,10 @@ window.NABIL_PRODUCTS = [
     "tags": "70, GAS, GAUGE, MBAR",
     "imagePath": "./images/33.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/33_2.jpg"
+    ]
   },
   {
     "sku": "48",
@@ -20219,7 +21786,10 @@ window.NABIL_PRODUCTS = [
     "tags": "HANDLE, PAINTROLL, W",
     "imagePath": "./images/48.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/48_2.jpg"
+    ]
   },
   {
     "sku": "49",
@@ -20235,7 +21805,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HANDLE, PAINTROLL",
     "imagePath": "./images/49.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "50",
@@ -20251,7 +21822,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SCRAPER, SIDE",
     "imagePath": "./images/50.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "51",
@@ -20267,7 +21839,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUTTER",
     "imagePath": "./images/51.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "52",
@@ -20283,7 +21856,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRAMIC, PINCER",
     "imagePath": "./images/52.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "54",
@@ -20299,7 +21873,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COMBمشط, EARTH",
     "imagePath": "./images/54.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "55",
@@ -20315,7 +21890,10 @@ window.NABIL_PRODUCTS = [
     "tags": "GLOVES, PROTECTIVE",
     "imagePath": "./images/55.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/55_2.jpg"
+    ]
   },
   {
     "sku": "58",
@@ -20331,7 +21909,8 @@ window.NABIL_PRODUCTS = [
     "tags": "12, CAOTCHOUK, LEG, PCS",
     "imagePath": "./images/58.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "59",
@@ -20347,7 +21926,10 @@ window.NABIL_PRODUCTS = [
     "tags": "BRUSH, WIRE",
     "imagePath": "./images/59.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/59_2.jpg"
+    ]
   },
   {
     "sku": "61",
@@ -20363,7 +21945,10 @@ window.NABIL_PRODUCTS = [
     "tags": "ABRASIVE, PAPER",
     "imagePath": "./images/61.jpg",
     "inventoryQuantity": 63,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/61_2.jpg"
+    ]
   },
   {
     "sku": "91",
@@ -20379,7 +21964,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PADLOCK, SECURITY, TOP",
     "imagePath": "./images/91.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "290",
@@ -20395,7 +21981,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PICKAXE, STICK",
     "imagePath": "./images/290.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "359",
@@ -20411,7 +21998,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LOCK, PENDANT",
     "imagePath": "./images/359.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "360",
@@ -20427,7 +22015,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLOSET, LOCK",
     "imagePath": "./images/360.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "366",
@@ -20443,7 +22032,8 @@ window.NABIL_PRODUCTS = [
     "tags": "90, L, MM, ROLLBOLT",
     "imagePath": "./images/366.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1187",
@@ -20459,7 +22049,10 @@ window.NABIL_PRODUCTS = [
     "tags": "90, RULER",
     "imagePath": "./images/1187.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1187_2.jpg"
+    ]
   },
   {
     "sku": "1199",
@@ -20475,7 +22068,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, B, GARDENING, HOSE",
     "imagePath": "./images/1199.jpg",
     "inventoryQuantity": 130,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "102",
@@ -20491,7 +22085,10 @@ window.NABIL_PRODUCTS = [
     "tags": "CORD, EXTENSION, MALE",
     "imagePath": "./images/102.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/102_2.jpg"
+    ]
   },
   {
     "sku": "105",
@@ -20507,7 +22104,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HAND, SAW",
     "imagePath": "./images/105.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "108",
@@ -20523,7 +22121,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GAS, NUT, WRENCH",
     "imagePath": "./images/108.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "114",
@@ -20539,7 +22138,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 16, FT, MEASURING, MM, TAPE",
     "imagePath": "./images/114.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "121",
@@ -20555,7 +22155,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HBBH",
     "imagePath": "./images/121.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "124",
@@ -20571,7 +22172,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HOSE, MOVABLE, PHONE, SHOWER, SUPPORT",
     "imagePath": "./images/124.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "125",
@@ -20587,7 +22189,10 @@ window.NABIL_PRODUCTS = [
     "tags": "dep, name, test",
     "imagePath": "./images/125.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/125_2.jpg"
+    ]
   },
   {
     "sku": "135",
@@ -20603,7 +22208,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BATTERY, CABLES, LAMP, T8, W",
     "imagePath": "./images/135.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "174",
@@ -20619,7 +22225,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BREAKER, CIRCUIT",
     "imagePath": "./images/174.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "407",
@@ -20635,7 +22242,8 @@ window.NABIL_PRODUCTS = [
     "tags": "AVIATION, SCISSORS",
     "imagePath": "./images/407.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "417",
@@ -20651,7 +22259,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRIVER, SCREW",
     "imagePath": "./images/417.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "430",
@@ -20667,7 +22276,8 @@ window.NABIL_PRODUCTS = [
     "tags": "46, PCS, SET, SOCKET",
     "imagePath": "./images/430.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "433",
@@ -20683,7 +22293,10 @@ window.NABIL_PRODUCTS = [
     "tags": "BOWSAW",
     "imagePath": "./images/433.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/433_2.jpg"
+    ]
   },
   {
     "sku": "442",
@@ -20699,7 +22312,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL",
     "imagePath": "./images/442.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1063",
@@ -20715,7 +22329,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, PVC, WATER",
     "imagePath": "./images/1063.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1064",
@@ -20731,7 +22346,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, PVC, WATER",
     "imagePath": "./images/1064.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "857",
@@ -20747,7 +22363,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PLIER, SMW",
     "imagePath": "./images/857.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "860",
@@ -20763,7 +22380,10 @@ window.NABIL_PRODUCTS = [
     "tags": "115MM, 12000R/MIN, 220V, 750W, ANGLE, DIAMETER:, DISC, GRINDER, INPUT, LOAD, POWER:, RATED, SPEED:, VOLTAGE:",
     "imagePath": "./images/860.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/860_2.jpg"
+    ]
   },
   {
     "sku": "895",
@@ -20779,7 +22399,8 @@ window.NABIL_PRODUCTS = [
     "tags": "NECK, TAP",
     "imagePath": "./images/895.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "896",
@@ -20795,7 +22416,8 @@ window.NABIL_PRODUCTS = [
     "tags": "NECK, TAP",
     "imagePath": "./images/896.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "902",
@@ -20807,11 +22429,12 @@ window.NABIL_PRODUCTS = [
     "attribute": "",
     "dimensions": "",
     "sizes": "13 MM",
-    "description": "تحويلة من عادي ل SDS WITHOUT SELF LOCKING",
+    "description": "تحويلة من عادي á SDS WITHOUT SELF LOCKING\nتحويلة من عادي ل SDS WITHOUT SELF LOCKING",
     "tags": "CHUCK, DRILL, LOCKING, SDS, SELF, WITHOUT",
     "imagePath": "./images/902.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "571",
@@ -20827,7 +22450,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FREE, LUBRICANT, RUST, SILICONE, WD-40",
     "imagePath": "./images/571.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "581",
@@ -20843,7 +22467,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LOCK, PENDANT",
     "imagePath": "./images/581.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "749",
@@ -20859,7 +22484,8 @@ window.NABIL_PRODUCTS = [
     "tags": "F, UNION",
     "imagePath": "./images/749.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "759",
@@ -20875,7 +22501,8 @@ window.NABIL_PRODUCTS = [
     "tags": "90, CORNER",
     "imagePath": "./images/759.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "769",
@@ -20891,7 +22518,8 @@ window.NABIL_PRODUCTS = [
     "tags": "REDUCED, UNION",
     "imagePath": "./images/769.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "770",
@@ -20907,7 +22535,8 @@ window.NABIL_PRODUCTS = [
     "tags": "REDUCED, UNION",
     "imagePath": "./images/770.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "799",
@@ -20923,7 +22552,8 @@ window.NABIL_PRODUCTS = [
     "tags": "t",
     "imagePath": "./images/799.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "806",
@@ -20939,7 +22569,8 @@ window.NABIL_PRODUCTS = [
     "tags": "t",
     "imagePath": "./images/806.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "399",
@@ -20955,7 +22586,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLAMP",
     "imagePath": "./images/399.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "985",
@@ -20971,7 +22603,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRAINER, FLOOR",
     "imagePath": "./images/985.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1014",
@@ -20987,7 +22620,8 @@ window.NABIL_PRODUCTS = [
     "tags": "5, CYLINDER, KEY, KEYS",
     "imagePath": "./images/1014.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1020",
@@ -21003,7 +22637,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BASIN, SCREWطقم",
     "imagePath": "./images/1020.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "677",
@@ -21019,7 +22654,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, PIPE",
     "imagePath": "./images/677.jpg",
     "inventoryQuantity": 8,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "502",
@@ -21035,7 +22671,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, GAS, HOSE",
     "imagePath": "./images/502.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "515",
@@ -21051,7 +22688,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADHESIVE, BOTTLE, SPRAY",
     "imagePath": "./images/515.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "516",
@@ -21067,7 +22705,10 @@ window.NABIL_PRODUCTS = [
     "tags": "TEST",
     "imagePath": "./images/516.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/516_2.jpg"
+    ]
   },
   {
     "sku": "521",
@@ -21083,7 +22724,10 @@ window.NABIL_PRODUCTS = [
     "tags": "COBALT, HOLE, METAL, PLASTIC, SAW, WOOD",
     "imagePath": "./images/521.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/521_2.jpg"
+    ]
   },
   {
     "sku": "534",
@@ -21099,7 +22743,10 @@ window.NABIL_PRODUCTS = [
     "tags": "DEMOL",
     "imagePath": "./images/534.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/534_2.jpg"
+    ]
   },
   {
     "sku": "536",
@@ -21115,7 +22762,10 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 12, 965, AIR, COMPRESSOR, DC, KPA, MAX, PRESSURE, V",
     "imagePath": "./images/536.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/536_2.jpg"
+    ]
   },
   {
     "sku": "540",
@@ -21131,7 +22781,8 @@ window.NABIL_PRODUCTS = [
     "tags": "170, 3ARED, 88, CM, TANK, TOUL, WATER",
     "imagePath": "./images/540.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "547",
@@ -21147,7 +22798,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, BRAND, HEATER, ITANI, MM, THICKNESS, WATER",
     "imagePath": "./images/547.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1607",
@@ -21163,7 +22815,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GARDEN, HOSE",
     "imagePath": "./images/1607.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1609",
@@ -21179,7 +22832,8 @@ window.NABIL_PRODUCTS = [
     "tags": "400, GR, PICKAXE",
     "imagePath": "./images/1609.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1080",
@@ -21195,7 +22849,8 @@ window.NABIL_PRODUCTS = [
     "tags": "TEST",
     "imagePath": "./images/1080.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1215",
@@ -21211,7 +22866,8 @@ window.NABIL_PRODUCTS = [
     "tags": "7ECHCHE, RAS",
     "imagePath": "./images/1215.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1218",
@@ -21227,7 +22883,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BELT, BIT, CLIP, DOUBLE, END, MAGNETIC, PH2, SIDED",
     "imagePath": "./images/1218.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1231",
@@ -21243,7 +22900,8 @@ window.NABIL_PRODUCTS = [
     "tags": "AGRICULTURE, FORK",
     "imagePath": "./images/1231.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1245",
@@ -21259,7 +22917,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, 10, 10A, 220V, 5BAR, 60, AUTOMATIC, BALA, BAR, CONT, CURRENT:, DEGREE, LEO, MAX, MODEL, PRESSURE, PRESSURE:, PS-04A, SE3A, STARTING, TEMPERATURE:, VOLTAGE:, WORKING",
     "imagePath": "./images/1245.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1247",
@@ -21275,7 +22934,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 24V, 48VF, air, BATTERY, can, cars, clean, conditioners, convenient, Cordless, flowers, flush, ground, GUN, High, hose, it’s, Lithium, meters, outdoor, panels, Portable, Power, Pressure, rechargeable, solar, Source:, used, Voltage:, wash, Washer:, WATER, working",
     "imagePath": "./images/1247.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1443",
@@ -21291,7 +22951,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, TOOL",
     "imagePath": "./images/1443.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1445",
@@ -21307,7 +22968,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUM, LADDER",
     "imagePath": "./images/1445.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1448",
@@ -21323,7 +22985,10 @@ window.NABIL_PRODUCTS = [
     "tags": "CORD, RESIN, SOLDER, WIRE",
     "imagePath": "./images/1448.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1448_2.jpg"
+    ]
   },
   {
     "sku": "1460",
@@ -21339,7 +23004,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
     "imagePath": "./images/1460.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "597",
@@ -21355,7 +23021,10 @@ window.NABIL_PRODUCTS = [
     "tags": "IRON, SOLDERING",
     "imagePath": "./images/597.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/597_2.jpg"
+    ]
   },
   {
     "sku": "622",
@@ -21371,7 +23040,8 @@ window.NABIL_PRODUCTS = [
     "tags": "METER, PLASTIC, WATER",
     "imagePath": "./images/622.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1654",
@@ -21387,7 +23057,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, FOAM, LENGTH, METERS, PIECE, STRIP",
     "imagePath": "./images/1654.jpg",
     "inventoryQuantity": 20,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1663",
@@ -21403,7 +23074,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAINT, ZIRCON",
     "imagePath": "./images/1663.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1698",
@@ -21419,7 +23091,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BLACK, GUIDER, RED, WIRE",
     "imagePath": "./images/1698.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1623",
@@ -21435,7 +23108,10 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/1623.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1623_2.jpg"
+    ]
   },
   {
     "sku": "1624",
@@ -21451,7 +23127,10 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/1624.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1624_2.jpg"
+    ]
   },
   {
     "sku": "1639",
@@ -21467,7 +23146,8 @@ window.NABIL_PRODUCTS = [
     "tags": "101, 6, BRUSH, mm",
     "imagePath": "./images/1639.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1644",
@@ -21483,7 +23163,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BROOM, STICK",
     "imagePath": "./images/1644.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1881",
@@ -21499,7 +23180,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/1881.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1882",
@@ -21515,7 +23197,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LED, SENSOR, SPOT, W",
     "imagePath": "./images/1882.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "925",
@@ -21531,7 +23214,8 @@ window.NABIL_PRODUCTS = [
     "tags": "VALVE",
     "imagePath": "./images/925.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "845",
@@ -21547,7 +23231,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GREASE, METAL, ON, PARTS, SPRAY, USE",
     "imagePath": "./images/845.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1504",
@@ -21563,7 +23248,10 @@ window.NABIL_PRODUCTS = [
     "tags": "3ADE, BADNA, BATTERIES, BATTERY, CHRIT, IZA, MA3, N7OTT, RECHARGABLE, RECHARGEABLE, TORCH, USB, W, WEHDE",
     "imagePath": "./images/1504.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1504_2.jpg"
+    ]
   },
   {
     "sku": "2005",
@@ -21579,7 +23267,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DUSTBIN, WHEELED",
     "imagePath": "./images/2005.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2029",
@@ -21595,7 +23284,10 @@ window.NABIL_PRODUCTS = [
     "tags": "2, 21V, BATTERIES, CHANTA, INSTALL, MA3, PLASTIC, TILE",
     "imagePath": "./images/2029.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2029_2.jpg"
+    ]
   },
   {
     "sku": "2127",
@@ -21611,7 +23303,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RESSORT, RKHIS, TUBE",
     "imagePath": "./images/2127.jpg",
     "inventoryQuantity": 60,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2128",
@@ -21627,7 +23320,10 @@ window.NABIL_PRODUCTS = [
     "tags": "3M, LED, LIGHT, METER, PER, STRIP",
     "imagePath": "./images/2128.jpg",
     "inventoryQuantity": 20,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2128_2.jpg"
+    ]
   },
   {
     "sku": "2203",
@@ -21643,7 +23339,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"1/2\"\"\", GARDEN, HOSE",
     "imagePath": "./images/2203.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2205",
@@ -21659,7 +23356,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BULB, LAMP, LED",
     "imagePath": "./images/2205.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2206",
@@ -21675,7 +23373,8 @@ window.NABIL_PRODUCTS = [
     "tags": "POULIE, PULLEY",
     "imagePath": "./images/2206.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2207",
@@ -21691,7 +23390,8 @@ window.NABIL_PRODUCTS = [
     "tags": "POULIE, PULLEY",
     "imagePath": "./images/2207.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2208",
@@ -21707,7 +23407,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/2208.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2209",
@@ -21723,7 +23424,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/2209.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2211",
@@ -21739,7 +23441,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/2211.jpg",
     "inventoryQuantity": 8,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2213",
@@ -21755,7 +23458,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BUBBLE",
     "imagePath": "./images/2213.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2214",
@@ -21771,7 +23475,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BUBBLE",
     "imagePath": "./images/2214.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2215",
@@ -21787,7 +23492,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2215.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2217",
@@ -21803,7 +23509,10 @@ window.NABIL_PRODUCTS = [
     "tags": "90-240, SWITCH, V, WIFI",
     "imagePath": "./images/2217.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2217_2.jpg"
+    ]
   },
   {
     "sku": "2220",
@@ -21819,7 +23528,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2220.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2221",
@@ -21835,7 +23545,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2221.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2222",
@@ -21851,7 +23562,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, CABINET, KEYS, LOCK",
     "imagePath": "./images/2222.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2223",
@@ -21867,7 +23579,10 @@ window.NABIL_PRODUCTS = [
     "tags": "ANGLE, GRINDER",
     "imagePath": "./images/2223.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2223_2.jpg"
+    ]
   },
   {
     "sku": "2224",
@@ -21883,7 +23598,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PIPE, SEWER",
     "imagePath": "./images/2224.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2225",
@@ -21899,7 +23615,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CALOPINA, CLAMP",
     "imagePath": "./images/2225.jpg",
     "inventoryQuantity": 12,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2226",
@@ -21915,7 +23632,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ELECTRICAL",
     "imagePath": "./images/2226.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2227",
@@ -21931,7 +23649,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PEUGEOT, SCRAPER",
     "imagePath": "./images/2227.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2228",
@@ -21947,7 +23666,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PEUGEOT, SCRAPER",
     "imagePath": "./images/2228.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2232",
@@ -21963,7 +23683,8 @@ window.NABIL_PRODUCTS = [
     "tags": "KITCHEN, SS304",
     "imagePath": "./images/2232.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2233",
@@ -21979,7 +23700,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CORE, VALVE",
     "imagePath": "./images/2233.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2234",
@@ -21995,7 +23717,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, TIES",
     "imagePath": "./images/2234.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2235",
@@ -22011,7 +23734,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FRAME, GRAND, LE",
     "imagePath": "./images/2235.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2236",
@@ -22027,7 +23751,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FRAME, GRAND, LE",
     "imagePath": "./images/2236.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2237",
@@ -22043,7 +23768,10 @@ window.NABIL_PRODUCTS = [
     "tags": "BLINKING, LAMP, ROTARY, SIGNAL",
     "imagePath": "./images/2237.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2237_2.jpg"
+    ]
   },
   {
     "sku": "2239",
@@ -22059,7 +23787,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
     "imagePath": "./images/2239.jpg",
     "inventoryQuantity": 29,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2240",
@@ -22075,7 +23804,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BODY, CLEAR, COLOR, GLASS, LAMP, SPOT",
     "imagePath": "./images/2240.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2241",
@@ -22091,7 +23821,10 @@ window.NABIL_PRODUCTS = [
     "tags": "TIMER",
     "imagePath": "./images/2241.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2241_2.jpg"
+    ]
   },
   {
     "sku": "2242",
@@ -22107,7 +23840,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLASSIC, MIXER, SINK",
     "imagePath": "./images/2242.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2243",
@@ -22123,7 +23857,8 @@ window.NABIL_PRODUCTS = [
     "tags": "KITCHEN, MIXER, VITESSE",
     "imagePath": "./images/2243.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2245",
@@ -22139,7 +23874,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BALA, DRAIN, FLOOR, MEN, SOBAB, WARA",
     "imagePath": "./images/2245.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2246",
@@ -22155,7 +23891,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ELBOW, WRENCH",
     "imagePath": "./images/2246.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2247",
@@ -22171,7 +23908,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUTTING, PLIER",
     "imagePath": "./images/2247.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2248",
@@ -22187,7 +23925,8 @@ window.NABIL_PRODUCTS = [
     "tags": "MASK, WELDING",
     "imagePath": "./images/2248.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2249",
@@ -22203,7 +23942,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CARB, CARBIRATEUR, CLEANER",
     "imagePath": "./images/2249.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2250",
@@ -22219,7 +23959,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DISC",
     "imagePath": "./images/2250.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2251",
@@ -22235,7 +23976,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CORNER, PVC",
     "imagePath": "./images/2251.jpg",
     "inventoryQuantity": 8,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2252",
@@ -22251,7 +23993,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL",
     "imagePath": "./images/2252.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2253",
@@ -22267,7 +24010,10 @@ window.NABIL_PRODUCTS = [
     "tags": "HAT, SAFETY",
     "imagePath": "./images/2253.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2253_2.jpg"
+    ]
   },
   {
     "sku": "2254",
@@ -22283,7 +24029,8 @@ window.NABIL_PRODUCTS = [
     "tags": "MARKER, PEN",
     "imagePath": "./images/2254.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2256",
@@ -22299,7 +24046,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, DOOR, HANDLE, SET",
     "imagePath": "./images/2256.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2257",
@@ -22311,11 +24059,12 @@ window.NABIL_PRODUCTS = [
     "attribute": "",
     "dimensions": "",
     "sizes": "9 CM",
-    "description": "TOUL 190 MM test3",
+    "description": "TOUL 190 MM",
     "tags": "CYLINDER, DOOR",
     "imagePath": "./images/2257.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2258",
@@ -22331,7 +24080,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONTACTOR, MODULAR",
     "imagePath": "./images/2258.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2259",
@@ -22347,7 +24097,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, JUNCTION, PVC, WATER",
     "imagePath": "./images/2259.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2260",
@@ -22363,7 +24114,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3AL, BIRAKKIB, GRAND, LE, OLVA, STORE, SWITCH",
     "imagePath": "./images/2260.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2261",
@@ -22379,7 +24131,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3M, LED, LIGHT, METER, PER, STRIP",
     "imagePath": "./images/2261.jpg",
     "inventoryQuantity": 6.5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2263",
@@ -22395,7 +24148,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUM, HOOD",
     "imagePath": "./images/2263.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2266",
@@ -22411,7 +24165,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, CODES, COMBINATION, LOCK",
     "imagePath": "./images/2266.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2267",
@@ -22427,7 +24182,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, CODES, COMBINATION, LOCK",
     "imagePath": "./images/2267.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2268",
@@ -22443,7 +24199,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HGGGU",
     "imagePath": "./images/2268.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2269",
@@ -22459,7 +24216,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAINT, REMOVER",
     "imagePath": "./images/2269.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2270",
@@ -22475,7 +24233,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CAR, PUTTY, REFINISH",
     "imagePath": "./images/2270.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2272",
@@ -22491,7 +24250,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ABRASIVE, INDASA, PAPER",
     "imagePath": "./images/2272.jpg",
     "inventoryQuantity": 43,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2273",
@@ -22507,7 +24267,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ABRASIVE, INDASA, PAPER",
     "imagePath": "./images/2273.jpg",
     "inventoryQuantity": 12,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2275",
@@ -22523,7 +24284,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HANDLE, TOWEL",
     "imagePath": "./images/2275.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2276",
@@ -22539,7 +24301,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BAR, BATH, DOUCHE, KHOLLAT, MIXER, TELEFONE",
     "imagePath": "./images/2276.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2287",
@@ -22555,7 +24318,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BALA, DRAIN, FLOOR, MEN, SOBAB, WARA",
     "imagePath": "./images/2287.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2289",
@@ -22571,7 +24335,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HOSE, MAGIC",
     "imagePath": "./images/2289.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2291",
@@ -22587,7 +24352,8 @@ window.NABIL_PRODUCTS = [
     "tags": "24, 25, BLADE, FRAME, HACKSAW, HARD, MATERIAL, MM, PER, SOFT, TEETH",
     "imagePath": "./images/2291.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2293",
@@ -22603,7 +24369,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BLADE, SAW",
     "imagePath": "./images/2293.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2294",
@@ -22619,7 +24386,8 @@ window.NABIL_PRODUCTS = [
     "tags": "115, ABRASIVE, DISK, IRON, MM",
     "imagePath": "./images/2294.jpg",
     "inventoryQuantity": 56,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2296",
@@ -22635,7 +24403,8 @@ window.NABIL_PRODUCTS = [
     "tags": "4, 5, CYLINDER, DOOR, KEYS, TA2AT",
     "imagePath": "./images/2296.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2297",
@@ -22651,7 +24420,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 12, 13, 14, 17, 19, 8, MM, SET, SPANNER",
     "imagePath": "./images/2297.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2298",
@@ -22667,7 +24437,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAD, POLISHING, SHLAC, SHLIC",
     "imagePath": "./images/2298.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2299",
@@ -22683,7 +24454,10 @@ window.NABIL_PRODUCTS = [
     "tags": "PATEX",
     "imagePath": "./images/2299.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2299_2.jpg"
+    ]
   },
   {
     "sku": "2300",
@@ -22699,7 +24473,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, 5V, ALKALINE, BATTERY, CALCULATOR",
     "imagePath": "./images/2300.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2301",
@@ -22715,7 +24490,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
     "imagePath": "./images/2301.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2302",
@@ -22731,7 +24507,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 15, 30, AMP, BLADE, BLUE, FUSE, GREEN, RED, YELLOW",
     "imagePath": "./images/2302.jpg",
     "inventoryQuantity": 50,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2309",
@@ -22747,7 +24524,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHADOW, SUIT",
     "imagePath": "./images/2309.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2310",
@@ -22763,7 +24541,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2310.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2311",
@@ -22779,7 +24558,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SUPPORT",
     "imagePath": "./images/2311.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2313",
@@ -22795,7 +24575,10 @@ window.NABIL_PRODUCTS = [
     "tags": "180, 90, BAG, DEGREE, RECHARG, SCREWDRIVER, TOOLS, TURNABLE",
     "imagePath": "./images/2313.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2313_2.jpg"
+    ]
   },
   {
     "sku": "2317",
@@ -22811,7 +24594,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"4\"\"\", ALUM, HOOD",
     "imagePath": "./images/2317.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2318",
@@ -22827,7 +24611,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SCREW, TIGE",
     "imagePath": "./images/2318.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2319",
@@ -22843,7 +24628,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SCREW, TIGE",
     "imagePath": "./images/2319.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2320",
@@ -22859,7 +24645,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SERRATED, WRENCH",
     "imagePath": "./images/2320.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2321",
@@ -22875,7 +24662,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, CABINET, KEYS, LOCK",
     "imagePath": "./images/2321.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2323",
@@ -22891,7 +24679,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BAG, TOOL",
     "imagePath": "./images/2323.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2331",
@@ -22907,7 +24696,8 @@ window.NABIL_PRODUCTS = [
     "tags": "TEST",
     "imagePath": "./images/2331.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2332",
@@ -22923,7 +24713,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FILTER, WASHER",
     "imagePath": "./images/2332.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2334",
@@ -22939,7 +24730,8 @@ window.NABIL_PRODUCTS = [
     "tags": "12V, HOLDER, LAMP, MR16, PUSH",
     "imagePath": "./images/2334.jpg",
     "inventoryQuantity": 33,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2338",
@@ -22955,7 +24747,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOLT",
     "imagePath": "./images/2338.jpg",
     "inventoryQuantity": 35,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2339",
@@ -22971,7 +24764,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CHISEL, SDS",
     "imagePath": "./images/2339.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2344",
@@ -22987,7 +24781,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BALA, SOBAB, SS, STREAM",
     "imagePath": "./images/2344.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2447",
@@ -23003,7 +24798,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PPR, REDUCED",
     "imagePath": "./images/2447.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2448",
@@ -23019,7 +24815,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PPR, REDUCED",
     "imagePath": "./images/2448.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2449",
@@ -23035,7 +24832,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2449.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2450",
@@ -23051,7 +24849,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2450.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2451",
@@ -23067,7 +24866,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2451.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2452",
@@ -23083,7 +24883,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PPR, RED, T",
     "imagePath": "./images/2452.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2454",
@@ -23099,7 +24900,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3A, JANAB, MAKHRAJ, PVC, SHOWER, STREAM",
     "imagePath": "./images/2454.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2455",
@@ -23115,7 +24917,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLAMP",
     "imagePath": "./images/2455.jpg",
     "inventoryQuantity": 90,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2460",
@@ -23131,7 +24934,8 @@ window.NABIL_PRODUCTS = [
     "tags": "116, 37, 50-60, 85-265V, 900, BULB, E27, HZ, LAMP, LED, LM, MM, STICK, X",
     "imagePath": "./images/2460.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2464",
@@ -23147,7 +24951,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLAPPE, FAN",
     "imagePath": "./images/2464.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2469",
@@ -23163,7 +24968,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"4\"\"\", ALUM, HOOD",
     "imagePath": "./images/2469.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2477",
@@ -23179,7 +24985,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BARAGHE, BIDOUN, COVER, PLASTIC",
     "imagePath": "./images/2477.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2478",
@@ -23195,7 +25002,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"1/2\"\"\", 16, CORNER, FIX, MM, PEX, X",
     "imagePath": "./images/2478.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2479",
@@ -23211,7 +25019,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COLORANT",
     "imagePath": "./images/2479.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2483",
@@ -23227,7 +25036,8 @@ window.NABIL_PRODUCTS = [
     "tags": "G4, LAMP",
     "imagePath": "./images/2483.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2485",
@@ -23243,7 +25053,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRILL, SDS",
     "imagePath": "./images/2485.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2494",
@@ -23259,7 +25070,8 @@ window.NABIL_PRODUCTS = [
     "tags": "dep, name, test",
     "imagePath": "./images/2494.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2495",
@@ -23275,7 +25087,8 @@ window.NABIL_PRODUCTS = [
     "tags": "B, GROHE, KITCHEN, LEVER",
     "imagePath": "./images/2495.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2497",
@@ -23291,7 +25104,10 @@ window.NABIL_PRODUCTS = [
     "tags": "\"4\"\"\", HOLE, SAW",
     "imagePath": "./images/2497.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2497_2.jpg"
+    ]
   },
   {
     "sku": "2503",
@@ -23307,7 +25123,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, BRAKER, CIRCUIT, PHASE",
     "imagePath": "./images/2503.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2508",
@@ -23323,7 +25140,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SINK, STRAINER",
     "imagePath": "./images/2508.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2513",
@@ -23339,7 +25157,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, 76, Brush, mm",
     "imagePath": "./images/2513.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2519",
@@ -23355,7 +25174,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 20, CABLE, CACHE, MM, X",
     "imagePath": "./images/2519.jpg",
     "inventoryQuantity": 13,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2523",
@@ -23371,7 +25191,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ABRASIVE, STONE",
     "imagePath": "./images/2523.jpg",
     "inventoryQuantity": 19,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2531",
@@ -23387,7 +25208,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"1/2\"\"\", DAKAR, ENTEYE, HOSE, MAYLE, SANITARY",
     "imagePath": "./images/2531.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2535",
@@ -23403,7 +25225,10 @@ window.NABIL_PRODUCTS = [
     "tags": "84, BATTERY, LANTERN, LIGHT, PCS, RECHARGEABLE, SOURCE",
     "imagePath": "./images/2535.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2535_2.jpg"
+    ]
   },
   {
     "sku": "2540",
@@ -23419,7 +25244,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ELECTRIC, TAPE",
     "imagePath": "./images/2540.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2547",
@@ -23435,7 +25261,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, 7AFF, AXE, BANDS, FYO, GRADE, KHECHIN, LAL, MA2DA7, MA3, MEN, NE3IM, SANDING, SET, W, WARA2, WASAT, ZGHIR",
     "imagePath": "./images/2547.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2548",
@@ -23451,7 +25278,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"1/2\"\"\", HOSE, MIXER",
     "imagePath": "./images/2548.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2549",
@@ -23467,7 +25295,8 @@ window.NABIL_PRODUCTS = [
     "tags": "-10, 4, -5, 6, 8, BIT, DRILL, MISH, MM, SDS, SET",
     "imagePath": "./images/2549.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2554",
@@ -23483,7 +25312,10 @@ window.NABIL_PRODUCTS = [
     "tags": "3, ALUM, CYLINDER, JAWZE, KEYS, MA3",
     "imagePath": "./images/2554.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2554_2.jpg"
+    ]
   },
   {
     "sku": "2561",
@@ -23499,7 +25331,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, 2, 380, 600, AIR, DEGREE, GUN, HEAT, TEMPERATURE",
     "imagePath": "./images/2561.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2565",
@@ -23515,7 +25348,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COPY, GROHE, MIXER, SHOWER",
     "imagePath": "./images/2565.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2566",
@@ -23531,7 +25365,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
     "imagePath": "./images/2566.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2574",
@@ -23547,7 +25382,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, FUSE",
     "imagePath": "./images/2574.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2583",
@@ -23563,7 +25399,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BLADE, C24R-BF, DISC, DRONCO, PERFECT, STONE",
     "imagePath": "./images/2583.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2593",
@@ -23579,7 +25416,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HAMMER",
     "imagePath": "./images/2593.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2601",
@@ -23595,7 +25433,8 @@ window.NABIL_PRODUCTS = [
     "tags": "75W, DOUBLE, LAMP, LED, LIGHT, T9",
     "imagePath": "./images/2601.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2603",
@@ -23611,7 +25450,8 @@ window.NABIL_PRODUCTS = [
     "tags": "NECK, TAP",
     "imagePath": "./images/2603.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2607",
@@ -23627,7 +25467,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, DOOR, HANDLE, SET",
     "imagePath": "./images/2607.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2608",
@@ -23643,7 +25484,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SAPPHIRE",
     "imagePath": "./images/2608.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2610",
@@ -23659,7 +25501,10 @@ window.NABIL_PRODUCTS = [
     "tags": "LED, SPOT",
     "imagePath": "./images/2610.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2610_2.jpg"
+    ]
   },
   {
     "sku": "2611",
@@ -23675,7 +25520,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/2611.jpg",
     "inventoryQuantity": 12,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2619",
@@ -23691,7 +25537,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRILL, SDS",
     "imagePath": "./images/2619.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2639",
@@ -23707,7 +25554,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, FLUSH, MOUNTING, WATANE",
     "imagePath": "./images/2639.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2641",
@@ -23723,7 +25571,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, CONNECTOR, WAY",
     "imagePath": "./images/2641.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2644",
@@ -23739,7 +25588,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LINE, TRIMMER",
     "imagePath": "./images/2644.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2462",
@@ -23755,7 +25605,10 @@ window.NABIL_PRODUCTS = [
     "tags": "28W, DOUBLE, EXHAUST, FAN, TURBINE",
     "imagePath": "./images/2462.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2462_2.jpg"
+    ]
   },
   {
     "sku": "1489",
@@ -23771,7 +25624,10 @@ window.NABIL_PRODUCTS = [
     "tags": "0, 220V, 3, 3ACm45, 45, INNOVATION, KW, LEO, MODEL, PUMPطلمبة, SILENCE",
     "imagePath": "./images/1489.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1489_2.jpg"
+    ]
   },
   {
     "sku": "1490",
@@ -23787,7 +25643,10 @@ window.NABIL_PRODUCTS = [
     "tags": "HAND, SET, SHOWER",
     "imagePath": "./images/1490.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/1490_2.jpg"
+    ]
   },
   {
     "sku": "1824",
@@ -23803,7 +25662,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOOT, RAINY",
     "imagePath": "./images/1824.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2458",
@@ -23819,7 +25679,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BAG, CLEANING, DUST, INCLUDING, ROTARY, SANDER, SELF, SPEED, VARIABLE",
     "imagePath": "./images/2458.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2463",
@@ -23835,7 +25696,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADAPTOR, POWER",
     "imagePath": "./images/2463.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2467",
@@ -23851,7 +25713,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/2467.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2472",
@@ -23867,7 +25730,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, FLARING, KIT, PCS",
     "imagePath": "./images/2472.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2482",
@@ -23883,7 +25747,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BELT, CRACKLING",
     "imagePath": "./images/2482.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2500",
@@ -23899,7 +25764,10 @@ window.NABIL_PRODUCTS = [
     "tags": "COTTON",
     "imagePath": "./images/2500.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2500_2.jpg"
+    ]
   },
   {
     "sku": "2506",
@@ -23915,7 +25783,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HOLDER, ITALY, LAMP",
     "imagePath": "./images/2506.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2511",
@@ -23931,7 +25800,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SAPPHIRE",
     "imagePath": "./images/2511.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2538",
@@ -23947,7 +25817,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, 5, AC, DETECTOR, DETECTS, FINDER, IN, LIVE, METAL, REBAR, STUD, WALL, WIRE, WOOD",
     "imagePath": "./images/2538.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2348",
@@ -23963,7 +25834,8 @@ window.NABIL_PRODUCTS = [
     "tags": "WASPS",
     "imagePath": "./images/2348.jpg",
     "inventoryQuantity": 84,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2351",
@@ -23979,7 +25851,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, KNOB",
     "imagePath": "./images/2351.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2352",
@@ -23995,7 +25868,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, KNOB",
     "imagePath": "./images/2352.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2353",
@@ -24011,7 +25885,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, DOOR, HANDLE, PCS, SET",
     "imagePath": "./images/2353.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2354",
@@ -24027,7 +25902,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, HANDLE",
     "imagePath": "./images/2354.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2355",
@@ -24043,7 +25919,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, HANDLE",
     "imagePath": "./images/2355.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2356",
@@ -24059,7 +25936,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, HANDLE",
     "imagePath": "./images/2356.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2357",
@@ -24075,7 +25953,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, KNOB, STAINLESS, STEEL",
     "imagePath": "./images/2357.jpg",
     "inventoryQuantity": 86,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2358",
@@ -24091,7 +25970,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, KNOB",
     "imagePath": "./images/2358.jpg",
     "inventoryQuantity": 100,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2360",
@@ -24107,7 +25987,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2360.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2361",
@@ -24123,7 +26004,10 @@ window.NABIL_PRODUCTS = [
     "tags": "4, BALA, CHRIT, EXT, SOCKET, WASLE, WAY",
     "imagePath": "./images/2361.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2361_2.jpg"
+    ]
   },
   {
     "sku": "2363",
@@ -24139,7 +26023,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BALA, FRAME, GHATA, GRAND, LE",
     "imagePath": "./images/2363.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2364",
@@ -24155,7 +26040,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, DOOR, HANDLE, PCS, SET",
     "imagePath": "./images/2364.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2365",
@@ -24171,7 +26057,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, GARDENING, T",
     "imagePath": "./images/2365.jpg",
     "inventoryQuantity": 24,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2366",
@@ -24187,7 +26074,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3AMOUD, 7ET, BAR, BIL, DOUCHE, LAL, MA4, SS, STAINLESS, STEEL, TASE, TE3LI2A, W, ZGHIRE",
     "imagePath": "./images/2366.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2367",
@@ -24203,7 +26091,8 @@ window.NABIL_PRODUCTS = [
     "tags": "STYLE, VALVE, VINTAGE",
     "imagePath": "./images/2367.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2461",
@@ -24219,7 +26108,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, ROUND",
     "imagePath": "./images/2461.jpg",
     "inventoryQuantity": 22,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2480",
@@ -24235,7 +26125,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAD",
     "imagePath": "./images/2480.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2484",
@@ -24251,7 +26142,8 @@ window.NABIL_PRODUCTS = [
     "tags": "G4, LAMP",
     "imagePath": "./images/2484.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2486",
@@ -24267,7 +26159,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOLT, CLAMP, U, WIRE",
     "imagePath": "./images/2486.jpg",
     "inventoryQuantity": 24,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2498",
@@ -24283,7 +26176,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, HOLE, SAW",
     "imagePath": "./images/2498.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2504",
@@ -24299,7 +26193,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BLINKING, LAMP, ROTARY, SIGNAL",
     "imagePath": "./images/2504.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2515",
@@ -24315,7 +26210,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COMPRESSED, PLUNGER",
     "imagePath": "./images/2515.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2517",
@@ -24331,7 +26227,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GILET",
     "imagePath": "./images/2517.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2520",
@@ -24347,7 +26244,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PLUG, SINGLE",
     "imagePath": "./images/2520.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2524",
@@ -24363,7 +26261,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, HARD, SINGLE",
     "imagePath": "./images/2524.jpg",
     "inventoryQuantity": 180,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2530",
@@ -24379,7 +26278,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, CYLINDER, KEYS, ORIGINAL, YALE",
     "imagePath": "./images/2530.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2533",
@@ -24395,7 +26295,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, 3P, CIRCUIT, PHASE, POLE",
     "imagePath": "./images/2533.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2536",
@@ -24411,7 +26312,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SET, TOOLS",
     "imagePath": "./images/2536.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2555",
@@ -24427,7 +26329,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DISC",
     "imagePath": "./images/2555.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2562",
@@ -24443,7 +26346,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GLASS, WELDING",
     "imagePath": "./images/2562.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2567",
@@ -24459,7 +26363,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, JUNCTION, PVC, WATER",
     "imagePath": "./images/2567.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2575",
@@ -24475,7 +26380,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, FLUSH, MOUNTING, WATANE",
     "imagePath": "./images/2575.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2590",
@@ -24491,7 +26397,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GLASS, LAMP, SPOT",
     "imagePath": "./images/2590.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2602",
@@ -24507,7 +26414,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SPACERS, TILE",
     "imagePath": "./images/2602.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2604",
@@ -24523,7 +26431,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HANGER, TOWEL",
     "imagePath": "./images/2604.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2620",
@@ -24539,7 +26448,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DRILL, SDS",
     "imagePath": "./images/2620.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2634",
@@ -24555,7 +26465,8 @@ window.NABIL_PRODUCTS = [
     "tags": "REFERESH, SOLDER",
     "imagePath": "./images/2634.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2640",
@@ -24571,7 +26482,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CHASSIS, SPOT",
     "imagePath": "./images/2640.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2642",
@@ -24587,7 +26499,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, bala, chrit, SOCKET, WAY",
     "imagePath": "./images/2642.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2645",
@@ -24603,7 +26516,8 @@ window.NABIL_PRODUCTS = [
     "tags": "15, HICH, IN, MINUTES, PROOF, SETS, STICK, SURFACE, TACK, WEATHER, WET",
     "imagePath": "./images/2645.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2648",
@@ -24619,7 +26533,8 @@ window.NABIL_PRODUCTS = [
     "tags": "13, 29, 6500, 900, DAYLIGHT, K, LED, MM, SIZE, T8, W, X",
     "imagePath": "./images/2648.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2655",
@@ -24635,7 +26550,8 @@ window.NABIL_PRODUCTS = [
     "tags": "(B), CAP, GEWISS",
     "imagePath": "./images/2655.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2662",
@@ -24651,7 +26567,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LAMP, PIN, SPOT",
     "imagePath": "./images/2662.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2666",
@@ -24667,7 +26584,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GRAND, LE, SINGLE, SWITCH",
     "imagePath": "./images/2666.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2675",
@@ -24683,7 +26601,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIDET, SAPPHIRE",
     "imagePath": "./images/2675.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2677",
@@ -24699,7 +26618,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DEMOL",
     "imagePath": "./images/2677.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2681",
@@ -24715,7 +26635,10 @@ window.NABIL_PRODUCTS = [
     "tags": "100, BAG, CERAMIC, EQUIPMENT, PCS, PER",
     "imagePath": "./images/2681.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2681_2.jpg"
+    ]
   },
   {
     "sku": "2686",
@@ -24731,7 +26654,8 @@ window.NABIL_PRODUCTS = [
     "tags": "STICK",
     "imagePath": "./images/2686.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2691",
@@ -24747,7 +26671,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHOVEL, SQUARE",
     "imagePath": "./images/2691.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2693",
@@ -24763,7 +26688,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, SCHNEIDER",
     "imagePath": "./images/2693.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2696",
@@ -24779,7 +26705,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ROLL, STICK",
     "imagePath": "./images/2696.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2697",
@@ -24795,7 +26722,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2697.jpg",
     "inventoryQuantity": 21,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2701",
@@ -24811,7 +26739,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HBBH",
     "imagePath": "./images/2701.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2703",
@@ -24827,7 +26756,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BLACK, GUIDER, RED, WIRE",
     "imagePath": "./images/2703.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2706",
@@ -24843,7 +26773,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONTROL, LIGHT, SENSOR",
     "imagePath": "./images/2706.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2711",
@@ -24859,7 +26790,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLAMP, NYLON",
     "imagePath": "./images/2711.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2715",
@@ -24875,7 +26807,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOOST, PUMP",
     "imagePath": "./images/2715.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2716",
@@ -24891,7 +26824,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SANCHE, SWITCH",
     "imagePath": "./images/2716.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2718",
@@ -24907,7 +26841,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RAT, SLAPPING",
     "imagePath": "./images/2718.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2725",
@@ -24923,7 +26858,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BATHROOM, SHELF",
     "imagePath": "./images/2725.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2727",
@@ -24939,7 +26875,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CAN, WATER",
     "imagePath": "./images/2727.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2737",
@@ -24955,7 +26892,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LA, MAY, SAPPHIRE, TROMBIT",
     "imagePath": "./images/2737.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2739",
@@ -24971,7 +26909,8 @@ window.NABIL_PRODUCTS = [
     "tags": "MESH",
     "imagePath": "./images/2739.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2741",
@@ -24987,7 +26926,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, EXT",
     "imagePath": "./images/2741.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2745",
@@ -25003,7 +26943,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUMINIUM, LAL, MOSAIC, PAD, RKHAM, UTILITY, W",
     "imagePath": "./images/2745.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2749",
@@ -25019,7 +26960,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, 5V, ALKALINE, BATTERY, CALCULATOR",
     "imagePath": "./images/2749.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2131",
@@ -25035,7 +26977,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONSTRUCTION, THREAD",
     "imagePath": "./images/2131.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2133",
@@ -25051,7 +26994,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLEANER, DOES, FOAM, HURT, NOT, PIPE, PIPELINE",
     "imagePath": "./images/2133.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2134",
@@ -25067,7 +27011,8 @@ window.NABIL_PRODUCTS = [
     "tags": "&POLISH, CLEANER, LEVEL, SINK, STAINLESS, STEEL",
     "imagePath": "./images/2134.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2135",
@@ -25083,7 +27028,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RAT, SLAPPING",
     "imagePath": "./images/2135.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2137",
@@ -25099,7 +27045,10 @@ window.NABIL_PRODUCTS = [
     "tags": "4, 6, EXT, INCLUDING, PORTS, SOCKET, SWITCH, USB, WAY",
     "imagePath": "./images/2137.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2137_2.jpg"
+    ]
   },
   {
     "sku": "2139",
@@ -25115,7 +27064,8 @@ window.NABIL_PRODUCTS = [
     "tags": "90, DEGREE, METAL",
     "imagePath": "./images/2139.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2141",
@@ -25131,7 +27081,8 @@ window.NABIL_PRODUCTS = [
     "tags": "180, 3, DEGREE, ELECTRICAL, PLUG, PLUGS",
     "imagePath": "./images/2141.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2142",
@@ -25147,7 +27098,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, BATTERIES, INCLUDED, LASER, LEVEL, METER, TRIPOD",
     "imagePath": "./images/2142.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2144",
@@ -25163,7 +27115,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, SLUMP",
     "imagePath": "./images/2144.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2146",
@@ -25179,7 +27132,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SAPPHIRE",
     "imagePath": "./images/2146.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2150",
@@ -25195,7 +27149,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUM, RUBBER",
     "imagePath": "./images/2150.jpg",
     "inventoryQuantity": 14,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2152",
@@ -25211,7 +27166,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2152.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2154",
@@ -25227,7 +27183,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COVER, SOFTCLOSE, TOILET",
     "imagePath": "./images/2154.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2157",
@@ -25243,7 +27200,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, FORK, TERMINAL",
     "imagePath": "./images/2157.jpg",
     "inventoryQuantity": 80,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2158",
@@ -25259,7 +27217,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HEAT, INSULATED, TERM",
     "imagePath": "./images/2158.jpg",
     "inventoryQuantity": 66,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2159",
@@ -25275,7 +27234,8 @@ window.NABIL_PRODUCTS = [
     "tags": "INSULATED, RING, TERM",
     "imagePath": "./images/2159.jpg",
     "inventoryQuantity": 50,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2161",
@@ -25291,7 +27251,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAINT, THINNER",
     "imagePath": "./images/2161.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2163",
@@ -25307,7 +27268,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOLT, CLAMP, U, WIRE",
     "imagePath": "./images/2163.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2164",
@@ -25323,7 +27285,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, PIPE",
     "imagePath": "./images/2164.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2165",
@@ -25339,7 +27302,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, DLXS",
     "imagePath": "./images/2165.jpg",
     "inventoryQuantity": 14,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2169",
@@ -25355,7 +27319,8 @@ window.NABIL_PRODUCTS = [
     "tags": "14, 165, 265, 3000, K, LED, SPLIT, T5, VOLT, W",
     "imagePath": "./images/2169.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2170",
@@ -25371,7 +27336,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LAMP, LED",
     "imagePath": "./images/2170.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2171",
@@ -25387,7 +27353,8 @@ window.NABIL_PRODUCTS = [
     "tags": "12, 24W, DC, LED, LIGHT, METER, PER, POWER, STRIP, V",
     "imagePath": "./images/2171.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2174",
@@ -25403,7 +27370,10 @@ window.NABIL_PRODUCTS = [
     "tags": "ELECTRIC, SOCKET",
     "imagePath": "./images/2174.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2174_2.jpg"
+    ]
   },
   {
     "sku": "2178",
@@ -25419,7 +27389,8 @@ window.NABIL_PRODUCTS = [
     "tags": "AUTO, HEAD",
     "imagePath": "./images/2178.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2179",
@@ -25435,7 +27406,8 @@ window.NABIL_PRODUCTS = [
     "tags": "NAIL",
     "imagePath": "./images/2179.jpg",
     "inventoryQuantity": 3000,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2180",
@@ -25451,7 +27423,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUTTING, PLIER",
     "imagePath": "./images/2180.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2181",
@@ -25467,7 +27440,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOB, PLUMB",
     "imagePath": "./images/2181.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2182",
@@ -25483,7 +27457,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HOOK, ROLLBOLT",
     "imagePath": "./images/2182.jpg",
     "inventoryQuantity": 49,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2183",
@@ -25499,7 +27474,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CHALK",
     "imagePath": "./images/2183.jpg",
     "inventoryQuantity": 29,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2186",
@@ -25515,7 +27491,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CHAIN, METAL",
     "imagePath": "./images/2186.jpg",
     "inventoryQuantity": 25.2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2187",
@@ -25531,7 +27508,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HEXAGON, SCREW",
     "imagePath": "./images/2187.jpg",
     "inventoryQuantity": 50,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2188",
@@ -25547,7 +27525,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GRADO, LOCK, SECURITY, TOP",
     "imagePath": "./images/2188.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2191",
@@ -25563,7 +27542,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL, SDS",
     "imagePath": "./images/2191.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2192",
@@ -25579,7 +27559,10 @@ window.NABIL_PRODUCTS = [
     "tags": "PLIER",
     "imagePath": "./images/2192.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2192_2.jpg"
+    ]
   },
   {
     "sku": "2193",
@@ -25595,7 +27578,8 @@ window.NABIL_PRODUCTS = [
     "tags": "600, GUN, ML, PU",
     "imagePath": "./images/2193.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2194",
@@ -25611,7 +27595,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HINGES",
     "imagePath": "./images/2194.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2195",
@@ -25627,7 +27612,8 @@ window.NABIL_PRODUCTS = [
     "tags": "6, BASS, BYEJE, DISC, MA3ON, MAMSAKEN, PCS, ROTARY",
     "imagePath": "./images/2195.jpg",
     "inventoryQuantity": 18,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2198",
@@ -25643,7 +27629,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 40, CAN, DRY, FUNCTIONAL, IN, LESS, METAL, MINUTES, MUTLI, PAINT, PARROT, PLASTIC, SPRAY, USED, WHITE, WOOD",
     "imagePath": "./images/2198.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2199",
@@ -25659,7 +27646,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DECATRINE, TRINITY",
     "imagePath": "./images/2199.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2200",
@@ -25675,7 +27663,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DELTAMETRIN",
     "imagePath": "./images/2200.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2560",
@@ -25691,7 +27680,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CHASSIS, SPOT",
     "imagePath": "./images/2560.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2564",
@@ -25707,7 +27697,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FLUID, GASKET, GASKETS, KAMALAKKA, LEAK, PREVENTION, RESISTANCE, SEALING, SHELLAC",
     "imagePath": "./images/2564.jpg",
     "inventoryQuantity": 12,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2577",
@@ -25723,7 +27714,8 @@ window.NABIL_PRODUCTS = [
     "tags": "220V, BOX, FUSE, LAMP, LED",
     "imagePath": "./images/2577.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2587",
@@ -25739,7 +27731,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ELASTICAL, WIRE",
     "imagePath": "./images/2587.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2606",
@@ -25755,7 +27748,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABINET, ELA, FLUSHطابة, REGLAGE",
     "imagePath": "./images/2606.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2617",
@@ -25771,7 +27765,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, BALA, CHRIT, EXT, SOCKET, WAY",
     "imagePath": "./images/2617.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2654",
@@ -25787,7 +27782,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, STAINLESS, TIE",
     "imagePath": "./images/2654.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2699",
@@ -25803,7 +27799,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LEVELING, PLIER, TILE",
     "imagePath": "./images/2699.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2720",
@@ -25819,7 +27816,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FURNITURE, LEG",
     "imagePath": "./images/2720.jpg",
     "inventoryQuantity": 18,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2729",
@@ -25835,7 +27833,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SPARE, TRIMMER",
     "imagePath": "./images/2729.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2735",
@@ -25851,7 +27850,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BROOM",
     "imagePath": "./images/2735.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2747",
@@ -25867,7 +27867,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUP, GLASS, SUCTION, TRIPLE",
     "imagePath": "./images/2747.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2785",
@@ -25883,7 +27884,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CARTRIDGE, FILTER",
     "imagePath": "./images/2785.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2797",
@@ -25899,7 +27901,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, OUTDOOR, SWITCH",
     "imagePath": "./images/2797.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2750",
@@ -25915,7 +27918,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BATTERY, بطاريةvvvvv",
     "imagePath": "./images/2750.jpg",
     "inventoryQuantity": 15,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2756",
@@ -25931,7 +27935,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SAFETY, VALVE",
     "imagePath": "./images/2756.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2035",
@@ -25947,7 +27952,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONVERT, IN, MADE, TOILET, TURKEY",
     "imagePath": "./images/2035.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2058",
@@ -25963,7 +27969,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COLD, DISPENS, FEMALE, HOT, WATER",
     "imagePath": "./images/2058.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2459",
@@ -25979,7 +27986,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL",
     "imagePath": "./images/2459.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2468",
@@ -25995,7 +28003,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RACCORD",
     "imagePath": "./images/2468.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2489",
@@ -26011,7 +28020,8 @@ window.NABIL_PRODUCTS = [
     "tags": "WHEEL, WIRE",
     "imagePath": "./images/2489.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2501",
@@ -26027,7 +28037,10 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUMINIUM, LAL, MOSAIC, PAD, RKHAM, UTILITY, W",
     "imagePath": "./images/2501.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2501_2.jpg"
+    ]
   },
   {
     "sku": "2507",
@@ -26043,7 +28056,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GLASS, LAMP, SPOT",
     "imagePath": "./images/2507.jpg",
     "inventoryQuantity": 12,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2539",
@@ -26059,7 +28073,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DUST, GRINDER",
     "imagePath": "./images/2539.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2553",
@@ -26075,7 +28090,8 @@ window.NABIL_PRODUCTS = [
     "tags": "Driver, INGCO, Screw",
     "imagePath": "./images/2553.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2570",
@@ -26091,7 +28107,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONN, INSULATION, IPC",
     "imagePath": "./images/2570.jpg",
     "inventoryQuantity": 32,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2586",
@@ -26107,7 +28124,8 @@ window.NABIL_PRODUCTS = [
     "tags": "35, BI, BIT, CHANTA, MA3, OULOULO, PCS, SCREWDRIVER, SET, WIZZ",
     "imagePath": "./images/2586.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2623",
@@ -26123,7 +28141,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, GAS, HOSE",
     "imagePath": "./images/2623.jpg",
     "inventoryQuantity": 8,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2669",
@@ -26139,7 +28158,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR",
     "imagePath": "./images/2669.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2689",
@@ -26155,7 +28175,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUTTER, TILE",
     "imagePath": "./images/2689.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2721",
@@ -26171,7 +28192,10 @@ window.NABIL_PRODUCTS = [
     "tags": "ADAPTOR, INTERNATIONAL",
     "imagePath": "./images/2721.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2721_2.jpg"
+    ]
   },
   {
     "sku": "2730",
@@ -26187,7 +28211,8 @@ window.NABIL_PRODUCTS = [
     "tags": "IRON, TIMMER, WIRE",
     "imagePath": "./images/2730.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2736",
@@ -26203,7 +28228,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FLEXIBLE, GAS",
     "imagePath": "./images/2736.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2748",
@@ -26219,7 +28245,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUP, DOUBLE, GLASS, SUCTION",
     "imagePath": "./images/2748.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2786",
@@ -26235,7 +28262,8 @@ window.NABIL_PRODUCTS = [
     "tags": "4, FEET, NON, PCS, SET, SLIP",
     "imagePath": "./images/2786.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2799",
@@ -26251,7 +28279,8 @@ window.NABIL_PRODUCTS = [
     "tags": "STAIRCASE, SWITCH, TIME",
     "imagePath": "./images/2799.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2475",
@@ -26267,7 +28296,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAPER, TAPE",
     "imagePath": "./images/2475.jpg",
     "inventoryQuantity": 26,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2491",
@@ -26283,7 +28313,8 @@ window.NABIL_PRODUCTS = [
     "tags": "5, BRUSH, PCS, SET, WIRE",
     "imagePath": "./images/2491.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2546",
@@ -26299,7 +28330,8 @@ window.NABIL_PRODUCTS = [
     "tags": "75W, DOUBLE, LAMP, LED, LIGHT, T9",
     "imagePath": "./images/2546.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2580",
@@ -26315,7 +28347,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RELAY, SOLID, STATE",
     "imagePath": "./images/2580.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2625",
@@ -26331,7 +28364,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADHESIVE, CONTACT, INSTANT, PATTEX, SPRAY",
     "imagePath": "./images/2625.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2723",
@@ -26347,7 +28381,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BROOM, DUSTPAN",
     "imagePath": "./images/2723.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2788",
@@ -26363,7 +28398,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADHESIVE, ALUMINIUM, CONCRETE, DUTY, HEAVY, METAL, POLYURETHANE, SEALENT, STONE",
     "imagePath": "./images/2788.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2628",
@@ -26379,7 +28415,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ASSORTED, BRUSH, CARBON",
     "imagePath": "./images/2628.jpg",
     "inventoryQuantity": 16,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2791",
@@ -26395,7 +28432,10 @@ window.NABIL_PRODUCTS = [
     "tags": "DOOR, DOUBLE, SEALING, STRIP, TAPE, WINDOW",
     "imagePath": "./images/2791.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2791_2.jpg"
+    ]
   },
   {
     "sku": "2631",
@@ -26411,7 +28451,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOX, INSULATION, NAILS, PER",
     "imagePath": "./images/2631.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1717",
@@ -26427,7 +28468,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BALL, ENCASTREE, GROHE",
     "imagePath": "./images/1717.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "1728",
@@ -26443,7 +28485,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, CACHE, CAOUTCHOUC, RESSORT, TUBE",
     "imagePath": "./images/1728.jpg",
     "inventoryQuantity": 24,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2502",
@@ -26459,7 +28502,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BAL, LINEN, ROPE",
     "imagePath": "./images/2502.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2579",
@@ -26475,7 +28519,10 @@ window.NABIL_PRODUCTS = [
     "tags": "3, PHASE, PLUG",
     "imagePath": "./images/2579.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2579_2.jpg"
+    ]
   },
   {
     "sku": "2588",
@@ -26491,7 +28538,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3ARDO, 6, BYEJE, CM, CYLINDER, DOOR",
     "imagePath": "./images/2588.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2598",
@@ -26507,7 +28555,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ROUND, SCREW",
     "imagePath": "./images/2598.jpg",
     "inventoryQuantity": 288,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2638",
@@ -26523,7 +28572,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LED, MOSQUITO, TRAP",
     "imagePath": "./images/2638.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2659",
@@ -26539,7 +28589,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR",
     "imagePath": "./images/2659.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2690",
@@ -26555,7 +28606,10 @@ window.NABIL_PRODUCTS = [
     "tags": "\"1/2\"\"\", 2, 50%, AUTOMATIC, BAR, BOOSTER, BRUSHLESS, CAN, CHARGER, COMPARED, DRY, ENERGY, INCLUDES, INTELLIGENT, MANUAL, MODE, MOTOR, MULTIPLE, OVERLOAD, PERFORMANCE, PRESSURE, PROTECTION, PUMP, PUMPS, REACH, RUN, SAVE, SETTINGS, SILENT, SPEED, TECHNOLOGY, TRADITIONAL, UP, USE",
     "imagePath": "./images/2690.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2690_2.jpg"
+    ]
   },
   {
     "sku": "2722",
@@ -26571,7 +28625,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BROOM, GRASS",
     "imagePath": "./images/2722.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2731",
@@ -26587,7 +28642,8 @@ window.NABIL_PRODUCTS = [
     "tags": "IRON, TIMMER, WIRE",
     "imagePath": "./images/2731.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2787",
@@ -26603,7 +28659,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADHESIVE, DOOR, FIT, FOAM, ON, SELF, STRIP, WATERPROOF, WINDOWS",
     "imagePath": "./images/2787.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2800",
@@ -26619,7 +28676,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADHESIVE, TAPE, TESA, WATERPROOF",
     "imagePath": "./images/2800.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2476",
@@ -26635,7 +28693,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAPER, TAPE",
     "imagePath": "./images/2476.jpg",
     "inventoryQuantity": 54,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2492",
@@ -26651,7 +28710,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PROTRACTOR, RAPPORTEUR",
     "imagePath": "./images/2492.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2581",
@@ -26667,7 +28727,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BAR, NEUTRE",
     "imagePath": "./images/2581.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2789",
@@ -26683,7 +28744,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONSTRUCTION, POT",
     "imagePath": "./images/2789.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2493",
@@ -26699,7 +28761,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10*16, BUTTERFLY, CLIP, HOSE, MM, PC, PER, SELL",
     "imagePath": "./images/2493.jpg",
     "inventoryQuantity": 14,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2627",
@@ -26715,7 +28778,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3AL, BAG, BAROUD, CARTRIDGE, FARED, GLOVES, GUN, HAYDA, INCLUDING, MINI, NAIL, STEEL, TEKBIS",
     "imagePath": "./images/2627.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2792",
@@ -26731,7 +28795,10 @@ window.NABIL_PRODUCTS = [
     "tags": "2, 2200, L, LAL, M, NEFOURA, NN, PUMP, SUBMERSIBLE",
     "imagePath": "./images/2792.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2792_2.jpg"
+    ]
   },
   {
     "sku": "2793",
@@ -26747,7 +28814,8 @@ window.NABIL_PRODUCTS = [
     "tags": "MASK, SAFETY",
     "imagePath": "./images/2793.jpg",
     "inventoryQuantity": 20,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2278",
@@ -26763,7 +28831,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HBBH",
     "imagePath": "./images/2278.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2279",
@@ -26779,7 +28848,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, CLAMP, MOUNTING",
     "imagePath": "./images/2279.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2280",
@@ -26795,7 +28865,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2, CLAMP, MOUNTING",
     "imagePath": "./images/2280.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2281",
@@ -26811,7 +28882,10 @@ window.NABIL_PRODUCTS = [
     "tags": "13, 29, 6500, 900, DAYLIGHT, K, LED, MM, SIZE, T8, W, X",
     "imagePath": "./images/2281.jpg",
     "inventoryQuantity": 10,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2281_2.jpg"
+    ]
   },
   {
     "sku": "2282",
@@ -26827,7 +28901,8 @@ window.NABIL_PRODUCTS = [
     "tags": "45, CM, FLEXIBLE, HOSE, SANITARY, TOUL",
     "imagePath": "./images/2282.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2283",
@@ -26843,7 +28918,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, FUSE, IN, PCS, PLUG, TESTER",
     "imagePath": "./images/2283.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2284",
@@ -26859,7 +28935,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FILE, SAW",
     "imagePath": "./images/2284.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2372",
@@ -26875,7 +28952,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CAP, PVC, REGARD",
     "imagePath": "./images/2372.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2374",
@@ -26891,7 +28969,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COMPOS, COMPOSITE, PIPE, PPR",
     "imagePath": "./images/2374.jpg",
     "inventoryQuantity": 58,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2376",
@@ -26907,7 +28986,8 @@ window.NABIL_PRODUCTS = [
     "tags": "7ET, BIL, BYEJE, BYESTA3MLOU, DOUBLE, ELBOW, HAYDA, LA, MELANGEUR, PPR, STANDARD",
     "imagePath": "./images/2376.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2378",
@@ -26923,7 +29003,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SOCKET, WRENCH",
     "imagePath": "./images/2378.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2380",
@@ -26939,7 +29020,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUM, HANDLE, PAIR, PER",
     "imagePath": "./images/2380.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2381",
@@ -26955,7 +29037,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUM, HANDLE, PAIR, PER",
     "imagePath": "./images/2381.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2383",
@@ -26971,7 +29054,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ELECTRIC, PLATE, STOVE",
     "imagePath": "./images/2383.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2385",
@@ -26987,7 +29071,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HEXAGON, SCREW",
     "imagePath": "./images/2385.jpg",
     "inventoryQuantity": 60,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2386",
@@ -27003,7 +29088,8 @@ window.NABIL_PRODUCTS = [
     "tags": "2A, CLIP, GALVANIZED, HOSE",
     "imagePath": "./images/2386.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2387",
@@ -27019,7 +29105,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAD, TROWEL",
     "imagePath": "./images/2387.jpg",
     "inventoryQuantity": 22,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2388",
@@ -27035,7 +29122,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DOUBLE, TAPE",
     "imagePath": "./images/2388.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2389",
@@ -27051,7 +29139,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2389.jpg",
     "inventoryQuantity": 27,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2390",
@@ -27067,7 +29156,8 @@ window.NABIL_PRODUCTS = [
     "tags": "DE, PAINTBRUSH, PEINTURE, PINCEAUX, SET",
     "imagePath": "./images/2390.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2391",
@@ -27083,7 +29173,8 @@ window.NABIL_PRODUCTS = [
     "tags": "1, 2, DOOR, HANDLE, PAIR, PCS, SET",
     "imagePath": "./images/2391.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2392",
@@ -27099,7 +29190,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SOLID, TUBE",
     "imagePath": "./images/2392.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2393",
@@ -27115,7 +29207,8 @@ window.NABIL_PRODUCTS = [
     "tags": "4, EXT, RALLONGE, SOCKET, WAY",
     "imagePath": "./images/2393.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2394",
@@ -27131,7 +29224,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SANCHE, SHUKO",
     "imagePath": "./images/2394.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2399",
@@ -27147,7 +29241,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BACKFILL, BAG",
     "imagePath": "./images/2399.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2400",
@@ -27163,7 +29258,8 @@ window.NABIL_PRODUCTS = [
     "tags": "\"1/2\"\"\", 20, MM, PEX, RACCORD, X",
     "imagePath": "./images/2400.jpg",
     "inventoryQuantity": 15,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2402",
@@ -27179,7 +29275,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2402.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2406",
@@ -27195,7 +29292,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, T",
     "imagePath": "./images/2406.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2407",
@@ -27211,7 +29309,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, T",
     "imagePath": "./images/2407.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2408",
@@ -27227,7 +29326,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SPARE, TAP",
     "imagePath": "./images/2408.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2412",
@@ -27243,7 +29343,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PAD, POLISH",
     "imagePath": "./images/2412.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2413",
@@ -27259,7 +29360,8 @@ window.NABIL_PRODUCTS = [
     "tags": "4, BLADES, CLEANER, CUTTER, INCLUDING",
     "imagePath": "./images/2413.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2416",
@@ -27275,7 +29377,8 @@ window.NABIL_PRODUCTS = [
     "tags": "AUTO, DARKENING, DIGITAL, GLASSES, WELDING",
     "imagePath": "./images/2416.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2417",
@@ -27291,7 +29394,8 @@ window.NABIL_PRODUCTS = [
     "tags": "PLANER, SET, WOOD",
     "imagePath": "./images/2417.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2419",
@@ -27307,7 +29411,8 @@ window.NABIL_PRODUCTS = [
     "tags": "RESISTANCE",
     "imagePath": "./images/2419.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2420",
@@ -27323,7 +29428,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, AC, CONTACTOR, PHASES",
     "imagePath": "./images/2420.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2421",
@@ -27339,7 +29445,8 @@ window.NABIL_PRODUCTS = [
     "tags": "6, BOX, MODULES, SWITCH",
     "imagePath": "./images/2421.jpg",
     "inventoryQuantity": 9,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2422",
@@ -27355,7 +29462,8 @@ window.NABIL_PRODUCTS = [
     "tags": "50, HOLD, KGS, MAX, MOVABLE, STAND, TV, WALL, WEIGHT",
     "imagePath": "./images/2422.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2423",
@@ -27371,7 +29479,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BI, CABLE, KAMEN, OULOULO, TONER, TRACKER",
     "imagePath": "./images/2423.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2424",
@@ -27387,7 +29496,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CONNECTOR, T8",
     "imagePath": "./images/2424.jpg",
     "inventoryQuantity": 40,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2425",
@@ -27403,7 +29513,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3M, DRIVER, FICHE, LAL, LAMBA, LED, STRIP, WEHDE",
     "imagePath": "./images/2425.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2426",
@@ -27419,7 +29530,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BULB, LAMP, LED",
     "imagePath": "./images/2426.jpg",
     "inventoryQuantity": 13,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2427",
@@ -27435,7 +29547,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHADOW, SUIT",
     "imagePath": "./images/2427.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2429",
@@ -27451,7 +29564,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ACC, FLUSH",
     "imagePath": "./images/2429.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2431",
@@ -27467,7 +29581,8 @@ window.NABIL_PRODUCTS = [
     "tags": "25, MEASURING, MM, TAPE",
     "imagePath": "./images/2431.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2435",
@@ -27483,7 +29598,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GLUE, GUN, HOTMELT",
     "imagePath": "./images/2435.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2436",
@@ -27499,7 +29615,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ANTI-SLIP, TAPE",
     "imagePath": "./images/2436.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2438",
@@ -27515,7 +29632,10 @@ window.NABIL_PRODUCTS = [
     "tags": "ALUMINIUM, CYLINDER, DOORS",
     "imagePath": "./images/2438.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2438_2.jpg"
+    ]
   },
   {
     "sku": "2439",
@@ -27531,7 +29651,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL, FLAT, WOOD",
     "imagePath": "./images/2439.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2440",
@@ -27547,7 +29668,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL, FLAT, WOOD",
     "imagePath": "./images/2440.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2441",
@@ -27563,7 +29685,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BIT, DRILL, FLAT, WOOD",
     "imagePath": "./images/2441.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2444",
@@ -27579,7 +29702,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SHELF, SUPPORT",
     "imagePath": "./images/2444.jpg",
     "inventoryQuantity": 87,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2466",
@@ -27595,7 +29719,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CLAPPE, FAN",
     "imagePath": "./images/2466.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2471",
@@ -27611,7 +29736,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BRUSH, WIRE",
     "imagePath": "./images/2471.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2481",
@@ -27627,7 +29753,10 @@ window.NABIL_PRODUCTS = [
     "tags": "BELT, CRACKLING",
     "imagePath": "./images/2481.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": [
+      "./images/2481_2.jpg"
+    ]
   },
   {
     "sku": "2487",
@@ -27643,7 +29772,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HANDLE, SOCKET",
     "imagePath": "./images/2487.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2505",
@@ -27659,7 +29789,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BI, MAGIC, OULOULO, SWITCH",
     "imagePath": "./images/2505.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2525",
@@ -27675,7 +29806,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BOBINE, CAPACITOR, MAY, TA, TROMBIT",
     "imagePath": "./images/2525.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2534",
@@ -27691,7 +29823,8 @@ window.NABIL_PRODUCTS = [
     "tags": "250V, 2P+, 3, PHASE, PLUG",
     "imagePath": "./images/2534.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2542",
@@ -27707,7 +29840,8 @@ window.NABIL_PRODUCTS = [
     "tags": "4, \"5\"\"\", BTOZBAT, COVER, VENTILATION, W",
     "imagePath": "./images/2542.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2563",
@@ -27723,7 +29857,8 @@ window.NABIL_PRODUCTS = [
     "tags": "50, bag, CERAMIC, pcs, per, SCREW",
     "imagePath": "./images/2563.jpg",
     "inventoryQuantity": 6,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2568",
@@ -27739,7 +29874,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BRK, CIRCUIT, DC",
     "imagePath": "./images/2568.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2576",
@@ -27755,7 +29891,8 @@ window.NABIL_PRODUCTS = [
     "tags": "AC, DIFERENCIAL, INTERRUPTOR",
     "imagePath": "./images/2576.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2585",
@@ -27771,7 +29908,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COULIS, PIED",
     "imagePath": "./images/2585.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2591",
@@ -27787,7 +29925,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, EXT, SHUKO, SOCKET, SWITCH, W, WAY",
     "imagePath": "./images/2591.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2595",
@@ -27803,7 +29942,8 @@ window.NABIL_PRODUCTS = [
     "tags": "INSECTICIDE, INSIDE, OUTSIDE",
     "imagePath": "./images/2595.jpg",
     "inventoryQuantity": 11,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2613",
@@ -27819,7 +29959,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CAP, GARDENING",
     "imagePath": "./images/2613.jpg",
     "inventoryQuantity": 17,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2616",
@@ -27835,7 +29976,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CIRCUIT, INVERSEUR",
     "imagePath": "./images/2616.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2621",
@@ -27851,7 +29993,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ADHESIVE, DRY, FIBERGLASS, JOINT, SELF, TAPE, WALL",
     "imagePath": "./images/2621.jpg",
     "inventoryQuantity": 3,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2635",
@@ -27867,7 +30010,8 @@ window.NABIL_PRODUCTS = [
     "tags": "LUBRICANT, MACHINE",
     "imagePath": "./images/2635.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2656",
@@ -27883,7 +30027,8 @@ window.NABIL_PRODUCTS = [
     "tags": "AC, CABLE, POWER",
     "imagePath": "./images/2656.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2672",
@@ -27899,7 +30044,8 @@ window.NABIL_PRODUCTS = [
     "tags": "10, 220V, CABLE, LANTERN, LENGTH, METERS, WORKING",
     "imagePath": "./images/2672.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2674",
@@ -27915,7 +30061,8 @@ window.NABIL_PRODUCTS = [
     "tags": "TAPE, TEFLON",
     "imagePath": "./images/2674.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2678",
@@ -27931,7 +30078,8 @@ window.NABIL_PRODUCTS = [
     "tags": "3, SPRINKLE",
     "imagePath": "./images/2678.jpg",
     "inventoryQuantity": 12,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2682",
@@ -27947,7 +30095,8 @@ window.NABIL_PRODUCTS = [
     "tags": "GARDEN, PINCER, TELESCOPIC",
     "imagePath": "./images/2682.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2692",
@@ -27963,7 +30112,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CYLINDER, HOOK, LOCK",
     "imagePath": "./images/2692.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2694",
@@ -27979,7 +30129,8 @@ window.NABIL_PRODUCTS = [
     "tags": "SANCHE, SWITCH",
     "imagePath": "./images/2694.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2698",
@@ -27995,7 +30146,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HAMMER, TILES",
     "imagePath": "./images/2698.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2702",
@@ -28011,7 +30163,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HBBH",
     "imagePath": "./images/2702.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2708",
@@ -28027,7 +30180,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CUTTER, GLASS",
     "imagePath": "./images/2708.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2713",
@@ -28043,7 +30197,8 @@ window.NABIL_PRODUCTS = [
     "tags": "COMPATIBLE, CONTROL, LED/LCD, MULTIFUNCTION, REMOTE, SMART, TV, UNIVERSAL",
     "imagePath": "./images/2713.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2717",
@@ -28059,7 +30214,8 @@ window.NABIL_PRODUCTS = [
     "tags": "ENERGY, METER",
     "imagePath": "./images/2717.jpg",
     "inventoryQuantity": 7,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2719",
@@ -28075,7 +30231,8 @@ window.NABIL_PRODUCTS = [
     "tags": "TANK, WATER",
     "imagePath": "./images/2719.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2726",
@@ -28091,7 +30248,8 @@ window.NABIL_PRODUCTS = [
     "tags": "HANDLE, NON, SLIP",
     "imagePath": "./images/2726.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2728",
@@ -28107,7 +30265,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BLADE, BRUSH, CUT",
     "imagePath": "./images/2728.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2734",
@@ -28123,7 +30282,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CAR, CROSS, JACK, SCISSOR, STYLE",
     "imagePath": "./images/2734.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2740",
@@ -28139,7 +30299,8 @@ window.NABIL_PRODUCTS = [
     "tags": "IRON, MESH",
     "imagePath": "./images/2740.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2742",
@@ -28155,7 +30316,8 @@ window.NABIL_PRODUCTS = [
     "tags": "CABLE, EXT",
     "imagePath": "./images/2742.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2746",
@@ -28171,7 +30333,8 @@ window.NABIL_PRODUCTS = [
     "tags": "MASK, SAFETY",
     "imagePath": "./images/2746.jpg",
     "inventoryQuantity": 4,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2751",
@@ -28187,7 +30350,8 @@ window.NABIL_PRODUCTS = [
     "tags": "BATTERY, بطاريةvvvvv",
     "imagePath": "./images/2751.jpg",
     "inventoryQuantity": 13,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2759",
@@ -28203,7 +30367,8 @@ window.NABIL_PRODUCTS = [
     "tags": "(DUBRYAGE), 2500, CHAIN, CLUTCH, EMBRAYAGE, SAW",
     "imagePath": "./images/2759.jpg",
     "inventoryQuantity": 1,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2784",
@@ -28219,7 +30384,8 @@ window.NABIL_PRODUCTS = [
     "tags": "FILTER, TANK",
     "imagePath": "./images/2784.jpg",
     "inventoryQuantity": 5,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   },
   {
     "sku": "2796",
@@ -28235,6 +30401,7 @@ window.NABIL_PRODUCTS = [
     "tags": "HBBH",
     "imagePath": "./images/2796.jpg",
     "inventoryQuantity": 2,
-    "inventoryTracked": true
+    "inventoryTracked": true,
+    "additionalImagePaths": []
   }
 ];
