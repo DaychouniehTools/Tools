@@ -32,6 +32,8 @@ For the QuickBooks inventory export, the importer uses only the website fields: 
 
 The browser fetches the Excel-reading library from jsDelivr when opening the importer for `.xls`/`.xlsx` workbooks; the spreadsheet and photos stay on your computer and are not sent to that service. CSV import uses the browser directly. Keep a backup of the project folder before importing.
 
+The local importer repairs common Windows-1256 Arabic text that was previously misread as Western text, including Arabic fragments mixed with English. Already-readable Arabic is preserved. Review the local catalog before publishing.
+
 The local importer is excluded from the public GitHub repository by `.gitignore`. If you move the project to another computer, copy `admin-import.html` there separately if you need the import tool.
 
 ## Catalog and orders
