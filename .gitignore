@@ -4,3 +4,5 @@ admin-import.html
 !/imports/workbooks/.gitkeep
 /imports/photos/*
 !/imports/photos/.gitkeep
+/imports/backups/*
+!/imports/backups/.gitkeep
