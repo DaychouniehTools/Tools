@@ -2,9 +2,26 @@
 
 Daychounieh Tools is a responsive product catalog with Arabic and English product names, SKU search, category filters, product photos, product details, a shopping bag, and WhatsApp order requests. The public storefront is hosted on GitHub Pages. Catalog imports are prepared locally on your computer.
 
+## Start the project
+
+Keep the storefront files (`index.html`, `catalog.js`, `.nojekyll`, and `images/`) at the repository root. The GitHub Pages workflow deploys that root, so moving the storefront into a subfolder would require changing the deployment workflow.
+
+Use this same repository folder in both Visual Studio Code and GitHub Desktop:
+
+1. In GitHub Desktop, add or open this repository using the folder that contains `.git`.
+2. In Visual Studio Code, choose **File > Open Folder** and select that same folder. The workspace tasks can open the storefront locally or start the POS importer.
+3. Put local source workbooks in `imports/workbooks/` and source product photos in `imports/photos/`. These folders are for your local input files; their contents are excluded from Git so they are not committed or published.
+4. Review catalog and photo changes in GitHub Desktop, then commit and push to publish through GitHub Pages.
+
+The local importer is not present in this working copy. The POS connector serves `admin-import.html` from the repository root, and the launcher now reports an actionable error until that local-only file is restored there. Do not add it to the public repository.
+
 ## Website
 
 The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. Open `index.html` to view the bundled catalog locally. The reviewed catalog has 1,692 items; the `images/` folder may contain extra files not used by the current catalog. Search matches names, item codes, categories, descriptions, and tags. Customers can click a product photo to see a larger image and its details.
+
+### Browse the shop offline
+
+The published HTTPS storefront caches its page and catalog after you open it online once. To make all local product photos available without internet, use **Save all product photos for offline use** in the catalog and leave the page open until it confirms completion. The current catalog photo set uses about 250 MiB, so use Wi-Fi and ensure the device has enough free browser storage. The browser may report photos that could not be saved; reconnect and retry if needed. Externally hosted images, web fonts, and WhatsApp links still require internet. Opening `index.html` directly from disk does not enable offline caching; use the published HTTPS site.
 
 Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 

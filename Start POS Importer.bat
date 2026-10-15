@@ -2,6 +2,13 @@
 setlocal
 cd /d "%~dp0"
 
+if not exist "%~dp0admin-import.html" (
+  echo Cannot find admin-import.html beside this launcher.
+  echo Restore the local importer to the repository root before starting the POS connector.
+  pause
+  exit /b 1
+)
+
 powershell -NoProfile -Command "$client = New-Object Net.Sockets.TcpClient; try { $client.Connect('127.0.0.1', 8765); exit 0 } catch { exit 1 } finally { $client.Dispose() }" >nul 2>&1
 if not errorlevel 1 (
   echo The local POS connector is already running. Opening the importer...

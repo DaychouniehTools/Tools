@@ -1,2 +1,6 @@
 nabil-shopify-products.csv
 admin-import.html
+/imports/workbooks/*
+!/imports/workbooks/.gitkeep
+/imports/photos/*
+!/imports/photos/.gitkeep

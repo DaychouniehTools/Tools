@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open storefront",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "Start-Process -FilePath '${workspaceFolder}\\index.html'"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Start POS importer",
+      "type": "process",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "call \"${workspaceFolder}\\Start POS Importer.bat\""
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

@@ -99,6 +99,8 @@
     .product-size { margin: 0 0 8px; color: #51574f; font-size: 11px; line-height: 1.5; }
     .product-attribute { margin: 0 0 8px; color: #666d64; font-size: 11px; line-height: 1.5; }
     .catalog-count { margin: 9px 0 0; color: var(--muted); font-size: 12px; }
+    .offline-controls { margin: 0 0 17px; display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; }
+    .offline-controls .status { margin: 0; }
     .product-bottom { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .product-price { font-size: 13px; font-weight: 700; }
     .add-button { padding: 7px 0 7px 10px; border: 0; background: none; color: var(--green); font-size: 11px; font-weight: 700; }
@@ -393,6 +395,10 @@
         <div class="catalog-tools">
           <input class="search-box" id="search-input" type="search" placeholder="Search tools, names or item code" aria-label="Search products">
         </div>
+      </div>
+      <div class="offline-controls">
+        <button class="button secondary" id="offline-download" type="button">Save all product photos for offline use</button>
+        <p class="status" id="offline-status" role="status" aria-live="polite">Open this shop online once, then save its product photos to browse them offline.</p>
       </div>
       <div class="category-filters" id="category-filters" role="group" aria-label="Filter products by category"></div>
       <div class="product-grid" id="product-grid" aria-live="polite"></div>
@@ -808,6 +814,104 @@
       renderCategoryFilters();
       renderProducts();
       renderCart();
+
+      const offlineDownload = document.getElementById("offline-download");
+      const offlineStatus = document.getElementById("offline-status");
+      let offlineJobId = "";
+      const offlineJobPrefix = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+
+      function localProductImages() {
+        const paths = products.flatMap((product) => [
+          product.imagePath,
+          ...(Array.isArray(product.additionalImagePaths) ? product.additionalImagePaths : [])
+        ]).filter((path) => typeof path === "string" && /^\.\/*images\/[A-Za-z0-9_.-]+$/i.test(path));
+        return Array.from(new Set(paths.map((path) => new URL(path, document.baseURI).href)));
+      }
+
+      offlineDownload.addEventListener("click", async () => {
+        if (offlineJobId) {
+          navigator.serviceWorker.controller?.postMessage({ type: "CANCEL_IMAGE_CACHE", jobId: offlineJobId });
+          offlineStatus.textContent = "Stopping after the current photo finishes…";
+          offlineDownload.disabled = true;
+          return;
+        }
+        if (!window.isSecureContext || !("serviceWorker" in navigator)) {
+          offlineStatus.textContent = "Offline saving requires opening the published shop over HTTPS in a supported browser.";
+          offlineStatus.className = "status error";
+          return;
+        }
+
+        offlineDownload.disabled = true;
+        offlineStatus.className = "status";
+        offlineStatus.textContent = "Preparing the product photos…";
+        try {
+          const registration = await navigator.serviceWorker.ready;
+          if (!registration.active) throw new Error("The offline worker did not start. Reload the shop and try again.");
+          if (!navigator.serviceWorker.controller) {
+            await new Promise((resolve, reject) => {
+              const timeout = setTimeout(() => {
+                navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
+                reject(new Error("The offline worker is not controlling this page yet. Reload the shop and try again."));
+              }, 10000);
+              function onControllerChange() {
+                clearTimeout(timeout);
+                resolve();
+              }
+              navigator.serviceWorker.addEventListener("controllerchange", onControllerChange, { once: true });
+            });
+          }
+
+          const images = localProductImages();
+          if (!images.length) throw new Error("No local product photos were found in the catalog.");
+          const storage = await navigator.storage?.estimate();
+          const availableBytes = storage?.quota - storage?.usage;
+          if (Number.isFinite(availableBytes) && availableBytes < 260 * 1024 * 1024) {
+            throw new Error("The browser reports less than 260 MiB available for this site. Free browser storage, then try again.");
+          }
+          if (!window.confirm(`Save ${images.length.toLocaleString()} product photos for offline use? The current catalog uses about 250 MiB of photos. This uses device storage and internet data; Wi-Fi is recommended.`)) {
+            offlineStatus.textContent = "Offline photo download canceled.";
+            return;
+          }
+
+          offlineJobId = `${offlineJobPrefix}-${Date.now()}`;
+          offlineDownload.textContent = "Cancel photo download";
+          offlineDownload.disabled = false;
+          navigator.serviceWorker.controller.postMessage({ type: "CACHE_PRODUCT_IMAGES", jobId: offlineJobId, urls: images });
+          offlineStatus.textContent = `Saving ${images.length.toLocaleString()} product photos…`;
+        } catch (error) {
+          offlineStatus.textContent = error.message || "Could not prepare offline photos.";
+          offlineStatus.className = "status error";
+        } finally {
+          if (!offlineJobId) offlineDownload.disabled = false;
+        }
+      });
+
+      if ("serviceWorker" in navigator && window.isSecureContext) {
+        navigator.serviceWorker.register("./service-worker.js").catch((error) => {
+          console.error("Could not enable offline storefront support:", error);
+          offlineStatus.textContent = "Offline support could not start. Reload the shop or try again later.";
+          offlineStatus.className = "status error";
+        });
+        navigator.serviceWorker.addEventListener("message", (event) => {
+          const message = event.data;
+          if (!message || message.jobId !== offlineJobId) return;
+          if (message.type === "IMAGE_CACHE_PROGRESS") {
+            offlineStatus.textContent = `Saved ${message.completed.toLocaleString()} of ${message.total.toLocaleString()} photos${message.failed ? ` (${message.failed} unavailable)` : ""}…`;
+          } else if (message.type === "IMAGE_CACHE_DONE") {
+            offlineJobId = "";
+            offlineDownload.disabled = false;
+            offlineDownload.textContent = "Save all product photos for offline use";
+            offlineStatus.textContent = message.cancelled
+              ? message.error || `Photo download stopped after saving ${message.completed.toLocaleString()} of ${message.total.toLocaleString()} photos.`
+              : message.failed
+                ? `Saved ${message.completed.toLocaleString()} of ${message.total.toLocaleString()} photos; ${message.failed.toLocaleString()} could not be saved. Check your connection and try again.`
+                : `All ${message.completed.toLocaleString()} product photos are saved for offline browsing.`;
+            offlineStatus.className = message.failed ? "status error" : "status success";
+          }
+        });
+      } else {
+        offlineStatus.textContent = "Offline saving is available on the published HTTPS shop, not when opening the file directly.";
+      }
     })();
   </script>
 </body>
