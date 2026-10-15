@@ -127,7 +127,7 @@ window.NABIL_PRODUCTS = [
     "imagePath": "./images/305.jpg",
     "barcode": "1000000000305",
     "category": "CONSTRUCTION",
-    "description": "SEAVE ÛÑÈÇá",
+    "description": "SEAVE \u063a\u0631\u0628\u0627\u0644",
     "tags": "SEAVE",
     "inventoryQuantity": 1,
     "sizes": "28 CM",
