@@ -17,7 +17,7 @@ window.NABIL_PRODUCTS = [
   },
   {
     "sku": "1937",
-    "name": "test CABLE CUT PLIER بنسة قطع كابل",
+    "name": "empty",
     "price": 3.5,
     "imageUrl": "",
     "barcode": "1000000001936",
