@@ -17,11 +17,11 @@ The local importer is not present in this working copy. The POS connector serves
 
 ## Website
 
-The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. Open `index.html` to view the bundled catalog locally. The reviewed catalog has 1,692 items; the `images/` folder may contain extra files not used by the current catalog. Search matches names, item codes, categories, descriptions, and tags. Customers can click a product photo to see a larger image and its details.
+The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The local catalog is currently empty; this does not take the published website offline unless an authorized repository user publishes the change. Restore a catalog and its photos before republishing if you want to show products. When populated, search matches names, item codes, categories, descriptions, and tags, and customers can click a product photo to see a larger image and its details.
 
 ### Browse the shop offline
 
-The published HTTPS storefront caches its page and catalog after you open it online once. To make all local product photos available without internet, use **Save all product photos for offline use** in the catalog and leave the page open until it confirms completion. The current catalog photo set uses about 250 MiB, so use Wi-Fi and ensure the device has enough free browser storage. The browser may report photos that could not be saved; reconnect and retry if needed. Externally hosted images, web fonts, and WhatsApp links still require internet. Opening `index.html` directly from disk does not enable offline caching; use the published HTTPS site.
+The published HTTPS storefront caches its page and catalog after you open it online once. When product photos are present, use **Save all product photos for offline use** in the catalog and leave the page open until it confirms completion. This uses device storage and internet data; use Wi-Fi and ensure the device has enough free browser storage. The browser may report photos that could not be saved; reconnect and retry if needed. Externally hosted images, web fonts, and WhatsApp links still require internet. Opening `index.html` directly from disk does not enable offline caching; use the published HTTPS site.
 
 Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 
