@@ -25,6 +25,20 @@
         "reveal": "always",
         "panel": "dedicated"
       }
+    },
+    {
+      "label": "Start local Excel importer",
+      "type": "process",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "call \"${workspaceFolder}\\Start Local Importer.bat\""
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
     }
   ]
 }

@@ -6,18 +6,19 @@ Daychounieh Tools is a responsive product catalog with Arabic and English produc
 
 Keep the storefront files (`index.html`, `catalog.js`, `.nojekyll`, and `images/`) at the repository root. The GitHub Pages workflow deploys that root, so moving the storefront into a subfolder would require changing the deployment workflow.
 
-Use this same repository folder in both Visual Studio Code and GitHub Desktop:
+Use the GitHub repository folder in both Visual Studio Code and GitHub Desktop. The Desktop `Test` folder is a link to this repository folder:
 
-1. In GitHub Desktop, add or open this repository using the folder that contains `.git`.
-2. In Visual Studio Code, choose **File > Open Folder** and select that same folder. The workspace tasks can open the storefront locally or start the POS importer.
-3. Put local source workbooks in `imports/workbooks/` and source product photos in `imports/photos/`. These folders are for your local input files; their contents are excluded from Git so they are not committed or published.
-4. Review catalog and photo changes in GitHub Desktop, then commit and push to publish through GitHub Pages.
+1. In GitHub Desktop, open `Desktop\Test` (the folder containing `.git`).
+2. In Visual Studio Code, open that same repository folder.
+3. Keep the separate import-working copy at `Desktop\Daychounieh-Local-Project`. Choose it as the import source, then choose `Desktop\Test` as the GitHub repository destination. Never select the same folder for both.
+4. Put local workbooks in `imports/workbooks/` and source product photos in `imports/photos/`.
+5. Review copied changes in GitHub Desktop, then commit and push to publish through GitHub Pages.
 
-The local-only `admin-import.html` importer is excluded from Git. Start the local POS connector, then open `http://127.0.0.1:8765/`. Select the workbook, optional photo folder, and separate local project folder before importing.
+The local-only `admin-import.html` importer is excluded from Git. For Excel/photo imports, double-click `Start Local Importer.bat` and open `http://127.0.0.1:8765/`. Use `Start POS Importer.bat` when you also need QuickBooks POS stock access. Alternatively, run the **Start local Excel importer** task from VS Code.
 
 ## Website
 
-The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The local catalog is currently empty; this does not take the published website offline unless an authorized repository user publishes the change. Restore a catalog and its photos before republishing if you want to show products. When populated, search matches names, item codes, categories, descriptions, and tags, and customers can click a product photo to see a larger image and its details.
+The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The published catalog currently has no products. The import-working copy may contain local, unpublished edits. When populated, search matches names, item codes, categories, descriptions, and tags, and customers can click a product photo to see a larger image and its details.
 
 ### Browse the shop offline
 
@@ -33,9 +34,9 @@ The importer does not use Supabase, Google sign-in, or a remote database. It rea
 
 On the Windows computer with QuickBooks POS installed, log in to POS and double-click `Start POS Importer.bat`. Keep `inventory-sync/pos_importer.py` with the launcher. The connector requires 32-bit Python and `pywin32`; if prompted, install the module with `py -3-32 -m pip install pywin32`. Keep the connector window open. In the local importer, read the POS items, then review and confirm the local catalog update. QuickBooks POS currently supplies item codes and stock quantities only: the connector does not read the POS picture tick or download POS pictures. Picture cleanup checks image URLs and files in the selected local project's `images/` folder. Changes are local until reviewed and published through GitHub Desktop; clicking Read does not update the live site.
 
-1. Open `admin-import.html` from the Daychounieh Tools project folder in a recent version of Chrome or Edge.
+1. Start the local importer with `Start Local Importer.bat` and open `http://127.0.0.1:8765/` in a recent version of Chrome or Edge. Use `Start POS Importer.bat` instead when you also need QuickBooks POS stock access.
 2. Click **Select Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file. This only selects the workbook; it does not import it yet.
-3. Optionally click **Choose photos folder** and select the folder with product photos. Name the main photo after its item code, such as `290.jpg` or `290_Def.jpg`; the importer saves either as `290.jpg`. For an optional second photo, name it `290_2.jpg` or `290_Alt.jpg`; product details show both photos with previous/next controls.
+3. Optionally click **Choose photos folder** and select the folder with product photos. Name the main photo after its item code, such as `290.jpg` or `290_Def.jpg`. For an optional second photo, name it `290_2.jpg` or `290_Alt.jpg`; product details show both photos with previous/next controls. JPG, PNG, WebP, and GIF files are supported.
 4. Click **Preview and import workbook**. The workbook replaces the local product list: only rows with positive numeric `Qty 1` are included, and a previously listed product absent from the workbook is removed. Review and confirm the removal summary before writing. Photos for removed products remain in the `images/` folder; matched photos are copied into it. The previous local catalog is backed up under `imports/backups/`.
 5. Check the updated local storefront. To transfer the inventory update to GitHub Desktop, choose the local project folder, then the separate repository folder containing `.git`, `index.html`, and `images`. Click **Copy catalog and photos to GitHub Desktop**. It copies `catalog.js` and referenced photos, does not delete extra images, and does not publish. Review the changes and commit and push them in GitHub Desktop to publish.
 
