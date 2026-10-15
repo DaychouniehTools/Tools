@@ -381,7 +381,7 @@
           <p class="catalog-count" id="catalog-count" aria-live="polite"></p>
         </div>
         <div class="catalog-tools">
-          <input class="search-box" id="search-input" type="search" placeholder="Search tools, names or item code" aria-label="Search products">
+          <input class="search-box" id="search-input" type="search" dir="auto" placeholder="Search tools, names or item code" aria-label="Search products">
         </div>
       </div>
       <div class="category-filters" id="category-filters" role="group" aria-label="Filter products by category"></div>
@@ -396,12 +396,12 @@
       <div class="product-detail-layout">
         <div class="detail-image-wrap" id="detail-image-wrap"></div>
         <div class="detail-copy">
-          <p class="product-category" id="detail-category"></p>
+          <p class="product-category" id="detail-category" dir="auto"></p>
           <h2 id="detail-title" dir="auto"></h2>
           <p class="detail-sku" id="detail-sku"></p>
-          <p class="detail-size" id="detail-size" hidden></p>
-          <p class="detail-attribute" id="detail-attribute" hidden></p>
-          <p class="detail-description" id="detail-description"></p>
+          <p class="detail-size" id="detail-size" dir="auto" hidden></p>
+          <p class="detail-attribute" id="detail-attribute" dir="auto" hidden></p>
+          <p class="detail-description" id="detail-description" dir="auto"></p>
           <p class="detail-price" id="detail-price"></p>
           <button class="button" id="detail-add-button" type="button">Add to bag</button>
         </div>
@@ -600,7 +600,7 @@
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
             <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}<span class="sku">${escapeHtml(product.sku)}</span></div>
             <div class="product-info">
-              <p class="product-category">${escapeHtml(product.category || "Other")}</p>
+              <p class="product-category" dir="auto">${escapeHtml(product.category || "Other")}</p>
               <h3 class="product-title" dir="auto">${escapeHtml(product.name)}</h3>
               ${sizeDetails ? `<p class="product-size" dir="auto">${escapeHtml(sizeDetails)}</p>` : ""}
               ${product.attribute ? `<p class="product-attribute" dir="auto">Attribute: ${escapeHtml(product.attribute)}</p>` : ""}
@@ -683,7 +683,7 @@
           const image = productImageSource(product);
           return `<div class="cart-row">
             <div class="cart-thumb" data-cart-image="${escapeHtml(product.sku)}">${image ? `<img src="${escapeHtml(image)}" alt="">` : escapeHtml(product.name.slice(0, 1).toUpperCase())}</div>
-            <div><p class="cart-name">${escapeHtml(product.name)}</p><span class="cart-unit">${money(product.price)} each</span></div>
+            <div><p class="cart-name" dir="auto">${escapeHtml(product.name)}</p><span class="cart-unit">${money(product.price)} each</span></div>
             <div class="quantity"><button type="button" aria-label="Remove one ${escapeHtml(product.name)}" data-quantity="${escapeHtml(product.sku)}" data-delta="-1">−</button><span>${quantity}</span><button type="button" aria-label="Add one ${escapeHtml(product.name)}" data-quantity="${escapeHtml(product.sku)}" data-delta="1">+</button></div>
           </div>`;
         }).join("") : `<p class="dialog-subtitle">Your bag is waiting for something good.</p>`;
