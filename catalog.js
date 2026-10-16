@@ -18,7 +18,7 @@ window.NABIL_PRODUCTS = [
   },
   {
     "sku": "1937",
-    "name": "TILE TIE PLASTIC اسفين رباط — رباط بلاط بلاستيكي",
+    "name": "TILE TIE PLASTIC اسفين رباط — اسفين رباط رباط بلاط بلاستيكي",
     "price": 3,
     "imageUrl": "",
     "barcode": "1000000001937",
@@ -35,12 +35,12 @@ window.NABIL_PRODUCTS = [
   },
   {
     "sku": "1938",
-    "name": "TILE TIE PLASTIC اسفين رباط — رباط بلاط بلاستيكي",
+    "name": "TILE TIE PLASTIC اسفين رباط — اسفين رباط رباط بلاط بلاستيكي",
     "price": 2.5,
     "imageUrl": "",
     "barcode": "1000000001938",
     "category": "SCREWS — براغي",
-    "description": "WEDGE\n فينش\n100 PCS PER BAG\nإسفين تشطيب قطعة في الكيس",
+    "description": "WEDGE\n فينش\n100 PCS PER BAG\nفينش إسفين تشطيب قطعة في الكيس",
     "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
     "inventoryQuantity": 1,
     "sizes": "8 MM — مم",
