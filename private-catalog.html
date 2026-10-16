@@ -83,23 +83,16 @@
 
     <section class="panel" id="access-panel" aria-labelledby="access-title">
       <div id="customer-access">
-        <h2 id="access-title">Customer access</h2>
-        <p>Enter the individual code from the shop. It is assigned to one Google email address.</p>
-        <form id="code-form">
-          <label for="access-code">Your individual access code</label>
-          <div class="entry-row">
-            <input id="access-code" type="password" autocomplete="off" required aria-describedby="code-status">
-            <button type="submit">Continue</button>
-          </div>
-          <p class="status" id="code-status" role="status" aria-live="polite"></p>
+        <h2 id="access-title">Private account sign-in</h2>
+        <p>Enter the email and password provided by the shop. The catalogue allows up to three customer sessions at one time.</p>
+        <form id="login-form">
+          <label for="login-email">Email</label>
+          <input id="login-email" name="email" type="email" autocomplete="username" required>
+          <label for="login-password">Password</label>
+          <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+          <div class="actions"><button id="login-button" type="submit">Sign in</button></div>
         </form>
-        <div id="google-step" hidden>
-          <p class="hint">Next, sign in with the Google account the shop assigned to this code.</p>
-          <button id="google-customer" type="button">Continue with Google</button>
-        </div>
-        <div class="actions">
-          <button class="secondary" id="google-owner" type="button">Shop owner sign-in</button>
-        </div>
+        <p class="hint">Shop owners use the same sign-in. Owners do not count toward the three-customer-session limit.</p>
       </div>
       <p class="privacy">Privacy notice: the shop records the Google name/email and IP address when you access the catalogue. IP access logs are automatically deleted after 24 hours.</p>
     </section>
@@ -120,14 +113,17 @@
         <h2>Shop owner access management</h2>
         <button class="secondary" id="owner-signout" type="button">Sign out</button>
       </div>
-      <p>Issue one code for a specific Google email. Set access for hours or days; the time starts when the customer first uses the code successfully.</p>
+      <p>Create customer accounts with email and password. Set the access period in hours or days. A maximum of three customer browser sessions can be active at once; owner sessions are separate.</p>
+      <p class="hint" id="active-session-count" role="status"></p>
       <form class="owner-form" id="issue-form">
-        <div><label for="customer-email">Customer Google email</label><input id="customer-email" type="email" required></div>
+        <div><label for="customer-name">Customer name (optional)</label><input id="customer-name" type="text" maxlength="200"></div>
+        <div><label for="customer-email">Customer email / username</label><input id="customer-email" type="email" autocomplete="off" required></div>
+        <div><label for="customer-password">Temporary password (12+ characters)</label><input id="customer-password" type="password" minlength="12" autocomplete="new-password" required></div>
         <div><label for="access-duration">Access duration</label><input id="access-duration" type="number" min="1" max="8760" value="24" required></div>
         <div><label for="duration-unit">Unit</label><select id="duration-unit"><option value="hours">Hours</option><option value="days">Days</option></select></div>
-        <div><button type="submit">Issue individual code</button></div>
+        <div><button type="submit">Create / update customer account</button></div>
       </form>
-      <div id="issued-code" class="once-code" hidden></div>
+      <p class="hint">The password is sent securely to the authentication provider and is never saved in the customer list. Share the temporary password with the customer privately.</p>
       <p class="status" id="owner-status" role="status" aria-live="polite"></p>
 
       <h3>Import the private product catalogue</h3>
@@ -139,12 +135,10 @@
       <div class="actions"><button id="import-catalog" type="button">Upload photos and replace private catalogue</button></div>
       <p class="hint" id="import-status" role="status" aria-live="polite"></p>
 
-      <h3>Customer codes</h3>
-      <div class="table-wrap"><table><thead><tr><th>Customer email</th><th>Code status</th><th>Access duration</th><th>Issued</th><th>Action</th></tr></thead><tbody id="codes-table"></tbody></table></div>
       <h3>Accounts and access</h3>
-      <div class="table-wrap"><table><thead><tr><th>Google profile</th><th>Email</th><th>Access ends</th><th>Status</th><th>Action</th></tr></thead><tbody id="customers-table"></tbody></table></div>
-      <h3>Access log (last 24 hours)</h3>
-      <div class="table-wrap"><table><thead><tr><th>Google profile</th><th>Email</th><th>Access time</th><th>IP address</th></tr></thead><tbody id="logs-table"></tbody></table></div>
+      <div class="table-wrap"><table><thead><tr><th>Customer name</th><th>Email / username</th><th>Access ends</th><th>Status</th><th>Action</th></tr></thead><tbody id="customers-table"></tbody></table></div>
+      <h3>Access log (IP records deleted after 24 hours)</h3>
+      <div class="table-wrap"><table><thead><tr><th>Customer name</th><th>Email</th><th>Access time</th><th>IP address</th></tr></thead><tbody id="logs-table"></tbody></table></div>
     </section>
 
     <p class="status" id="page-status" role="status" aria-live="polite"></p>
