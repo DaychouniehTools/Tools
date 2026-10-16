@@ -26,20 +26,20 @@ The private catalogue is not active until a Supabase project and Google OAuth ar
 
 1. Create a Supabase project and enable Google under **Authentication → Providers**. In Google Cloud, configure the OAuth callback URL shown by Supabase. In Supabase Auth URL settings, allow the deployed `private-catalog.html` URL as a redirect.
 2. Add the project URL and publishable/anon key to `private-catalog-config.js`. These browser values are public; never put a service-role key there.
-3. Set the Supabase Edge Function secrets `ADMIN_EMAIL` to the shop owner's Google email and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://libanabil.github.io`). The function also uses Supabase's project URL, anon key, and service-role key from its runtime environment.
+3. Set the Supabase Edge Function secret `ADMIN_EMAILS` to the comma-separated Google email addresses of all shop owners and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://libanabil.github.io`). Keep the service-role key only in the function's Supabase runtime environment.
 4. With the Supabase CLI installed and authenticated, run these commands from the repository folder, replacing the placeholders with your own project reference and Google email:
 
    ```powershell
    supabase login
    supabase link --project-ref YOUR_PROJECT_REF
    supabase db push
-   supabase secrets set ADMIN_EMAIL=your-google-email@example.com ALLOWED_ORIGIN=https://libanabil.github.io
+   supabase secrets set ADMIN_EMAILS=owner-one@gmail.com,owner-two@gmail.com ALLOWED_ORIGIN=https://libanabil.github.io
    supabase functions deploy private-catalog
    ```
 
    The migration creates private product/access tables, a private image bucket, and a scheduled purge for IP access logs older than 24 hours. Supabase supplies the function's backend keys at runtime; never copy the service-role key into the website.
 5. Configure GitHub Pages with the repository's Pages workflow. It deploys only the public homepage, private-catalog page/config, and service worker; it does not deploy `catalog.js` or `images/`.
-6. Open the deployed private catalogue, choose **Shop owner sign-in**, and sign in with the email configured as `ADMIN_EMAIL`. Issue a code to a customer's Google email, select the duration in hours or days, and share the generated code privately. Access time starts on the first successful redemption. Use the owner screen to block/unblock accounts, disable unused codes, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend.
+6. Open the deployed private catalogue, choose **Shop owner sign-in**, and sign in with an email configured in `ADMIN_EMAILS`. Issue a code to a customer's Google email, select the duration in hours or days, and share the generated code privately. Access time starts on the first successful redemption. Use the owner screen to block/unblock customer accounts, disable unused customer codes, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend. All configured owners have the same management powers; an owner cannot issue customer codes to, block, or disable another owner's account.
 
 IP addresses and Google profile details are personal data. Keep the privacy notice visible, review applicable local privacy requirements, and do not use IP records for purposes customers have not been told about. The backend removes IP access-log rows after 24 hours.
 
