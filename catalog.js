@@ -1,7 +1,7 @@
 window.NABIL_PRODUCTS = [
   {
-    "sku": "1937",
-    "name": "my T",
+    "sku": "1936",
+    "name": "CABLE CUT PLIER ÈäÓÉ ÞØÚ ßÇÈá",
     "price": 3.5,
     "imageUrl": "",
     "barcode": "1000000001936",
@@ -13,7 +13,7 @@ window.NABIL_PRODUCTS = [
     "attribute": "",
     "dimensions": "",
     "inventoryTracked": true,
-    "imagePath": "",
+    "imagePath": "./images/1936.jpg",
     "additionalImagePaths": []
   }
 ];
