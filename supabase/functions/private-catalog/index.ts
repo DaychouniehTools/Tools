@@ -14,6 +14,7 @@ const jsonHeaders = { "Content-Type": "application/json; charset=utf-8" };
 
 function response(body: unknown, status: number, origin = ""): Response {
   const headers = new Headers(jsonHeaders);
+  headers.set("Cache-Control", "private, no-store");
   headers.set("Access-Control-Allow-Origin", origin);
   headers.set("Access-Control-Allow-Methods", "POST, OPTIONS");
   headers.set("Access-Control-Allow-Headers", "authorization, x-client-info, apikey, content-type");
@@ -111,7 +112,7 @@ Deno.serve(async (request) => {
       return response({ ok: true }, 200, allowedOrigin);
     }
 
-    if (action === "catalog" || action === "session-heartbeat") {
+    if (action === "catalog" || action === "session-heartbeat" || action === "refresh-images") {
       const { data: grant, error: grantError } = await admin
         .from("private_catalog_customer_access")
         .select("expires_at, blocked_at")
@@ -119,7 +120,7 @@ Deno.serve(async (request) => {
         .maybeSingle();
       if (grantError) throw new Error("Could not verify catalogue access.");
       if (!grant || grant.blocked_at || new Date(grant.expires_at).getTime() <= Date.now()) {
-        return response({ error: "Catalogue access is not active. Enter your code or contact the shop." }, 403, allowedOrigin);
+        return response({ error: "Catalogue access is not active. Contact the shop owner." }, 403, allowedOrigin);
       }
 
       const sessionId = typeof body.sessionId === "string" ? body.sessionId : "";
@@ -143,13 +144,15 @@ Deno.serve(async (request) => {
         return response({ ok: true, activeSessions: reservation.active_sessions, expiresAt: reservation.expires_at }, 200, allowedOrigin);
       }
 
-      const { error: logError } = await admin.from("private_catalog_access_logs").insert({
-        user_id: user.id,
-        email: user.email,
-        full_name: customerName(user),
-        ip_address: getClientIp(request)
-      });
-      if (logError) throw new Error("Could not record catalogue access.");
+      if (action === "catalog") {
+        const { error: logError } = await admin.from("private_catalog_access_logs").insert({
+          user_id: user.id,
+          email: user.email,
+          full_name: customerName(user),
+          ip_address: getClientIp(request)
+        });
+        if (logError) throw new Error("Could not record catalogue access.");
+      }
 
       const { data: rows, error: productsError } = await admin
         .from("private_catalog_products")
@@ -157,12 +160,14 @@ Deno.serve(async (request) => {
         .order("sku");
       if (productsError) throw new Error("Could not load the private catalogue.");
       const products = await Promise.all((rows ?? []).map((row) => signedProduct(row.product, admin.storage)));
-      return response({
-        products,
-        expiresAt: grant.expires_at,
-        activeSessions: reservation.active_sessions,
-        maxSessions: MAX_CUSTOMER_SESSIONS
-      }, 200, allowedOrigin);
+      return response(action === "catalog"
+        ? {
+          products,
+          expiresAt: grant.expires_at,
+          activeSessions: reservation.active_sessions,
+          maxSessions: MAX_CUSTOMER_SESSIONS
+        }
+        : { products }, 200, allowedOrigin);
     }
 
     if (!isAdmin) return response({ error: "Shop-owner permission is required." }, 403, allowedOrigin);
@@ -238,10 +243,14 @@ Deno.serve(async (request) => {
         updated_at: new Date().toISOString()
       }, { onConflict: "user_id" });
       if (grantError) {
-        if (createdUser) await admin.auth.admin.deleteUser(userId);
+        if (createdUser) {
+          const { error: deleteError } = await admin.auth.admin.deleteUser(userId);
+          if (deleteError) throw new Error("Catalogue access could not be saved, and the new authentication account could not be removed. Contact support.");
+        }
         throw new Error("The account was created but catalogue access could not be saved.");
       }
-      await admin.from("private_catalog_active_sessions").delete().eq("user_id", userId);
+      const { error: sessionsError } = await admin.from("private_catalog_active_sessions").delete().eq("user_id", userId);
+      if (sessionsError) throw new Error("Customer access was updated, but active sessions could not be cleared.");
       return response({ ok: true, email, duration: amount, unit }, 200, allowedOrigin);
     }
 
