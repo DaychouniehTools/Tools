@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f4f5">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Private catalogue — Daychounieh Tools</title>
+  <style>
+    :root { color-scheme: light; font-family: "Segoe UI", Arial, sans-serif; color: #18232c; background: #f2f4f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(980px, calc(100% - 32px)); margin: 38px auto; }
+    .brand { color: #172b3a; font-size: 13px; font-weight: 800; letter-spacing: .04em; }
+    h1 { margin: 12px 0; font-size: clamp(28px, 5vw, 40px); letter-spacing: -.04em; }
+    h2 { margin: 0 0 10px; font-size: 22px; }
+    h3 { margin: 24px 0 10px; }
+    p { color: #596873; line-height: 1.55; }
+    .panel { margin-top: 22px; padding: clamp(20px, 4vw, 32px); border: 1px solid #dfe5e9; border-radius: 10px; background: #fff; box-shadow: 0 18px 55px rgba(23, 43, 58, .08); }
+    label { display: block; margin: 12px 0 7px; font-size: 13px; font-weight: 700; }
+    input, select { min-height: 42px; max-width: 100%; padding: 0 11px; border: 1px solid #cbd4da; border-radius: 5px; font: inherit; }
+    input[type="email"], input[type="password"] { width: 100%; }
+    input[type="file"] { width: 100%; padding: 8px; }
+    button, .button { min-height: 42px; padding: 0 15px; border: 1px solid #172b3a; border-radius: 5px; background: #172b3a; color: #fff; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+    button:hover, .button:hover { background: #243d50; }
+    button.secondary, .button.secondary { border-color: #cbd4da; background: #fff; color: #18232c; }
+    button.danger { border-color: #a53c35; background: #fff; color: #a53c35; }
+    button:disabled { cursor: not-allowed; opacity: .55; }
+    .entry-row { display: flex; gap: 9px; }
+    .entry-row input { flex: 1; min-width: 0; }
+    .actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 13px; }
+    .status { min-height: 22px; margin: 10px 0 0; font-size: 13px; }
+    .status.error { color: #a53c35; }
+    .status.success { color: #176b38; }
+    .hint, .privacy { font-size: 12px; }
+    .privacy { margin-top: 22px; padding: 12px; border-left: 3px solid #ef7b25; background: #fff7ef; }
+    [hidden] { display: none !important; }
+    .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+    .toolbar h2 { margin: 0; }
+    .filters { display: flex; flex-wrap: wrap; gap: 7px; margin: 15px 0; }
+    .filters button { min-height: 33px; padding: 0 11px; border-color: #dfe5e9; background: #fff; color: #18232c; font-size: 12px; }
+    .filters button.active { border-color: #172b3a; background: #172b3a; color: #fff; }
+    .search { width: 100%; margin: 15px 0 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; }
+    .product { overflow: hidden; border: 1px solid #dfe5e9; border-radius: 7px; background: #fff; }
+    .product img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #e9eef1; }
+    .product-info { padding: 14px; }
+    .product-category { margin: 0 0 7px; color: #63717c; font-size: 12px; }
+    .product h3 { margin: 0 0 7px; font-size: 16px; }
+    .sku { margin: 0 0 10px; font-size: 12px; }
+    .price { margin: 0; color: #172b3a; font-size: 19px; font-weight: 800; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; text-align: left; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid #e5eaed; vertical-align: top; }
+    th { color: #63717c; font-size: 10px; text-transform: uppercase; letter-spacing: .04em; }
+    td code { overflow-wrap: anywhere; }
+    .small-button { min-height: 32px; padding: 0 9px; font-size: 11px; }
+    .status-pill { font-weight: 700; }
+    .status-pill.good { color: #176b38; }
+    .status-pill.bad { color: #a53c35; }
+    .owner-form { display: grid; grid-template-columns: minmax(180px, 1fr) auto auto; gap: 10px; align-items: end; }
+    .owner-form label { margin-top: 0; }
+    .owner-form input, .owner-form select { width: 100%; }
+    .once-code { margin-top: 10px; padding: 12px; border: 1px solid #dfe5e9; border-radius: 5px; background: #f2f4f5; overflow-wrap: anywhere; }
+    .once-code strong { font-size: 18px; letter-spacing: .04em; }
+    footer { margin: 24px 0; text-align: center; font-size: 12px; }
+    @media (max-width: 580px) {
+      main { margin-top: 24px; }
+      .entry-row, .owner-form { display: flex; flex-direction: column; align-items: stretch; }
+      .entry-row button { width: 100%; }
+      .owner-form > div { width: 100%; }
+      .toolbar { align-items: flex-start; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0"></script>
+  <script src="./private-catalog-config.js"></script>
+</head>
+<body>
+  <main>
+    <a class="brand" href="./">DAYCHOUNIEH TOOLS · خردوات الديشونية</a>
+    <h1>Private customer catalogue</h1>
+    <p>Product names, categories, photos, and prices are available only after access is verified.</p>
+
+    <section class="panel" id="access-panel" aria-labelledby="access-title">
+      <div id="customer-access">
+        <h2 id="access-title">Customer access</h2>
+        <p>Enter the individual code from the shop. It is assigned to one Google email address.</p>
+        <form id="code-form">
+          <label for="access-code">Your individual access code</label>
+          <div class="entry-row">
+            <input id="access-code" type="password" autocomplete="off" required aria-describedby="code-status">
+            <button type="submit">Continue</button>
+          </div>
+          <p class="status" id="code-status" role="status" aria-live="polite"></p>
+        </form>
+        <div id="google-step" hidden>
+          <p class="hint">Next, sign in with the Google account the shop assigned to this code.</p>
+          <button id="google-customer" type="button">Continue with Google</button>
+        </div>
+        <div class="actions">
+          <button class="secondary" id="google-owner" type="button">Shop owner sign-in</button>
+        </div>
+      </div>
+      <p class="privacy">Privacy notice: the shop records the Google name/email and IP address when you access the catalogue. IP access logs are automatically deleted after 24 hours.</p>
+    </section>
+
+    <section class="panel" id="catalog-panel" hidden>
+      <div class="toolbar">
+        <h2>Products and prices</h2>
+        <button class="secondary" id="customer-signout" type="button">Sign out and lock</button>
+      </div>
+      <p class="hint" id="catalog-summary"></p>
+      <input class="search" id="product-search" type="search" placeholder="Search products or item code" aria-label="Search private catalogue">
+      <div class="filters" id="category-filters" aria-label="Product categories"></div>
+      <div class="grid" id="product-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" id="owner-panel" hidden>
+      <div class="toolbar">
+        <h2>Shop owner access management</h2>
+        <button class="secondary" id="owner-signout" type="button">Sign out</button>
+      </div>
+      <p>Issue one code for a specific Google email. Set access for hours or days; the time starts when the customer first uses the code successfully.</p>
+      <form class="owner-form" id="issue-form">
+        <div><label for="customer-email">Customer Google email</label><input id="customer-email" type="email" required></div>
+        <div><label for="access-duration">Access duration</label><input id="access-duration" type="number" min="1" max="8760" value="24" required></div>
+        <div><label for="duration-unit">Unit</label><select id="duration-unit"><option value="hours">Hours</option><option value="days">Days</option></select></div>
+        <div><button type="submit">Issue individual code</button></div>
+      </form>
+      <div id="issued-code" class="once-code" hidden></div>
+      <p class="status" id="owner-status" role="status" aria-live="polite"></p>
+
+      <h3>Import the private product catalogue</h3>
+      <p class="hint">Choose the local <code>catalog.js</code> created by your importer (or a JSON product array). Product photos are uploaded separately to private storage; they are not published with the public website.</p>
+      <label for="catalog-file">Local catalogue file</label>
+      <input id="catalog-file" type="file" accept=".js,.json,application/json">
+      <label for="photo-files">Product photo folder (optional; files up to 8 MB each)</label>
+      <input id="photo-files" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple webkitdirectory>
+      <div class="actions"><button id="import-catalog" type="button">Upload photos and replace private catalogue</button></div>
+      <p class="hint" id="import-status" role="status" aria-live="polite"></p>
+
+      <h3>Customer codes</h3>
+      <div class="table-wrap"><table><thead><tr><th>Customer email</th><th>Code status</th><th>Access duration</th><th>Issued</th><th>Action</th></tr></thead><tbody id="codes-table"></tbody></table></div>
+      <h3>Accounts and access</h3>
+      <div class="table-wrap"><table><thead><tr><th>Google profile</th><th>Email</th><th>Access ends</th><th>Status</th><th>Action</th></tr></thead><tbody id="customers-table"></tbody></table></div>
+      <h3>Access log (last 24 hours)</h3>
+      <div class="table-wrap"><table><thead><tr><th>Google profile</th><th>Email</th><th>Access time</th><th>IP address</th></tr></thead><tbody id="logs-table"></tbody></table></div>
+    </section>
+
+    <p class="status" id="page-status" role="status" aria-live="polite"></p>
+    <footer><a href="./">Return to the public shop homepage</a></footer>
+  </main>
+  <script>
+    (() => {
+      "use strict";
+
+      const CODE_KEY = "daychounieh.pending-customer-code";
+      const config = window.PRIVATE_CATALOG_CONFIG;
+      const pageStatus = document.getElementById("page-status");
+      const accessPanel = document.getElementById("access-panel");
+      const customerAccess = document.getElementById("customer-access");
+      const catalogPanel = document.getElementById("catalog-panel");
+      const ownerPanel = document.getElementById("owner-panel");
+      const products = [];
+      let activeCategory = "All";
+      let ownerData = null;
+
+      function status(element, message, kind = "") {
+        element.textContent = message;
+        element.className = `status${kind ? ` ${kind}` : ""}`;
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (character) => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+        })[character]);
+      }
+
+      function formatPrice(value) {
+        const number = Number(value);
+        if (!Number.isFinite(number)) return "Ask for price";
+        return new Intl.NumberFormat(undefined, { style: "currency", currency: "USD" }).format(number);
+      }
+
+      function showCustomer() {
+        accessPanel.hidden = false;
+        customerAccess.hidden = false;
+        catalogPanel.hidden = true;
+        ownerPanel.hidden = true;
+      }
+
+      function showCatalogue(items) {
+        products.splice(0, products.length, ...items);
+        accessPanel.hidden = true;
+        ownerPanel.hidden = true;
+        catalogPanel.hidden = false;
+        renderProducts();
+      }
+
+      function renderProducts() {
+        const query = document.getElementById("product-search").value.trim().toLowerCase();
+        const categories = ["All", ...Array.from(new Set(products.map((product) => String(product.category || "Other")))).sort()];
+        if (!categories.includes(activeCategory)) activeCategory = "All";
+        document.getElementById("category-filters").innerHTML = categories.map((category) =>
+          `<button type="button" class="${category === activeCategory ? "active" : ""}" data-category="${escapeHtml(category)}">${escapeHtml(category)}</button>`
+        ).join("");
+        const visible = products.filter((product) => {
+          const category = String(product.category || "Other");
+          return (activeCategory === "All" || category === activeCategory)
+            && [product.name, product.sku, category, product.description].some((value) => String(value || "").toLowerCase().includes(query));
+        });
+        document.getElementById("catalog-summary").textContent = `${visible.length} of ${products.length} products`;
+        document.getElementById("product-grid").innerHTML = visible.length ? visible.map((product) => {
+          const image = typeof product.imageUrl === "string" ? product.imageUrl : "";
+          return `<article class="product">
+            ${image ? `<img src="${escapeHtml(image)}" alt="" loading="lazy">` : ""}
+            <div class="product-info">
+              <p class="product-category">${escapeHtml(product.category || "Other")}</p>
+              <h3>${escapeHtml(product.name || "Unnamed item")}</h3>
+              <p class="sku">Item code: ${escapeHtml(product.sku)}</p>
+              <p class="price">${escapeHtml(formatPrice(product.price))}</p>
+            </div>
+          </article>`;
+        }).join("") : "<p>No matching products.</p>";
+      }
+
+      function durationLabel(seconds) {
+        const hours = Math.round(Number(seconds) / 3600);
+        return hours % 24 === 0 ? `${hours / 24} day(s)` : `${hours} hour(s)`;
+      }
+
+      function renderOwner() {
+        if (!ownerData) return;
+        const now = Date.now();
+        document.getElementById("codes-table").innerHTML = ownerData.codes.map((item) => {
+          const statusText = item.revoked_at ? "Disabled" : item.redeemed_by ? "Used" : "Available";
+          return `<tr>
+            <td>${escapeHtml(item.email)}</td>
+            <td>${escapeHtml(statusText)}</td>
+            <td>${escapeHtml(durationLabel(item.duration_seconds))}</td>
+            <td>${escapeHtml(new Date(item.created_at).toLocaleString())}</td>
+            <td>${item.revoked_at ? "" : `<button class="danger small-button" type="button" data-disable-code="${escapeHtml(item.id)}">Disable</button>`}</td>
+          </tr>`;
+        }).join("") || "<tr><td colspan='5'>No codes have been issued.</td></tr>";
+
+        document.getElementById("customers-table").innerHTML = ownerData.customers.map((item) => {
+          const blocked = Boolean(item.blocked_at);
+          const expired = new Date(item.expires_at).getTime() <= now;
+          const label = blocked ? "Blocked" : expired ? "Expired" : "Active";
+          return `<tr>
+            <td>${escapeHtml(item.full_name || "Google customer")}</td>
+            <td>${escapeHtml(item.email)}</td>
+            <td>${escapeHtml(new Date(item.expires_at).toLocaleString())}</td>
+            <td class="status-pill ${blocked || expired ? "bad" : "good"}">${label}</td>
+            <td><button class="${blocked ? "secondary" : "danger"} small-button" type="button" data-block-user="${escapeHtml(item.user_id)}" data-blocked="${!blocked}">${blocked ? "Unblock" : "Block"}</button></td>
+          </tr>`;
+        }).join("") || "<tr><td colspan='5'>No customer accounts yet.</td></tr>";
+
+        document.getElementById("logs-table").innerHTML = ownerData.logs.map((item) => `
+          <tr>
+            <td>${escapeHtml(item.full_name || "Google customer")}</td>
+            <td>${escapeHtml(item.email)}</td>
+            <td>${escapeHtml(new Date(item.accessed_at).toLocaleString())}</td>
+            <td>${escapeHtml(item.ip_address || "Unavailable")}</td>
+          </tr>`).join("") || "<tr><td colspan='4'>No catalogue accesses in the last 24 hours.</td></tr>";
+      }
+
+      function showOwner(data) {
+        ownerData = data;
+        accessPanel.hidden = true;
+        catalogPanel.hidden = true;
+        ownerPanel.hidden = false;
+        renderOwner();
+      }
+
+      function readProducts(fileContents, fileName) {
+        if (fileName.toLowerCase().endsWith(".json")) return JSON.parse(fileContents);
+        const match = fileContents.match(/^\s*window\.NABIL_PRODUCTS\s*=\s*([\s\S]*?)\s*;?\s*$/);
+        if (!match) throw new Error("Choose the importer's catalog.js file or a JSON product array.");
+        return JSON.parse(match[1]);
+      }
+
+      async function main() {
+        if (!config?.supabaseUrl || !config?.supabaseAnonKey || !window.supabase?.createClient) {
+          status(pageStatus, "Supabase is not configured yet. The shop owner must finish backend setup before customers can use this page.", "error");
+          return;
+        }
+        const client = window.supabase.createClient(config.supabaseUrl, config.supabaseAnonKey);
+
+        async function invoke(action, body = {}) {
+          const requestBody = body instanceof FormData ? body : { action, ...body };
+          const { data, error } = await client.functions.invoke("private-catalog", { body: requestBody });
+          if (error) {
+            let message = error.message;
+            if (error.context && typeof error.context.json === "function") {
+              try {
+                const details = await error.context.json();
+                if (details.error) message = details.error;
+              } catch {
+                message = error.message;
+              }
+            }
+            throw new Error(message);
+          }
+          return data;
+        }
+
+        async function googleSignIn() {
+          const { error } = await client.auth.signInWithOAuth({
+            provider: "google",
+            options: { redirectTo: window.location.href }
+          });
+          if (error) throw error;
+        }
+
+        document.getElementById("code-form").addEventListener("submit", (event) => {
+          event.preventDefault();
+          const code = document.getElementById("access-code").value.trim().toUpperCase();
+          if (!/^DT-[A-F0-9]{8}-[A-F0-9]{8}$/.test(code)) {
+            status(document.getElementById("code-status"), "Enter the individual code provided by the shop.", "error");
+            return;
+          }
+          sessionStorage.setItem(CODE_KEY, code);
+          document.getElementById("google-step").hidden = false;
+          status(document.getElementById("code-status"), "Code entered. Sign in with the Google email assigned to this code.", "success");
+        });
+        document.getElementById("google-customer").addEventListener("click", () => googleSignIn().catch((error) => status(pageStatus, error.message, "error")));
+        document.getElementById("google-owner").addEventListener("click", () => {
+          sessionStorage.removeItem(CODE_KEY);
+          googleSignIn().catch((error) => status(pageStatus, error.message, "error"));
+        });
+        document.getElementById("duration-unit").addEventListener("change", (event) => {
+          const duration = document.getElementById("access-duration");
+          duration.max = event.currentTarget.value === "days" ? "365" : "8760";
+          if (Number(duration.value) > Number(duration.max)) duration.value = duration.max;
+        });
+        document.getElementById("customer-signout").addEventListener("click", async () => {
+          sessionStorage.removeItem(CODE_KEY);
+          await client.auth.signOut();
+          products.splice(0);
+          document.getElementById("product-search").value = "";
+          showCustomer();
+        });
+        document.getElementById("owner-signout").addEventListener("click", async () => {
+          await client.auth.signOut();
+          ownerData = null;
+          showCustomer();
+        });
+        document.getElementById("product-search").addEventListener("input", renderProducts);
+        document.getElementById("category-filters").addEventListener("click", (event) => {
+          const button = event.target.closest("[data-category]");
+          if (!button) return;
+          activeCategory = button.dataset.category;
+          renderProducts();
+        });
+
+        document.getElementById("issue-form").addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const button = event.currentTarget.querySelector("button[type='submit']");
+          button.disabled = true;
+          try {
+            const data = await invoke("issue-code", {
+              email: document.getElementById("customer-email").value,
+              duration: Number(document.getElementById("access-duration").value),
+              unit: document.getElementById("duration-unit").value
+            });
+            const issued = document.getElementById("issued-code");
+            issued.hidden = false;
+            issued.innerHTML = `Send this one-time code to <strong>${escapeHtml(data.email)}</strong>:<br><strong>${escapeHtml(data.code)}</strong><br><span class="hint">Copy it now; the system stores only a secure hash. Its access period starts on first successful use.</span>`;
+            status(document.getElementById("owner-status"), "Individual code issued.", "success");
+            ownerData = await invoke("owner-list");
+            renderOwner();
+          } catch (error) {
+            status(document.getElementById("owner-status"), error.message, "error");
+          } finally {
+            button.disabled = false;
+          }
+        });
+
+        document.getElementById("codes-table").addEventListener("click", async (event) => {
+          const button = event.target.closest("[data-disable-code]");
+          if (!button || !window.confirm("Disable this customer code and block its account if it was used?")) return;
+          button.disabled = true;
+          try {
+            await invoke("disable-code", { codeId: button.dataset.disableCode });
+            ownerData = await invoke("owner-list");
+            renderOwner();
+          } catch (error) {
+            status(document.getElementById("owner-status"), error.message, "error");
+            button.disabled = false;
+          }
+        });
+
+        document.getElementById("customers-table").addEventListener("click", async (event) => {
+          const button = event.target.closest("[data-block-user]");
+          if (!button) return;
+          button.disabled = true;
+          try {
+            await invoke("set-blocked", { userId: button.dataset.blockUser, blocked: button.dataset.blocked === "true" });
+            ownerData = await invoke("owner-list");
+            renderOwner();
+          } catch (error) {
+            status(document.getElementById("owner-status"), error.message, "error");
+            button.disabled = false;
+          }
+        });
+
+        document.getElementById("import-catalog").addEventListener("click", async (event) => {
+          const button = event.currentTarget;
+          const catalogFile = document.getElementById("catalog-file").files[0];
+          const photoFiles = Array.from(document.getElementById("photo-files").files);
+          if (!catalogFile) {
+            status(document.getElementById("import-status"), "Choose the local catalog.js or a JSON catalogue first.", "error");
+            return;
+          }
+          button.disabled = true;
+          try {
+            const text = await catalogFile.text();
+            const items = readProducts(text, catalogFile.name);
+            if (!Array.isArray(items)) throw new Error("The catalogue file must contain a product array.");
+            const names = photoFiles.map((file) => file.name);
+            if (new Set(names).size !== names.length) throw new Error("The photo folder has duplicate filenames. Rename them so each product photo has a unique name.");
+            for (let index = 0; index < photoFiles.length; index += 1) {
+              const form = new FormData();
+              form.append("action", "upload-image");
+              form.append("file", photoFiles[index], photoFiles[index].name);
+              await invoke("", form);
+              status(document.getElementById("import-status"), `Uploaded ${index + 1} of ${photoFiles.length} private photos…`);
+            }
+            const result = await invoke("replace-catalog", { products: items });
+            status(document.getElementById("import-status"), `Private catalogue replaced with ${result.count} products.`, "success");
+          } catch (error) {
+            status(document.getElementById("import-status"), error.message, "error");
+          } finally {
+            button.disabled = false;
+          }
+        });
+
+        const { data: sessionData, error: sessionError } = await client.auth.getSession();
+        if (sessionError) throw sessionError;
+        const session = sessionData.session;
+        if (!session) return;
+
+        const pendingCode = sessionStorage.getItem(CODE_KEY);
+        if (pendingCode) {
+          const result = await invoke("redeem-code", { code: pendingCode });
+          sessionStorage.removeItem(CODE_KEY);
+          const data = await invoke("catalog");
+          showCatalogue(data.products);
+          status(pageStatus, `Access granted until ${new Date(result.expiresAt).toLocaleString()}.`, "success");
+          return;
+        }
+
+        try {
+          const data = await invoke("owner-list");
+          showOwner(data);
+        } catch (ownerError) {
+          const data = await invoke("catalog");
+          showCatalogue(data.products);
+          if (ownerError.message.includes("Shop-owner permission")) {
+            status(pageStatus, `Signed in. Access expires ${new Date(data.expiresAt).toLocaleString()}.`, "success");
+          }
+        }
+      }
+
+      main().catch((error) => {
+        console.error("Private catalogue could not start:", error);
+        showCustomer();
+        status(pageStatus, error.message || "Could not verify access. Please try again or contact the shop.", "error");
+      });
+    })();
+  </script>
+</body>
+</html>

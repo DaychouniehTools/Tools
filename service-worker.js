@@ -1,6 +1,8 @@
-const SHELL_CACHE = "daychounieh-shell-v1";
+const SHELL_CACHE = "daychounieh-shell-v2";
 const IMAGE_CACHE = "daychounieh-images-v1";
 const SCOPE_URL = new URL(self.registration.scope);
+const INDEX_URL = new URL("index.html", SCOPE_URL);
+const PRIVATE_CATALOG_URL = new URL("private-catalog.html", SCOPE_URL);
 const IMAGE_PATH = new URL("images/", SCOPE_URL).pathname;
 const activeImageJobs = new Map();
 
@@ -8,8 +10,9 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(SHELL_CACHE)
       .then((cache) => cache.addAll([
-        new URL("index.html", SCOPE_URL).href,
-        new URL("catalog.js", SCOPE_URL).href
+        INDEX_URL.href,
+        PRIVATE_CATALOG_URL.href,
+        new URL("private-catalog-config.js", SCOPE_URL).href
       ]))
       .then(() => self.skipWaiting())
   );
@@ -20,7 +23,8 @@ self.addEventListener("activate", (event) => {
     caches.keys()
       .then((names) => Promise.all(
         names
-          .filter((name) => name.startsWith("daychounieh-shell-") && name !== SHELL_CACHE)
+          .filter((name) => (name.startsWith("daychounieh-shell-") && name !== SHELL_CACHE)
+            || name.startsWith("daychounieh-images-"))
           .map((name) => caches.delete(name))
       ))
       .then(() => self.clients.claim())
@@ -33,18 +37,23 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET" || url.origin !== SCOPE_URL.origin || !url.pathname.startsWith(SCOPE_URL.pathname)) return;
 
   if (request.mode === "navigate") {
+    const cacheablePage = !url.search && [INDEX_URL.pathname, PRIVATE_CATALOG_URL.pathname].includes(url.pathname);
+    if (!cacheablePage) {
+      event.respondWith(fetch(request));
+      return;
+    }
     event.respondWith(
       fetch(request)
         .then((response) => {
           if (response.ok) {
             const copy = response.clone();
-            caches.open(SHELL_CACHE).then((cache) => cache.put(new URL("index.html", SCOPE_URL).href, copy));
+            caches.open(SHELL_CACHE).then((cache) => cache.put(request, copy));
           }
           return response;
         })
         .catch(async () => {
           const cache = await caches.open(SHELL_CACHE);
-          const page = await cache.match(new URL("index.html", SCOPE_URL).href);
+          const page = await cache.match(request) || await cache.match(INDEX_URL.href);
           if (page) return page;
           return new Response("The shop is not available offline yet. Connect to the internet and open it once.", {
             status: 503,
@@ -60,9 +69,6 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname === new URL("catalog.js", SCOPE_URL).pathname) {
-    event.respondWith(networkFirst(request, SHELL_CACHE));
-  }
 });
 
 self.addEventListener("message", (event) => {

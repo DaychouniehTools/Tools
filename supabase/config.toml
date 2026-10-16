@@ -1,0 +1,4 @@
+project_id = "daychounieh-private-catalog"
+
+[functions.private-catalog]
+verify_jwt = true

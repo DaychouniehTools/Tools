@@ -1,46 +1,71 @@
 # Daychounieh Tools
 
-Daychounieh Tools is a responsive product catalog with Arabic and English product names, SKU search, category filters, product photos, product details, a shopping bag, and WhatsApp order requests. The public storefront is hosted on GitHub Pages. Catalog imports are prepared locally on your computer.
+Daychounieh Tools has a public shop homepage and a separate private product catalogue. The private catalogue is designed to use Supabase, Google sign-in, individual customer codes, access logs, and owner-controlled blocking. Keep the local inventory importer and the public GitHub Pages deployment separate from private product data.
 
 ## Start the project
 
-Keep the storefront files (`index.html`, `catalog.js`, `.nojekyll`, and `images/`) at the repository root. The GitHub Pages workflow deploys that root, so moving the storefront into a subfolder would require changing the deployment workflow.
+Keep the public files (`index.html`, `private-catalog.html`, `private-catalog-config.js`, `service-worker.js`, and `.nojekyll`) at the repository root. The Pages workflow copies only these approved public files into its deployment artifact.
 
 Use the GitHub repository folder in both Visual Studio Code and GitHub Desktop. The Desktop `Test` folder is a link to this repository folder:
 
 1. In GitHub Desktop, open `Desktop\Test` (the folder containing `.git`).
 2. In Visual Studio Code, open that same repository folder.
-3. Keep the separate import-working copy at `Desktop\Daychounieh-Local-Project`. Choose it as the import source, then choose `Desktop\Test` as the GitHub repository destination. Never select the same folder for both.
+3. Keep the separate import-working copy at `Desktop\Daychounieh-Local-Project`. Use it for local inventory preparation; do not copy its catalog or product photos into the public GitHub repository.
 4. Put local workbooks in `imports/workbooks/` and source product photos in `imports/photos/`.
-5. Review copied changes in GitHub Desktop, then commit and push to publish through GitHub Pages.
+5. Review website code/config changes in GitHub Desktop, then commit and push those public-site changes. Never commit or push private inventory or product photos.
 
 The local-only `admin-import.html` importer is excluded from Git. For Excel/photo imports, double-click `Start Local Importer.bat` and open `http://127.0.0.1:8765/`. Use `Start POS Importer.bat` when you also need QuickBooks POS stock access. Alternatively, run the **Start local Excel importer** task from VS Code.
 
 ## Website
 
-The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The published catalog currently has no products. The import-working copy may contain local, unpublished edits. When populated, search matches names, item codes, categories, descriptions, and tags, and customers can click a product photo to see a larger image and its details.
+The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The public homepage does not load `catalog.js` or publish product images. Customers use `private-catalog.html` for code- and Google-protected product information.
+
+### Configure private customer access
+
+The private catalogue is not active until a Supabase project and Google OAuth are configured. Do not send passwords, OAuth client secrets, or the Supabase service-role key in chat or commit them to Git.
+
+1. Create a Supabase project and enable Google under **Authentication → Providers**. In Google Cloud, configure the OAuth callback URL shown by Supabase. In Supabase Auth URL settings, allow the deployed `private-catalog.html` URL as a redirect.
+2. Add the project URL and publishable/anon key to `private-catalog-config.js`. These browser values are public; never put a service-role key there.
+3. Set the Supabase Edge Function secrets `ADMIN_EMAIL` to the shop owner's Google email and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://libanabil.github.io`). The function also uses Supabase's project URL, anon key, and service-role key from its runtime environment.
+4. With the Supabase CLI installed and authenticated, run these commands from the repository folder, replacing the placeholders with your own project reference and Google email:
+
+   ```powershell
+   supabase login
+   supabase link --project-ref YOUR_PROJECT_REF
+   supabase db push
+   supabase secrets set ADMIN_EMAIL=your-google-email@example.com ALLOWED_ORIGIN=https://libanabil.github.io
+   supabase functions deploy private-catalog
+   ```
+
+   The migration creates private product/access tables, a private image bucket, and a scheduled purge for IP access logs older than 24 hours. Supabase supplies the function's backend keys at runtime; never copy the service-role key into the website.
+5. Configure GitHub Pages with the repository's Pages workflow. It deploys only the public homepage, private-catalog page/config, and service worker; it does not deploy `catalog.js` or `images/`.
+6. Open the deployed private catalogue, choose **Shop owner sign-in**, and sign in with the email configured as `ADMIN_EMAIL`. Issue a code to a customer's Google email, select the duration in hours or days, and share the generated code privately. Access time starts on the first successful redemption. Use the owner screen to block/unblock accounts, disable unused codes, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend.
+
+IP addresses and Google profile details are personal data. Keep the privacy notice visible, review applicable local privacy requirements, and do not use IP records for purposes customers have not been told about. The backend removes IP access-log rows after 24 hours.
+
+**Important public-repository limitation:** the deployment workflow excludes inventory files from the live Pages artifact, but any product data or photos already committed to a public GitHub repository may still be available through the repository or its history. Making the Pages output private does not undo previous disclosure. Do not push private inventory or product photos to GitHub; review repository visibility/history before treating existing files as confidential.
 
 ### Browse the shop offline
 
-The published HTTPS storefront caches its page and catalog after you open it online once. When product photos are present, use **Save all product photos for offline use** in the catalog and leave the page open until it confirms completion. This uses device storage and internet data; use Wi-Fi and ensure the device has enough free browser storage. The browser may report photos that could not be saved; reconnect and retry if needed. Externally hosted images, web fonts, and WhatsApp links still require internet. Opening `index.html` directly from disk does not enable offline caching; use the published HTTPS site.
+The public homepage can be cached for offline display after it is opened online once. The private catalogue requires an internet connection for Google sign-in and access checks; private product images use short-lived access links and are not available offline.
 
 Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 
 ## Import products locally
 
-The importer does not use Supabase, Google sign-in, or a remote database. It reads the workbook in your browser and writes the updated catalog and matching photos to a local project folder you choose. Do not publish `admin-import.html`.
+The local importer reads the workbook in your browser and writes the updated catalog and matching photos to a local project folder you choose. It does not itself authenticate customers or protect inventory. Do not publish `admin-import.html`, and do not push the generated `catalog.js` or product photos to a public repository; upload them from the private catalogue owner screen after backend setup.
 
 ### QuickBooks POS v9
 
-On the Windows computer with QuickBooks POS installed, log in to POS and double-click `Start POS Importer.bat`. Keep `inventory-sync/pos_importer.py` with the launcher. The connector requires 32-bit Python and `pywin32`; if prompted, install the module with `py -3-32 -m pip install pywin32`. Keep the connector window open. In the local importer, read the POS items, then review and confirm the local catalog update. QuickBooks POS currently supplies item codes and stock quantities only: the connector does not read the POS picture tick or download POS pictures. Picture cleanup checks image URLs and files in the selected local project's `images/` folder. Changes are local until reviewed and published through GitHub Desktop; clicking Read does not update the live site.
+On the Windows computer with QuickBooks POS installed, log in to POS and double-click `Start POS Importer.bat`. Keep `inventory-sync/pos_importer.py` with the launcher. The connector requires 32-bit Python and `pywin32`; if prompted, install the module with `py -3-32 -m pip install pywin32`. Keep the connector window open. In the local importer, read the POS items, then review and confirm the local catalog update. QuickBooks POS currently supplies item codes and stock quantities only: the connector does not read the POS picture tick or download POS pictures. Picture cleanup checks image URLs and files in the selected local project's `images/` folder. Inventory changes stay local until uploaded through the private owner screen; never publish them through GitHub Desktop.
 
 1. Start the local importer with `Start Local Importer.bat` and open `http://127.0.0.1:8765/` in a recent version of Chrome or Edge. Use `Start POS Importer.bat` instead when you also need QuickBooks POS stock access.
 2. Click **Select Excel file** and choose your inventory workbook (`.xlsx`/`.xls`) or CSV file. This only selects the workbook; it does not import it yet.
 3. Optionally click **Choose photos folder** and select the folder with product photos. Name the main photo after its item code, such as `290.jpg` or `290_Def.jpg`. For an optional second photo, name it `290_2.jpg` or `290_Alt.jpg`; product details show both photos with previous/next controls. JPG, PNG, WebP, and GIF files are supported.
 4. Click **Preview and import workbook**. The workbook replaces the local product list: only rows with positive numeric `Qty 1` and a non-empty `Item Name` are included. A blank name or the literal placeholder `empty` is skipped, and a previously listed product absent from the eligible workbook rows is removed. A completely blank workbook or one with only headers is allowed; after a clear confirmation, it removes every product from the local catalog while leaving photos in place. The previous local catalog is backed up under `imports/backups/`.
-5. Check the updated local storefront. To transfer the inventory update to GitHub Desktop, choose the local project folder, then the separate repository folder containing `.git`, `index.html`, and `images`. Click **Copy catalog and photos to GitHub Desktop**. It copies `catalog.js` and referenced photos, does not delete extra images, and does not publish. Review the changes and commit and push them in GitHub Desktop to publish.
+5. Check the updated local storefront. When private access is configured, sign in to the owner screen in `private-catalog.html`, select the local `catalog.js` and matching photo folder, and upload them to the private backend. Do not use GitHub Desktop to publish inventory data or product photos.
 
-To remove all items without choosing a workbook, choose the local project folder and click **Delete all items**. Confirm the prompt; the old catalog is backed up and product image files are not deleted. This changes only the local catalog. To remove items from the live site too, copy the empty catalog to the repository and publish it with GitHub Desktop.
+To remove all items without choosing a workbook, choose the local project folder and click **Delete all items**. Confirm the prompt; the old catalog is backed up and product image files are not deleted. To remove items from the private live catalogue, upload the resulting empty catalog through the private owner screen.
 
 To remove every catalog item that has no usable local or web picture, click **Remove items without pictures** next to the import button. The tool checks all catalog items against existing files in the project's `images/` folder and valid web image URLs, shows a confirmation with the number to remove, and leaves all image files untouched. Back up the project before confirming; removing catalog items cannot be undone by the importer.
 
@@ -68,4 +93,4 @@ The public site, product names, prices, item codes, and photos are visible to vi
 
 ## GitHub Pages
 
-Keep `index.html`, `catalog.js`, `.nojekyll`, and the complete `images/` folder in the public repository. GitHub Pages serves the storefront. Import products locally, then publish the updated catalog and photos using GitHub Desktop. Do not add `admin-import.html` to the public repository.
+GitHub Pages publishes only the explicitly selected public files in `.github/workflows/static.yml`. `catalog.js` and `images/` are deliberately excluded from the Pages artifact. Product data and product photos belong in the private Supabase database/storage and should never be pushed to a public repository.
