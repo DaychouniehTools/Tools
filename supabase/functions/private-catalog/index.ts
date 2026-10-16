@@ -9,6 +9,7 @@ const adminEmails = new Set((Deno.env.get("ADMIN_EMAILS") ?? "")
   .filter(Boolean));
 const allowedOrigin = (Deno.env.get("ALLOWED_ORIGIN") ?? "").trim();
 const bucketName = "catalog-images";
+const MAX_CUSTOMER_SESSIONS = 3;
 const jsonHeaders = { "Content-Type": "application/json; charset=utf-8" };
 
 function response(body: unknown, status: number, origin = ""): Response {
@@ -44,13 +45,6 @@ function customerName(user: User): string {
   const metadata = user.user_metadata ?? {};
   const name = metadata.full_name ?? metadata.name ?? "";
   return typeof name === "string" ? name.trim().slice(0, 200) : "";
-}
-
-function usesGoogle(user: User): boolean {
-  const providers = Array.isArray(user.app_metadata.providers) ? user.app_metadata.providers : [];
-  return user.app_metadata.provider === "google"
-    || providers.includes("google")
-    || (user.identities?.some((identity) => identity.provider === "google") ?? false);
 }
 
 function storageName(value: unknown): string {
@@ -101,9 +95,7 @@ Deno.serve(async (request) => {
     });
     const { data: authData, error: authError } = await publicClient.auth.getUser();
     const user = authData.user;
-    if (authError || !user || !usesGoogle(user)) {
-      return response({ error: "Sign in with an approved Google account to continue." }, 401, allowedOrigin);
-    }
+    if (authError || !user || !user.email) return response({ error: "Sign in with your account to continue." }, 401, allowedOrigin);
 
     const admin = createClient(supabaseUrl, serviceRoleKey, { auth: { persistSession: false } });
     const isAdmin = adminEmails.has((user.email ?? "").trim().toLowerCase());
@@ -117,24 +109,7 @@ Deno.serve(async (request) => {
     }
     const action = body.action;
 
-    if (action === "redeem-code") {
-      if (isAdmin) return response({ error: "Shop owners do not use customer access codes." }, 403, allowedOrigin);
-      const code = typeof body.code === "string" ? body.code.trim().toUpperCase() : "";
-      if (!/^DT-[A-F0-9]{8}-[A-F0-9]{8}$/.test(code) || !user.email) {
-        return response({ error: "The code or Google account is not valid." }, 400, allowedOrigin);
-      }
-      const { data, error } = await admin.rpc("private_catalog_redeem_code", {
-        p_user_id: user.id,
-        p_email: user.email,
-        p_full_name: customerName(user),
-        p_code_hash: await codeHash(code)
-      });
-      if (error) throw new Error("Could not verify the access code.");
-      if (!data?.ok) return response({ error: "This code is invalid, expired, disabled, or belongs to another Google account." }, 403, allowedOrigin);
-      return response({ ok: true, expiresAt: data.expires_at }, 200, allowedOrigin);
-    }
-
-    if (action === "catalog") {
+    if (action === "catalog" || action === "session-heartbeat") {
       const { data: grant, error: grantError } = await admin
         .from("private_catalog_customer_access")
         .select("expires_at, blocked_at")
@@ -145,9 +120,30 @@ Deno.serve(async (request) => {
         return response({ error: "Catalogue access is not active. Enter your code or contact the shop." }, 403, allowedOrigin);
       }
 
+      const sessionId = typeof body.sessionId === "string" ? body.sessionId : "";
+      if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(sessionId)) {
+        return response({ error: "Could not verify this browser session. Sign in again." }, 400, allowedOrigin);
+      }
+      const { data: reservation, error: reservationError } = await admin.rpc("private_catalog_reserve_session", {
+        p_user_id: user.id,
+        p_session_id: sessionId,
+        p_max_sessions: MAX_CUSTOMER_SESSIONS
+      });
+      if (reservationError) throw new Error("Could not reserve a catalogue session.");
+      if (!reservation?.ok) {
+        const message = reservation?.error === "session_limit"
+          ? `The shop allows up to ${MAX_CUSTOMER_SESSIONS} customer sessions at once. Sign out on another device and wait up to 90 seconds, then try again.`
+          : "Catalogue access is not active. Contact the shop.";
+        return response({ error: message }, 403, allowedOrigin);
+      }
+
+      if (action === "session-heartbeat") {
+        return response({ ok: true, activeSessions: reservation.active_sessions, expiresAt: reservation.expires_at }, 200, allowedOrigin);
+      }
+
       const { error: logError } = await admin.from("private_catalog_access_logs").insert({
         user_id: user.id,
-        email: user.email ?? "",
+        email: user.email,
         full_name: customerName(user),
         ip_address: getClientIp(request)
       });
@@ -159,7 +155,12 @@ Deno.serve(async (request) => {
         .order("sku");
       if (productsError) throw new Error("Could not load the private catalogue.");
       const products = await Promise.all((rows ?? []).map((row) => signedProduct(row.product, admin.storage)));
-      return response({ products, expiresAt: grant.expires_at }, 200, allowedOrigin);
+      return response({
+        products,
+        expiresAt: grant.expires_at,
+        activeSessions: reservation.active_sessions,
+        maxSessions: MAX_CUSTOMER_SESSIONS
+      }, 200, allowedOrigin);
     }
 
     if (!isAdmin) return response({ error: "Shop-owner permission is required." }, 403, allowedOrigin);

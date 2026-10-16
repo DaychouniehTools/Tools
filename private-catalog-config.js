@@ -1,4 +1,4 @@
 window.PRIVATE_CATALOG_CONFIG = {
-  supabaseUrl: "",
-  supabaseAnonKey: ""
+  supabaseUrl: "https://cpinzcbarjxusgwkjovt.supabase.co",
+  supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNwaW56Y2Jhcmp4dXNnd2tqb3Z0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5MDAwOTYsImV4cCI6MjEwNzQ3NjA5Nn0.a5MblSqMOKPr7sZB7Ll00-C_7cxU5gYOwxTKyAk2Hds"
 };

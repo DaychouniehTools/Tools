@@ -33,13 +33,13 @@ The private catalogue is not active until a Supabase project and Google OAuth ar
    supabase login
    supabase link --project-ref YOUR_PROJECT_REF
    supabase db push
-   supabase secrets set ADMIN_EMAILS=owner-one@gmail.com,owner-two@gmail.com ALLOWED_ORIGIN=https://libanabil.github.io
+   supabase secrets set ADMIN_EMAILS=libanabil9@gmail.com,bejjani.nabil@gmail.com,abboud.amale@gmail.com ALLOWED_ORIGIN=https://libanabil.github.io
    supabase functions deploy private-catalog
    ```
 
    The migration creates private product/access tables, a private image bucket, and a scheduled purge for IP access logs older than 24 hours. Supabase supplies the function's backend keys at runtime; never copy the service-role key into the website.
 5. Configure GitHub Pages with the repository's Pages workflow. It deploys only the public homepage, private-catalog page/config, and service worker; it does not deploy `catalog.js` or `images/`.
-6. Open the deployed private catalogue, choose **Shop owner sign-in**, and sign in with an email configured in `ADMIN_EMAILS`. Issue a code to a customer's Google email, select the duration in hours or days, and share the generated code privately. Access time starts on the first successful redemption. Use the owner screen to block/unblock customer accounts, disable unused customer codes, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend. All configured owners have the same management powers; an owner cannot issue customer codes to, block, or disable another owner's account.
+6. Open the deployed private catalogue, choose **Shop owner sign-in**, and sign in with an email configured in `ADMIN_EMAILS`: `libanabil9@gmail.com`, `bejjani.nabil@gmail.com`, or `abboud.amale@gmail.com`. Issue a code to a customer's Google email, select the duration in hours or days, and share the generated code privately. Access time starts on the first successful redemption. Use the owner screen to block/unblock customer accounts, disable unused customer codes, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend. All configured owners have the same management powers; an owner cannot issue customer codes to, block, or disable another owner's account.
 
 IP addresses and Google profile details are personal data. Keep the privacy notice visible, review applicable local privacy requirements, and do not use IP records for purposes customers have not been told about. The backend removes IP access-log rows after 24 hours.
 
