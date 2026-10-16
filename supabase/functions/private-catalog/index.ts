@@ -30,17 +30,6 @@ function getClientIp(request: Request): string {
   return forwarded ? forwarded.split(",").at(-1)?.trim().slice(0, 64) ?? "" : "";
 }
 
-function codeHash(code: string): Promise<string> {
-  return crypto.subtle.digest("SHA-256", new TextEncoder().encode(code))
-    .then((digest) => Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join(""));
-}
-
-function newAccessCode(): string {
-  const bytes = crypto.getRandomValues(new Uint8Array(8));
-  const random = Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0")).join("").toUpperCase();
-  return `DT-${random.slice(0, 8)}-${random.slice(8)}`;
-}
-
 function customerName(user: User): string {
   const metadata = user.user_metadata ?? {};
   const name = metadata.full_name ?? metadata.name ?? "";
@@ -109,6 +98,19 @@ Deno.serve(async (request) => {
     }
     const action = body.action;
 
+    if (action === "release-session") {
+      const sessionId = typeof body.sessionId === "string" ? body.sessionId : "";
+      if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(sessionId)) {
+        return response({ error: "Could not verify this browser session." }, 400, allowedOrigin);
+      }
+      const { error } = await admin.rpc("private_catalog_release_session", {
+        p_user_id: user.id,
+        p_session_id: sessionId
+      });
+      if (error) throw new Error("Could not release this browser session.");
+      return response({ ok: true }, 200, allowedOrigin);
+    }
+
     if (action === "catalog" || action === "session-heartbeat") {
       const { data: grant, error: grantError } = await admin
         .from("private_catalog_customer_access")
@@ -166,67 +168,81 @@ Deno.serve(async (request) => {
     if (!isAdmin) return response({ error: "Shop-owner permission is required." }, 403, allowedOrigin);
 
     if (action === "owner-list") {
-      const [{ data: codes, error: codesError }, { data: customers, error: customersError }, { data: logs, error: logsError }] = await Promise.all([
-        admin.from("private_catalog_access_codes")
-          .select("id, email, duration_seconds, created_at, redeemed_by, redeemed_at, revoked_at")
-          .order("created_at", { ascending: false }).limit(500),
+      const activeSince = new Date(Date.now() - 90_000).toISOString();
+      const [{ data: customers, error: customersError }, { data: logs, error: logsError }, { count: activeSessions, error: sessionsError }] = await Promise.all([
         admin.from("private_catalog_customer_access")
           .select("user_id, email, full_name, expires_at, blocked_at, updated_at")
           .order("updated_at", { ascending: false }).limit(500),
         admin.from("private_catalog_access_logs")
           .select("id, user_id, email, full_name, ip_address, accessed_at")
-          .order("accessed_at", { ascending: false }).limit(1000)
+          .order("accessed_at", { ascending: false }).limit(1000),
+        admin.from("private_catalog_active_sessions")
+          .select("session_id", { count: "exact", head: true })
+          .gte("last_seen_at", activeSince)
       ]);
-      if (codesError || customersError || logsError) throw new Error("Could not load owner records.");
-      return response({ codes, customers, logs }, 200, allowedOrigin);
+      if (customersError || logsError || sessionsError) throw new Error("Could not load owner records.");
+      return response({ customers, logs, activeSessions: activeSessions ?? 0, maxSessions: MAX_CUSTOMER_SESSIONS }, 200, allowedOrigin);
     }
 
-    if (action === "issue-code") {
+    if (action === "create-customer") {
       const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+      const fullName = typeof body.fullName === "string" ? body.fullName.trim().slice(0, 200) : "";
+      const password = typeof body.password === "string" ? body.password : "";
       const amount = Number(body.duration);
       const unit = body.unit;
       const multiplier = unit === "hours" ? 3600 : unit === "days" ? 86400 : 0;
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !Number.isInteger(amount) || amount < 1 || amount * multiplier > 31536000) {
-        return response({ error: "Enter a valid customer email and a duration from 1 hour to 365 days." }, 400, allowedOrigin);
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || password.length < 12
+          || !Number.isInteger(amount) || amount < 1 || amount * multiplier > 31536000) {
+        return response({ error: "Enter a valid email, a password with at least 12 characters, and a duration from 1 hour to 365 days." }, 400, allowedOrigin);
       }
       if (adminEmails.has(email)) {
-        return response({ error: "Owner accounts already have owner access and cannot be issued customer codes." }, 400, allowedOrigin);
+        return response({ error: "An owner email cannot be added as a customer account." }, 400, allowedOrigin);
       }
-      const code = newAccessCode();
-      const { error } = await admin.from("private_catalog_access_codes").insert({
-        email,
-        code_hash: await codeHash(code),
-        duration_seconds: amount * multiplier
-      });
-      if (error) throw new Error("Could not issue the customer code.");
-      return response({ code, email, duration: amount, unit }, 200, allowedOrigin);
-    }
+      let existingUser: User | null = null;
+      for (let page = 1; page <= 1000; page += 1) {
+        const { data, error } = await admin.auth.admin.listUsers({ page, perPage: 1000 });
+        if (error) throw new Error("Could not check for an existing customer account.");
+        existingUser = data.users.find((candidate) => candidate.email?.trim().toLowerCase() === email) ?? null;
+        if (existingUser || data.users.length < 1000) break;
+      }
 
-    if (action === "disable-code") {
-      const codeId = typeof body.codeId === "string" ? body.codeId : "";
-      const { data: code, error: findError } = await admin
-        .from("private_catalog_access_codes").select("id, email, redeemed_by").eq("id", codeId).maybeSingle();
-      if (findError || !code) return response({ error: "Code not found." }, 404, allowedOrigin);
-      if (adminEmails.has(code.email.trim().toLowerCase())) {
-        return response({ error: "Owner accounts cannot be blocked or have their access disabled by another owner." }, 403, allowedOrigin);
+      let userId: string;
+      let createdUser = false;
+      if (existingUser) {
+        const { data, error } = await admin.auth.admin.updateUserById(existingUser.id, {
+          password,
+          email_confirm: true,
+          user_metadata: { ...existingUser.user_metadata, full_name: fullName }
+        });
+        if (error || !data.user) throw new Error("Could not update this customer's password.");
+        userId = data.user.id;
+      } else {
+        const { data, error } = await admin.auth.admin.createUser({
+          email,
+          password,
+          email_confirm: true,
+          user_metadata: { full_name: fullName }
+        });
+        if (error || !data.user) throw new Error(error?.message ?? "Could not create the customer account.");
+        userId = data.user.id;
+        createdUser = true;
       }
-      if (code.redeemed_by) {
-        const { data: account, error: accountError } = await admin
-          .from("private_catalog_customer_access").select("email").eq("user_id", code.redeemed_by).maybeSingle();
-        if (accountError) throw new Error("Could not verify the code owner.");
-        if (account && adminEmails.has(account.email.trim().toLowerCase())) {
-          return response({ error: "Owner accounts cannot be blocked or have their access disabled by another owner." }, 403, allowedOrigin);
-        }
+
+      const { error: grantError } = await admin.from("private_catalog_customer_access").upsert({
+        user_id: userId,
+        email,
+        full_name: fullName,
+        code_id: null,
+        expires_at: new Date(Date.now() + amount * multiplier * 1000).toISOString(),
+        blocked_at: null,
+        updated_at: new Date().toISOString()
+      }, { onConflict: "user_id" });
+      if (grantError) {
+        if (createdUser) await admin.auth.admin.deleteUser(userId);
+        throw new Error("The account was created but catalogue access could not be saved.");
       }
-      const { error: revokeError } = await admin
-        .from("private_catalog_access_codes").update({ revoked_at: new Date().toISOString() }).eq("id", code.id);
-      if (revokeError) throw new Error("Could not disable the code.");
-      if (code.redeemed_by) {
-        const { error: blockError } = await admin
-          .from("private_catalog_customer_access").update({ blocked_at: new Date().toISOString() }).eq("user_id", code.redeemed_by);
-        if (blockError) throw new Error("The code was disabled, but the customer account could not be blocked.");
-      }
-      return response({ ok: true }, 200, allowedOrigin);
+      await admin.from("private_catalog_active_sessions").delete().eq("user_id", userId);
+      return response({ ok: true, email, duration: amount, unit }, 200, allowedOrigin);
     }
 
     if (action === "set-blocked") {
@@ -243,6 +259,10 @@ Deno.serve(async (request) => {
         .update({ blocked_at: blocked ? new Date().toISOString() : null, updated_at: new Date().toISOString() })
         .eq("user_id", userId);
       if (error) throw new Error("Could not update customer access.");
+      if (blocked) {
+        const { error: sessionError } = await admin.from("private_catalog_active_sessions").delete().eq("user_id", userId);
+        if (sessionError) throw new Error("The account was blocked, but its active sessions could not be cleared.");
+      }
       return response({ ok: true }, 200, allowedOrigin);
     }
 
