@@ -61,8 +61,6 @@
     .owner-form { display: grid; grid-template-columns: minmax(180px, 1fr) auto auto; gap: 10px; align-items: end; }
     .owner-form label { margin-top: 0; }
     .owner-form input, .owner-form select { width: 100%; }
-    .once-code { margin-top: 10px; padding: 12px; border: 1px solid #dfe5e9; border-radius: 5px; background: #f2f4f5; overflow-wrap: anywhere; }
-    .once-code strong { font-size: 18px; letter-spacing: .04em; }
     footer { margin: 24px 0; text-align: center; font-size: 12px; }
     @media (max-width: 580px) {
       main { margin-top: 24px; }
@@ -159,7 +157,6 @@
       let ownerData = null;
       let heartbeatTimer = null;
       let imageRefreshTimer = null;
-      let currentClient = null;
       let currentSessionId = null;
 
       function status(element, message, kind = "") {
@@ -284,7 +281,6 @@
           return;
         }
         const client = window.supabase.createClient(config.supabaseUrl, config.supabaseAnonKey);
-        currentClient = client;
 
         async function invoke(action, body = {}) {
           const requestBody = body instanceof FormData ? body : { action, ...body };

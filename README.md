@@ -1,6 +1,6 @@
 # Daychounieh Tools
 
-Daychounieh Tools has a public shop homepage and a separate private product catalogue. The private catalogue is designed to use Supabase, Google sign-in, individual customer codes, access logs, and owner-controlled blocking. Keep the local inventory importer and the public GitHub Pages deployment separate from private product data.
+Daychounieh Tools has a public shop homepage and a separate private product catalogue. The private catalogue uses Supabase email/password sign-in, customer accounts created by shop owners, access logs, and owner-controlled blocking. Keep the local inventory importer and the public GitHub Pages deployment separate from private product data.
 
 ## Start the project
 
@@ -18,36 +18,39 @@ The local-only `admin-import.html` importer is excluded from Git. For Excel/phot
 
 ## Website
 
-The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The public homepage does not load `catalog.js` or publish product images. Customers use `private-catalog.html` for code- and Google-protected product information.
+The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The public homepage does not load `catalog.js` or publish product images. Customers use `private-catalog.html` for password-protected product information.
 
 ### Configure private customer access
 
-The private catalogue is not active until a Supabase project and Google OAuth are configured. Do not send passwords, OAuth client secrets, or the Supabase service-role key in chat or commit them to Git.
+The private catalogue is not active until Supabase is configured and the database migration and Edge Function are deployed. Do not send passwords or the Supabase service-role key in chat or commit them to Git.
 
-1. Create a Supabase project and enable Google under **Authentication → Providers**. In Google Cloud, configure the OAuth callback URL shown by Supabase. In Supabase Auth URL settings, allow the deployed `private-catalog.html` URL as a redirect.
+1. Create a Supabase project. Under **Authentication → Sign In / Providers**, disable public user sign-ups so only shop owners can create customer accounts through the private owner page. Google OAuth is not needed for this email/password flow.
 2. Add the project URL and publishable/anon key to `private-catalog-config.js`. These browser values are public; never put a service-role key there.
-3. Set the Supabase Edge Function secret `ADMIN_EMAILS` to the comma-separated Google email addresses of all shop owners and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://libanabil.github.io`). Keep the service-role key only in the function's Supabase runtime environment.
-4. With the Supabase CLI installed and authenticated, run these commands from the repository folder, replacing the placeholders with your own project reference and Google email:
+3. In **Authentication → Users**, create each owner account or set a password for an existing owner account. The configured owner emails are `libanabil9@gmail.com`, `bejjani.nabil@gmail.com`, and `abboud.amale@gmail.com`. Each owner signs in to the private catalogue with their email and password.
+4. Set the Supabase Edge Function secret `ADMIN_EMAILS` to the comma-separated owner email addresses and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://libanabil.github.io`). Keep the service-role key only in the function's Supabase runtime environment.
+5. With the Supabase CLI installed and authenticated, run these commands from the repository folder, replacing the project reference with your Supabase project ref:
 
    ```powershell
    supabase login
    supabase link --project-ref YOUR_PROJECT_REF
+   supabase migration list
+   supabase db push --dry-run
    supabase db push
-   supabase secrets set ADMIN_EMAILS=libanabil9@gmail.com,bejjani.nabil@gmail.com,abboud.amale@gmail.com ALLOWED_ORIGIN=https://libanabil.github.io
-   supabase functions deploy private-catalog
+   supabase secrets set 'ADMIN_EMAILS=libanabil9@gmail.com,bejjani.nabil@gmail.com,abboud.amale@gmail.com' 'ALLOWED_ORIGIN=https://libanabil.github.io'
+   supabase functions deploy private-catalog --project-ref YOUR_PROJECT_REF
    ```
 
-   The migration creates private product/access tables, a private image bucket, and a scheduled purge for IP access logs older than 24 hours. Supabase supplies the function's backend keys at runtime; never copy the service-role key into the website.
-5. Configure GitHub Pages with the repository's Pages workflow. It deploys only the public homepage, private-catalog page/config, and service worker; it does not deploy `catalog.js` or `images/`.
-6. Open the deployed private catalogue, choose **Shop owner sign-in**, and sign in with an email configured in `ADMIN_EMAILS`: `libanabil9@gmail.com`, `bejjani.nabil@gmail.com`, or `abboud.amale@gmail.com`. Issue a code to a customer's Google email, select the duration in hours or days, and share the generated code privately. Access time starts on the first successful redemption. Use the owner screen to block/unblock customer accounts, disable unused customer codes, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend. All configured owners have the same management powers; an owner cannot issue customer codes to, block, or disable another owner's account.
+   Review the migration list and dry-run before applying changes, including the migration timestamps and ordering; stop if anything unexpected is pending. The migrations create private product/access tables, a private image bucket, a three-customer-session limit, and a scheduled purge for IP access logs older than 24 hours. Supabase supplies the function's backend keys at runtime; never copy the service-role key into the website.
+6. Configure GitHub Pages with the repository's Pages workflow. It deploys only the public homepage, private-catalog page/config, and service worker; it does not deploy `catalog.js` or `images/`.
+7. Open the deployed private catalogue and sign in as an owner. Create customer accounts with an email address and temporary password, choose access duration in hours or days, and share the credentials privately. The account's access period starts when you create or renew it. Up to three customer browser sessions can use the catalogue at once; owner sessions do not count. Use the owner screen to block/unblock accounts, review access logs, and upload the local `catalog.js` plus the matching photo folder to the private backend. All configured owners have the same management powers; an owner cannot create a customer account for or block another owner.
 
-IP addresses and Google profile details are personal data. Keep the privacy notice visible, review applicable local privacy requirements, and do not use IP records for purposes customers have not been told about. The backend removes IP access-log rows after 24 hours.
+The shop records customer account name, email, and IP address when the catalogue is accessed. IP addresses and account details are personal data. Keep the privacy notice visible, review applicable local privacy requirements, and do not use IP records for purposes customers have not been told about. The backend removes IP access-log rows after 24 hours.
 
 **Important public-repository limitation:** the deployment workflow excludes inventory files from the live Pages artifact, but any product data or photos already committed to a public GitHub repository may still be available through the repository or its history. Making the Pages output private does not undo previous disclosure. Do not push private inventory or product photos to GitHub; review repository visibility/history before treating existing files as confidential.
 
 ### Browse the shop offline
 
-The public homepage can be cached for offline display after it is opened online once. The private catalogue requires an internet connection for Google sign-in and access checks; private product images use short-lived access links and are not available offline.
+The public homepage can be cached for offline display after it is opened online once. The private catalogue requires an internet connection for password sign-in and access checks; private product images use short-lived access links and are not available offline.
 
 Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 
