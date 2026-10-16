@@ -40,7 +40,7 @@ window.NABIL_PRODUCTS = [
     "imageUrl": "",
     "barcode": "1000000001938",
     "category": "SCREWS",
-    "description": "WEDGE\n\n100 PCS PER BAG",
+    "description": "WEDGE\n فينش\n100 PCS PER BAG",
     "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
     "inventoryQuantity": 1,
     "sizes": "8 MM",
