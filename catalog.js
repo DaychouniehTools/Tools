@@ -1,7 +1,7 @@
 window.NABIL_PRODUCTS = [
   {
     "sku": "1936",
-    "name": "CABLE CUT PLIER ÈäÓÉ ÞØÚ ßÇÈá",
+    "name": "CABLE CUT PLIER بنسة قطع كابل",
     "price": 3.5,
     "imageUrl": "",
     "barcode": "1000000001936",
@@ -18,7 +18,7 @@ window.NABIL_PRODUCTS = [
   },
   {
     "sku": "1937",
-    "name": "TILE TIE PLASTIC ÇÓÝíä ÑÈÇØ",
+    "name": "TILE TIE PLASTIC إسفين رباط",
     "price": 3,
     "imageUrl": "",
     "barcode": "1000000001937",
