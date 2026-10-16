@@ -32,5 +32,22 @@ window.NABIL_PRODUCTS = [
     "inventoryTracked": true,
     "imagePath": "./images/1937.jpg",
     "additionalImagePaths": []
+  },
+  {
+    "sku": "1938",
+    "name": "TILE TIE PLASTIC ÇÓÝíä ÑÈÇØ",
+    "price": 2.5,
+    "imageUrl": "",
+    "barcode": "1000000001938",
+    "category": "SCREWS",
+    "description": "WEDGE\n\n100 PCS PER BAG",
+    "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
+    "inventoryQuantity": 1,
+    "sizes": "8 MM",
+    "attribute": "WHITE",
+    "dimensions": "",
+    "inventoryTracked": true,
+    "imagePath": "./images/1938.jpg",
+    "additionalImagePaths": []
   }
 ];
