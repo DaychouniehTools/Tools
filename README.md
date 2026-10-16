@@ -18,7 +18,7 @@ The local-only `admin-import.html` importer is excluded from Git. For Excel/phot
 
 ## Website
 
-The current live shop is at `https://libanabil.github.io/C-Users-L_LT-Documents-Nabil/`. After the GitHub account and repository are renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The public homepage does not load `catalog.js` or publish product images. Customers use `private-catalog.html` for password-protected product information.
+The current live shop is at `https://daychouniehtools.github.io/Tools/`. After the repository is renamed, the planned address is `https://daychouniehtools.github.io/Daychounieh-Tools/`. The public homepage does not load `catalog.js` or publish product images. Customers use `private-catalog.html` for password-protected product information.
 
 ### Configure private customer access
 
@@ -27,7 +27,7 @@ The private catalogue is not active until Supabase is configured and the databas
 1. Create a Supabase project. Under **Authentication → Sign In / Providers**, disable public user sign-ups so only shop owners can create customer accounts through the private owner page. Google OAuth is not needed for this email/password flow.
 2. Add the project URL and publishable/anon key to `private-catalog-config.js`. These browser values are public; never put a service-role key there.
 3. In **Authentication → Users**, create each owner account or set a password for an existing owner account. The configured owner emails are `libanabil9@gmail.com`, `bejjani.nabil@gmail.com`, and `abboud.amale@gmail.com`. Each owner signs in to the private catalogue with their email and password.
-4. Set the Supabase Edge Function secret `ADMIN_EMAILS` to the comma-separated owner email addresses and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://libanabil.github.io`). Keep the service-role key only in the function's Supabase runtime environment.
+4. Set the Supabase Edge Function secret `ADMIN_EMAILS` to the comma-separated owner email addresses and `ALLOWED_ORIGIN` to the deployed site's origin (for the current site, `https://daychouniehtools.github.io`). Keep the service-role key only in the function's Supabase runtime environment.
 5. With the Supabase CLI installed and authenticated, run these commands from the repository folder, replacing the project reference with your Supabase project ref:
 
    ```powershell
@@ -36,7 +36,7 @@ The private catalogue is not active until Supabase is configured and the databas
    supabase migration list
    supabase db push --dry-run
    supabase db push
-   supabase secrets set 'ADMIN_EMAILS=libanabil9@gmail.com,bejjani.nabil@gmail.com,abboud.amale@gmail.com' 'ALLOWED_ORIGIN=https://libanabil.github.io'
+   supabase secrets set 'ADMIN_EMAILS=libanabil9@gmail.com,bejjani.nabil@gmail.com,abboud.amale@gmail.com' 'ALLOWED_ORIGIN=https://daychouniehtools.github.io'
    supabase functions deploy private-catalog --project-ref YOUR_PROJECT_REF
    ```
 
