@@ -78,7 +78,7 @@
 <body>
   <main>
     <a class="brand" href="./">DAYCHOUNIEH TOOLS · خردوات الديشونية</a>
-    <h1>Private customer catalogue</h1>
+    <h1>Private items catalogue</h1>
     <p>Product names, categories, photos, and prices are available only after access is verified.</p>
 
     <section class="panel" id="access-panel" aria-labelledby="access-title">
@@ -282,7 +282,7 @@
 
       async function main() {
         if (!config?.supabaseUrl || !config?.supabaseAnonKey || !window.supabase?.createClient) {
-          status(pageStatus, "Supabase is not configured yet. The shop owner must finish backend setup before customers can use this page.", "error");
+          status(pageStatus, "Private access is still being set up. Please contact the shop; customers cannot view items until setup is complete.", "error");
           return;
         }
         const client = window.supabase.createClient(config.supabaseUrl, config.supabaseAnonKey);
