@@ -1,7 +1,7 @@
 window.NABIL_PRODUCTS = [
   {
     "sku": "1936",
-    "name": "CABLE CUT PLIER بنسة قطع كابل",
+    "name": "CABLE CUT PLIER ÈäÓÉ ÞØÚ ßÇÈá",
     "price": 3.5,
     "imageUrl": "",
     "barcode": "1000000001936",
@@ -18,7 +18,7 @@ window.NABIL_PRODUCTS = [
   },
   {
     "sku": "1937",
-    "name": "TILE TIE PLASTIC إسفين رباط",
+    "name": "TILE TIE PLASTIC ÇÓÝíä ÑÈÇØ",
     "price": 3,
     "imageUrl": "",
     "barcode": "1000000001937",
@@ -31,6 +31,23 @@ window.NABIL_PRODUCTS = [
     "dimensions": "",
     "inventoryTracked": true,
     "imagePath": "./images/1937.jpg",
+    "additionalImagePaths": []
+  },
+  {
+    "sku": "1938",
+    "name": "TILE TIE PLASTIC ÇÓÝíä ÑÈÇØ",
+    "price": 2.5,
+    "imageUrl": "",
+    "barcode": "1000000001938",
+    "category": "SCREWS",
+    "description": "WEDGE\n\n100 PCS PER BAG",
+    "tags": "100, BAG, PCS, PER, PLASTIC, TIE, TILE",
+    "inventoryQuantity": 1,
+    "sizes": "8 MM",
+    "attribute": "WHITE",
+    "dimensions": "",
+    "inventoryTracked": true,
+    "imagePath": "./images/1938.jpg",
     "additionalImagePaths": []
   }
 ];
