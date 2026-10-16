@@ -98,7 +98,7 @@
     .product-description { min-height: 2.8em; margin: 0 0 10px; overflow: hidden; color: #666d64; font-size: 11px; line-height: 1.5; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
     .product-size { margin: 0 0 8px; color: #51574f; font-size: 11px; line-height: 1.5; }
     .product-attribute { margin: 0 0 8px; color: #666d64; font-size: 11px; line-height: 1.5; }
-    .arabic-content { direction: rtl; text-align: right; unicode-bidi: plaintext; font-family: Tahoma, "Noto Naskh Arabic", Arial, sans-serif; }
+    .bilingual-content { direction: auto; text-align: start; unicode-bidi: plaintext; font-family: Tahoma, "Noto Naskh Arabic", Arial, sans-serif; }
     .catalog-count { margin: 9px 0 0; color: var(--muted); font-size: 12px; }
     .offline-controls { margin: 0 0 17px; display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; }
     .offline-controls .status { margin: 0; }
@@ -413,14 +413,14 @@
       <div class="product-detail-layout">
         <div class="detail-image-wrap" id="detail-image-wrap"></div>
         <div class="detail-copy">
-          <p class="product-category arabic-content" id="detail-category" lang="ar" dir="rtl"></p>
-          <h2 class="arabic-content" id="detail-title" lang="ar" dir="rtl"></h2>
-          <p class="detail-sku arabic-content" id="detail-sku" lang="ar" dir="rtl"></p>
-          <p class="detail-size arabic-content" id="detail-size" lang="ar" dir="rtl" hidden></p>
-          <p class="detail-attribute arabic-content" id="detail-attribute" lang="ar" dir="rtl" hidden></p>
-          <p class="detail-description arabic-content" id="detail-description" lang="ar" dir="rtl"></p>
+          <p class="product-category bilingual-content" id="detail-category" dir="auto"></p>
+          <h2 class="bilingual-content" id="detail-title" dir="auto"></h2>
+          <p class="detail-sku bilingual-content" id="detail-sku" dir="auto"></p>
+          <p class="detail-size bilingual-content" id="detail-size" dir="auto" hidden></p>
+          <p class="detail-attribute bilingual-content" id="detail-attribute" dir="auto" hidden></p>
+          <p class="detail-description bilingual-content" id="detail-description" dir="auto"></p>
           <p class="detail-price" id="detail-price"></p>
-          <button class="button" id="detail-add-button" type="button">أضف إلى السلة</button>
+          <button class="button" id="detail-add-button" type="button">Add to bag</button>
         </div>
       </div>
     </div>
@@ -575,7 +575,7 @@
         categoryFilters.innerHTML = categories.map((category) => {
           const count = category === "All" ? products.length : counts.get(category);
           const active = category === selectedCategory ? " active" : "";
-          return `<button class="category-filter${active}" type="button" data-category="${escapeHtml(category)}" aria-pressed="${category === selectedCategory}">${escapeHtml(category)}<span>${count.toLocaleString()}</span></button>`;
+          return `<button class="category-filter bilingual-content${active}" dir="auto" type="button" data-category="${escapeHtml(category)}" aria-pressed="${category === selectedCategory}">${escapeHtml(category)}<span>${count.toLocaleString()}</span></button>`;
         }).join("");
       }
 
@@ -609,20 +609,20 @@
           const imageMarkup = image
             ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
             : `<span class="image-placeholder" aria-hidden="true">${escapeHtml((product.name || "N").slice(0, 1).toUpperCase())}</span>`;
-          const description = cleanDescription(product.description) || "لا تتوفر تفاصيل إضافية.";
+          const description = cleanDescription(product.description) || "Product details available on request.";
           const sizeDetails = [
-            product.dimensions ? `الأبعاد: ${product.dimensions}` : "",
-            `المقاس: ${product.sizes || "غير محدد"}`
+            product.dimensions ? `Dimensions: ${product.dimensions}` : "",
+            `Size: ${product.sizes || "Not specified"}`
           ].filter(Boolean).join(" · ");
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
-            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="عرض صورة ${escapeHtml(product.name)} وتفاصيله">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}<span class="sku">${escapeHtml(product.sku)}</span></div>
+            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}<span class="sku">${escapeHtml(product.sku)}</span></div>
             <div class="product-info">
-              <p class="product-category arabic-content" lang="ar" dir="rtl">${escapeHtml(product.category || "أخرى")}</p>
-              <h3 class="product-title arabic-content" lang="ar" dir="rtl">${escapeHtml(product.name)}</h3>
-              ${sizeDetails ? `<p class="product-size arabic-content" lang="ar" dir="rtl">${escapeHtml(sizeDetails)}</p>` : ""}
-              ${product.attribute ? `<p class="product-attribute arabic-content" lang="ar" dir="rtl">اللون: ${escapeHtml(product.attribute)}</p>` : ""}
-              <p class="product-description arabic-content" lang="ar" dir="rtl">${escapeHtml(description || "لا تتوفر تفاصيل إضافية.")}</p>
-              <div class="product-bottom"><span class="product-price">${money(product.price)}</span><button class="add-button" type="button" data-add="${escapeHtml(product.sku)}">أضف إلى السلة +</button></div>
+              <p class="product-category bilingual-content" dir="auto">${escapeHtml(product.category || "Other")}</p>
+              <h3 class="product-title bilingual-content" dir="auto">${escapeHtml(product.name)}</h3>
+              ${sizeDetails ? `<p class="product-size bilingual-content" dir="auto">${escapeHtml(sizeDetails)}</p>` : ""}
+              ${product.attribute ? `<p class="product-attribute bilingual-content" dir="auto">Attribute: ${escapeHtml(product.attribute)}</p>` : ""}
+              <p class="product-description bilingual-content" dir="auto">${escapeHtml(description)}</p>
+              <div class="product-bottom"><span class="product-price">${money(product.price)}</span><button class="add-button" type="button" data-add="${escapeHtml(product.sku)}">Add to bag +</button></div>
             </div>
           </article>`;
         }).join("");
@@ -635,20 +635,20 @@
         detailImageIndex = 0;
         detailImageName = product.name;
         renderDetailImage();
-        document.getElementById("detail-category").textContent = product.category || "أخرى";
+        document.getElementById("detail-category").textContent = product.category || "Other";
         document.getElementById("detail-title").textContent = product.name;
-        document.getElementById("detail-sku").textContent = `رمز الصنف: ${product.sku}`;
+        document.getElementById("detail-sku").textContent = `Item code: ${product.sku}`;
         const detailSize = document.getElementById("detail-size");
         const sizeDetails = [
-          product.dimensions ? `الأبعاد: ${product.dimensions}` : "",
-          `المقاس: ${product.sizes || "غير محدد"}`
+          product.dimensions ? `Dimensions: ${product.dimensions}` : "",
+          `Size: ${product.sizes || "Not specified"}`
         ].filter(Boolean);
         detailSize.textContent = sizeDetails.join("\n");
         detailSize.hidden = sizeDetails.length === 0;
         const detailAttribute = document.getElementById("detail-attribute");
-        detailAttribute.textContent = product.attribute ? `اللون: ${product.attribute}` : "";
+        detailAttribute.textContent = product.attribute ? `Attribute: ${product.attribute}` : "";
         detailAttribute.hidden = !product.attribute;
-        document.getElementById("detail-description").textContent = cleanDescription(product.description) || "لا تتوفر تفاصيل إضافية.";
+        document.getElementById("detail-description").textContent = cleanDescription(product.description) || "Product details available on request.";
         document.getElementById("detail-price").textContent = money(product.price);
         document.getElementById("detail-add-button").dataset.add = product.sku;
         openOverlay("product-overlay");
@@ -662,7 +662,7 @@
         const controls = detailImages.length > 1
           ? `<button class="detail-photo-control detail-photo-previous" type="button" data-photo-step="-1" aria-label="Show previous photo">‹</button><span class="detail-photo-count" aria-live="polite">Photo ${detailImageIndex + 1} of ${detailImages.length}</span><button class="detail-photo-control detail-photo-next" type="button" data-photo-step="1" aria-label="Show next photo">›</button>`
           : "";
-        detailImageWrap.innerHTML = `<img class="detail-image" src="${escapeHtml(detailImages[detailImageIndex])}" alt="${escapeHtml(detailImageName)} - الصورة ${detailImageIndex + 1}">${controls}`;
+        detailImageWrap.innerHTML = `<img class="detail-image" src="${escapeHtml(detailImages[detailImageIndex])}" alt="${escapeHtml(detailImageName)} photo ${detailImageIndex + 1}">${controls}`;
       }
 
       detailImageWrap.addEventListener("click", (event) => {
@@ -682,7 +682,7 @@
         cart[sku] = (Number(cart[sku]) || 0) + 1;
         if (!saveStorage(CART_KEY, cart)) return;
         renderCart();
-        showNotice(`تمت إضافة ${product.name} إلى السلة.`);
+        showNotice(`${product.name} added to your bag.`);
       }
 
       function renderCart() {
@@ -700,7 +700,7 @@
           const image = productImageSource(product);
           return `<div class="cart-row">
             <div class="cart-thumb" data-cart-image="${escapeHtml(product.sku)}">${image ? `<img src="${escapeHtml(image)}" alt="">` : escapeHtml(product.name.slice(0, 1).toUpperCase())}</div>
-            <div><p class="cart-name arabic-content" lang="ar" dir="rtl">${escapeHtml(product.name)}</p><span class="cart-unit">${money(product.price)} للقطعة</span></div>
+            <div><p class="cart-name bilingual-content" dir="auto">${escapeHtml(product.name)}</p><span class="cart-unit">${money(product.price)} each</span></div>
             <div class="quantity"><button type="button" aria-label="Remove one ${escapeHtml(product.name)}" data-quantity="${escapeHtml(product.sku)}" data-delta="-1">−</button><span>${quantity}</span><button type="button" aria-label="Add one ${escapeHtml(product.name)}" data-quantity="${escapeHtml(product.sku)}" data-delta="1">+</button></div>
           </div>`;
         }).join("") : `<p class="dialog-subtitle">Your bag is waiting for something good.</p>`;
