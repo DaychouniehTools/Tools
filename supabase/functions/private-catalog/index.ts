@@ -3,7 +3,10 @@ import { createClient, type SupabaseClient, type User } from "https://esm.sh/@su
 const supabaseUrl = Deno.env.get("SUPABASE_URL") ?? "";
 const anonKey = Deno.env.get("SUPABASE_ANON_KEY") ?? "";
 const serviceRoleKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
-const adminEmail = (Deno.env.get("ADMIN_EMAIL") ?? "").trim().toLowerCase();
+const adminEmails = new Set((Deno.env.get("ADMIN_EMAILS") ?? "")
+  .split(/[,\s;]+/)
+  .map((email) => email.trim().toLowerCase())
+  .filter(Boolean));
 const allowedOrigin = (Deno.env.get("ALLOWED_ORIGIN") ?? "").trim();
 const bucketName = "catalog-images";
 const jsonHeaders = { "Content-Type": "application/json; charset=utf-8" };
@@ -82,7 +85,7 @@ Deno.serve(async (request) => {
   if (request.method === "OPTIONS") return response({}, 200, allowedOrigin);
   if (request.method !== "POST") return response({ error: "Method not allowed." }, 405, allowedOrigin);
   if (!allowedOrigin || origin !== allowedOrigin) return response({ error: "This site is not authorized." }, 403, allowedOrigin || origin);
-  if (!supabaseUrl || !anonKey || !serviceRoleKey || !adminEmail) {
+  if (!supabaseUrl || !anonKey || !serviceRoleKey || !adminEmails.size) {
     return response({ error: "The private catalogue backend is not fully configured." }, 503, allowedOrigin);
   }
 
@@ -103,7 +106,7 @@ Deno.serve(async (request) => {
     }
 
     const admin = createClient(supabaseUrl, serviceRoleKey, { auth: { persistSession: false } });
-    const isAdmin = (user.email ?? "").trim().toLowerCase() === adminEmail;
+    const isAdmin = adminEmails.has((user.email ?? "").trim().toLowerCase());
     const contentType = request.headers.get("content-type") ?? "";
     let body: Record<string, unknown>;
     if (contentType.includes("multipart/form-data")) {
@@ -115,6 +118,7 @@ Deno.serve(async (request) => {
     const action = body.action;
 
     if (action === "redeem-code") {
+      if (isAdmin) return response({ error: "Shop owners do not use customer access codes." }, 403, allowedOrigin);
       const code = typeof body.code === "string" ? body.code.trim().toUpperCase() : "";
       if (!/^DT-[A-F0-9]{8}-[A-F0-9]{8}$/.test(code) || !user.email) {
         return response({ error: "The code or Google account is not valid." }, 400, allowedOrigin);
@@ -184,6 +188,9 @@ Deno.serve(async (request) => {
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !Number.isInteger(amount) || amount < 1 || amount * multiplier > 31536000) {
         return response({ error: "Enter a valid customer email and a duration from 1 hour to 365 days." }, 400, allowedOrigin);
       }
+      if (adminEmails.has(email)) {
+        return response({ error: "Owner accounts already have owner access and cannot be issued customer codes." }, 400, allowedOrigin);
+      }
       const code = newAccessCode();
       const { error } = await admin.from("private_catalog_access_codes").insert({
         email,
@@ -197,8 +204,19 @@ Deno.serve(async (request) => {
     if (action === "disable-code") {
       const codeId = typeof body.codeId === "string" ? body.codeId : "";
       const { data: code, error: findError } = await admin
-        .from("private_catalog_access_codes").select("id, redeemed_by").eq("id", codeId).maybeSingle();
+        .from("private_catalog_access_codes").select("id, email, redeemed_by").eq("id", codeId).maybeSingle();
       if (findError || !code) return response({ error: "Code not found." }, 404, allowedOrigin);
+      if (adminEmails.has(code.email.trim().toLowerCase())) {
+        return response({ error: "Owner accounts cannot be blocked or have their access disabled by another owner." }, 403, allowedOrigin);
+      }
+      if (code.redeemed_by) {
+        const { data: account, error: accountError } = await admin
+          .from("private_catalog_customer_access").select("email").eq("user_id", code.redeemed_by).maybeSingle();
+        if (accountError) throw new Error("Could not verify the code owner.");
+        if (account && adminEmails.has(account.email.trim().toLowerCase())) {
+          return response({ error: "Owner accounts cannot be blocked or have their access disabled by another owner." }, 403, allowedOrigin);
+        }
+      }
       const { error: revokeError } = await admin
         .from("private_catalog_access_codes").update({ revoked_at: new Date().toISOString() }).eq("id", code.id);
       if (revokeError) throw new Error("Could not disable the code.");
@@ -213,6 +231,13 @@ Deno.serve(async (request) => {
     if (action === "set-blocked") {
       const userId = typeof body.userId === "string" ? body.userId : "";
       const blocked = body.blocked === true;
+      const { data: customer, error: customerError } = await admin
+        .from("private_catalog_customer_access").select("email").eq("user_id", userId).maybeSingle();
+      if (customerError) throw new Error("Could not verify the customer account.");
+      if (!customer) return response({ error: "Customer account not found." }, 404, allowedOrigin);
+      if (adminEmails.has(customer.email.trim().toLowerCase())) {
+        return response({ error: "Owner accounts cannot be blocked by another owner." }, 403, allowedOrigin);
+      }
       const { error } = await admin.from("private_catalog_customer_access")
         .update({ blocked_at: blocked ? new Date().toISOString() : null, updated_at: new Date().toISOString() })
         .eq("user_id", userId);
