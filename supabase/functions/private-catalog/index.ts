@@ -83,12 +83,13 @@ Deno.serve(async (request) => {
     if (!authorization?.startsWith("Bearer ")) {
       return response({ error: "Sign in to continue." }, 401, allowedOrigin);
     }
+    const accessToken = authorization.slice("Bearer ".length).trim();
+    if (!accessToken) return response({ error: "Sign in to continue." }, 401, allowedOrigin);
 
     const publicClient = createClient(supabaseUrl, anonKey, {
-      auth: { persistSession: false },
-      global: { headers: { Authorization: authorization } }
+      auth: { persistSession: false }
     });
-    const { data: authData, error: authError } = await publicClient.auth.getUser();
+    const { data: authData, error: authError } = await publicClient.auth.getUser(accessToken);
     const user = authData.user;
     if (authError || !user || !user.email) return response({ error: "Sign in with your account to continue." }, 401, allowedOrigin);
 
