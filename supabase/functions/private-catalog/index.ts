@@ -7,7 +7,8 @@ const adminEmails = new Set((Deno.env.get("ADMIN_EMAILS") ?? "")
   .split(/[,\s;]+/)
   .map((email) => email.trim().toLowerCase())
   .filter(Boolean));
-const allowedOrigin = (Deno.env.get("ALLOWED_ORIGIN") ?? "").trim();
+const deployedOrigin = (Deno.env.get("ALLOWED_ORIGIN") ?? "").trim();
+const localImporterOrigins = new Set(["http://127.0.0.1:8765", "http://localhost:8765"]);
 const bucketName = "catalog-images";
 const MAX_CUSTOMER_SESSIONS = 3;
 const jsonHeaders = { "Content-Type": "application/json; charset=utf-8" };
@@ -66,9 +67,13 @@ async function signedProduct(product: Record<string, unknown>, storage: Supabase
 
 Deno.serve(async (request) => {
   const origin = request.headers.get("origin") ?? "";
-  if (request.method === "OPTIONS") return response({}, 200, allowedOrigin);
+  const allowedOrigin = origin === deployedOrigin || localImporterOrigins.has(origin) ? origin : "";
+  if (request.method === "OPTIONS") {
+    if (!allowedOrigin) return response({ error: "This site is not authorized." }, 403);
+    return response({}, 200, allowedOrigin);
+  }
   if (request.method !== "POST") return response({ error: "Method not allowed." }, 405, allowedOrigin);
-  if (!allowedOrigin || origin !== allowedOrigin) return response({ error: "This site is not authorized." }, 403, allowedOrigin || origin);
+  if (!allowedOrigin) return response({ error: "This site is not authorized." }, 403);
   if (!supabaseUrl || !anonKey || !serviceRoleKey || !adminEmails.size) {
     return response({ error: "The private catalogue backend is not fully configured." }, 503, allowedOrigin);
   }
@@ -98,6 +103,11 @@ Deno.serve(async (request) => {
       body = await request.json();
     }
     const action = body.action;
+
+    if (action === "verify-owner") {
+      if (!isAdmin) return response({ error: "Shop-owner permission is required." }, 403, allowedOrigin);
+      return response({ ok: true }, 200, allowedOrigin);
+    }
 
     if (action === "release-session") {
       const sessionId = typeof body.sessionId === "string" ? body.sessionId : "";
