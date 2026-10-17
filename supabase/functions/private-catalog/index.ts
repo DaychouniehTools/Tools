@@ -317,7 +317,10 @@ Deno.serve(async (request) => {
         seen.add(sku);
       }
       const { data: count, error } = await admin.rpc("private_catalog_replace_products", { p_products: products });
-      if (error) throw new Error("Could not safely replace the private catalogue.");
+      if (error) {
+        console.error("Private catalogue replacement failed:", error.code, error.message);
+        throw new Error(`Could not safely replace the private catalogue (${error.code ?? "database error"}): ${error.message}`);
+      }
       return response({ ok: true, count }, 200, allowedOrigin);
     }
 
