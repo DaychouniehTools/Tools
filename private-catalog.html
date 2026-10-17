@@ -37,6 +37,7 @@
     [hidden] { display: none !important; }
     .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
     .toolbar h2 { margin: 0; }
+    .signed-in-account { margin: 9px 0 0; color: #176b38; font-size: 13px; font-weight: 700; overflow-wrap: anywhere; }
     .filters { display: flex; flex-wrap: wrap; gap: 7px; margin: 15px 0; }
     .filters button { min-height: 33px; padding: 0 11px; border-color: #dfe5e9; background: #fff; color: #18232c; font-size: 12px; }
     .filters button.active { border-color: #172b3a; background: #172b3a; color: #fff; }
@@ -100,6 +101,7 @@
         <h2>Products and prices</h2>
         <button class="secondary" id="customer-signout" type="button">Sign out and lock</button>
       </div>
+      <p class="signed-in-account" id="catalog-account"></p>
       <p class="hint" id="catalog-summary"></p>
       <input class="search" id="product-search" type="search" placeholder="Search products or item code" aria-label="Search private catalogue">
       <div class="filters" id="category-filters" aria-label="Product categories"></div>
@@ -111,6 +113,7 @@
         <h2>Shop owner access management</h2>
         <button class="secondary" id="owner-signout" type="button">Sign out</button>
       </div>
+      <p class="signed-in-account" id="owner-account"></p>
       <p>Create customer accounts with email and password. Set the access period in hours or days. A maximum of three customer browser sessions can be active at once; owner sessions are separate.</p>
       <p class="hint" id="active-session-count" role="status"></p>
       <form class="owner-form" id="issue-form">
@@ -181,11 +184,14 @@
         customerAccess.hidden = false;
         catalogPanel.hidden = true;
         ownerPanel.hidden = true;
+        document.getElementById("catalog-account").textContent = "";
+        document.getElementById("owner-account").textContent = "";
         document.getElementById("login-form").hidden = false;
       }
 
-      function showCatalogue(items) {
+      function showCatalogue(items, user) {
         products.splice(0, products.length, ...items);
+        document.getElementById("catalog-account").textContent = `Signed in as: ${user.email}`;
         document.getElementById("login-form").hidden = true;
         accessPanel.hidden = true;
         ownerPanel.hidden = true;
@@ -261,8 +267,9 @@
           </tr>`).join("") || "<tr><td colspan='5'>No catalogue accesses in the last 24 hours.</td></tr>";
       }
 
-      function showOwner(data) {
+      function showOwner(data, user) {
         ownerData = data;
+        document.getElementById("owner-account").textContent = `Signed in as owner: ${user.email}`;
         accessPanel.hidden = true;
         catalogPanel.hidden = true;
         ownerPanel.hidden = false;
@@ -316,7 +323,7 @@
           try {
             await invoke("owner-list");
             await invoke("owner-access");
-            showOwner(await invoke("owner-list"));
+            showOwner(await invoke("owner-list"), data.user);
             return;
           } catch (ownerError) {
             if (!ownerError.message.includes("Shop-owner permission")) throw ownerError;
@@ -324,7 +331,7 @@
           const sessionId = customerSessionId();
           currentSessionId = sessionId;
           const catalogue = await invoke("catalog", { sessionId });
-          showCatalogue(catalogue.products);
+          showCatalogue(catalogue.products, data.user);
           status(pageStatus, `Access ends ${new Date(catalogue.expiresAt).toLocaleString()}. ${catalogue.activeSessions} of ${catalogue.maxSessions} customer sessions are in use.`, "success");
           heartbeatTimer = setInterval(async () => {
             try {
