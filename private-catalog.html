@@ -45,6 +45,18 @@
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; }
     .product { overflow: hidden; border: 1px solid #dfe5e9; border-radius: 7px; background: #fff; }
     .product img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #e9eef1; }
+    .product-photo { display: block; width: 100%; padding: 0; border: 0; border-radius: 0; background: #e9eef1; }
+    .product-photo:hover { background: #e9eef1; }
+    .product-photo img { display: block; }
+    .photo-count { position: absolute; right: 8px; bottom: 8px; padding: 4px 7px; border-radius: 4px; background: rgba(23, 43, 58, .86); color: #fff; font-size: 11px; pointer-events: none; }
+    .product-photo-wrap { position: relative; }
+    .gallery-dialog { width: min(900px, calc(100% - 28px)); max-width: none; padding: 0; border: 0; border-radius: 9px; background: #fff; box-shadow: 0 20px 70px rgba(0, 0, 0, .35); }
+    .gallery-dialog::backdrop { background: rgba(12, 25, 34, .78); }
+    .gallery-content { padding: 14px; }
+    .gallery-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+    .gallery-toolbar p { margin: 0; font-size: 13px; font-weight: 700; }
+    .gallery-image { display: block; width: 100%; max-height: min(72vh, 760px); object-fit: contain; background: #f2f4f5; }
+    .gallery-controls { display: flex; justify-content: center; gap: 10px; margin-top: 12px; }
     .product-info { padding: 14px; }
     .product-category { margin: 0 0 7px; color: #63717c; font-size: 12px; }
     .product h3 { margin: 0 0 7px; font-size: 16px; }
@@ -108,6 +120,20 @@
       <div class="grid" id="product-grid" aria-live="polite"></div>
     </section>
 
+    <dialog class="gallery-dialog" id="photo-gallery" aria-label="Product photos">
+      <div class="gallery-content">
+        <div class="gallery-toolbar">
+          <p id="gallery-caption"></p>
+          <button class="secondary" id="gallery-close" type="button">Close</button>
+        </div>
+        <img class="gallery-image" id="gallery-image" alt="">
+        <div class="gallery-controls">
+          <button class="secondary" id="gallery-previous" type="button">Previous photo</button>
+          <button class="secondary" id="gallery-next" type="button">Next photo</button>
+        </div>
+      </div>
+    </dialog>
+
     <section class="panel" id="owner-panel" hidden>
       <div class="toolbar">
         <h2>Shop owner access management</h2>
@@ -161,6 +187,8 @@
       let heartbeatTimer = null;
       let imageRefreshTimer = null;
       let currentSessionId = null;
+      let gallerySku = "";
+      let galleryPhotoIndex = 0;
 
       function status(element, message, kind = "") {
         element.textContent = message;
@@ -208,6 +236,10 @@
         document.getElementById("product-grid").replaceChildren();
         document.getElementById("category-filters").replaceChildren();
         document.getElementById("product-search").value = "";
+        const gallery = document.getElementById("photo-gallery");
+        if (gallery.open) gallery.close();
+        document.getElementById("gallery-image").removeAttribute("src");
+        gallerySku = "";
         catalogPanel.hidden = true;
       }
 
@@ -226,8 +258,10 @@
         document.getElementById("catalog-summary").textContent = `${visible.length} of ${products.length} products`;
         document.getElementById("product-grid").innerHTML = visible.length ? visible.map((product) => {
           const image = typeof product.imageUrl === "string" ? product.imageUrl : "";
+          const photoCount = [image, ...(Array.isArray(product.additionalImagePaths) ? product.additionalImagePaths : [])]
+            .filter((url) => typeof url === "string" && url).length;
           return `<article class="product">
-            ${image ? `<img src="${escapeHtml(image)}" alt="" loading="lazy">` : ""}
+            ${image ? `<div class="product-photo-wrap"><button class="product-photo" type="button" data-gallery-sku="${escapeHtml(product.sku)}" aria-label="View ${photoCount} photo${photoCount === 1 ? "" : "s"} for ${escapeHtml(product.name || product.sku)}"><img src="${escapeHtml(image)}" alt="" loading="lazy"></button>${photoCount > 1 ? `<span class="photo-count">${photoCount} photos</span>` : ""}</div>` : ""}
             <div class="product-info">
               <p class="product-category">${escapeHtml(product.category || "Other")}</p>
               <h3>${escapeHtml(product.name || "Unnamed item")}</h3>
@@ -236,6 +270,27 @@
             </div>
           </article>`;
         }).join("") : "<p>No matching products.</p>";
+      }
+
+      function renderGallery() {
+        const product = products.find((item) => String(item.sku) === gallerySku);
+        if (!product) return;
+        const photos = [product.imageUrl, ...(Array.isArray(product.additionalImagePaths) ? product.additionalImagePaths : [])]
+          .filter((url) => typeof url === "string" && url);
+        if (!photos.length) return;
+        galleryPhotoIndex = Math.min(galleryPhotoIndex, photos.length - 1);
+        document.getElementById("gallery-image").src = photos[galleryPhotoIndex];
+        document.getElementById("gallery-image").alt = `${product.name || product.sku}, photo ${galleryPhotoIndex + 1} of ${photos.length}`;
+        document.getElementById("gallery-caption").textContent = `${product.name || product.sku} — ${galleryPhotoIndex + 1} of ${photos.length} photos`;
+        document.getElementById("gallery-previous").disabled = photos.length < 2;
+        document.getElementById("gallery-next").disabled = photos.length < 2;
+      }
+
+      function openGallery(sku) {
+        gallerySku = sku;
+        galleryPhotoIndex = 0;
+        renderGallery();
+        document.getElementById("photo-gallery").showModal();
       }
 
       function renderOwner() {
@@ -349,6 +404,7 @@
               const refreshed = await invoke("refresh-images", { sessionId });
               products.splice(0, products.length, ...refreshed.products);
               renderProducts();
+              if (document.getElementById("photo-gallery").open) renderGallery();
             } catch (error) {
               clearCustomerCatalogue();
               await client.auth.signOut();
@@ -402,6 +458,37 @@
           showCustomer();
         });
         document.getElementById("product-search").addEventListener("input", renderProducts);
+        document.getElementById("product-grid").addEventListener("click", (event) => {
+          const button = event.target.closest("[data-gallery-sku]");
+          if (button) openGallery(button.dataset.gallerySku);
+        });
+        document.getElementById("gallery-close").addEventListener("click", () => {
+          document.getElementById("photo-gallery").close();
+        });
+        document.getElementById("photo-gallery").addEventListener("click", (event) => {
+          if (event.target === event.currentTarget) event.currentTarget.close();
+        });
+        document.getElementById("photo-gallery").addEventListener("keydown", (event) => {
+          if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+          const product = products.find((item) => String(item.sku) === gallerySku);
+          const photoCount = 1 + (Array.isArray(product?.additionalImagePaths) ? product.additionalImagePaths.length : 0);
+          if (photoCount < 2) return;
+          event.preventDefault();
+          galleryPhotoIndex = (galleryPhotoIndex + (event.key === "ArrowRight" ? 1 : -1) + photoCount) % photoCount;
+          renderGallery();
+        });
+        document.getElementById("gallery-previous").addEventListener("click", () => {
+          const product = products.find((item) => String(item.sku) === gallerySku);
+          const photoCount = 1 + (Array.isArray(product?.additionalImagePaths) ? product.additionalImagePaths.length : 0);
+          galleryPhotoIndex = (galleryPhotoIndex - 1 + photoCount) % photoCount;
+          renderGallery();
+        });
+        document.getElementById("gallery-next").addEventListener("click", () => {
+          const product = products.find((item) => String(item.sku) === gallerySku);
+          const photoCount = 1 + (Array.isArray(product?.additionalImagePaths) ? product.additionalImagePaths.length : 0);
+          galleryPhotoIndex = (galleryPhotoIndex + 1) % photoCount;
+          renderGallery();
+        });
         document.getElementById("category-filters").addEventListener("click", (event) => {
           const button = event.target.closest("[data-category]");
           if (!button) return;
