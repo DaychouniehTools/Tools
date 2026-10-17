@@ -197,7 +197,22 @@ Deno.serve(async (request) => {
           .gte("last_seen_at", activeSince)
       ]);
       if (customersError || logsError || sessionsError) throw new Error("Could not load owner records.");
-      return response({ customers, logs, activeSessions: activeSessions ?? 0, maxSessions: MAX_CUSTOMER_SESSIONS }, 200, allowedOrigin);
+      const accountLogs = (logs ?? []).map((log) => ({
+        ...log,
+        account_type: adminEmails.has(log.email.trim().toLowerCase()) ? "Owner" : "Customer"
+      }));
+      return response({ customers, logs: accountLogs, activeSessions: activeSessions ?? 0, maxSessions: MAX_CUSTOMER_SESSIONS }, 200, allowedOrigin);
+    }
+
+    if (action === "owner-access") {
+      const { error } = await admin.from("private_catalog_access_logs").insert({
+        user_id: user.id,
+        email: user.email,
+        full_name: customerName(user),
+        ip_address: getClientIp(request)
+      });
+      if (error) throw new Error("Could not record owner catalogue access.");
+      return response({ ok: true }, 200, allowedOrigin);
     }
 
     if (action === "create-customer") {

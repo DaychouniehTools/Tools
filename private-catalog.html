@@ -92,7 +92,7 @@
         </form>
         <p class="hint">Shop owners use the same sign-in. Owners do not count toward the three-customer-session limit.</p>
       </div>
-      <p class="privacy">Privacy notice: the shop records your account name, email address, and IP address when you access the catalogue. IP access logs are automatically deleted after 24 hours.</p>
+      <p class="privacy">Privacy notice: the shop records the account name, email address, and IP address when an owner or customer accesses the private catalogue. IP access logs are automatically deleted after 24 hours.</p>
     </section>
 
     <section class="panel" id="catalog-panel" hidden>
@@ -135,8 +135,8 @@
 
       <h3>Accounts and access</h3>
       <div class="table-wrap"><table><thead><tr><th>Customer name</th><th>Email / username</th><th>Access ends</th><th>Status</th><th>Action</th></tr></thead><tbody id="customers-table"></tbody></table></div>
-      <h3>Access log (IP records deleted after 24 hours)</h3>
-      <div class="table-wrap"><table><thead><tr><th>Customer name</th><th>Email</th><th>Access time</th><th>IP address</th></tr></thead><tbody id="logs-table"></tbody></table></div>
+      <h3>Owner and customer access log (IP records deleted after 24 hours)</h3>
+      <div class="table-wrap"><table><thead><tr><th>Account name</th><th>Type</th><th>Email</th><th>Access time</th><th>IP address</th></tr></thead><tbody id="logs-table"></tbody></table></div>
     </section>
 
     <p class="status" id="page-status" role="status" aria-live="polite"></p>
@@ -253,11 +253,12 @@
 
         document.getElementById("logs-table").innerHTML = ownerData.logs.map((item) => `
           <tr>
-            <td>${escapeHtml(item.full_name || "Customer")}</td>
+            <td>${escapeHtml(item.full_name || item.account_type)}</td>
+            <td>${escapeHtml(item.account_type)}</td>
             <td>${escapeHtml(item.email)}</td>
             <td>${escapeHtml(new Date(item.accessed_at).toLocaleString())}</td>
             <td>${escapeHtml(item.ip_address || "Unavailable")}</td>
-          </tr>`).join("") || "<tr><td colspan='4'>No catalogue accesses in the last 24 hours.</td></tr>";
+          </tr>`).join("") || "<tr><td colspan='5'>No catalogue accesses in the last 24 hours.</td></tr>";
       }
 
       function showOwner(data) {
@@ -313,6 +314,8 @@
           const { data, error } = await client.auth.getUser();
           if (error || !data.user) throw new Error("Sign in again to continue.");
           try {
+            await invoke("owner-list");
+            await invoke("owner-access");
             showOwner(await invoke("owner-list"));
             return;
           } catch (ownerError) {
