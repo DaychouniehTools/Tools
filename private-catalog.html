@@ -61,6 +61,7 @@
     .product-category { margin: 0 0 7px; color: #63717c; font-size: 12px; }
     .product h3 { margin: 0 0 7px; font-size: 16px; }
     .sku { margin: 0 0 10px; font-size: 12px; }
+    .product-description { margin: 0 0 10px; color: #596873; font-size: 12px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
     .price { margin: 0; color: #172b3a; font-size: 19px; font-weight: 800; }
     .table-wrap { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 12px; text-align: left; }
@@ -266,6 +267,7 @@
               <p class="product-category">${escapeHtml(product.category || "Other")}</p>
               <h3>${escapeHtml(product.name || "Unnamed item")}</h3>
               <p class="sku">Item code: ${escapeHtml(product.sku)}</p>
+              ${product.description ? `<p class="product-description" dir="auto">${escapeHtml(product.description)}</p>` : ""}
               <p class="price">${escapeHtml(formatPrice(product.price))}</p>
             </div>
           </article>`;

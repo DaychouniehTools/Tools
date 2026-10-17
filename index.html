@@ -127,7 +127,6 @@
     .photo-count-badge { position: absolute; top: 12px; right: 12px; padding: 5px 8px; border-radius: 999px; background: rgba(24,35,44,.78); color: white; font-size: 10px; }
     .detail-placeholder { color: var(--muted); font-size: 13px; }
     .detail-copy { padding: 16px 10px 16px 0; }
-    .detail-sku { margin-bottom: 10px; color: var(--muted); font-size: 11px; }
     .detail-size { margin: 0 0 12px; color: #51574f; font-size: 12px; line-height: 1.6; white-space: pre-wrap; }
     .detail-attribute { margin: 0 0 12px; color: #51574f; font-size: 12px; line-height: 1.6; }
     .detail-description { color: #5d625a; font-size: 13px; line-height: 1.7; white-space: pre-wrap; }
@@ -418,7 +417,6 @@
         <div class="detail-copy">
           <p class="product-category bilingual-content" id="detail-category" dir="auto"></p>
           <h2 class="bilingual-content" id="detail-title" dir="auto"></h2>
-          <p class="detail-sku bilingual-content" id="detail-sku" dir="auto"></p>
           <p class="detail-size bilingual-content" id="detail-size" dir="auto" hidden></p>
           <p class="detail-attribute bilingual-content" id="detail-attribute" dir="auto" hidden></p>
           <p class="detail-description bilingual-content" id="detail-description" dir="auto"></p>
@@ -618,7 +616,7 @@
             `Size: ${product.sizes || "Not specified"}`
           ].filter(Boolean).join(" · ");
           return `<article class="product-card" data-product-card="${escapeHtml(product.sku)}">
-            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}<span class="sku">${escapeHtml(product.sku)}</span></div>
+            <div class="product-image"><button class="product-image-button" type="button" data-view="${escapeHtml(product.sku)}" aria-label="View ${escapeHtml(product.name)} photo and details">${imageMarkup}</button>${photoCount > 1 ? `<span class="photo-count-badge">2 photos</span>` : ""}</div>
             <div class="product-info">
               <p class="product-category bilingual-content" dir="auto">${escapeHtml(product.category || "Other")}</p>
               <h3 class="product-title bilingual-content" dir="auto">${escapeHtml(product.name)}</h3>
@@ -640,7 +638,6 @@
         renderDetailImage();
         document.getElementById("detail-category").textContent = product.category || "Other";
         document.getElementById("detail-title").textContent = product.name;
-        document.getElementById("detail-sku").textContent = `Item code: ${product.sku}`;
         const detailSize = document.getElementById("detail-size");
         const sizeDetails = [
           product.dimensions ? `Dimensions: ${product.dimensions}` : "",
