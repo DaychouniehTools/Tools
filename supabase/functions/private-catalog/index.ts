@@ -337,7 +337,10 @@ Deno.serve(async (request) => {
         upsert: true,
         cacheControl: "0"
       });
-      if (error) throw new Error("Could not upload the private product image.");
+      if (error) {
+        console.error("Private product image upload failed:", error.name, error.message);
+        throw new Error(`Could not upload the private product image (${error.name}): ${error.message}`);
+      }
       return response({ ok: true, path }, 200, allowedOrigin);
     }
 
