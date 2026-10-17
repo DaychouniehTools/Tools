@@ -52,7 +52,7 @@ The shop records the account name, email, and IP address when an owner or custom
 
 The public homepage can be cached for offline display after it is opened online once. The private catalogue requires an internet connection for password sign-in and access checks; private product images use short-lived access links and are not available offline.
 
-After signing in to the private catalogue on a phone, choose **Take or choose a photo** to search visually across the product photos. The browser compares the photo on the device and does not upload it; results are approximate closest matches, not guaranteed identification. Comparing the catalogue photos requires internet and may use mobile data.
+After signing in to the private catalogue on a phone, optionally select one or more product categories to limit photo search, then choose **Take or choose a photo**. If the camera photo includes a readable product barcode, supported browsers match its barcode exactly within the selected categories; otherwise a free MobileNet model runs on the device and compares against the main photo for each item in those categories. Leaving categories unselected searches all items. The customer's photo is not sent to an AI service. The first AI search downloads the model. AI matches are approximate, not guaranteed identification; check the displayed product photos to confirm. Comparing catalogue photos requires internet and can use significant mobile data. There is no AI API charge.
 
 Generate and verify a new QR code after the GitHub Pages address changes. The homepage displays the shop contact number prominently; its number link starts a phone call, and the WhatsApp button opens a chat.
 

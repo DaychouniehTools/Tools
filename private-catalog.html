@@ -43,6 +43,12 @@
     .filters button.active { border-color: #172b3a; background: #172b3a; color: #fff; }
     .search { width: 100%; margin: 15px 0 0; }
     .visual-search { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin-top: 15px; }
+    .visual-category-picker { margin-top: 15px; border: 1px solid #dfe5e9; border-radius: 5px; }
+    .visual-category-picker summary { padding: 12px; font-size: 13px; font-weight: 700; cursor: pointer; }
+    .visual-category-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 6px; max-height: 220px; overflow-y: auto; padding: 0 12px 10px; }
+    .visual-category-option { display: flex; min-height: 38px; align-items: center; gap: 8px; margin: 0; font-size: 12px; }
+    .visual-category-option input { width: 18px; height: 18px; flex: 0 0 auto; accent-color: #172b3a; }
+    .visual-category-summary { margin: 0; padding: 0 12px 12px; color: #596873; font-size: 12px; }
     .visual-search input[type="file"] { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
     .visual-search input[type="file"]:focus-visible + label { outline: 2px solid #172b3a; outline-offset: 3px; }
     .visual-search label { display: inline-flex; min-height: 42px; align-items: center; margin: 0; padding: 0 15px; border: 1px solid #172b3a; border-radius: 5px; background: #172b3a; color: #fff; font-size: 13px; font-weight: 700; cursor: pointer; }
@@ -125,15 +131,20 @@
       </div>
       <p class="signed-in-account" id="catalog-account"></p>
       <p class="hint" id="catalog-summary"></p>
+      <details class="visual-category-picker" id="visual-category-picker">
+        <summary id="visual-category-title">Choose categories to search (optional)</summary>
+        <div class="visual-category-options" id="visual-category-options"></div>
+        <p class="visual-category-summary" id="visual-category-summary"></p>
+      </details>
       <div class="visual-search">
         <input id="visual-search-file" type="file" accept="image/*" capture="environment" aria-label="Take or choose a photo of an item">
         <label for="visual-search-file">Take or choose a photo</label>
         <button class="secondary" id="clear-visual-search" type="button" hidden>Clear photo search</button>
         <img class="visual-preview" id="visual-search-preview" alt="Photo selected for visual search">
-        <p class="hint">Your photo stays on this device. The browser compares it with catalogue photos; matches are approximate, require internet, and may use mobile data.</p>
+        <p class="hint">Your photo stays on this device. If it can read the product barcode, the catalogue finds an exact item; otherwise free on-phone AI shows approximate photo matches. The first AI search downloads the model, and catalogue photo matching requires internet.</p>
       </div>
       <p class="visual-status" id="visual-search-status" role="status" aria-live="polite"></p>
-      <input class="search" id="product-search" type="search" placeholder="Search products or item code" aria-label="Search private catalogue">
+      <input class="search" id="product-search" type="search" placeholder="Search products, item code, or barcode" aria-label="Search private catalogue">
       <div class="filters" id="category-filters" aria-label="Product categories"></div>
       <div class="grid" id="product-grid" aria-live="polite"></div>
     </section>
@@ -201,6 +212,7 @@
       const ownerPanel = document.getElementById("owner-panel");
       const products = [];
       const productsBySku = new Map();
+      const selectedVisualCategories = new Set();
       let activeCategory = "All";
       let ownerData = null;
       let heartbeatTimer = null;
@@ -210,7 +222,9 @@
       let galleryPhotoIndex = 0;
       let visualMatches = null;
       let visualSearchRun = 0;
+      let visualSearchActive = false;
       let visualPreviewUrl = "";
+      let visualModelPromise = null;
       const visualDescriptorCache = new Map();
 
       function status(element, message, kind = "") {
@@ -239,73 +253,133 @@
         products.splice(0, products.length, ...items);
         productsBySku.clear();
         for (const product of items) productsBySku.set(String(product.sku), product);
+        renderVisualCategoryPicker();
       }
 
-      async function createVisualDescriptor(source) {
+      function productsForVisualSearch() {
+        return products.filter((product) =>
+          (!selectedVisualCategories.size || selectedVisualCategories.has(String(product.category || "Other")))
+          && productPhotos(product).length
+        );
+      }
+
+      function renderVisualCategoryPicker() {
+        const categories = Array.from(new Set(products.map((product) => String(product.category || "Other")))).sort();
+        for (const category of selectedVisualCategories) {
+          if (!categories.includes(category)) selectedVisualCategories.delete(category);
+        }
+        document.getElementById("visual-category-options").innerHTML = categories.map((category) =>
+          `<label class="visual-category-option"><input type="checkbox" data-visual-category value="${escapeHtml(category)}"${selectedVisualCategories.has(category) ? " checked" : ""}${visualSearchActive ? " disabled" : ""}><span>${escapeHtml(category)}</span></label>`
+        ).join("");
+        const candidates = productsForVisualSearch();
+        const selectedCount = selectedVisualCategories.size;
+        document.getElementById("visual-category-title").textContent = selectedCount
+          ? `Search categories (${selectedCount} selected)`
+          : "Choose categories to search (optional)";
+        document.getElementById("visual-category-summary").textContent = selectedCount
+          ? `Photo search will check ${candidates.length.toLocaleString()} item photos in the selected categories.`
+          : `No categories selected: photo search will check all ${candidates.length.toLocaleString()} item photos.`;
+      }
+
+      function loadScriptOnce(src, ready) {
+        if (ready()) return Promise.resolve();
+        return new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = src;
+          script.onload = () => ready()
+            ? resolve()
+            : reject(new Error("The on-phone photo-search library did not load correctly."));
+          script.onerror = () => reject(new Error("Could not download the free photo-search model. Check your internet connection and try again."));
+          document.head.append(script);
+        });
+      }
+
+      function loadVisualModel() {
+        if (!visualModelPromise) {
+          visualModelPromise = (async () => {
+            await loadScriptOnce("https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js", () => Boolean(window.tf));
+            await loadScriptOnce("https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js", () => Boolean(window.mobilenet));
+            await window.tf.ready();
+            return window.mobilenet.load({ version: 2, alpha: 0.5 });
+          })().catch((error) => {
+            visualModelPromise = null;
+            throw error;
+          });
+        }
+        return visualModelPromise;
+      }
+
+      async function createVisualCanvas(source) {
         const blob = source instanceof Blob ? source : await source.blob();
-        const bitmap = await createImageBitmap(blob, { resizeWidth: 32, resizeHeight: 32, resizeQuality: "low" });
+        const bitmap = await createImageBitmap(blob);
         try {
           const canvas = document.createElement("canvas");
-          canvas.width = 32;
-          canvas.height = 32;
-          const context = canvas.getContext("2d", { willReadFrequently: true });
-          if (!context) throw new Error("Your browser could not prepare an image for visual search.");
+          canvas.width = 224;
+          canvas.height = 224;
+          const context = canvas.getContext("2d");
+          if (!context) throw new Error("Your browser could not prepare an image for photo search.");
           context.fillStyle = "#fff";
           context.fillRect(0, 0, canvas.width, canvas.height);
-          context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-          const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
-          const histogram = Array.from({ length: 3 }, () => new Array(16).fill(0));
-          for (let index = 0; index < pixels.length; index += 4) {
-            for (let channel = 0; channel < 3; channel += 1) {
-              histogram[channel][Math.min(15, Math.floor(pixels[index + channel] / 16))] += 1 / (pixels.length / 4);
-            }
-          }
-
-          canvas.width = 9;
-          canvas.height = 8;
-          context.fillStyle = "#fff";
-          context.fillRect(0, 0, canvas.width, canvas.height);
-          context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-          const grayPixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
-          const luminance = [];
-          for (let index = 0; index < grayPixels.length; index += 4) {
-            luminance.push((grayPixels[index] * 299 + grayPixels[index + 1] * 587 + grayPixels[index + 2] * 114) / 1000);
-          }
-          const hash = [];
-          for (let y = 0; y < 8; y += 1) {
-            for (let x = 0; x < 8; x += 1) {
-              hash.push(luminance[y * 9 + x] > luminance[y * 9 + x + 1]);
-            }
-          }
-          return { histogram: histogram.flat(), hash };
+          const scale = Math.min(canvas.width / bitmap.width, canvas.height / bitmap.height);
+          const width = bitmap.width * scale;
+          const height = bitmap.height * scale;
+          context.drawImage(bitmap, (canvas.width - width) / 2, (canvas.height - height) / 2, width, height);
+          return canvas;
         } finally {
           bitmap.close();
         }
       }
 
-      function visualDistance(left, right) {
-        let histogramDistance = 0;
-        for (let channel = 0; channel < 3; channel += 1) {
-          let leftCumulative = 0;
-          let rightCumulative = 0;
-          for (let bin = 0; bin < 15; bin += 1) {
-            leftCumulative += left.histogram[channel * 16 + bin];
-            rightCumulative += right.histogram[channel * 16 + bin];
-            histogramDistance += Math.abs(leftCumulative - rightCumulative) / 45;
-          }
+      async function createVisualDescriptor(source, model) {
+        const canvas = source instanceof HTMLCanvasElement ? source : await createVisualCanvas(source);
+        const embedding = model.infer(canvas, true);
+        try {
+          const values = await embedding.data();
+          let magnitude = 0;
+          for (const value of values) magnitude += value * value;
+          magnitude = Math.sqrt(magnitude);
+          if (!magnitude) throw new Error("The photo model could not recognize this image.");
+          return Float32Array.from(values, (value) => value / magnitude);
+        } finally {
+          embedding.dispose();
         }
-        let hashDistance = 0;
-        for (let index = 0; index < left.hash.length; index += 1) {
-          if (left.hash[index] !== right.hash[index]) hashDistance += 1;
-        }
-        return histogramDistance * 0.55 + (hashDistance / left.hash.length) * 0.45;
       }
 
-      function descriptorForUrl(url) {
+      function visualSimilarity(left, right) {
+        let similarity = 0;
+        for (let index = 0; index < left.length; index += 1) similarity += left[index] * right[index];
+        return similarity;
+      }
+
+      function normalizeBarcode(value) {
+        return String(value ?? "").replace(/\D/g, "");
+      }
+
+      async function readProductBarcode(file) {
+        if (!("BarcodeDetector" in window)) return { supported: false, barcode: "" };
+        const supportedFormats = await window.BarcodeDetector.getSupportedFormats();
+        const formats = supportedFormats.filter((format) =>
+          ["ean_13", "ean_8", "upc_a", "upc_e", "code_128", "code_39", "itf"].includes(format)
+        );
+        if (!formats.length) return { supported: false, barcode: "" };
+        const bitmap = await createImageBitmap(file);
+        try {
+          const detector = new window.BarcodeDetector({ formats });
+          const results = await detector.detect(bitmap);
+          return {
+            supported: true,
+            barcode: results.map((result) => normalizeBarcode(result.rawValue)).find(Boolean) || ""
+          };
+        } finally {
+          bitmap.close();
+        }
+      }
+
+      function descriptorForUrl(url, model) {
         if (!visualDescriptorCache.has(url)) {
           const descriptor = fetch(url).then((response) => {
             if (!response.ok) throw new Error(`Could not load a catalogue photo (${response.status}).`);
-            return createVisualDescriptor(response);
+            return createVisualDescriptor(response, model);
           }).catch((error) => {
             visualDescriptorCache.delete(url);
             throw error;
@@ -323,6 +397,8 @@
         const input = document.getElementById("visual-search-file");
         input.value = "";
         input.disabled = false;
+        visualSearchActive = false;
+        renderVisualCategoryPicker();
         const searchButton = document.querySelector(".visual-search label");
         searchButton.removeAttribute("aria-disabled");
         const preview = document.getElementById("visual-search-preview");
@@ -344,6 +420,8 @@
         document.getElementById("clear-visual-search").hidden = false;
         const searchButton = document.querySelector(".visual-search label");
         document.getElementById("visual-search-file").disabled = true;
+        visualSearchActive = true;
+        renderVisualCategoryPicker();
         searchButton.setAttribute("aria-disabled", "true");
         renderProducts();
         if (visualPreviewUrl) URL.revokeObjectURL(visualPreviewUrl);
@@ -353,12 +431,45 @@
         preview.classList.add("visible");
 
         try {
-          status(document.getElementById("visual-search-status"), "Preparing your photo…");
-          const queryDescriptor = await createVisualDescriptor(file);
-          const candidates = products.flatMap((product) =>
-            productPhotos(product).map((_, photoIndex) => ({ sku: String(product.sku), photoIndex }))
-          );
+          let barcodeNote = "";
+          const visualCandidates = productsForVisualSearch();
+          if (!visualCandidates.length) {
+            throw new Error("No items with photos are in the selected categories. Choose another category or clear the category selection.");
+          }
+          try {
+            const barcodeResult = await readProductBarcode(file);
+            if (run !== visualSearchRun) return;
+            if (barcodeResult.barcode) {
+              const product = visualCandidates.find((item) =>
+                normalizeBarcode(item.barcode) === barcodeResult.barcode
+              );
+              if (product) {
+                visualMatches = [product];
+                renderProducts();
+                status(
+                  document.getElementById("visual-search-status"),
+                  `Exact barcode match ${barcodeResult.barcode}: ${product.name || product.sku} (item code ${product.sku}).`,
+                  "success"
+                );
+                return;
+              }
+              barcodeNote = `Barcode ${barcodeResult.barcode} was read but is not in this catalogue. Showing approximate photo matches instead. `;
+            }
+          } catch (error) {
+            console.warn("Could not read a product barcode from the photo; trying on-device visual matching:", error);
+            barcodeNote = "Could not read a barcode from this photo. Showing approximate photo matches instead. ";
+          }
+
+          status(document.getElementById("visual-search-status"), "Loading the free on-phone AI model. The first download may take a moment…");
+          const model = await loadVisualModel();
+          if (run !== visualSearchRun) return;
+          const queryCanvas = await createVisualCanvas(file);
+          const queryDescriptor = await createVisualDescriptor(queryCanvas, model);
+          const predictions = await model.classify(queryCanvas, 1);
+          if (run !== visualSearchRun) return;
+          const candidates = visualCandidates.map((product) => ({ sku: String(product.sku) }));
           if (!candidates.length) throw new Error("There are no catalogue photos to compare.");
+          status(document.getElementById("visual-search-status"), `Recognized as “${predictions[0].className}”. Searching ${candidates.length.toLocaleString()} item photos…`);
 
           let nextCandidate = 0;
           let checked = 0;
@@ -371,15 +482,15 @@
               if (!candidate) return;
               try {
                 const product = productsBySku.get(candidate.sku);
-                const url = productPhotos(product || {})[candidate.photoIndex];
+                const url = productPhotos(product || {})[0];
                 if (!url) throw new Error("A catalogue photo is no longer available.");
-                const descriptor = await descriptorForUrl(url);
+                const descriptor = await descriptorForUrl(url, model);
                 if (run !== visualSearchRun) return;
-                const distance = visualDistance(queryDescriptor, descriptor);
+                const similarity = visualSimilarity(queryDescriptor, descriptor);
                 const currentProduct = productsBySku.get(candidate.sku);
                 const previous = bestBySku.get(candidate.sku);
-                if (currentProduct && (!previous || distance < previous.distance)) {
-                  bestBySku.set(candidate.sku, { product: currentProduct, distance });
+                if (currentProduct && (!previous || similarity > previous.similarity)) {
+                  bestBySku.set(candidate.sku, { product: currentProduct, similarity });
                 }
               } catch {
                 failed += 1;
@@ -392,22 +503,24 @@
             }
           }
 
-          await Promise.all(Array.from({ length: Math.min(4, candidates.length) }, compareNext));
+          await Promise.all(Array.from({ length: Math.min(2, candidates.length) }, compareNext));
           if (run !== visualSearchRun) return;
           visualMatches = Array.from(bestBySku.values())
-            .sort((left, right) => left.distance - right.distance)
+            .sort((left, right) => right.similarity - left.similarity)
             .slice(0, 24)
             .map((match) => match.product);
           renderProducts();
           const resultMessage = visualMatches.length
-            ? `Closest matches from ${products.length.toLocaleString()} items. Check the photos to confirm.${failed ? ` ${failed.toLocaleString()} catalogue photo(s) could not be checked.` : ""}`
-            : "No catalogue photos could be compared. Check your connection and try again.";
-          status(document.getElementById("visual-search-status"), resultMessage, visualMatches.length && !failed ? "success" : "error");
+            ? `${barcodeNote}AI recognized “${predictions[0].className}” and found the closest catalogue matches. Check the photos to confirm.${failed ? ` ${failed.toLocaleString()} item photo(s) could not be checked.` : ""}`
+            : `${barcodeNote}No catalogue photos could be compared. Check your connection and try again.`;
+          status(document.getElementById("visual-search-status"), resultMessage, visualMatches.length ? failed ? "" : "success" : "error");
         } catch (error) {
           if (run === visualSearchRun) status(document.getElementById("visual-search-status"), error.message || "Could not search by photo.", "error");
         } finally {
           if (run === visualSearchRun) {
             document.getElementById("visual-search-file").disabled = false;
+            visualSearchActive = false;
+            renderVisualCategoryPicker();
             searchButton.removeAttribute("aria-disabled");
           }
         }
@@ -440,7 +553,9 @@
         imageRefreshTimer = null;
         products.splice(0);
         productsBySku.clear();
+        selectedVisualCategories.clear();
         clearVisualSearchState();
+        renderVisualCategoryPicker();
         visualDescriptorCache.clear();
         document.getElementById("product-grid").replaceChildren();
         document.getElementById("category-filters").replaceChildren();
@@ -464,7 +579,7 @@
           : products.filter((product) => {
             const category = String(product.category || "Other");
             return (activeCategory === "All" || category === activeCategory)
-              && [product.name, product.sku, category, product.description].some((value) => String(value || "").toLowerCase().includes(query));
+              && [product.name, product.sku, product.barcode, category, product.description].some((value) => String(value || "").toLowerCase().includes(query));
           });
         document.getElementById("catalog-summary").textContent = visualMatches
           ? `Showing ${visible.length} closest photo matches across ${products.length} products`
@@ -677,6 +792,15 @@
         });
         document.getElementById("visual-search-file").addEventListener("change", (event) => {
           searchByPhoto(event.currentTarget.files[0]);
+        });
+        document.getElementById("visual-category-options").addEventListener("change", (event) => {
+          const input = event.target.closest("[data-visual-category]");
+          if (!input || visualSearchActive) return;
+          if (input.checked) selectedVisualCategories.add(input.value);
+          else selectedVisualCategories.delete(input.value);
+          if (visualMatches) clearVisualSearchState();
+          renderVisualCategoryPicker();
+          renderProducts();
         });
         document.getElementById("clear-visual-search").addEventListener("click", () => {
           clearVisualSearchState();
