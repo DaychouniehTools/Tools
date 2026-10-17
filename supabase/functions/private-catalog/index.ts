@@ -44,24 +44,38 @@ function storageName(value: unknown): string {
   return name !== "." && name !== ".." && /^[A-Za-z0-9_.-]{1,160}$/.test(name) ? name : "";
 }
 
+function hasPositiveInventory(product: Record<string, unknown>): boolean {
+  const value = product.inventoryQuantity;
+  const quantity = typeof value === "number"
+    ? value
+    : typeof value === "string" && value.trim()
+    ? Number(value)
+    : Number.NaN;
+  return Number.isFinite(quantity) && quantity > 0;
+}
+
+function hasImagePath(product: Record<string, unknown>): boolean {
+  return Boolean(storageName(product.imagePath)
+    || (Array.isArray(product.additionalImagePaths) && product.additionalImagePaths.some((path) => storageName(path))));
+}
+
 async function signedProduct(product: Record<string, unknown>, storage: SupabaseClient["storage"]) {
   const copy = { ...product };
-  const paths = [
-    storageName(copy.imagePath),
-    ...(Array.isArray(copy.additionalImagePaths) ? copy.additionalImagePaths.map(storageName) : [])
-  ].filter(Boolean);
+  const mainPath = storageName(copy.imagePath);
+  const additionalPaths = Array.isArray(copy.additionalImagePaths)
+    ? copy.additionalImagePaths.map(storageName).filter(Boolean)
+    : [];
+  const paths = [mainPath, ...additionalPaths].filter(Boolean);
   const uniquePaths = Array.from(new Set(paths));
   const { data: signed, error } = uniquePaths.length
     ? await storage.from(bucketName).createSignedUrls(uniquePaths, 300)
     : { data: [], error: null };
   if (error) throw new Error("Could not prepare a private product image.");
   const urls = new Map((signed ?? []).map((item) => [item.path, item.signedUrl]));
-  const mainPath = storageName(copy.imagePath);
-  copy.imageUrl = mainPath ? urls.get(mainPath) ?? "" : "";
+  const availablePaths = uniquePaths.filter((path) => Boolean(urls.get(path)));
+  copy.imageUrl = availablePaths.length ? urls.get(availablePaths[0]) ?? "" : "";
   copy.imagePath = "";
-  copy.additionalImagePaths = Array.isArray(product.additionalImagePaths)
-    ? product.additionalImagePaths.map(storageName).filter(Boolean).map((path) => urls.get(path) ?? "").filter(Boolean)
-    : [];
+  copy.additionalImagePaths = availablePaths.slice(1).map((path) => urls.get(path) ?? "");
   return copy;
 }
 
@@ -170,7 +184,10 @@ Deno.serve(async (request) => {
         .select("product")
         .order("sku");
       if (productsError) throw new Error("Could not load the private catalogue.");
-      const products = await Promise.all((rows ?? []).map((row) => signedProduct(row.product, admin.storage)));
+      const eligibleProducts = (rows ?? []).map((row) => row.product)
+        .filter((product) => hasPositiveInventory(product) && hasImagePath(product));
+      const signedProducts = await Promise.all(eligibleProducts.map((product) => signedProduct(product, admin.storage)));
+      const products = signedProducts.filter((product) => Boolean(product.imageUrl));
       return response(action === "catalog"
         ? {
           products,
